@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>RinzUP Exterior Cleaning — Spotless Results. Wildly Reliable.</title>
+<link rel="icon" type="image/png" href="assets/zeke-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    /* rinzUP brand palette (from agency brand board) */
+    --blue:#185BB4;       /* Primary Blue — interactive elements */
+    --blue-dark:#0F3D70;  /* Deep Navy — depth/shadow, dark sections */
+    --navy:#0F3D70;
+    --gold:#FFC53E;       /* Golden Yellow — primary CTAs, highlights */
+    --amber:#D37E28;      /* Amber — depth shading on gold, hovers */
+    --ink:#3c3c3c;
+    --ink-soft:#777;
+    --line:#e5e5e5;
+    --bg:#ffffff;
+    --bg-soft:#f7f7f7;
+    --radius:16px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    font-family:'Nunito', ui-rounded, -apple-system, 'Segoe UI', sans-serif;
+    color:var(--ink);
+    background:var(--bg);
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  h1,h2,h3{font-weight:900;color:var(--navy);letter-spacing:-0.5px;}
+  p{line-height:1.55;}
+  img,svg{max-width:100%;display:block;}
+  button{font-family:inherit;cursor:pointer;}
+
+  /* ---------- Chunky button system ---------- */
+  .btn{
+    display:inline-block;
+    border:none;
+    border-radius:14px;
+    font-weight:800;
+    font-size:1rem;
+    letter-spacing:.5px;
+    text-transform:uppercase;
+    padding:14px 26px;
+    color:#000;
+    background:var(--gold);
+    box-shadow:0 4px 0 var(--amber);
+    transition:filter .12s, transform .06s, box-shadow .06s;
+    text-decoration:none;
+    text-align:center;
+    user-select:none;
+  }
+  .btn:hover{filter:brightness(1.06);}
+  .btn:active{transform:translateY(4px);box-shadow:0 0 0 var(--amber);}
+  .btn.blue{background:var(--blue);color:#fff;box-shadow:0 4px 0 var(--blue-dark);}
+  .btn.blue:active{box-shadow:0 0 0 var(--blue-dark);}
+  .btn.ghost{
+    background:#fff;color:var(--blue);
+    box-shadow:0 4px 0 var(--line);
+    border:2px solid var(--line);
+  }
+  .btn.ghost:active{box-shadow:0 0 0 var(--line);}
+  .btn.big{font-size:1.1rem;padding:17px 34px;}
+  .btn:disabled{background:#e5e5e5;color:#afafaf;box-shadow:0 4px 0 #d0d0d0;cursor:not-allowed;filter:none;transform:none;}
+
+  .wrap{max-width:1060px;margin:0 auto;padding:0 20px;}
+
+  /* ---------- Top bar ---------- */
+  header{
+    position:sticky;top:0;z-index:50;
+    background:rgba(255,255,255,.95);
+    backdrop-filter:blur(8px);
+    border-bottom:2px solid var(--line);
+  }
+  .topbar{
+    display:flex;align-items:center;justify-content:space-between;
+    height:64px;
+  }
+  .logo{display:flex;align-items:center;text-decoration:none;}
+  .logo img{height:46px;width:auto;}
+  nav.desktop{display:none;gap:26px;}
+  nav.desktop a{
+    color:var(--ink-soft);text-decoration:none;font-weight:800;
+    text-transform:uppercase;font-size:.8rem;letter-spacing:.8px;
+  }
+  nav.desktop a:hover{color:var(--blue);}
+  .topbar .btn{padding:10px 18px;font-size:.85rem;}
+  @media(min-width:760px){ nav.desktop{display:flex;} }
+
+  /* ---------- Hero ---------- */
+  .hero{
+    padding:48px 0 64px;
+    text-align:center;
+    position:relative;
+  }
+  .hero .wrap{display:flex;flex-direction:column;align-items:center;gap:22px;}
+  .mascot{width:190px;height:auto;animation:bob 3s ease-in-out infinite;}
+  @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+  .hero .tagline{
+    font-style:italic;font-weight:800;color:var(--blue);
+    font-size:1rem;letter-spacing:.3px;margin-bottom:-8px;
+  }
+  .hero h1{font-size:clamp(1.9rem,5.5vw,3.2rem);max-width:640px;}
+  .hero h1 em{font-style:normal;color:var(--blue);}
+  .hero p.sub{font-size:1.1rem;color:var(--ink-soft);max-width:480px;font-weight:600;}
+  .hero .cta-stack{display:flex;flex-direction:column;gap:12px;width:100%;max-width:340px;}
+  .trust-chips{
+    display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-top:8px;
+  }
+  .chip{
+    display:flex;align-items:center;gap:6px;
+    background:var(--bg-soft);border:2px solid var(--line);
+    border-radius:99px;padding:7px 14px;
+    font-size:.8rem;font-weight:800;color:var(--ink-soft);
+  }
+  .chip b{color:var(--navy);}
+
+  /* ---------- Estimate quiz ---------- */
+  .quiz-section{padding:20px 0 70px;}
+  .quiz-card{
+    max-width:560px;margin:0 auto;
+    border:2px solid var(--line);border-radius:24px;
+    padding:24px 20px 28px;
+    background:#fff;
+    box-shadow:0 4px 0 var(--line);
+  }
+  .quiz-head{display:flex;align-items:center;gap:14px;margin-bottom:20px;}
+  .quiz-head .back{
+    border:none;background:none;font-size:1.4rem;color:#afafaf;
+    padding:4px 8px;border-radius:8px;visibility:hidden;
+  }
+  .quiz-head .back.show{visibility:visible;}
+  .quiz-head .back:hover{background:var(--bg-soft);}
+  .progress-track{
+    flex:1;height:14px;background:var(--line);border-radius:99px;overflow:hidden;
+  }
+  .progress-fill{
+    height:100%;width:5%;
+    background:var(--blue);
+    border-radius:99px;
+    transition:width .4s cubic-bezier(.3,1.4,.5,1);
+    position:relative;
+  }
+  .progress-fill::after{
+    content:"";position:absolute;top:3px;left:8px;right:8px;height:4px;
+    background:rgba(255,255,255,.35);border-radius:99px;
+  }
+  .quiz-step h3{font-size:1.3rem;margin-bottom:4px;text-align:center;}
+  .quiz-step .hint{text-align:center;color:var(--ink-soft);font-weight:600;font-size:.9rem;margin-bottom:18px;}
+
+  .opt-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;}
+  @media(min-width:520px){.opt-grid.three{grid-template-columns:repeat(3,1fr);}}
+  .opt{
+    border:2px solid var(--line);border-radius:16px;background:#fff;
+    box-shadow:0 3px 0 var(--line);
+    padding:16px 10px 14px;
+    display:flex;flex-direction:column;align-items:center;gap:8px;
+    font-weight:800;color:var(--ink);font-size:.9rem;
+    transition:transform .06s, box-shadow .06s, border-color .12s, background .12s;
+  }
+  .opt .emoji{font-size:1.9rem;line-height:1;}
+  .opt small{font-weight:700;color:var(--ink-soft);font-size:.72rem;}
+  .opt:active{transform:translateY(3px);box-shadow:0 0 0 var(--line);}
+  .opt.sel{
+    border-color:var(--blue);background:#e9f0fa;color:var(--blue-dark);
+    box-shadow:0 3px 0 var(--blue);
+  }
+  .opt.sel small{color:var(--blue-dark);}
+
+  .quiz-foot{margin-top:22px;display:flex;flex-direction:column;gap:10px;}
+  .price-ticker{
+    display:none;
+    align-items:center;justify-content:center;gap:8px;
+    background:#fff6de;border:2px solid var(--gold);border-radius:12px;
+    padding:10px;font-weight:800;color:#a06a00;font-size:.95rem;
+  }
+  .price-ticker.show{display:flex;}
+  .price-ticker b{color:#7a5000;font-size:1.05rem;}
+
+  .zip-row{display:flex;gap:10px;justify-content:center;}
+  input[type=text],input[type=tel]{
+    font-family:inherit;font-weight:800;font-size:1.05rem;
+    border:2px solid var(--line);border-radius:12px;
+    padding:13px 16px;width:100%;
+    background:var(--bg-soft);color:var(--navy);
+    outline:none;
+  }
+  input:focus{border-color:var(--blue);background:#fff;}
+
+  /* result */
+  .result{text-align:center;}
+  .result .big-price{
+    font-size:2.2rem;font-weight:900;color:var(--blue);
+    margin:6px 0 2px;
+  }
+  .result .per{color:var(--ink-soft);font-weight:700;font-size:.9rem;margin-bottom:14px;}
+  .badge-earned{
+    display:inline-flex;align-items:center;gap:8px;
+    background:#fff4d6;border:2px solid var(--gold);
+    border-radius:99px;padding:8px 16px;font-weight:800;color:#8a6400;
+    font-size:.85rem;margin-bottom:16px;
+    animation:pop .5s cubic-bezier(.3,1.6,.5,1);
+  }
+  @keyframes pop{0%{transform:scale(.5);opacity:0}100%{transform:scale(1);opacity:1}}
+  .result form{display:flex;flex-direction:column;gap:10px;max-width:340px;margin:0 auto;}
+  .result .fine{font-size:.78rem;color:#afafaf;font-weight:700;margin-top:10px;}
+
+  .streak-note{
+    text-align:center;font-weight:700;color:var(--ink-soft);font-size:.85rem;margin-top:14px;
+  }
+  .streak-note b{color:var(--amber);}
+
+  /* ---------- Before/After ---------- */
+  .ba-section{padding:60px 0;background:var(--bg-soft);}
+  .ba-section h2, .path-section h2, .trust-section h2, .faq-section h2{
+    text-align:center;font-size:clamp(1.5rem,4vw,2.2rem);margin-bottom:8px;
+  }
+  .section-sub{text-align:center;color:var(--ink-soft);font-weight:600;margin-bottom:30px;}
+  .ba-frame{
+    position:relative;max-width:640px;margin:0 auto;
+    border-radius:24px;overflow:hidden;
+    border:2px solid var(--line);
+    box-shadow:0 4px 0 var(--line);
+    touch-action:none;
+  }
+  .ba-frame svg{width:100%;height:auto;}
+  .ba-clean{position:absolute;inset:0;clip-path:inset(0 50% 0 0);}
+  .ba-handle{
+    position:absolute;top:0;bottom:0;left:50%;width:4px;background:#fff;
+    box-shadow:0 0 0 1px rgba(0,0,0,.1);
+    cursor:ew-resize;
+  }
+  .ba-handle::after{
+    content:"◂ ▸";
+    position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+    background:var(--blue);color:#fff;font-weight:900;font-size:.8rem;
+    border-radius:99px;padding:10px 12px;white-space:nowrap;
+    box-shadow:0 3px 0 var(--blue-dark);
+  }
+  .ba-label{
+    position:absolute;top:14px;font-weight:900;font-size:.75rem;letter-spacing:1px;
+    text-transform:uppercase;color:#fff;background:rgba(19,31,36,.65);
+    padding:6px 12px;border-radius:99px;
+  }
+  .ba-label.dirty{right:14px;}
+  .ba-label.clean{left:14px;}
+
+  /* ---------- Service path ---------- */
+  .path-section{padding:64px 0;}
+  .path{
+    position:relative;max-width:420px;margin:36px auto 0;
+    display:flex;flex-direction:column;gap:34px;
+  }
+  .path-node{
+    display:flex;align-items:center;gap:18px;
+    border:none;background:none;text-align:left;
+    width:78%;
+  }
+  .path-node:nth-child(even){align-self:flex-end;flex-direction:row-reverse;text-align:right;}
+  .node-circle{
+    flex:0 0 74px;height:74px;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    font-size:2rem;
+    background:var(--blue);
+    box-shadow:0 6px 0 var(--blue-dark);
+    transition:transform .08s, box-shadow .08s;
+  }
+  .path-node:nth-child(2) .node-circle{background:var(--gold);box-shadow:0 6px 0 var(--amber);}
+  .path-node:nth-child(3) .node-circle{background:var(--navy);box-shadow:0 6px 0 #081f3a;}
+  .path-node:nth-child(4) .node-circle{background:var(--amber);box-shadow:0 6px 0 #9c5a15;}
+  .path-node:nth-child(5) .node-circle{background:var(--blue);box-shadow:0 6px 0 var(--blue-dark);}
+  .path-node:nth-child(6) .node-circle{background:var(--gold);box-shadow:0 6px 0 var(--amber);}
+  .path-node:active .node-circle{transform:translateY(6px);box-shadow:0 0 0 transparent;}
+  .node-text b{display:block;font-size:1.02rem;color:var(--navy);font-weight:900;}
+  .node-text span{font-size:.82rem;color:var(--ink-soft);font-weight:700;}
+
+  /* node detail sheet */
+  .sheet-veil{
+    position:fixed;inset:0;background:rgba(19,31,36,.5);z-index:90;
+    opacity:0;pointer-events:none;transition:opacity .25s;
+  }
+  .sheet-veil.open{opacity:1;pointer-events:auto;}
+  .sheet{
+    position:fixed;left:0;right:0;bottom:0;z-index:91;
+    background:#fff;border-radius:24px 24px 0 0;
+    padding:26px 22px 34px;
+    transform:translateY(105%);transition:transform .3s cubic-bezier(.3,1.2,.4,1);
+    max-width:560px;margin:0 auto;
+    box-shadow:0 -6px 30px rgba(0,0,0,.15);
+  }
+  .sheet.open{transform:translateY(0);}
+  .sheet .grab{width:44px;height:5px;border-radius:99px;background:var(--line);margin:0 auto 18px;}
+  .sheet h3{font-size:1.3rem;display:flex;align-items:center;gap:10px;}
+  .sheet .from{color:var(--blue);font-weight:900;margin:4px 0 10px;}
+  .sheet p{color:var(--ink);font-weight:600;font-size:.95rem;margin-bottom:12px;}
+  .sheet .worry{
+    background:var(--bg-soft);border:2px solid var(--line);border-radius:12px;
+    padding:12px 14px;font-size:.87rem;font-weight:700;color:var(--ink-soft);
+    margin-bottom:18px;
+  }
+  .sheet .worry b{color:var(--navy);display:block;margin-bottom:2px;}
+  .sheet .btn{width:100%;}
+
+  /* ---------- Trust ---------- */
+  .trust-section{padding:64px 0;background:var(--navy);}
+  .trust-section h2{color:#fff;}
+  .trust-section .section-sub{color:#a8c2e2;}
+  .stats-row{
+    display:grid;grid-template-columns:repeat(3,1fr);gap:14px;
+    max-width:640px;margin:0 auto 34px;
+  }
+  .stat{
+    background:#0b3160;border:2px solid #1d569c;border-radius:16px;
+    padding:18px 8px;text-align:center;
+  }
+  .stat b{display:block;font-size:1.5rem;color:var(--gold);font-weight:900;}
+  .stat span{font-size:.72rem;color:#a8c2e2;font-weight:800;text-transform:uppercase;letter-spacing:.5px;}
+  .reviews{
+    display:grid;gap:14px;max-width:860px;margin:0 auto;
+    grid-template-columns:1fr;
+  }
+  @media(min-width:760px){.reviews{grid-template-columns:repeat(3,1fr);}}
+  .review{
+    background:#fff;border-radius:16px;padding:18px;
+    box-shadow:0 4px 0 rgba(0,0,0,.25);
+  }
+  .review .stars{color:var(--amber);letter-spacing:2px;margin-bottom:8px;font-size:.9rem;}
+  .review p{font-size:.9rem;font-weight:600;}
+  .review .who{margin-top:10px;font-size:.78rem;font-weight:800;color:var(--ink-soft);}
+  .guarantee{
+    max-width:640px;margin:30px auto 0;
+    background:#0b3160;border:2px dashed var(--gold);border-radius:16px;
+    padding:18px 20px;display:flex;gap:14px;align-items:center;
+  }
+  .guarantee .shield{font-size:2rem;}
+  .guarantee b{color:#fff;display:block;}
+  .guarantee span{color:#a8c2e2;font-size:.85rem;font-weight:700;}
+
+  /* ---------- FAQ ---------- */
+  .faq-section{padding:64px 0;}
+  .faq-list{max-width:640px;margin:0 auto;display:flex;flex-direction:column;gap:12px;}
+  details{
+    border:2px solid var(--line);border-radius:14px;background:#fff;
+    box-shadow:0 3px 0 var(--line);
+    overflow:hidden;
+  }
+  summary{
+    list-style:none;cursor:pointer;
+    padding:16px 18px;font-weight:800;color:var(--navy);
+    display:flex;justify-content:space-between;align-items:center;gap:10px;
+  }
+  summary::-webkit-details-marker{display:none;}
+  summary::after{content:"+";font-size:1.3rem;color:var(--blue);font-weight:900;}
+  details[open] summary::after{content:"–";}
+  details .a{padding:0 18px 16px;color:var(--ink-soft);font-weight:600;font-size:.92rem;line-height:1.55;}
+
+  /* ---------- Footer CTA ---------- */
+  .foot-cta{
+    padding:70px 0 80px;text-align:center;
+    background:linear-gradient(180deg,#fff, #e9f0fa);
+  }
+  .foot-cta h2{font-size:clamp(1.6rem,4.5vw,2.4rem);margin-bottom:10px;}
+  .foot-cta p{color:var(--ink-soft);font-weight:600;margin-bottom:24px;}
+  footer{
+    background:var(--navy);color:#a8c2e2;
+    padding:26px 0;text-align:center;font-size:.8rem;font-weight:700;
+  }
+  footer b{color:#fff;}
+
+  /* ---------- Sticky mobile CTA ---------- */
+  .sticky-cta{
+    position:fixed;left:0;right:0;bottom:0;z-index:40;
+    padding:10px 16px calc(10px + env(safe-area-inset-bottom));
+    background:rgba(255,255,255,.96);border-top:2px solid var(--line);
+    display:flex;justify-content:center;
+    transform:translateY(110%);transition:transform .3s;
+  }
+  .sticky-cta.show{transform:translateY(0);}
+  .sticky-cta .btn{width:100%;max-width:420px;}
+  @media(min-width:760px){.sticky-cta{display:none;}}
+
+  /* confetti */
+  .confetti{position:fixed;top:-10px;z-index:200;font-size:1.2rem;animation:fall linear forwards;pointer-events:none;}
+  @keyframes fall{to{transform:translateY(105vh) rotate(720deg);opacity:.6;}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap topbar">
+    <a class="logo" href="#top"><img src="assets/rinzup-logo.png" alt="RinzUP Exterior Cleaning"></a>
+    <nav class="desktop">
+      <a href="#services">Services</a>
+      <a href="#proof">Proof</a>
+      <a href="#faq">Questions</a>
+    </nav>
+    <a class="btn" href="#estimate" id="navCta">Get my price</a>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="top">
+  <div class="wrap">
+    <img class="mascot" src="assets/zeke.png" alt="Zeke, the RinzUP zebra, ready with his pressure washer">
+    <p class="tagline">Spotless Results. Wildly Reliable.</p>
+    <h1>The fun, no-surprises way to get your home <em>squeaky clean</em>.</h1>
+    <p class="sub">RinzUP pressure-washes houses, roofs, driveways, and more. Answer 4 quick questions and see your price range — no phone call, no email required.</p>
+    <div class="cta-stack">
+      <a class="btn big" href="#estimate">Get my 60-second estimate</a>
+      <a class="btn ghost" href="#services">See what we clean</a>
+    </div>
+    <div class="trust-chips">
+      <div class="chip">⭐ <b>4.9</b> (327 reviews)</div>
+      <div class="chip">🛡️ Insured to <b>$2M</b></div>
+      <div class="chip">✅ <b>Re-clean</b> guarantee</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ESTIMATE QUIZ ================= -->
+<section class="quiz-section" id="estimate">
+  <div class="wrap">
+    <div class="quiz-card" id="quizCard">
+      <div class="quiz-head">
+        <button class="back" id="backBtn" aria-label="Go back">←</button>
+        <div class="progress-track"><div class="progress-fill" id="progFill"></div></div>
+      </div>
+      <div id="quizBody"><!-- steps injected --></div>
+      <div class="quiz-foot">
+        <div class="price-ticker" id="ticker">💰 Your range so far: <b id="tickerVal">$0</b></div>
+        <button class="btn big" id="nextBtn" disabled>Continue</button>
+      </div>
+      <p class="streak-note" id="streakNote">🔥 <b>12 neighbors</b> got estimates this week</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= BEFORE / AFTER ================= -->
+<section class="ba-section">
+  <div class="wrap">
+    <h2>Drag to rinse 🧼</h2>
+    <p class="section-sub">Slide the handle and watch the grime disappear.</p>
+    <div class="ba-frame" id="baFrame">
+      <!-- dirty layer -->
+      <svg viewBox="0 0 640 400" aria-label="Dirty house">
+        <rect width="640" height="400" fill="#b9c4a8"/>
+        <rect y="300" width="640" height="100" fill="#8f9483"/>
+        <rect x="140" y="120" width="360" height="190" fill="#cfc6a5"/>
+        <polygon points="120,130 320,40 520,130" fill="#6e5f4e"/>
+        <rect x="290" y="220" width="60" height="90" fill="#5d4b3a"/>
+        <rect x="175" y="160" width="70" height="55" fill="#7d8b96"/>
+        <rect x="395" y="160" width="70" height="55" fill="#7d8b96"/>
+        <ellipse cx="230" cy="290" rx="60" ry="14" fill="#65705a" opacity=".7"/>
+        <ellipse cx="450" cy="150" rx="50" ry="18" fill="#4f5d43" opacity=".55"/>
+        <ellipse cx="200" cy="135" rx="46" ry="12" fill="#4f5d43" opacity=".5"/>
+        <rect x="0" y="330" width="640" height="70" fill="#9aa08c"/>
+        <ellipse cx="320" cy="365" rx="180" ry="16" fill="#757a66"/>
+      </svg>
+      <!-- clean layer -->
+      <div class="ba-clean" id="baClean">
+        <svg viewBox="0 0 640 400" aria-label="Clean house">
+          <rect width="640" height="400" fill="#bfe9ff"/>
+          <circle cx="560" cy="60" r="34" fill="#ffdd55"/>
+          <rect y="300" width="640" height="100" fill="#7ed957"/>
+          <rect x="140" y="120" width="360" height="190" fill="#fff6e0"/>
+          <polygon points="120,130 320,40 520,130" fill="#e05d5d"/>
+          <rect x="290" y="220" width="60" height="90" fill="#8a5a33"/>
+          <rect x="175" y="160" width="70" height="55" fill="#aee3ff"/>
+          <rect x="395" y="160" width="70" height="55" fill="#aee3ff"/>
+          <rect x="0" y="330" width="640" height="70" fill="#cfd6db"/>
+          <ellipse cx="320" cy="365" rx="180" ry="16" fill="#e9eef2"/>
+          <path d="M80 80 l6 14 14 6 -14 6 -6 14 -6 -14 -14 -6 14 -6 Z" fill="#fff"/>
+          <path d="M540 200 l5 11 11 5 -11 5 -5 11 -5 -11 -11 -5 11 -5 Z" fill="#fff"/>
+        </svg>
+      </div>
+      <div class="ba-handle" id="baHandle"></div>
+      <div class="ba-label clean">Rinzed</div>
+      <div class="ba-label dirty">Before</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICE PATH ================= -->
+<section class="path-section" id="services">
+  <div class="wrap">
+    <h2>Pick your clean 🧽</h2>
+    <p class="section-sub">Tap a bubble — outcome first, details one tap away.</p>
+    <div class="path" id="path"><!-- nodes injected --></div>
+  </div>
+</section>
+
+<!-- ================= TRUST ================= -->
+<section class="trust-section" id="proof">
+  <div class="wrap">
+    <h2>Don't take our word for it</h2>
+    <p class="section-sub">Real neighbors. Real grime. Really gone.</p>
+    <div class="stats-row">
+      <div class="stat"><b>2,400+</b><span>Homes rinzed</span></div>
+      <div class="stat"><b>4.9★</b><span>Avg. rating</span></div>
+      <div class="stat"><b>100%</b><span>Re-clean promise</span></div>
+    </div>
+    <div class="reviews">
+      <div class="review">
+        <div class="stars">★★★★★</div>
+        <p>"The estimate quiz told me a price range before anyone even called. That alone sold me."</p>
+        <div class="who">— Dana W., Kirkland</div>
+      </div>
+      <div class="review">
+        <div class="stars">★★★★★</div>
+        <p>"They covered my rose bushes without me asking. Roof looks brand new — no pressure washing, they explained the soft wash thing."</p>
+        <div class="who">— Marcus T., Everett</div>
+      </div>
+      <div class="review">
+        <div class="stars">★★★★★</div>
+        <p>"Booked Tuesday, cleaned Thursday, and the price matched the online range exactly."</p>
+        <div class="who">— Priya S., Bothell</div>
+      </div>
+    </div>
+    <div class="guarantee">
+      <div class="shield">🛡️</div>
+      <div>
+        <b>The RinzUP Promise</b>
+        <span>If any spot isn't clean, we come back and re-clean it free. Fully insured to $2M. Background-checked technicians only.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section class="faq-section" id="faq">
+  <div class="wrap">
+    <h2>The stuff you're wondering 🤔</h2>
+    <p class="section-sub">Straight answers, no fine print.</p>
+    <div class="faq-list">
+      <details>
+        <summary>Will pressure washing damage my siding or roof?</summary>
+        <div class="a">We match the method to the surface. Siding and roofs get a <b>soft wash</b> — low pressure with a gentle cleaning solution — never a blast. High pressure is reserved for concrete, which loves it.</div>
+      </details>
+      <details>
+        <summary>What about my plants and pets?</summary>
+        <div class="a">We pre-soak landscaping with fresh water, cover delicate plants, and use biodegradable solutions. Pets just need to hang out inside during the visit.</div>
+      </details>
+      <details>
+        <summary>Do I need to be home?</summary>
+        <div class="a">Nope. As long as we can reach the outside spigot, you can be at work, at the lake, or hiding from us on purpose. You'll get before/after photos when we're done.</div>
+      </details>
+      <details>
+        <summary>Is the online estimate the final price?</summary>
+        <div class="a">It's an honest range based on homes like yours. We confirm the exact number after a quick look at the property — and if anything changes it, we tell you <b>before</b> we start, never after.</div>
+      </details>
+      <details>
+        <summary>Are you actually insured?</summary>
+        <div class="a">Yes — $2M in liability coverage, and we're happy to send the certificate before your appointment. Every technician is background-checked and trained on our surface-safety checklist.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER CTA ================= -->
+<section class="foot-cta">
+  <div class="wrap">
+    <h2>Ready to see your house blush? 😊</h2>
+    <p>60 seconds. 4 questions. Zero pressure (except on the driveway).</p>
+    <a class="btn big" href="#estimate">Get my 60-second estimate</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <b>RinzUP Exterior Cleaning</b> · Spotless Results. Wildly Reliable. · Serving King &amp; Snohomish Counties · 425-645-5999 · rinzup.com
+  </div>
+</footer>
+
+<!-- sticky mobile CTA -->
+<div class="sticky-cta" id="stickyCta">
+  <a class="btn" href="#estimate">💧 Get my 60-second estimate</a>
+</div>
+
+<!-- service detail sheet -->
+<div class="sheet-veil" id="sheetVeil"></div>
+<div class="sheet" id="sheet">
+  <div class="grab"></div>
+  <h3 id="shTitle"></h3>
+  <div class="from" id="shPrice"></div>
+  <p id="shDesc"></p>
+  <div class="worry"><b id="shWorryQ"></b><span id="shWorryA"></span></div>
+  <a class="btn" href="#estimate" id="shCta">Add to my estimate</a>
+</div>
+
+<script>
+/* ============================================================
+   RinzUP — Duolingo-inspired estimate quiz + interactions
+   ============================================================ */
+
+/* ---------- data ---------- */
+const SERVICES = [
+  {id:'house',  emoji:'🏠', name:'House Wash',      from:199, per:'soft wash, full exterior',
+    desc:'Green streaks, spider webs, and that gray film — gone. Your siding looks new again without a single high-pressure blast.',
+    worryQ:'"Will it damage my siding?"', worryA:'No. Houses get a soft wash only — low pressure, gentle solution, guaranteed safe for vinyl, brick, and stucco.'},
+  {id:'roof',   emoji:'🏔️', name:'Roof Clean',      from:349, per:'soft wash, streak removal',
+    desc:'Those black streaks are algae eating your shingles. We remove them gently and add years to your roof\'s life.',
+    worryQ:'"Pressure washing a roof sounds scary."', worryA:'It should! That\'s why we never do it. Roofs get a no-pressure treatment recommended by shingle manufacturers.'},
+  {id:'drive',  emoji:'🛣️', name:'Driveway & Concrete', from:149, per:'surface cleaned + rinsed',
+    desc:'Oil spots, tire marks, years of gray — stripped away. This is the most satisfying before/after we do.',
+    worryQ:'"Do the stains actually come out?"', worryA:'Most do, completely. Deep-set oil may leave a shadow — we\'ll tell you honestly on-site before we start.'},
+  {id:'windows',emoji:'🪟', name:'Window Wash',     from:99,  per:'exterior glass + frames',
+    desc:'Streak-free glass, clean frames and sills. Sunshine looks noticeably better through them.',
+    worryQ:'"Streaks though, right?"', worryA:'Purified-water fed brushes mean spot-free drying — no film like DIY squeegees leave.'},
+  {id:'gutters',emoji:'🍂', name:'Gutter Clean',    from:129, per:'cleared + flushed + tested',
+    desc:'Leaves out, downspouts flushed, water flowing like it should. We photograph everything so you never wonder.',
+    worryQ:'"Ladders on my house?"', worryA:'Standoff stabilizers protect your gutters, and every tech is harness-trained and insured.'},
+  {id:'deck',   emoji:'🪵', name:'Deck & Fence',    from:179, per:'wash + brighten',
+    desc:'Gray, weathered wood comes back to warm and golden. Ready to reseal, ready for summer.',
+    worryQ:'"Won\'t pressure ruin the wood?"', worryA:'We use wood-safe pressure and a brightener made for decks — never the concrete tip.'}
+];
+
+const SIZES = [
+  {id:'s1', emoji:'🏡', label:'1 story',  sub:'ranch / bungalow', mult:1.0},
+  {id:'s2', emoji:'🏠', label:'2 stories',sub:'most homes',       mult:1.35},
+  {id:'s3', emoji:'🏰', label:'3+ stories',sub:'big & beautiful',  mult:1.7}
+];
+
+const GRIME = [
+  {id:'g1', emoji:'😌', label:'Lightly dusty',    sub:'yearly upkeep',      mult:1.0},
+  {id:'g2', emoji:'😬', label:'Pretty grimy',     sub:'been a few years',   mult:1.15},
+  {id:'g3', emoji:'🧪', label:'Science experiment', sub:'no judgment!',     mult:1.3}
+];
+
+/* ---------- state ---------- */
+const state = { step:0, services:new Set(), size:null, grime:null, zip:'' };
+const TOTAL_STEPS = 5; // 0 services, 1 size, 2 grime, 3 zip, 4 result
+
+const quizBody = document.getElementById('quizBody');
+const nextBtn  = document.getElementById('nextBtn');
+const backBtn  = document.getElementById('backBtn');
+const progFill = document.getElementById('progFill');
+const ticker   = document.getElementById('ticker');
+const tickerVal= document.getElementById('tickerVal');
+const streakNote = document.getElementById('streakNote');
+
+/* ---------- pricing ---------- */
+function priceRange(){
+  if(state.services.size===0) return null;
+  let base = 0;
+  state.services.forEach(id=>{ base += SERVICES.find(s=>s.id===id).from; });
+  const sizeMult  = state.size  ? SIZES.find(s=>s.id===state.size).mult   : 1;
+  const grimeMult = state.grime ? GRIME.find(g=>g.id===state.grime).mult : 1;
+  // bundle discount: 10% off each service beyond the first
+  const bundle = 1 - Math.min(state.services.size-1,3)*0.05;
+  const lo = Math.round(base*sizeMult*grimeMult*bundle/10)*10;
+  const hi = Math.round(lo*1.25/10)*10;
+  return {lo,hi};
+}
+function fmtRange(r){ return `$${r.lo} – $${r.hi}`; }
+
+/* ---------- render steps ---------- */
+function optCard(item, group, selected, multi){
+  return `<button class="opt ${selected?'sel':''}" data-group="${group}" data-id="${item.id}">
+    <span class="emoji">${item.emoji}</span>${item.label||item.name}
+    ${item.sub?`<small>${item.sub}</small>`:item.from?`<small>from $${item.from}</small>`:''}
+  </button>`;
+}
+
+function render(){
+  progFill.style.width = (5 + (state.step/ (TOTAL_STEPS-1))*95) + '%';
+  backBtn.classList.toggle('show', state.step>0 && state.step<4);
+  nextBtn.style.display = state.step===4 ? 'none' : '';
+  streakNote.style.display = state.step===0 ? '' : 'none';
+
+  const r = priceRange();
+  if(r && state.step>0 && state.step<4){
+    ticker.classList.add('show');
+    tickerVal.textContent = fmtRange(r);
+  } else {
+    ticker.classList.remove('show');
+  }
+
+  if(state.step===0){
+    quizBody.innerHTML = `
+      <div class="quiz-step">
+        <h3>What needs a rinse?</h3>
+        <p class="hint">Pick as many as you like — bundles save money.</p>
+        <div class="opt-grid three">
+          ${SERVICES.map(s=>optCard({...s,label:s.name}, 'services', state.services.has(s.id), true)).join('')}
+        </div>
+      </div>`;
+    nextBtn.disabled = state.services.size===0;
+    nextBtn.textContent = state.services.size>0 ? `Continue (${state.services.size} selected)` : 'Continue';
+  }
+  else if(state.step===1){
+    quizBody.innerHTML = `
+      <div class="quiz-step">
+        <h3>How tall is your home?</h3>
+        <p class="hint">Best guess is fine.</p>
+        <div class="opt-grid three">
+          ${SIZES.map(s=>optCard(s,'size', state.size===s.id)).join('')}
+        </div>
+      </div>`;
+    nextBtn.disabled = !state.size;
+    nextBtn.textContent = 'Continue';
+  }
+  else if(state.step===2){
+    quizBody.innerHTML = `
+      <div class="quiz-step">
+        <h3>How's the grime situation?</h3>
+        <p class="hint">Be honest — we've seen everything.</p>
+        <div class="opt-grid three">
+          ${GRIME.map(g=>optCard(g,'grime', state.grime===g.id)).join('')}
+        </div>
+      </div>`;
+    nextBtn.disabled = !state.grime;
+    nextBtn.textContent = 'Continue';
+  }
+  else if(state.step===3){
+    quizBody.innerHTML = `
+      <div class="quiz-step">
+        <h3>Last one — your ZIP code</h3>
+        <p class="hint">Just to confirm you're in our service area. That's it.</p>
+        <div class="zip-row">
+          <input type="text" id="zipInput" inputmode="numeric" maxlength="5" placeholder="e.g. 55418" value="${state.zip}" style="max-width:220px;text-align:center;">
+        </div>
+      </div>`;
+    const zi = document.getElementById('zipInput');
+    zi.addEventListener('input', ()=>{
+      state.zip = zi.value.replace(/\D/g,'').slice(0,5);
+      zi.value = state.zip;
+      nextBtn.disabled = state.zip.length!==5;
+    });
+    zi.focus();
+    nextBtn.disabled = state.zip.length!==5;
+    nextBtn.textContent = 'Show my price';
+  }
+  else if(state.step===4){
+    const rr = priceRange();
+    const names = [...state.services].map(id=>SERVICES.find(s=>s.id===id).name).join(' + ');
+    quizBody.innerHTML = `
+      <div class="quiz-step result">
+        <div class="badge-earned">🏅 You earned: Transparent Pricing</div>
+        <h3>You're in our service area! 🎉</h3>
+        <p class="hint" style="margin-bottom:2px;">${names}</p>
+        <div class="big-price">${fmtRange(rr)}</div>
+        <div class="per">honest range · exact quote confirmed free on-site${state.services.size>1?' · bundle discount applied':''}</div>
+        <form id="bookForm">
+          <input type="text" id="nameInput" placeholder="First name" required>
+          <input type="tel" id="phoneInput" placeholder="Phone number" required>
+          <button class="btn big" type="submit">Lock in my free exact quote</button>
+        </form>
+        <p class="fine">No spam, no pressure — one text to schedule your free quote. Cancel anytime.</p>
+      </div>`;
+    confetti();
+    document.getElementById('bookForm').addEventListener('submit', e=>{
+      e.preventDefault();
+      quizBody.innerHTML = `
+        <div class="quiz-step result">
+          <div class="badge-earned">🔥 Quote streak: Day 1</div>
+          <h3>"Let's rinzUP this place!" 💧</h3>
+          <p class="hint">We'll text you within the hour to schedule your free exact quote. Zeke is already grabbing his wand.</p>
+          <img src="assets/zeke-icon.png" alt="Zeke the RinzUP zebra" style="width:96px;margin:12px auto 0;border-radius:50%;">
+        </div>`;
+      confetti();
+    });
+  }
+}
+
+/* ---------- quiz events ---------- */
+quizBody.addEventListener('click', e=>{
+  const opt = e.target.closest('.opt');
+  if(!opt) return;
+  const {group,id} = opt.dataset;
+  if(group==='services'){
+    state.services.has(id) ? state.services.delete(id) : state.services.add(id);
+  } else if(group==='size'){ state.size=id; }
+  else if(group==='grime'){ state.grime=id; }
+  render();
+  // auto-advance on single-choice steps for snappy feel
+  if(group==='size'||group==='grime'){ setTimeout(()=>{ state.step++; render(); }, 280); }
+});
+nextBtn.addEventListener('click', ()=>{ if(state.step<4){ state.step++; render(); } });
+backBtn.addEventListener('click', ()=>{ if(state.step>0){ state.step--; render(); } });
+render();
+
+/* ---------- confetti ---------- */
+function confetti(){
+  const bits = ['💧','✨','🫧','⭐'];
+  for(let i=0;i<26;i++){
+    const s=document.createElement('span');
+    s.className='confetti';
+    s.textContent=bits[Math.floor(Math.random()*bits.length)];
+    s.style.left=Math.random()*100+'vw';
+    s.style.animationDuration=(1.6+Math.random()*1.6)+'s';
+    s.style.animationDelay=(Math.random()*0.4)+'s';
+    document.body.appendChild(s);
+    setTimeout(()=>s.remove(),3600);
+  }
+}
+
+/* ---------- before/after slider ---------- */
+const baFrame=document.getElementById('baFrame');
+const baClean=document.getElementById('baClean');
+const baHandle=document.getElementById('baHandle');
+function setBA(x){
+  const r=baFrame.getBoundingClientRect();
+  let pct=Math.max(3,Math.min(97,((x-r.left)/r.width)*100));
+  baClean.style.clipPath=`inset(0 ${100-pct}% 0 0)`;
+  baHandle.style.left=pct+'%';
+}
+let baDown=false;
+baFrame.addEventListener('pointerdown',e=>{baDown=true;setBA(e.clientX);baFrame.setPointerCapture(e.pointerId);});
+baFrame.addEventListener('pointermove',e=>{if(baDown)setBA(e.clientX);});
+baFrame.addEventListener('pointerup',()=>baDown=false);
+baFrame.addEventListener('pointercancel',()=>baDown=false);
+
+/* ---------- service path ---------- */
+const path=document.getElementById('path');
+path.innerHTML = SERVICES.map(s=>`
+  <button class="path-node" data-id="${s.id}">
+    <div class="node-circle">${s.emoji}</div>
+    <div class="node-text"><b>${s.name}</b><span>from $${s.from}</span></div>
+  </button>`).join('');
+
+const sheet=document.getElementById('sheet');
+const veil=document.getElementById('sheetVeil');
+path.addEventListener('click',e=>{
+  const node=e.target.closest('.path-node'); if(!node) return;
+  const s=SERVICES.find(x=>x.id===node.dataset.id);
+  document.getElementById('shTitle').innerHTML=`${s.emoji} ${s.name}`;
+  document.getElementById('shPrice').textContent=`from $${s.from} · ${s.per}`;
+  document.getElementById('shDesc').textContent=s.desc;
+  document.getElementById('shWorryQ').textContent=s.worryQ;
+  document.getElementById('shWorryA').textContent=s.worryA;
+  document.getElementById('shCta').onclick=()=>{
+    state.services.add(s.id);
+    state.step=0; render();
+    closeSheet();
+  };
+  sheet.classList.add('open'); veil.classList.add('open');
+});
+function closeSheet(){ sheet.classList.remove('open'); veil.classList.remove('open'); }
+veil.addEventListener('click',closeSheet);
+
+/* ---------- sticky mobile CTA (hidden while quiz on screen) ---------- */
+const sticky=document.getElementById('stickyCta');
+const quizCard=document.getElementById('quizCard');
+const hero=document.querySelector('.hero');
+const visible=new Map([[quizCard,true],[hero,true]]);
+const io=new IntersectionObserver(entries=>{
+  entries.forEach(en=>visible.set(en.target,en.isIntersecting));
+  sticky.classList.toggle('show', ![...visible.values()].some(v=>v));
+},{threshold:0.15});
+io.observe(quizCard); io.observe(hero);
+</script>
+</body>
+</html>
