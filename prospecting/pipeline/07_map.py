@@ -106,14 +106,24 @@ def main() -> int:
     )
     fg_streams.add_to(m)
 
-    # ---- restricted-access hatching (grey overlay on closed/restricted) --
-    acc_mask = seg4326["access_status"].isin(["closed", "restricted", "dnr_closed_no_contract"])
-    folium.GeoJson(
-        seg4326.loc[acc_mask, ["geometry"]].to_json(),
-        name="Access restricted/closed",
-        style_function=lambda f: {"color": "#555555", "weight": 1.2,
-                                  "opacity": 0.7, "dashArray": "2 6"},
-    ).add_to(m)
+    # ---- access overlays: one layer per legal class -----------------------
+    ACCESS_STYLES = {
+        "closed": ("Access: CLOSED (state parks / water-supply lands)",
+                   {"color": "#000000", "weight": 2.0, "opacity": 0.85, "dashArray": "1 4"}),
+        "dnr_closed_no_contract": ("Access: DNR trust land (closed w/o placer contract)",
+                   {"color": "#5c3c92", "weight": 1.6, "opacity": 0.8, "dashArray": "1 5"}),
+        "restricted": ("Access: Wilderness (withdrawn — no-go)",
+                   {"color": "#555555", "weight": 1.2, "opacity": 0.7, "dashArray": "2 6"}),
+        "permission_needed": ("Access: permission needed (WDFW/county/city)",
+                   {"color": "#b8860b", "weight": 1.4, "opacity": 0.8, "dashArray": "4 4"}),
+        "unknown_check_parcel": ("Access: unknown — likely PRIVATE, check parcels",
+                   {"color": "#c04000", "weight": 1.2, "opacity": 0.6, "dashArray": "6 3"}),
+    }
+    for status, (label, style) in ACCESS_STYLES.items():
+        sub = seg4326.loc[seg4326["access_status"] == status, ["geometry"]]
+        if len(sub):
+            folium.GeoJson(sub.to_json(), name=label, show=(status != "unknown_check_parcel"),
+                           style_function=lambda f, s=style: s).add_to(m)
 
     # ---- occurrences -----------------------------------------------------
     fg_occ = folium.FeatureGroup(name="Gold occurrences (fused)", show=True)
@@ -160,15 +170,29 @@ def main() -> int:
 
     folium.LayerControl(collapsed=False).add_to(m)
 
+    def dash(color, pattern):
+        return (f'<svg width="26" height="6"><line x1="0" y1="3" x2="26" y2="3" '
+                f'stroke="{color}" stroke-width="2.5" stroke-dasharray="{pattern}"/></svg>')
+
     note = f"""
     <div style="position: fixed; bottom: 12px; left: 12px; z-index: 9999;
-                background: rgba(255,255,255,0.92); padding: 8px 12px; border-radius: 6px;
-                font: 12px/1.4 sans-serif; max-width: 380px; box-shadow: 0 1px 4px rgba(0,0,0,0.3);">
+                background: rgba(255,255,255,0.93); padding: 8px 12px; border-radius: 6px;
+                font: 12px/1.45 sans-serif; max-width: 400px; box-shadow: 0 1px 4px rgba(0,0,0,0.3);">
       <b>Sultan–Gold Bar–Index gold prospectivity — V0.1</b> (run {run_id})<br>
       Relative rank, <b>not</b> a probability of finding gold. Scores max at 70/100
       until terrain-trap scoring (Phase 2). Verify claims in BLM MLRS and current
       WDFW Gold &amp; Fish rules before digging. In-water work windows apply
-      (Skykomish mainstem/SF: Aug 1–15).
+      (Skykomish mainstem/SF closed after Aug 15).<hr style="margin:6px 0">
+      <b>Access overlays</b> (drawn over the score color):<br>
+      {dash('#000000','1 4')} closed — state parks &amp; water-supply lands<br>
+      {dash('#5c3c92','1 5')} DNR trust land — closed without placer contract<br>
+      {dash('#555555','2 6')} wilderness — withdrawn, no-go<br>
+      {dash('#b8860b','4 4')} permission needed — WDFW / county / city<br>
+      {dash('#c04000','6 3')} unknown — likely private, check county parcels<br>
+      no overlay = likely open (non-designated National Forest, casual use)<br>
+      <span style="color:#cc0000">■</span> red section = active mining claim (section-level)
+      &nbsp;·&nbsp; <span style="color:#e6a817">●</span> placer &nbsp;<span style="color:#7a4a12">●</span> lode
+      (large = past producer)
     </div>"""
     m.get_root().html.add_child(folium.Element(note))
 
