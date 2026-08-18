@@ -1,0 +1,31 @@
+site_id,band,segment_id,river,score,source_score,transport_score,nearest_gold_source,dist_km,order,slope_pct,below_dam,lat,lon
+H01,HIGH,301,North Fork Skykomish River,66.7,36.7,20.0,Bench Placer,3.4,7,0.67,False,47.877477,-121.461268
+H02,HIGH,5649,North Fork Skykomish River,64.9,34.9,20.0,Raven,1.5,7,1.71,False,47.840623,-121.509026
+H03,HIGH,9982,North Fork Skykomish River,63.8,35.3,18.5,Raven,2.7,7,3.11,False,47.831425,-121.515587
+H04,HIGH,13468,North Fork Skykomish River,62.3,32.3,20.0,Leon Placer,1.1,6,1.94,False,47.897295,-121.420296
+H05,HIGH,12532,Silver Creek,60.9,32.8,18.2,Mineral Center,2.3,6,2.47,False,47.94618,-121.436081
+H06,HIGH,2744,Skykomish River,57.6,31.2,16.4,Line a Little Placer,1.7,8,1.11,False,47.813375,-121.581008
+H07,HIGH,6196,Silver Creek,55.8,28.0,17.8,Bear,2.5,6,2.73,False,47.932672,-121.438849
+H08,HIGH,4705,Silver Creek,55.5,28.0,17.5,Blue Bird,1.0,6,2.95,False,47.903908,-121.437142
+H09,HIGH,1184,Silver Creek,51.2,28.0,13.2,M and H No. 2,0.6,6,6.17,False,47.921124,-121.439036
+H10,HIGH,13345,South Fork Skykomish River,48.0,20.3,17.7,Alpha,2.6,7,0.5,False,47.808028,-121.567247
+M01,MID,10362,Barclay Creek,18.4,6.8,9.6,,,5,4.41,False,47.798541,-121.47261
+M02,MID,3404,unnamed,19.4,7.1,10.3,,,7,4.79,False,47.826813,-121.518441
+M03,MID,11331,Beckler River,15.7,7.7,6.0,,,6,,False,47.756797,-121.313423
+M04,MID,273,unnamed,18.8,7.3,9.5,,,3,2.31,False,47.757925,-121.474145
+M05,MID,6442,North Fork Skykomish River,21.1,8.4,10.7,,,6,0.33,False,47.888932,-121.345313
+M06,MID,6444,Barclay Creek,13.7,6.9,4.8,,,5,,False,47.794247,-121.460167
+M07,MID,6760,Barclay Creek,13.7,6.9,4.8,,,5,,False,47.784918,-121.428363
+M08,MID,12860,unnamed,13.5,11.5,0.0,,,3,54.97,False,47.778809,-121.478706
+M09,MID,8110,unnamed,16.8,11.4,1.8,Uncle Sam Prospect,3.0,3,9.15,False,47.797262,-121.51536
+M10,MID,12582,unnamed,21.7,18.0,0.0,Good Luck,0.5,3,13.11,False,47.898,-121.407717
+L01,LOW,5364,Proctor Creek,8.3,1.7,4.7,,,4,12.45,False,47.790002,-121.641961
+L02,LOW,5484,Bridal Veil Creek,10.2,5.4,2.8,,,3,10.7,False,47.792337,-121.567263
+L03,LOW,802,Goblin Creek,9.4,2.6,4.8,,,4,28.78,False,47.920461,-121.310962
+L04,LOW,6795,unnamed,12.7,10.7,0.0,,,3,16.29,False,47.776765,-121.481333
+L05,LOW,3208,unnamed,9.5,6.5,1.0,,,3,32.91,False,47.948789,-121.524372
+L06,LOW,7771,unnamed,9.9,8.0,0.0,,,3,12.69,False,47.81114,-121.579484
+L07,LOW,9153,unnamed,9.4,2.6,4.8,,,4,,False,47.765214,-121.543924
+L08,LOW,1440,Bridal Veil Creek,10.3,6.3,2.0,,,3,0.01,False,47.783352,-121.571121
+L09,LOW,12386,unnamed,11.1,7.1,2.0,,,3,0.2,False,47.785044,-121.427606
+L10,LOW,2471,unnamed,9.5,2.7,4.8,,,5,,False,47.799917,-121.482146

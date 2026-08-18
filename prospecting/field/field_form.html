@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Field Sampling Form — Skykomish Gold V0.1</title>
+<style>
+  @page { size: letter; margin: 12mm; }
+  body { font: 10.5px/1.35 -apple-system, Helvetica, Arial, sans-serif; color: #111; margin: 0; }
+  h1 { font-size: 14px; margin: 0 0 2px; }
+  .sub { color: #444; margin-bottom: 8px; font-size: 9.5px; }
+  .rec { border: 1.2px solid #333; border-radius: 4px; padding: 6px 8px; margin-bottom: 8px;
+         page-break-inside: avoid; }
+  .row { display: flex; gap: 10px; margin-bottom: 4px; flex-wrap: wrap; }
+  .f { display: flex; align-items: baseline; gap: 4px; }
+  .f label { font-weight: 600; white-space: nowrap; }
+  .line { border-bottom: 1px solid #999; min-width: 60px; display: inline-block; }
+  .w40 { min-width: 40px; } .w70 { min-width: 70px; } .w110 { min-width: 110px; }
+  .w170 { min-width: 170px; } .wide { flex: 1; min-width: 200px; }
+  .opts { color: #333; } .opts b { font-weight: 600; }
+  .checks span { border: 1px solid #666; border-radius: 3px; padding: 0 4px; margin-right: 3px; }
+  .notes { border-bottom: 1px solid #999; height: 14px; margin-top: 3px; }
+  .tips { font-size: 9px; color: #444; border-top: 1px solid #bbb; padding-top: 4px; margin-top: 2px; }
+</style>
+</head>
+<body>
+<h1>Field sampling record — Skykomish gold V0.1</h1>
+<div class="sub">
+  Protocol: <b>3 pans per site</b> from the best natural trap within 25 m of the waypoint.
+  <b>Zero colors is a full-value record — log it identically.</b>
+  Photos: dig hole + pan bottom. Extra sites beyond the plan: mark OPPORTUNISTIC.
+  Transcribe into <code>field/field_samples_log.csv</code> after the trip.
+</div>
+
+<!-- record block ×4 -->
+<div class="rec">
+  <div class="row">
+    <div class="f"><label>Site ID</label><span class="line w40"></span></div>
+    <div class="f"><label>Date</label><span class="line w70"></span></div>
+    <div class="f"><label>Time</label><span class="line w40"></span></div>
+    <div class="f"><label>GPS lat/lon</label><span class="line w170"></span></div>
+    <div class="f"><label>±m</label><span class="line w40"></span></div>
+    <div class="f checks"><label>Opportunistic?</label><span>Y</span><span>N</span></div>
+  </div>
+  <div class="row">
+    <div class="f checks"><label>Site type</label>
+      <span>inside bend</span><span>bedrock crevice</span><span>boulder riffle</span>
+      <span>bar head</span><span>bench/terrace</span><span>trib junction</span><span>other</span></div>
+  </div>
+  <div class="row">
+    <div class="f"><label>Pans</label><span class="line w40"></span></div>
+    <div class="f"><label>Material (L)</label><span class="line w40"></span></div>
+    <div class="f"><label>Colors (count)</label><span class="line w40"></span></div>
+    <div class="f"><label>Est. gold (mg)</label><span class="line w40"></span></div>
+    <div class="f"><label>Largest particle (mm)</label><span class="line w40"></span></div>
+  </div>
+  <div class="row">
+    <div class="f checks"><label>Character</label>
+      <span>none</span><span>flour</span><span>fine</span><span>flake</span><span>coarse</span><span>nugget</span></div>
+    <div class="f checks"><label>Black sand</label><span>0</span><span>1</span><span>2</span><span>3</span></div>
+    <div class="f checks"><label>Bedrock visible</label><span>Y</span><span>N</span></div>
+  </div>
+  <div class="row">
+    <div class="f wide"><label>Sediment</label><span class="line wide"></span></div>
+    <div class="f"><label>Water level</label><span class="line w110"></span></div>
+    <div class="f"><label>Photo #s</label><span class="line w70"></span></div>
+  </div>
+  <div class="notes"></div><div class="notes"></div>
+</div>
+
+<div class="rec">
+  <div class="row">
+    <div class="f"><label>Site ID</label><span class="line w40"></span></div>
+    <div class="f"><label>Date</label><span class="line w70"></span></div>
+    <div class="f"><label>Time</label><span class="line w40"></span></div>
+    <div class="f"><label>GPS lat/lon</label><span class="line w170"></span></div>
+    <div class="f"><label>±m</label><span class="line w40"></span></div>
+    <div class="f checks"><label>Opportunistic?</label><span>Y</span><span>N</span></div>
+  </div>
+  <div class="row">
+    <div class="f checks"><label>Site type</label>
+      <span>inside bend</span><span>bedrock crevice</span><span>boulder riffle</span>
+      <span>bar head</span><span>bench/terrace</span><span>trib junction</span><span>other</span></div>
+  </div>
+  <div class="row">
+    <div class="f"><label>Pans</label><span class="line w40"></span></div>
+    <div class="f"><label>Material (L)</label><span class="line w40"></span></div>
+    <div class="f"><label>Colors (count)</label><span class="line w40"></span></div>
+    <div class="f"><label>Est. gold (mg)</label><span class="line w40"></span></div>
+    <div class="f"><label>Largest particle (mm)</label><span class="line w40"></span></div>
+  </div>
+  <div class="row">
+    <div class="f checks"><label>Character</label>
+      <span>none</span><span>flour</span><span>fine</span><span>flake</span><span>coarse</span><span>nugget</span></div>
+    <div class="f checks"><label>Black sand</label><span>0</span><span>1</span><span>2</span><span>3</span></div>
+    <div class="f checks"><label>Bedrock visible</label><span>Y</span><span>N</span></div>
+  </div>
+  <div class="row">
+    <div class="f wide"><label>Sediment</label><span class="line wide"></span></div>
+    <div class="f"><label>Water level</label><span class="line w110"></span></div>
+    <div class="f"><label>Photo #s</label><span class="line w70"></span></div>
+  </div>
+  <div class="notes"></div><div class="notes"></div>
+</div>
+
+<div class="rec">
+  <div class="row">
+    <div class="f"><label>Site ID</label><span class="line w40"></span></div>
+    <div class="f"><label>Date</label><span class="line w70"></span></div>
+    <div class="f"><label>Time</label><span class="line w40"></span></div>
+    <div class="f"><label>GPS lat/lon</label><span class="line w170"></span></div>
+    <div class="f"><label>±m</label><span class="line w40"></span></div>
+    <div class="f checks"><label>Opportunistic?</label><span>Y</span><span>N</span></div>
+  </div>
+  <div class="row">
+    <div class="f checks"><label>Site type</label>
+      <span>inside bend</span><span>bedrock crevice</span><span>boulder riffle</span>
+      <span>bar head</span><span>bench/terrace</span><span>trib junction</span><span>other</span></div>
+  </div>
+  <div class="row">
+    <div class="f"><label>Pans</label><span class="line w40"></span></div>
+    <div class="f"><label>Material (L)</label><span class="line w40"></span></div>
+    <div class="f"><label>Colors (count)</label><span class="line w40"></span></div>
+    <div class="f"><label>Est. gold (mg)</label><span class="line w40"></span></div>
+    <div class="f"><label>Largest particle (mm)</label><span class="line w40"></span></div>
+  </div>
+  <div class="row">
+    <div class="f checks"><label>Character</label>
+      <span>none</span><span>flour</span><span>fine</span><span>flake</span><span>coarse</span><span>nugget</span></div>
+    <div class="f checks"><label>Black sand</label><span>0</span><span>1</span><span>2</span><span>3</span></div>
+    <div class="f checks"><label>Bedrock visible</label><span>Y</span><span>N</span></div>
+  </div>
+  <div class="row">
+    <div class="f wide"><label>Sediment</label><span class="line wide"></span></div>
+    <div class="f"><label>Water level</label><span class="line w110"></span></div>
+    <div class="f"><label>Photo #s</label><span class="line w70"></span></div>
+  </div>
+  <div class="notes"></div><div class="notes"></div>
+</div>
+
+<div class="tips">
+  Legal reminders (2026 season): non-motorized only, carry the 2021 Gold &amp; Fish pamphlet.
+  In-water windows — NF Skykomish &amp; most tributaries to Aug 31; above-barrier reaches to Feb 28;
+  <b>Skykomish mainstem &amp; SF closed after Aug 15 (dry-bar work only at H06/H10 this year)</b>.
+  Stay off active claims (red sections on the map), out of Wallace Falls SP, wilderness, and
+  Everett watershed lands. Circle the trap type actually dug — it trains the Phase-2 model.
+</div>
+</body>
+</html>
