@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="prospecting-v02" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>Trip 1 (legal 2026-08-18)</name></metadata>
+  <wpt lat="47.794247" lon="-121.460167">
+    <name>SK-M01 MID</name>
+    <desc>score 13.7/70 | Aug 31 ('all other Snohomish tribs') | Barclay Creek</desc>
+  </wpt>
+  <wpt lat="47.840623" lon="-121.509026">
+    <name>SK-H02 HIGH</name>
+    <desc>score 64.8/70 | open to Aug 31 (above Deer Falls: Feb 28) | North Fork Skykomish River</desc>
+  </wpt>
+  <wpt lat="47.877477" lon="-121.461268">
+    <name>SK-H01 HIGH</name>
+    <desc>score 66.7/70 | open to Aug 31 (above Deer Falls: Feb 28) | North Fork Skykomish River</desc>
+  </wpt>
+  <wpt lat="48.07327" lon="-121.785567">
+    <name>ST-L04 LOW</name>
+    <desc>score 5.2/70 | Jul 16-Sep 15 (county default, unlisted trib) | Heather Creek</desc>
+  </wpt>
+  <wpt lat="48.152605" lon="-121.737134">
+    <name>ST-L05 LOW</name>
+    <desc>score 4.9/70 | Jul 16-Sep 15 (county default, unlisted trib) | unnamed</desc>
+  </wpt>
+</gpx>

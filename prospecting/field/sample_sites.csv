@@ -1,36 +1,36 @@
-site_id,band,segment_id,river,score,source_score,transport_score,nearest_gold_source,dist_km,order,slope_pct,below_dam,lat,lon,basin_code,basin,district,huc10,huc10_name,drive_min,road_snap_km
-ST-H04,HIGH,31417,South Fork Stillaguamish River,65.6,35.6,20.0,Copper Independent,6.2,5,1.84,False,48.066455,-121.62744,ST,Stillaguamish,Silverton,1711000802,South Fork Stillaguamish River,74.0,0.0
-ST-H05,HIGH,819,South Fork Stillaguamish River,64.9,34.9,20.0,Tri-Lux Claims,0.9,5,1.07,False,48.064034,-121.640617,ST,Stillaguamish,Silverton,1711000802,South Fork Stillaguamish River,74.0,0.3
-ST-H02,HIGH,4247,South Fork Stillaguamish River,66.2,36.2,20.0,Copper Independent,4.6,5,1.08,False,48.067889,-121.608557,ST,Stillaguamish,Silverton,1711000802,South Fork Stillaguamish River,76.0,0.3
-SK-L01,LOW,23153,unnamed,5.2,3.2,0.0,,,3,106.91,False,47.786611,-121.598156,SK,Skykomish,Index,1711000906,Wallace River-Skykomish River,76.0,2.4
-SK-H02,HIGH,19583,North Fork Skykomish River,64.8,34.9,20.0,Raven,1.5,7,1.71,False,47.840623,-121.509026,SK,Skykomish,Index,1711000904,North Fork Skykomish River,78.0,0.2
-ST-H01,HIGH,28955,South Fork Stillaguamish River,66.4,36.4,20.0,Copper Independent,1.9,5,1.13,False,48.073953,-121.584657,ST,Stillaguamish,Silverton,1711000802,South Fork Stillaguamish River,78.0,0.0
-ST-H03,HIGH,42476,South Fork Stillaguamish River,65.8,35.9,20.0,Eclipse,1.0,5,1.14,False,48.079021,-121.57089,ST,Stillaguamish,Silverton,1711000802,South Fork Stillaguamish River,79.0,0.0
-ST-L04,LOW,39717,Heather Creek,5.2,0.0,3.2,,,4,7.43,False,48.07327,-121.785567,ST,Stillaguamish,Silverton,1711000802,South Fork Stillaguamish River,80.0,0.9
-ST-L05,LOW,24636,unnamed,4.9,1.3,1.6,,,3,31.36,False,48.152605,-121.737134,ST,Stillaguamish,Darrington,1711000802,South Fork Stillaguamish River,86.0,0.9
-SK-H01,HIGH,1443,North Fork Skykomish River,66.7,36.7,20.0,Bench Placer,3.4,7,0.67,False,47.877477,-121.461268,SK,Skykomish,Index,1711000904,North Fork Skykomish River,87.0,0.2
-SK-M01,MID,21879,Barclay Creek,13.7,6.9,4.8,,,5,,False,47.794247,-121.460167,SK,Skykomish,Index,1711000903,South Fork Skykomish River,92.0,0.1
-SA-H01,HIGH,34512,South Fork Sauk River,65.7,36.4,19.4,Northwest Consolidated,6.0,5,1.31,False,48.02632,-121.439138,SA,Sauk,Monte Cristo,1711000601,Upper Sauk River,94.0,0.2
-SA-H03,HIGH,41916,South Fork Sauk River,65.2,36.4,18.8,Keystone,3.9,5,1.88,False,47.998761,-121.422922,SA,Sauk,Monte Cristo,1711000601,Upper Sauk River,94.0,3.4
-SA-H04,HIGH,20863,South Fork Sauk River,65.1,35.9,19.1,Northwest Consolidated,4.7,5,1.23,False,48.015519,-121.442168,SA,Sauk,Monte Cristo,1711000601,Upper Sauk River,94.0,1.1
-SA-H05,HIGH,20718,South Fork Sauk River,65.0,36.4,18.6,Keystone,2.4,5,2.12,False,47.992916,-121.406574,SA,Sauk,Monte Cristo,1711000601,Upper Sauk River,94.0,4.5
-SA-H07,HIGH,26650,South Fork Sauk River,64.0,35.2,18.8,Northwest Consolidated,3.3,5,1.45,False,48.003839,-121.441371,SA,Sauk,Monte Cristo,1711000601,Upper Sauk River,94.0,2.4
-SA-M04,MID,3087,Dutch Creek,12.9,5.1,5.8,,,3,6.72,False,48.180321,-121.487861,SA,Sauk,Darrington,1711000604,Lower Sauk River,95.0,0.1
-ST-L02,LOW,22309,unnamed,7.7,1.4,4.3,,,5,31.92,False,48.020566,-121.67106,ST,Stillaguamish,Sultan,1711000802,South Fork Stillaguamish River,96.0,1.5
-SA-H06,HIGH,2549,South Fork Sauk River,64.2,34.5,19.7,Castle,3.2,5,0.87,False,48.049784,-121.430997,SA,Sauk,Silverton,1711000601,Upper Sauk River,98.0,0.1
-ST-M03,MID,2241,Perry Creek,10.8,2.6,6.2,,,3,3.95,False,48.079835,-121.4545,ST,Stillaguamish,Silverton,1711000802,South Fork Stillaguamish River,100.0,3.3
-SA-L01,LOW,3884,Black Oak Creek,10.0,0.0,8.0,,,3,5.07,False,48.184754,-121.45415,SA,Sauk,Darrington,1711000601,Upper Sauk River,103.0,0.6
-SA-H02,HIGH,33196,South Fork Sauk River,65.3,35.3,20.0,Washington,8.7,6,0.72,False,48.067807,-121.409202,SA,Sauk,Silverton,1711000601,Upper Sauk River,104.0,0.1
-SA-L04,LOW,43827,unnamed,5.8,3.8,0.0,,,3,24.32,False,48.086111,-121.440763,SA,Sauk,Silverton,1711000601,Upper Sauk River,104.0,3.2
-SA-H08,HIGH,44856,South Fork Sauk River,63.8,33.8,20.0,Washington,10.0,6,1.68,False,48.076061,-121.397273,SA,Sauk,Silverton,1711000601,Upper Sauk River,106.0,0.1
-ST-M02,MID,27145,South Branch North Fork Stillaguamish River,11.1,0.0,9.1,,,4,4.78,False,48.3326,-121.672087,ST,Stillaguamish,Cascade,1711000801,North Fork Stillaguamish River,107.0,0.5
-SA-M02,MID,25306,Goodman Creek,14.4,7.6,4.8,,,3,18.15,False,48.155478,-121.505964,SA,Sauk,Darrington,1711000604,Lower Sauk River,118.0,1.2
-ST-L01,LOW,8893,French Creek,7.8,0.0,5.8,,,5,7.28,False,48.233599,-121.764998,ST,Stillaguamish,Darrington,1711000801,North Fork Stillaguamish River,125.0,0.0
-SK-M02,MID,19685,Proctor Creek,11.5,0.8,8.6,,,4,4.47,False,47.783491,-121.634632,SK,Skykomish,Index,1711000906,Wallace River-Skykomish River,125.0,1.8
-SA-M01,MID,19728,White Chuck River,14.7,0.0,12.7,,,5,2.97,False,48.155679,-121.274443,SA,Sauk,Darrington,1711000601,Upper Sauk River,127.0,7.9
-SA-L03,LOW,2362,Tenas Creek,6.8,0.0,4.8,,,4,12.26,False,48.335418,-121.41127,SA,Sauk,Cascade,1711000603,Lower Suiattle River,167.0,3.0
-SA-M03,MID,16044,South Fork Falls Creek,13.3,8.4,2.9,,,3,16.06,False,48.105774,-121.490857,SA,Sauk,Silverton,1711000601,Upper Sauk River,170.0,2.2
-SA-L02,LOW,25003,North Fork Falls Creek,9.4,7.4,0.0,,,3,,False,48.136002,-121.518187,SA,Sauk,Silverton,1711000601,Upper Sauk River,176.0,2.1
-ST-L03,LOW,27676,Meadow Creek,6.8,0.0,4.8,,,4,10.58,False,48.187147,-121.820707,ST,Stillaguamish,Darrington,1711000802,South Fork Stillaguamish River,177.0,2.8
-ST-M01,MID,33125,North Fork Canyon Creek,14.8,0.0,12.8,,,4,1.61,False,48.182487,-121.847642,ST,Stillaguamish,Granite Falls,1711000802,South Fork Stillaguamish River,177.0,0.8
-SA-M05,MID,32010,All Creek,11.8,0.0,9.8,,,3,1.83,False,48.260675,-121.455414,SA,Sauk,Darrington,1711000603,Lower Suiattle River,192.0,2.0
+site_id,band,segment_id,river,score,source_score,transport_score,nearest_gold_source,dist_km,order,slope_pct,below_dam,lat,lon,basin_code,basin,district,huc10,huc10_name,drive_min,road_snap_km,window,legal_now,access_cost
+ST-H04,HIGH,31417,South Fork Stillaguamish River,65.6,35.6,20.0,Copper Independent,6.2,5,1.84,False,48.066455,-121.62744,ST,Stillaguamish,Silverton,1711000802,South Fork Stillaguamish River,74.0,0.0,CLOSED Aug 15,False,74.0
+ST-H05,HIGH,819,South Fork Stillaguamish River,64.9,34.9,20.0,Tri-Lux Claims,0.9,5,1.07,False,48.064034,-121.640617,ST,Stillaguamish,Silverton,1711000802,South Fork Stillaguamish River,74.0,0.3,CLOSED Aug 15,False,78.5
+ST-H02,HIGH,4247,South Fork Stillaguamish River,66.2,36.2,20.0,Copper Independent,4.6,5,1.08,False,48.067889,-121.608557,ST,Stillaguamish,Silverton,1711000802,South Fork Stillaguamish River,76.0,0.3,CLOSED Aug 15,False,80.5
+SK-L01,LOW,23153,unnamed,5.2,3.2,0.0,,,3,106.91,False,47.786611,-121.598156,SK,Skykomish,Index,1711000906,Wallace River-Skykomish River,76.0,2.4,Aug 31 ('all other Snohomish tribs'),True,112.0
+SK-H02,HIGH,19583,North Fork Skykomish River,64.8,34.9,20.0,Raven,1.5,7,1.71,False,47.840623,-121.509026,SK,Skykomish,Index,1711000904,North Fork Skykomish River,78.0,0.2,open to Aug 31 (above Deer Falls: Feb 28),True,81.0
+ST-H01,HIGH,28955,South Fork Stillaguamish River,66.4,36.4,20.0,Copper Independent,1.9,5,1.13,False,48.073953,-121.584657,ST,Stillaguamish,Silverton,1711000802,South Fork Stillaguamish River,78.0,0.0,CLOSED Aug 15,False,78.0
+ST-H03,HIGH,42476,South Fork Stillaguamish River,65.8,35.9,20.0,Eclipse,1.0,5,1.14,False,48.079021,-121.57089,ST,Stillaguamish,Silverton,1711000802,South Fork Stillaguamish River,79.0,0.0,CLOSED Aug 15,False,79.0
+ST-L04,LOW,39717,Heather Creek,5.2,0.0,3.2,,,4,7.43,False,48.07327,-121.785567,ST,Stillaguamish,Silverton,1711000802,South Fork Stillaguamish River,80.0,0.9,"Jul 16-Sep 15 (county default, unlisted trib)",True,93.5
+ST-L05,LOW,24636,unnamed,4.9,1.3,1.6,,,3,31.36,False,48.152605,-121.737134,ST,Stillaguamish,Darrington,1711000802,South Fork Stillaguamish River,86.0,0.9,"Jul 16-Sep 15 (county default, unlisted trib)",True,99.5
+SK-H01,HIGH,1443,North Fork Skykomish River,66.7,36.7,20.0,Bench Placer,3.4,7,0.67,False,47.877477,-121.461268,SK,Skykomish,Index,1711000904,North Fork Skykomish River,87.0,0.2,open to Aug 31 (above Deer Falls: Feb 28),True,90.0
+SK-M01,MID,21879,Barclay Creek,13.7,6.9,4.8,,,5,,False,47.794247,-121.460167,SK,Skykomish,Index,1711000903,South Fork Skykomish River,92.0,0.1,Aug 31 ('all other Snohomish tribs'),True,93.5
+SA-H01,HIGH,34512,South Fork Sauk River,65.7,36.4,19.4,Northwest Consolidated,6.0,5,1.31,False,48.02632,-121.439138,SA,Sauk,Monte Cristo,1711000601,Upper Sauk River,94.0,0.2,CLOSED Aug 15,False,97.0
+SA-H03,HIGH,41916,South Fork Sauk River,65.2,36.4,18.8,Keystone,3.9,5,1.88,False,47.998761,-121.422922,SA,Sauk,Monte Cristo,1711000601,Upper Sauk River,94.0,3.4,CLOSED Aug 15,False,145.0
+SA-H04,HIGH,20863,South Fork Sauk River,65.1,35.9,19.1,Northwest Consolidated,4.7,5,1.23,False,48.015519,-121.442168,SA,Sauk,Monte Cristo,1711000601,Upper Sauk River,94.0,1.1,CLOSED Aug 15,False,110.5
+SA-H05,HIGH,20718,South Fork Sauk River,65.0,36.4,18.6,Keystone,2.4,5,2.12,False,47.992916,-121.406574,SA,Sauk,Monte Cristo,1711000601,Upper Sauk River,94.0,4.5,CLOSED Aug 15,False,161.5
+SA-H07,HIGH,26650,South Fork Sauk River,64.0,35.2,18.8,Northwest Consolidated,3.3,5,1.45,False,48.003839,-121.441371,SA,Sauk,Monte Cristo,1711000601,Upper Sauk River,94.0,2.4,CLOSED Aug 15,False,130.0
+SA-M04,MID,3087,Dutch Creek,12.9,5.1,5.8,,,3,6.72,False,48.180321,-121.487861,SA,Sauk,Darrington,1711000604,Lower Sauk River,95.0,0.1,county default? verify - Sauk trib unlisted,,96.5
+ST-L02,LOW,22309,unnamed,7.7,1.4,4.3,,,5,31.92,False,48.020566,-121.67106,ST,Stillaguamish,Sultan,1711000802,South Fork Stillaguamish River,96.0,1.5,"Jul 16-Sep 15 (county default, unlisted trib)",True,118.5
+SA-H06,HIGH,2549,South Fork Sauk River,64.2,34.5,19.7,Castle,3.2,5,0.87,False,48.049784,-121.430997,SA,Sauk,Silverton,1711000601,Upper Sauk River,98.0,0.1,CLOSED Aug 15,False,99.5
+ST-M03,MID,2241,Perry Creek,10.8,2.6,6.2,,,3,3.95,False,48.079835,-121.4545,ST,Stillaguamish,Silverton,1711000802,South Fork Stillaguamish River,100.0,3.3,"Jul 16-Sep 15 (county default, unlisted trib)",True,149.5
+SA-L01,LOW,3884,Black Oak Creek,10.0,0.0,8.0,,,3,5.07,False,48.184754,-121.45415,SA,Sauk,Darrington,1711000601,Upper Sauk River,103.0,0.6,county default? verify - Sauk trib unlisted,,112.0
+SA-H02,HIGH,33196,South Fork Sauk River,65.3,35.3,20.0,Washington,8.7,6,0.72,False,48.067807,-121.409202,SA,Sauk,Silverton,1711000601,Upper Sauk River,104.0,0.1,CLOSED Aug 15,False,105.5
+SA-L04,LOW,43827,unnamed,5.8,3.8,0.0,,,3,24.32,False,48.086111,-121.440763,SA,Sauk,Silverton,1711000601,Upper Sauk River,104.0,3.2,county default? verify - Sauk trib unlisted,,152.0
+SA-H08,HIGH,44856,South Fork Sauk River,63.8,33.8,20.0,Washington,10.0,6,1.68,False,48.076061,-121.397273,SA,Sauk,Silverton,1711000601,Upper Sauk River,106.0,0.1,CLOSED Aug 15,False,107.5
+ST-M02,MID,27145,South Branch North Fork Stillaguamish River,11.1,0.0,9.1,,,4,4.78,False,48.3326,-121.672087,ST,Stillaguamish,Cascade,1711000801,North Fork Stillaguamish River,107.0,0.5,CLOSED Aug 15,False,114.5
+SA-M02,MID,25306,Goodman Creek,14.4,7.6,4.8,,,3,18.15,False,48.155478,-121.505964,SA,Sauk,Darrington,1711000604,Lower Sauk River,118.0,1.2,county default? verify - Sauk trib unlisted,,136.0
+ST-L01,LOW,8893,French Creek,7.8,0.0,5.8,,,5,7.28,False,48.233599,-121.764998,ST,Stillaguamish,Darrington,1711000801,North Fork Stillaguamish River,125.0,0.0,"Jul 16-Sep 15 (county default, unlisted trib)",True,125.0
+SK-M02,MID,19685,Proctor Creek,11.5,0.8,8.6,,,4,4.47,False,47.783491,-121.634632,SK,Skykomish,Index,1711000906,Wallace River-Skykomish River,125.0,1.8,Aug 31 ('all other Snohomish tribs'),True,152.0
+SA-M01,MID,19728,White Chuck River,14.7,0.0,12.7,,,5,2.97,False,48.155679,-121.274443,SA,Sauk,Darrington,1711000601,Upper Sauk River,127.0,7.9,county default? verify - Sauk trib unlisted,,245.5
+SA-L03,LOW,2362,Tenas Creek,6.8,0.0,4.8,,,4,12.26,False,48.335418,-121.41127,SA,Sauk,Cascade,1711000603,Lower Suiattle River,167.0,3.0,county default? verify - Sauk trib unlisted,,212.0
+SA-M03,MID,16044,South Fork Falls Creek,13.3,8.4,2.9,,,3,16.06,False,48.105774,-121.490857,SA,Sauk,Silverton,1711000601,Upper Sauk River,170.0,2.2,county default? verify - Sauk trib unlisted,,203.0
+SA-L02,LOW,25003,North Fork Falls Creek,9.4,7.4,0.0,,,3,,False,48.136002,-121.518187,SA,Sauk,Silverton,1711000601,Upper Sauk River,176.0,2.1,county default? verify - Sauk trib unlisted,,207.5
+ST-L03,LOW,27676,Meadow Creek,6.8,0.0,4.8,,,4,10.58,False,48.187147,-121.820707,ST,Stillaguamish,Darrington,1711000802,South Fork Stillaguamish River,177.0,2.8,"Jul 16-Sep 15 (county default, unlisted trib)",True,219.0
+ST-M01,MID,33125,North Fork Canyon Creek,14.8,0.0,12.8,,,4,1.61,False,48.182487,-121.847642,ST,Stillaguamish,Granite Falls,1711000802,South Fork Stillaguamish River,177.0,0.8,"Jul 16-Sep 15 (county default, unlisted trib)",True,189.0
+SA-M05,MID,32010,All Creek,11.8,0.0,9.8,,,3,1.83,False,48.260675,-121.455414,SA,Sauk,Darrington,1711000603,Lower Suiattle River,192.0,2.0,county default? verify - Sauk trib unlisted,,222.0
