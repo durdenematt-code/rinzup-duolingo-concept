@@ -1,0 +1,185 @@
+"""Stage 07 — interactive HTML map (self-contained folium export).
+
+Renders the latest (or named) score run: streams colored by prospectivity,
+occurrences, claims, ownership/access, districts, study boundary. Open
+map/index.html in any browser; works offline except basemap tiles.
+"""
+import argparse
+import sqlite3
+import sys
+
+import folium
+import geopandas as gpd
+import numpy as np
+import pandas as pd
+from branca.colormap import LinearColormap
+
+from common import GPKG, ROOT
+
+OUT = ROOT / "map"
+V01_MAX = 70.0  # trap score (30 pts) reserved for Phase 2
+
+
+def load_run(run_id=None):
+    with sqlite3.connect(GPKG) as db:
+        runs = pd.read_sql("select run_id, ts from score_runs order by ts", db)
+        if run_id is None:
+            run_id = runs.iloc[-1]["run_id"]
+        sc = pd.read_sql("select * from scores where run_id = ?", db, params=(run_id,))
+    return run_id, sc
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--run-id", default=None)
+    args = ap.parse_args()
+
+    run_id, sc = load_run(args.run_id)
+    print(f"rendering run {run_id}")
+
+    seg = gpd.read_file(GPKG, layer="stream_segments")
+    occ = gpd.read_file(GPKG, layer="occurrences")
+    claims = gpd.read_file(GPKG, layer="claims_active")
+    dist = gpd.read_file(GPKG, layer="mining_districts")
+    access = pd.read_parquet(ROOT / "data" / "interim" / "segment_access.parquet")
+
+    seg = seg.merge(sc, on="segment_id").merge(
+        access, left_on="segment_id", right_index=True)
+    occ_names = occ.set_index("occ_id")["name"]
+
+    # trim clutter: drop order-1/2 segments with negligible score
+    seg = seg[(seg["StreamOrde"] >= 3) | (seg["total_score"] >= 8)].copy()
+    seg["geometry"] = seg.geometry.simplify(15)
+    print(f"{len(seg)} segments on map")
+
+    import shapely
+    def slim(g, nd=5):
+        g = g.to_crs("EPSG:4326")
+        g["geometry"] = shapely.set_precision(g.geometry, 10 ** -nd)
+        return g
+
+    seg4326 = slim(seg)
+    occ4326 = occ.to_crs("EPSG:4326")
+    claims4326 = slim(claims)
+    dist4326 = slim(dist)
+
+    m = folium.Map(location=[47.92, -121.62], zoom_start=11, tiles=None, prefer_canvas=True)
+    folium.TileLayer("OpenStreetMap", name="OpenStreetMap").add_to(m)
+    folium.TileLayer(
+        tiles="https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}",
+        attr="USGS The National Map", name="USGS Topo").add_to(m)
+
+    cmap = LinearColormap(["#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"],
+                          vmin=0, vmax=V01_MAX, caption=f"Prospectivity score (V0.1, max {int(V01_MAX)})")
+    cmap.add_to(m)
+
+    # ---- streams (single GeoJson layer; properties drive style + popup) --
+    sj = seg4326.copy()
+    sj["river"] = sj["GNIS_Name"].fillna("unnamed stream")
+    sj["score_txt"] = sj["total_score"].round(0).astype(int).astype(str) + f"/{int(V01_MAX)} (V0.1 — trap score pending)"
+    sj["parts"] = ("source " + sj["source_score"].round(0).astype(int).astype(str) + "/40 · transport "
+                   + sj["transport_score"].round(0).astype(int).astype(str) + "/20 · confidence "
+                   + sj["confidence_score"].round(0).astype(int).astype(str) + "/10")
+    sj["nearest_src"] = sj["top_occ_id"].map(occ_names).fillna("—")
+    sj["src_dist"] = sj["top_occ_dist_km"].map(lambda v: f"{v:.1f} km" if pd.notna(v) else "—")
+    sj["claim"] = np.where(sj["claim_conflict"], "YES — section-level, verify serial in MLRS", "no")
+    sj["dam_note"] = np.where(sj["below_dam"], "below Culmback Dam (sediment-starved)", "")
+    sj["hydro"] = (sj["slope_pct"].round(2).astype(str) + "% slope · "
+                   + sj["TotDASqKm"].round(0).astype(int).astype(str) + " km² drainage · order "
+                   + sj["StreamOrde"].astype(int).astype(str))
+    sj["color"] = sj["total_score"].map(cmap)
+    sj["weight"] = 1.5 + 0.9 * (sj["StreamOrde"] - 2) + np.where(sj["total_score"] > 40, 1.5, 0)
+    keep = ["river", "score_txt", "parts", "nearest_src", "src_dist", "n_upstream_gold",
+            "claim", "access_status", "dam_note", "hydro", "color", "weight", "geometry"]
+    fg_streams = folium.GeoJson(
+        sj[keep].to_json(),
+        name="Stream prospectivity",
+        style_function=lambda f: {"color": f["properties"]["color"],
+                                  "weight": f["properties"]["weight"], "opacity": 0.9},
+        popup=folium.GeoJsonPopup(
+            fields=["river", "score_txt", "parts", "nearest_src", "src_dist",
+                    "n_upstream_gold", "claim", "access_status", "dam_note", "hydro"],
+            aliases=["Stream", "Prospectivity", "Components", "Nearest upstream gold source",
+                     "Distance downstream", "Upstream gold records", "Claim conflict",
+                     "Access", "", "Hydrology"],
+            max_width=340),
+    )
+    fg_streams.add_to(m)
+
+    # ---- restricted-access hatching (grey overlay on closed/restricted) --
+    acc_mask = seg4326["access_status"].isin(["closed", "restricted", "dnr_closed_no_contract"])
+    folium.GeoJson(
+        seg4326.loc[acc_mask, ["geometry"]].to_json(),
+        name="Access restricted/closed",
+        style_function=lambda f: {"color": "#555555", "weight": 1.2,
+                                  "opacity": 0.7, "dashArray": "2 6"},
+    ).add_to(m)
+
+    # ---- occurrences -----------------------------------------------------
+    fg_occ = folium.FeatureGroup(name="Gold occurrences (fused)", show=True)
+    for _, o in occ4326.iterrows():
+        color = {"placer": "#e6a817", "lode": "#7a4a12", "unknown": "#777777"}[o["deposit_class"]]
+        marker = folium.CircleMarker(
+            [o.geometry.y, o.geometry.x],
+            radius=7 if o["producer"] else 4,
+            color=color, fill=True, fill_opacity=0.85, weight=1,
+        )
+        marker.add_child(folium.Popup(
+            f"<b>{o['name'] or 'unnamed'}</b><br>"
+            f"class: {o['deposit_class']} | producer: {'yes' if o['producer'] else 'no'}<br>"
+            f"records fused: {o['n_records']} ({o['n_sources']} source db)<br>"
+            f"commodities: {o['commodities'][:60]}<br>"
+            f"workings within 300 m: {o['n_workings_300m']}<br>"
+            f"ids: {o['source_ids'][:80]}", max_width=300))
+        marker.add_to(fg_occ)
+    fg_occ.add_to(m)
+
+    # ---- claims ----------------------------------------------------------
+    cj = claims4326.copy()
+    cj["note"] = "Geometry is the PLSS section, NOT the claim boundary"
+    folium.GeoJson(
+        cj[["CSE_NAME", "claim_kind", "CSE_DISP", "CSE_NR", "RCRD_ACRS", "note", "geometry"]].to_json(),
+        name="Active mining claims (section-level)",
+        style_function=lambda f: {"color": "#cc0000", "weight": 1,
+                                  "fillColor": "#cc0000", "fillOpacity": 0.12},
+        popup=folium.GeoJsonPopup(
+            fields=["CSE_NAME", "claim_kind", "CSE_DISP", "CSE_NR", "RCRD_ACRS", "note"],
+            aliases=["Claim", "Type", "Status", "MLRS serial", "Record acres", ""],
+            max_width=280),
+    ).add_to(m)
+
+    # ---- districts -------------------------------------------------------
+    fg_dist = folium.FeatureGroup(name="Historical mining districts", show=False)
+    for _, dd in dist4326.iterrows():
+        gj = folium.GeoJson(dd.geometry.__geo_interface__,
+                            style_function=lambda _: {"color": "#6a3d9a", "weight": 2,
+                                                      "fill": False, "dashArray": "8 4"})
+        gj.add_child(folium.Tooltip(dd["DistrictNm"] + " district"))
+        gj.add_to(fg_dist)
+    fg_dist.add_to(m)
+
+    folium.LayerControl(collapsed=False).add_to(m)
+
+    note = f"""
+    <div style="position: fixed; bottom: 12px; left: 12px; z-index: 9999;
+                background: rgba(255,255,255,0.92); padding: 8px 12px; border-radius: 6px;
+                font: 12px/1.4 sans-serif; max-width: 380px; box-shadow: 0 1px 4px rgba(0,0,0,0.3);">
+      <b>Sultan–Gold Bar–Index gold prospectivity — V0.1</b> (run {run_id})<br>
+      Relative rank, <b>not</b> a probability of finding gold. Scores max at 70/100
+      until terrain-trap scoring (Phase 2). Verify claims in BLM MLRS and current
+      WDFW Gold &amp; Fish rules before digging. In-water work windows apply
+      (Skykomish mainstem/SF: Aug 1–15).
+    </div>"""
+    m.get_root().html.add_child(folium.Element(note))
+
+    OUT.mkdir(exist_ok=True)
+    out = OUT / "index.html"
+    m.save(str(out))
+    from webassets import inline_assets
+    inline_assets(out)
+    print(f"wrote {out} ({out.stat().st_size/1e6:.1f} MB)")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

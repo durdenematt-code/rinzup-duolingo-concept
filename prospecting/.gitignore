@@ -1,6 +1,8 @@
 data/raw/*.zip
 data/raw/*.gdb/
 data/raw/*.tif
+data/raw/webassets/
+data/raw/*.gfs
 data/interim/
 data/prospect.gpkg
 .venv/

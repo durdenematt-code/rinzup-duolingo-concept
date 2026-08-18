@@ -20,17 +20,17 @@ def main() -> int:
 
     occ = gpd.read_file(GPKG, layer="occurrences").to_crs(CRS)
     seg = gpd.read_file(GPKG, layer="stream_segments").to_crs(CRS)
-    seg = seg.set_index("segment_id", drop=False)
 
     # ---- snap gold occurrences to nearest segment -------------------------
     gold = occ[occ["is_gold"]].copy()
+    seg_geo = seg[["segment_id", "geometry"]].reset_index(drop=True)
     joined = gpd.sjoin_nearest(
-        gold, seg[["segment_id", "geometry"]], how="left",
+        gold, seg_geo, how="left",
         max_distance=snap_cfg["max_snap_m"], distance_col="snap_dist_m",
     )
     # sjoin_nearest can duplicate on ties; keep first
     joined = joined[~joined.index.duplicated(keep="first")]
-    occ["snapped_segment_id"] = joined["segment_id_right"]
+    occ["snapped_segment_id"] = joined["segment_id"]
     occ["snap_dist_m"] = joined["snap_dist_m"]
     n_gold = int(occ["is_gold"].sum())
     n_snap = int(occ["snapped_segment_id"].notna().sum())
@@ -59,13 +59,14 @@ def main() -> int:
     # stop the walk once influence is negligible
     max_walk_km = lam * 8
 
+    seg_by_id = seg.set_index("segment_id", drop=False)
     rows = []
     snapped = occ[occ["snapped_segment_id"].notna() & occ["is_gold"]]
     for _, o in snapped.iterrows():
         strength = o["base_strength"] * o["snap_conf"]
         if strength <= 0:
             continue
-        seg0 = seg.loc[int(o["snapped_segment_id"])]
+        seg0 = seg_by_id.loc[int(o["snapped_segment_id"])]
         # downstream walk (influence at segment midpoint distance)
         h, d_km, dammed = seg0["HydroSeq"], 0.0, False
         visited = set()

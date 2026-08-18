@@ -40,3 +40,25 @@ For each run compare three segment populations:
 ## Field-sample validation (the real one, ongoing)
 
 Once `field_samples` accumulates: for every sampling trip, record pans at *both* high-scoring and low-scoring sites (pre-commit to the low-score sites before going — otherwise sampling will drift toward pretty spots and the labels become as biased as the 1890s data). Colors-per-pan vs. segment score gives the first genuine calibration curve, and is the gate for any Phase 3 statistical/ML work.
+
+---
+
+## V0.1 results (2026-08-18, run v01)
+
+20 snapped placer occurrences formed 10 spatial clusters; 3 clusters held out
+per seed, 10 seeds, buffered-max hit scoring (300 m), matched on Strahler order.
+
+| Metric | mean | range |
+|---|---|---|
+| River-scale AUC (unmatched background) | **0.82** | 0.74–0.90 |
+| Reach-scale AUC (order-matched background) | 0.60 | 0.48–0.72 |
+| Naive baseline AUC (dist. to nearest visible record) | 0.51 | 0.18–0.74 |
+| Held-out clusters captured in top 10% of segments | 60% | 33–100% |
+
+Interpretation: V0.1 has real skill at the question "which drainages carry
+gold" and only modest skill at "which reach of a gold-bearing river" — the
+latter is what the Phase-2 terrain-trap score is for. The model beats the
+naive baseline by +0.10 matched AUC on average. n is tiny (3 clusters/seed);
+treat all numbers as ranges, not points. Wrong-fork snapping was directly
+observed (e.g. "Gold Bar Placer" snapped to an unnamed side channel), which
+is why hit scoring uses a 300 m buffered max.

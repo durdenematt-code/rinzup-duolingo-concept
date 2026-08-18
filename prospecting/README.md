@@ -13,15 +13,31 @@ A GIS pipeline that scores stream segments in the Sultan → Gold Bar → Index 
 | [docs/05_map_and_roadmap.md](docs/05_map_and_roadmap.md) | QGIS + web map outputs; Phases 2–5 evolution plan |
 | [config/weights.yaml](config/weights.yaml) | Every scoring weight, editable |
 
-## Build order (V0.1)
+## Status: V0.1 is BUILT and validated (2026-08-18)
 
-1. **Download** (~0.8 GB): NHDPlus HR HU4 1711, WBD region 17, WGS Mines & Minerals gdb, WGS 100k geology gdb, MRDS CSV, USMIN-WA, MLRS claims clip, ownership layers. All URLs in doc 01.
-2. **Clean & fuse occurrences**: merge WGS + MRDS + USMIN, dedup into site clusters (name + 250 m), classify placer/lode and dev-status, keep per-record positional confidence.
-3. **Build network**: clip flowlines to study area, validate `HydroSeq` navigation, mark segments below Culmback Dam.
-4. **Link & propagate**: snap occurrences to segments, walk influence downstream with exponential decay.
-5. **Score** per `weights.yaml` → versioned `score_runs` in `prospect.gpkg`.
-6. **Validate** (doc 04) *before* trusting or extending anything.
-7. **Map**: QGIS project + offline interactive HTML with per-segment popups and claim/access hatching.
+```
+cd prospecting && uv venv .venv && uv pip install --python .venv/bin/python \
+  geopandas pyogrio shapely pyproj pyyaml folium pyarrow pandas scipy
+.venv/bin/python pipeline/01_download.py        # S3 downloads + verifies cached extracts
+.venv/bin/python pipeline/02_clean_occurrences.py
+.venv/bin/python pipeline/03_build_network.py
+.venv/bin/python pipeline/04b_overlays.py       # geology/claims/access per segment
+.venv/bin/python pipeline/04_link_sources.py
+.venv/bin/python pipeline/05_score.py --run-label v01
+.venv/bin/python pipeline/06_validate.py
+.venv/bin/python pipeline/07_map.py             # -> map/index.html (self-contained)
+```
+
+**What the first run found** (raw extracts cached in `data/raw/`, committed):
+- 1,017 raw records (WGS + MRDS) → 747 gold → **340 deduplicated sites** (dedup removed 55% — the duplication problem is real), 27 placer sites, 70 past producers, 194 sites confirmed by ≥2 databases.
+- 13,893 stream segments (NHDPlus HR, HUC8 17110009); Culmback Dam snapped onto the Sultan mainstem at 178 km² drainage with 26.4 km of sediment-starved river below it.
+- Top-scoring drainages: NF Skykomish, Silver Creek, Troublesome Creek, Williamson Creek (45 Mine), Sultan River — matching the district literature without being told about districts.
+- **Validation (10 seeds, ~3 placer clusters held out each):** river-scale AUC **0.82** (0.74–0.90) — the model reliably identifies gold-bearing drainages; stream-order-matched AUC **0.60** vs naive-baseline 0.51 — within-river reach discrimination is weak, which is exactly the gap the Phase-2 terrain-trap score exists to fill; 60% of held-out placer clusters land in the model's top 10% of segments.
+- WGS "Historical Mining Districts" polygons tile the entire corridor (administrative divisions, not mineralized zones) — district weight zeroed, kept as a map layer only.
+
+Open `map/index.html` in any browser (fully self-contained; JS/CSS inlined —
+works offline except basemap tiles). Click any stream for its score breakdown,
+nearest upstream source, claim conflict, and access status.
 
 ## The critical caveats (read before believing the map)
 

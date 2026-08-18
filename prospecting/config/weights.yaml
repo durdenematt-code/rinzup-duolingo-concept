@@ -30,9 +30,11 @@ dedup:
 components:
   source:
     max: 40
-    w_signal: 0.60            # decayed upstream-occurrence signal
-    w_geology: 0.25           # catchment fraction on gold_assoc >= 2 units
-    w_district: 0.15          # drains a documented historical gold district
+    w_signal: 0.70            # decayed upstream-occurrence signal
+    w_geology: 0.30           # buffer fraction on gold_assoc >= 2 units
+    # district factor zeroed: WGS district polygons tile the whole corridor
+    # (administrative divisions, not mineralized zones) — no discrimination
+    w_district: 0.00
   transport:
     max: 20
     w_gradient: 0.40

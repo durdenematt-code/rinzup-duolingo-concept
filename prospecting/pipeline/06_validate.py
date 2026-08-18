@@ -83,30 +83,56 @@ def main() -> int:
         scores = score05.compute_scores(W, seg, occ, infl, geol_frac, district_seg)
         scores = scores.set_index("segment_id")
 
-        # hit segments: where the hidden placers snapped
-        hit_segs = list(placers.loc[placers["cluster"].isin(held), "snapped_segment_id"].astype(int).unique())
-        hit_scores = scores.loc[scores.index.intersection(hit_segs), "total_score"]
+        # hit score per held placer point: MAX score among segments within the
+        # buffer — tolerates wrong-fork snapping from position error
+        buffer_m = V["hit_buffer_m"]
+        held_pts = placers[placers["cluster"].isin(held)]
+        seg_sindex = seg_i.sindex
 
-        # background: random segments matched on Strahler order
-        hit_orders = seg_i.loc[hit_scores.index, "StreamOrde"]
+        def buffered_max(pt_geom):
+            idx = seg_sindex.query(pt_geom.buffer(buffer_m), predicate="intersects")
+            ids = seg_i.iloc[idx].index
+            return (scores.loc[scores.index.intersection(ids), "total_score"].max()
+                    if len(ids) else np.nan)
+
+        hit_scores = held_pts.geometry.apply(buffered_max).dropna()
+        hit_segs = list(held_pts["snapped_segment_id"].astype(int).unique())
+
+        # background: random matched-order segments, scored the same buffered-max way
+        hit_orders = seg_i.loc[seg_i.index.intersection(hit_segs), "StreamOrde"]
         bg_scores = []
         for order, cnt in hit_orders.value_counts().items():
-            pool = seg_i[(seg_i["StreamOrde"] == order) & (~seg_i.index.isin(hit_segs))].index
-            take = rng.choice(pool, size=min(len(pool), cnt * 20), replace=False)
-            bg_scores.append(scores.loc[take, "total_score"])
+            pool = seg_i[(seg_i["StreamOrde"] == order) & (~seg_i.index.isin(hit_segs))]
+            take = rng.choice(pool.index, size=min(len(pool), cnt * 20), replace=False)
+            pts = pool.loc[take].geometry.interpolate(0.5, normalized=True)
+            bg_scores.append(pts.apply(buffered_max).dropna())
         bg_scores = pd.concat(bg_scores)
 
         u, p = mannwhitneyu(hit_scores, bg_scores, alternative="greater")
         auc = auc_from_u(u, len(hit_scores), len(bg_scores))
 
+        # river-scale skill: same comparison without order matching
+        pool_any = seg_i[~seg_i.index.isin(hit_segs)]
+        take_any = rng.choice(pool_any.index, size=min(len(pool_any), len(hit_scores) * 40), replace=False)
+        pts_any = pool_any.loc[take_any].geometry.interpolate(0.5, normalized=True)
+        bg_any = pts_any.apply(buffered_max).dropna()
+        u2, _ = mannwhitneyu(hit_scores, bg_any, alternative="greater")
+        auc_unmatched = auc_from_u(u2, len(hit_scores), len(bg_any))
+
         # naive baseline: nearest visible gold occurrence distance (smaller = better)
         visible = occ[occ["is_gold"] & ~occ["occ_id"].isin(hidden_ids)]
-        seg_pts = seg_i.geometry.representative_point()
         vis_union = visible.geometry.union_all()
-        d_hit = seg_pts.loc[hit_scores.index].distance(vis_union)
-        d_bg = seg_pts.loc[bg_scores.index].distance(vis_union)
-        u_n, _ = mannwhitneyu(-d_hit, -d_bg, alternative="greater")
-        auc_naive = auc_from_u(u_n, len(d_hit), len(d_bg))
+        d_hit = held_pts.geometry.distance(vis_union)
+        # background points: matched-order segment midpoints
+        bg_pts = []
+        for order, cnt in hit_orders.value_counts().items():
+            pool = seg_i[(seg_i["StreamOrde"] == order) & (~seg_i.index.isin(hit_segs))]
+            take = rng.choice(pool.index, size=min(len(pool), cnt * 20), replace=False)
+            bg_pts.append(pool.loc[take].geometry.interpolate(0.5, normalized=True))
+        bg_pts = pd.concat(bg_pts)
+        d_bgv = bg_pts.distance(vis_union)
+        u_n, _ = mannwhitneyu(-d_hit, -d_bgv, alternative="greater")
+        auc_naive = auc_from_u(u_n, len(d_hit), len(d_bgv))
 
         # capture: fraction of held clusters whose best segment is in top 10% by score
         thresh = scores["total_score"].quantile(0.90)
@@ -115,17 +141,19 @@ def main() -> int:
             cl_segs = placers.loc[placers["cluster"] == cl, "snapped_segment_id"].astype(int)
             best = scores.loc[scores.index.intersection(cl_segs), "total_score"].max()
             captured += int(best >= thresh)
-        results.append({"seed": seed, "n_held_clusters": len(held), "n_hit_segs": len(hit_scores),
-                        "auc_model": auc, "p": p, "auc_naive": auc_naive,
-                        "capture_top10pct": captured / len(held)})
-        print(f"seed {seed}: {len(held)} clusters held, AUC={auc:.3f} (p={p:.3g}), "
-              f"naive AUC={auc_naive:.3f}, top-10% capture={captured}/{len(held)}")
+        results.append({"seed": seed, "n_held_clusters": len(held), "n_hit_pts": len(hit_scores),
+                        "auc_matched": auc, "p": p, "auc_unmatched": auc_unmatched,
+                        "auc_naive": auc_naive, "capture_top10pct": captured / len(held)})
+        print(f"seed {seed}: {len(held)} clusters held, matched AUC={auc:.3f} (p={p:.3g}), "
+              f"river-scale AUC={auc_unmatched:.3f}, naive AUC={auc_naive:.3f}, "
+              f"top-10% capture={captured}/{len(held)}")
 
     df = pd.DataFrame(results)
     df.to_csv(INTERIM / "validation_results.csv", index=False)
     print("\nSummary over seeds:")
-    print(df[["auc_model", "auc_naive", "capture_top10pct"]].describe().loc[["mean", "min", "max"]].round(3).to_string())
-    delta = (df["auc_model"] - df["auc_naive"]).mean()
+    print(df[["auc_matched", "auc_unmatched", "auc_naive", "capture_top10pct"]]
+          .describe().loc[["mean", "min", "max"]].round(3).to_string())
+    delta = (df["auc_matched"] - df["auc_naive"]).mean()
     print(f"\nmodel AUC - naive AUC (mean): {delta:+.3f}")
     if delta <= 0:
         print("WARNING: the model does not beat the naive nearest-record baseline — "
