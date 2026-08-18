@@ -1,0 +1,7 @@
+data/raw/*.zip
+data/raw/*.gdb/
+data/raw/*.tif
+data/interim/
+data/prospect.gpkg
+.venv/
+__pycache__/
