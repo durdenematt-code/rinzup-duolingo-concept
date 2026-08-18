@@ -1,0 +1,86 @@
+unit,rating,rationale
+# rating 0-3: gold association of WGS 100k map units in the study bbox.
+# Assigned from literature (Bulletin 36 Sultan Basin; Bulletin 42 Gold in
+# Washington; RI-6 Snohomish Co.; district descriptions in docs/01), NOT from
+# occurrence-point overlays — required for a clean validation holdout (docs/04).
+# Edit freely; stage 04b re-runs in seconds.
+Oigd(i),3,Index Batholith - Index district Au-quartz veins in/at margins
+Oigd(ig),3,Index Batholith Goblin Peak stock
+Oian(it),3,Index Batholith metaporphyry Troublesome Mtn
+MOigd(m),3,Monte Cristo stock - Monte Cristo district Au-Ag veins/breccias
+Mit(s),3,Silver Creek tonalite - Silver Creek/Mineral City district veins
+MOigd(g),2,Grotto Batholith - mineralized margins along SF Skykomish
+MOigb(g),2,Grotto Batholith gabbro phase
+MOig(g),2,Grotto Batholith granite of San Juan Creek
+Oit(sv),2,Squire Creek stock on Vesper Peak - Sultan Basin district
+Oit(s),2,Squire Creek stock and related rocks
+Oit(ss),2,Shake Creek stock of Squire Creek stock
+OEida(s),2,Sauk ring dike of Squire Creek stock
+pTigd(b),2,Bald Mountain pluton - Sultan Basin country
+pTigd(bs),2,Bald Mountain pluton sills
+Ev(b),2,Barlow Pass Volcanics - Monte Cristo ore host near stock contacts
+Evr(b),2,Barlow Pass Volcanics rhyolite
+Evs(b),1,Barlow Pass Volcanics sediments
+Ec(b),1,Barlow Pass Volcanics coal-bearing
+Ec(2b),1,Barlow Pass Volcanics
+Mix(cg),2,Intrusive breccia of Conglomerate Point (NF Skykomish headwaters)
+Kog(sc),1,Sloan Creek plutons
+Eig(p),1,Mount Pilchuck stock
+Kigd(sb),1,Beckler Peak stocks
+JTRmt(e),1,Eastern melange belt - Sultan Basin vein country rock
+Ju(e),1,Eastern melange belt
+JTRmc(e),1,Eastern melange belt
+Jigb(e),1,Eastern melange belt
+Jgn(e),1,Eastern melange belt
+TRmb(e),1,Eastern melange belt
+KJmm(w),1,Western melange belt - scattered vein occurrences
+KJmm(wa),1,Western melange belt argillite/graywacke
+KJmm(wk),1,Western melange belt K-feldspar sandstone
+KJph(w),1,Western melange belt
+KJmc(w),1,Western melange belt
+KJmv(w),1,Western melange belt
+Jigb(w),1,Western melange belt
+Jigbd(w),1,Western melange belt
+Jib(w),1,Western melange belt
+Jit(w),1,Western melange belt
+Ju(w),1,Western melange belt
+Jmv(w),1,Western melange belt
+PMmb(w),1,Western melange belt
+Qa,2,Modern alluvium - active placer host incl. reworked drift gold
+Qa(m),2,Alluvium
+Qaf,2,Alluvial fans
+Qad,1,Alpine glacial drift
+Qad(p),1,Glacial and protalus deposits
+Qga,2,Advance outwash - drift gold carrier
+Qga(tb),2,Transitional beds (outwash)
+Qgo,2,Recessional outwash - drift gold carrier
+Qgo(i),2,Ice-contact recessional outwash
+Qgos(s),2,Stillaguamish Sand Member Vashon Drift
+Qgt,1,Till - unsorted; poor concentrator
+Qgl,0,Glaciolacustrine - fines only
+Qgpc,0,Peat
+Qp,0,Peat
+Qta,0,Talus
+Qls,0,Landslide deposits
+Qls(a),0,Rock avalanche deposits
+Qls(m),0,Mass-wasting deposits
+Ev(p),0,Mount Persis volcanics - no documented Au association
+Evx(p),0,Mount Persis volcanics
+Eva(mp),0,Mount Persis volcanics
+Evr(h),0,Rhyolite of Hansen Lake
+Jph(d),0,Darrington Phyllite
+Jsh(s),0,Shuksan Greenschist
+JTRhm(c),0,Chiwaukum Schist
+Jsc(c),0,Chiwaukum Schist
+JTRhm(t),0,Tonga Formation
+Jog(t),0,Tonga Formation gneissic tonalite
+Kbg(n),0,Nason Ridge Migmatitic Gneiss
+MZu(h),0,Helena Haystack melange
+Mvc(k),0,Breccia of Kyes Peak
+Mvt(e),0,Tuff of Eagle
+Mida,0,Miocene dacite
+Oc,0,Oligocene continental sediments
+OEn,0,Naches Formation equivalent
+Ec,0,Eocene continental sediments
+wtr,0,Water
+ice,0,Ice
