@@ -17,7 +17,7 @@ from branca.colormap import LinearColormap
 from common import GPKG, ROOT
 
 OUT = ROOT / "map"
-V01_MAX = 70.0  # trap score (30 pts) reserved for Phase 2
+V02_MAX = 70.0  # trap score (30 pts) reserved for Phase 2
 
 
 def load_run(run_id=None):
@@ -63,20 +63,20 @@ def main() -> int:
     claims4326 = slim(claims)
     dist4326 = slim(dist)
 
-    m = folium.Map(location=[47.92, -121.62], zoom_start=11, tiles=None, prefer_canvas=True)
+    m = folium.Map(location=[48.02, -121.78], zoom_start=10, tiles=None, prefer_canvas=True)
     folium.TileLayer("OpenStreetMap", name="OpenStreetMap").add_to(m)
     folium.TileLayer(
         tiles="https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}",
         attr="USGS The National Map", name="USGS Topo").add_to(m)
 
     cmap = LinearColormap(["#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"],
-                          vmin=0, vmax=V01_MAX, caption=f"Prospectivity score (V0.1, max {int(V01_MAX)})")
+                          vmin=0, vmax=V02_MAX, caption=f"Prospectivity score (V0.2, max {int(V02_MAX)})")
     cmap.add_to(m)
 
     # ---- streams (single GeoJson layer; properties drive style + popup) --
     sj = seg4326.copy()
     sj["river"] = sj["GNIS_Name"].fillna("unnamed stream")
-    sj["score_txt"] = sj["total_score"].round(0).astype(int).astype(str) + f"/{int(V01_MAX)} (V0.1 — trap score pending)"
+    sj["score_txt"] = sj["total_score"].round(0).astype(int).astype(str) + f"/{int(V02_MAX)} (V0.2 — trap score pending)"
     sj["parts"] = ("source " + sj["source_score"].round(0).astype(int).astype(str) + "/40 · transport "
                    + sj["transport_score"].round(0).astype(int).astype(str) + "/20 · confidence "
                    + sj["confidence_score"].round(0).astype(int).astype(str) + "/10")
@@ -178,11 +178,11 @@ def main() -> int:
     <div style="position: fixed; bottom: 12px; left: 12px; z-index: 9999;
                 background: rgba(255,255,255,0.93); padding: 8px 12px; border-radius: 6px;
                 font: 12px/1.45 sans-serif; max-width: 400px; box-shadow: 0 1px 4px rgba(0,0,0,0.3);">
-      <b>Sultan–Gold Bar–Index gold prospectivity — V0.1</b> (run {run_id})<br>
+      <b>Skykomish–Stillaguamish–Sauk gold prospectivity — V0.2</b> (run {run_id})<br>
       Relative rank, <b>not</b> a probability of finding gold. Scores max at 70/100
       until terrain-trap scoring (Phase 2). Verify claims in BLM MLRS and current
       WDFW Gold &amp; Fish rules before digging. In-water work windows apply
-      (Skykomish mainstem/SF closed after Aug 15).<hr style="margin:6px 0">
+      (work windows differ per river — Skykomish mainstem/SF close after Aug 15).<hr style="margin:6px 0">
       <b>Access overlays</b> (drawn over the score color):<br>
       {dash('#000000','1 4')} closed — state parks &amp; water-supply lands<br>
       {dash('#5c3c92','1 5')} DNR trust land — closed without placer contract<br>

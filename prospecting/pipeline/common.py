@@ -11,13 +11,19 @@ CONFIG = ROOT / "config"
 # Analysis CRS: NAD83 / UTM zone 10N (meters)
 CRS = "EPSG:26910"
 
-# Study area bbox in lon/lat (must match the bbox used for the raw extracts)
-BBOX_4326 = (-121.95, 47.75, -121.30, 48.10)
+# Study area bbox in lon/lat (must match the bbox used for the raw extracts).
+# V0.2: expanded north/west from the original Sultan–Gold Bar–Index corridor to
+# take in the Monte Cristo district, the Mountain Loop Highway corridor
+# (Silverton), and the country around Granite Falls and Arlington.
+BBOX_4326 = (-122.30, 47.75, -121.25, 48.35)
 
-# HUC8 whose stream network gets scored (Snohomish). Occurrences outside it
-# (Monte Cristo, Silverton — Sauk/Stillaguamish drainages) stay as map
-# reference points but never snap to scored segments.
-SCORED_HUC8 = "17110009"
+# HUC8s whose stream networks get scored (names from WBDHU8 in the NHDPlus GDB):
+#   17110009 Skykomish      — Sultan/Wallace/Skykomish (original V0.1 area)
+#   17110008 Stillaguamish  — SF Stilly (Granite Falls, Silverton), NF Stilly (Arlington–Oso)
+#   17110006 Sauk           — SF Sauk headwaters (Monte Cristo) down to Darrington
+#   17110011 Snohomish      — Pilchuck River side of Granite Falls
+# Basins are clipped to BBOX_4326; navigation truncates at the bbox edge.
+SCORED_HUC8S = ("17110006", "17110008", "17110009", "17110011")
 
 # Culmback Dam (Sultan RM 16.5, Spada Lake outlet). Downstream influence
 # crossing this point is attenuated by decay.dam_pass_factor.

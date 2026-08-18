@@ -84,3 +84,78 @@ OEn,0,Naches Formation equivalent
 Ec,0,Eocene continental sediments
 wtr,0,Water
 ice,0,Ice
+# --- V0.2 expansion area (Stillaguamish / Sauk / Pilchuck; Bulletin 42 ch. on
+# Silverton-Helena-Darrington districts; unit names from DNR 100k DMU table) ---
+Eigd(g),2,Granite Falls stock - intrusive associated with Silverton/SF Stilly veins
+Oiq(s),2,Squire Creek stock at Granite Lakes - Squire Creek family
+Eigb(b),2,Barlow Pass Volcanics intrusive breccia - Monte Cristo ore host family
+Evb(b),2,Barlow Pass Volcanics basalt phase
+MOigd(d),2,Dead Duck pluton - Grotto Batholith family
+Qga(t),2,Transitional beds of Menard - advance outwash equivalent (Qga(tb))
+Qgic,2,Nonmarine ice-contact deposits - matches Qgo(i)
+Qgas,2,Advance outwash sand - Qga family
+Qoa,2,Older alluvium - bench/terrace gravels; relict placer host
+Qa(c),2,Alluvium
+Qf,2,Fan deposits - matches Qaf
+Mit(b),1,Mount Buckindy pluton - scattered Skagit-side prospects
+Kiq(ch),1,Chaval pluton
+Khm(c),1,Chaval pluton
+Khm(cs),1,Chaval pluton sills and dikes
+Kit(sw),1,Mount Stuart batholith western pluton
+Kit(se),1,Mount Stuart batholith eastern pluton
+Kog(bl),1,Bench Lake tonalitic gneiss - Sloan Creek family
+Migd(c),1,Cloudy Pass batholith fringe
+JMmt(t),1,Trafton terrane - scattered occurrences near Arlington/Granite Falls
+JTRmt(t),1,Trafton Sequence metasediments/metavolcanics
+Pigbd(t),1,Trafton terrane intrusives
+Pigd(t),1,Trafton terrane intrusives
+MZPZms(r),1,Rinker Ridge slate - western-melange-adjacent country rock
+TRv(ew),1,Eastern melange belt - Whitehorse Mountain volcanics
+Jar(e),1,Eastern melange belt
+Jit(e),1,Eastern melange belt
+PMDms(c),1,Chilliwack Group - minor Skagit-side occurrences
+PMDmv(c),1,Chilliwack Group volcanics
+PMDmb(c),1,Chilliwack Group marble
+pTmv(h),1,Helena Haystack melange - Helena district country rock
+Jmv(h),1,Helena Haystack melange
+Jmt(h),1,Helena Haystack melange
+Jhm(h),1,Helena Haystack melange
+KJam(h),1,Helena Haystack melange
+Jigb(h),1,Helena Haystack melange
+MZmm(h),1,Helena Haystack melange
+Jit(h),1,Helena Haystack melange metatonalite
+Kid(h),1,Hardtack Lake metadiorite - Helena Haystack melange
+Qgd,1,Undivided glacial drift - like Qad
+Qgu,1,Unnamed glacial deposits
+Qc(o),1,Olympia nonglacial beds - sand/silt/peat; poor concentrator
+TRPMhmc(n),0,Napeequa Schist - no documented Au association
+Jmb(c),0,Chiwaukum Schist Nason terrane
+Jam(c),0,Chiwaukum Schist Nason terrane
+JTRu(c),0,Chiwaukum Schist Nason terrane
+Jmt(em),0,Easton metamorphic suite
+Jph(ds),0,Darrington Phyllite silver colored
+pKhm(b),0,Bell Pass melange
+JPMmc(b),0,Bell Pass melange chert
+pDi(y),0,Yellow Aster Complex
+pDgn(y),0,Yellow Aster Complex gneiss
+OEn(b),0,Bulson Creek rocks - sedimentary
+OEc(b),0,Bulson Creek rocks - sedimentary
+OEc,0,Oligocene-Eocene continental sediments
+Ec(c),0,Chuckanut Formation
+Ec(s),0,Unnamed rocks along Straight Creek Fault
+Evr,0,Rhyolite - undifferentiated
+Mvdb(r),0,Breccia of Round Lake
+Qvl(gp),0,Glacier Peak lahar deposits
+Qvl(w),0,White Chuck fill lahars
+Qvl,0,Lahar deposits
+Qvt(w),0,White Chuck fill tuff
+Qvb(wc),0,White Chuck cinder cone
+Qgom,0,Glaciomarine drift - fines only
+Qgdm,0,Everson glaciomarine drift - fines only
+Qls(i),0,Incipient blockslides
+Qc,0,Colluvium
+Qb,0,Beach deposits
+af,0,Artificial fill
+JTRam(t),0,Tonga Formation amphibolite
+Mix(b),1,Mount Buckindy pluton breccia
+MZPZigb,0,Undifferentiated metagabbro

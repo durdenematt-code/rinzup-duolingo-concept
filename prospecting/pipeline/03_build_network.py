@@ -1,7 +1,8 @@
 """Stage 03 — build the scored stream network from NHDPlus HR.
 
 Reads flowlines + VAAs straight out of the downloaded GDB zip (no unzip),
-keeps the Snohomish HUC8 (17110009) reaches inside the study bbox, joins
+keeps reaches of the scored HUC8 basins (common.SCORED_HUC8S) inside the
+study bbox, joins
 navigation/slope/drainage attributes, marks segments below Culmback Dam,
 and writes `stream_segments` + `watersheds` layers.
 """
@@ -12,7 +13,7 @@ import pandas as pd
 import pyogrio
 from shapely.geometry import Point
 
-from common import BBOX_4326, CRS, DAMS, GPKG, INTERIM, RAW, SCORED_HUC8, ensure_dirs
+from common import BBOX_4326, CRS, DAMS, GPKG, INTERIM, RAW, SCORED_HUC8S, ensure_dirs
 
 # unzipped once by stage 01 — /vsizip random access on the 482 MB archive is
 # unusably slow for filtered reads
@@ -26,9 +27,10 @@ KEEP_FTYPE = {460, 558}
 def main() -> int:
     ensure_dirs()
     print("Reading flowlines (HUC8 filter)...")
+    huc_clause = " OR ".join(f"ReachCode LIKE '{h}%'" for h in SCORED_HUC8S)
     fl = pyogrio.read_dataframe(
         GDB, layer="NHDFlowline", bbox=BBOX_4326,
-        where=f"ReachCode LIKE '{SCORED_HUC8}%'",
+        where=huc_clause,
         columns=["NHDPlusID", "GNIS_Name", "ReachCode", "FType", "FCode", "LengthKM"],
         force_2d=True,
     )
