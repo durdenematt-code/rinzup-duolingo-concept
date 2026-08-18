@@ -32,6 +32,9 @@ def load_run(run_id=None):
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--run-id", default=None)
+    ap.add_argument("--lite", action="store_true",
+                    help="smaller export for phone/artifact use (writes map/lite.html): "
+                         "keeps only order>=4 or score>=15 segments, heavier simplification")
     args = ap.parse_args()
 
     run_id, sc = load_run(args.run_id)
@@ -48,8 +51,12 @@ def main() -> int:
     occ_names = occ.set_index("occ_id")["name"]
 
     # trim clutter: drop order-1/2 segments with negligible score
-    seg = seg[(seg["StreamOrde"] >= 3) | (seg["total_score"] >= 8)].copy()
-    seg["geometry"] = seg.geometry.simplify(15)
+    if args.lite:
+        seg = seg[(seg["StreamOrde"] >= 4) | (seg["total_score"] >= 15)].copy()
+        seg["geometry"] = seg.geometry.simplify(40)
+    else:
+        seg = seg[(seg["StreamOrde"] >= 3) | (seg["total_score"] >= 8)].copy()
+        seg["geometry"] = seg.geometry.simplify(15)
     print(f"{len(seg)} segments on map")
 
     import shapely
@@ -232,7 +239,7 @@ def main() -> int:
     m.get_root().html.add_child(folium.Element(note))
 
     OUT.mkdir(exist_ok=True)
-    out = OUT / "index.html"
+    out = OUT / ("lite.html" if args.lite else "index.html")
     m.save(str(out))
     from webassets import inline_assets
     inline_assets(out)
