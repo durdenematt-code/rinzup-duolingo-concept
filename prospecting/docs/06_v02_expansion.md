@@ -73,9 +73,16 @@ metamorphics rate 0.
 - The WGS district polygons still blanket ~88% of segments (administrative
   divisions, not mineralized zones); district weight stays zeroed, map layer
   only.
-- The **field sampling plan (stage 08) was NOT re-run** — the committed
-  30-site plan still reflects the V0.1 Skykomish-only scores. Re-run
-  `08_sample_sites.py` when ready to draw a plan over the expanded area.
+- The **field sampling plan was re-drawn over the expanded area**
+  (2026-08-18, superseding the V0.1 draw from the day before): 35 sites
+  (15 HIGH / 10 MID / 10 LOW), now **ordered by drive time from home**
+  (Everett). Stage 08 queries the OSRM demo server for car-profile drive
+  times; each site carries `drive_min` (to the nearest OSM-mapped road) and
+  `road_snap_km` (the remaining off-road approach). Closest HIGH sites: SF
+  Stillaguamish at Silverton (~74 min, roadside via the Mountain Loop);
+  the SF Sauk / Monte Cristo cluster is ~94 min plus a 2–4.5 km walk up the
+  gated Monte Cristo road. The empty-log guard means re-runs never overwrite
+  a `field_samples_log.csv` that has entries.
 - Reference PDFs downloaded alongside the data (DNR Bulletin 42 *Gold in
   Washington*, RI-6 Snohomish County mineral properties) back the new geology
   ratings; not machine-read by the pipeline.

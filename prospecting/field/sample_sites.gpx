@@ -1,154 +1,179 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gpx version="1.1" creator="prospecting-v01" xmlns="http://www.topografix.com/GPX/1/1">
-  <metadata><name>Skykomish sampling plan (v01_20260818T070515)</name></metadata>
-  <wpt lat="47.877477" lon="-121.461268">
-    <name>H01 67 North Fork Skykomish</name>
-    <desc>band HIGH | score 66.7/70 (src 36.7, tr 20.0) | order 7 | nearest source: Bench Placer 3.4 km</desc>
+<gpx version="1.1" creator="prospecting-v02" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>Sky-Stilly-Sauk sampling plan (v02_20260818T173827)</name></metadata>
+  <wpt lat="48.066455" lon="-121.62744">
+    <name>H06 66 South Fork Stillagua</name>
+    <desc>band HIGH | score 65.6/70 (src 35.6, tr 20.0) | 74 min drive + 0.0 km off-road | order 5 | nearest source: Copper Independent 6.2 km</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="48.064034" lon="-121.640617">
+    <name>H11 65 South Fork Stillagua</name>
+    <desc>band HIGH | score 64.9/70 (src 34.9, tr 20.0) | 74 min drive + 0.3 km off-road | order 5 | nearest source: Tri-Lux Claims 0.9 km</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="48.067889" lon="-121.608557">
+    <name>H03 66 South Fork Stillagua</name>
+    <desc>band HIGH | score 66.2/70 (src 36.2, tr 20.0) | 76 min drive + 0.3 km off-road | order 5 | nearest source: Copper Independent 4.6 km</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="47.786611" lon="-121.598156">
+    <name>L09 5 unnamed</name>
+    <desc>band LOW | score 5.2/70 (src 3.2, tr 0.0) | 76 min drive + 2.4 km off-road | order 3 | nearest source: - nan km</desc>
+    <sym>Flag, Green</sym>
+  </wpt>
+  <wpt lat="48.073953" lon="-121.584657">
+    <name>H02 66 South Fork Stillagua</name>
+    <desc>band HIGH | score 66.4/70 (src 36.4, tr 20.0) | 78 min drive + 0.0 km off-road | order 5 | nearest source: Copper Independent 1.9 km</desc>
     <sym>Flag, Red</sym>
   </wpt>
   <wpt lat="47.840623" lon="-121.509026">
-    <name>H02 65 North Fork Skykomish</name>
-    <desc>band HIGH | score 64.9/70 (src 34.9, tr 20.0) | order 7 | nearest source: Raven 1.5 km</desc>
+    <name>H12 65 North Fork Skykomish</name>
+    <desc>band HIGH | score 64.8/70 (src 34.9, tr 20.0) | 78 min drive + 0.2 km off-road | order 7 | nearest source: Raven 1.5 km</desc>
     <sym>Flag, Red</sym>
   </wpt>
-  <wpt lat="47.831425" lon="-121.515587">
-    <name>H03 64 North Fork Skykomish</name>
-    <desc>band HIGH | score 63.8/70 (src 35.3, tr 18.5) | order 7 | nearest source: Raven 2.7 km</desc>
+  <wpt lat="48.079021" lon="-121.57089">
+    <name>H04 66 South Fork Stillagua</name>
+    <desc>band HIGH | score 65.8/70 (src 35.9, tr 20.0) | 79 min drive + 0.0 km off-road | order 5 | nearest source: Eclipse 1.0 km</desc>
     <sym>Flag, Red</sym>
   </wpt>
-  <wpt lat="47.897295" lon="-121.420296">
-    <name>H04 62 North Fork Skykomish</name>
-    <desc>band HIGH | score 62.3/70 (src 32.3, tr 20.0) | order 6 | nearest source: Leon Placer 1.1 km</desc>
+  <wpt lat="48.07327" lon="-121.785567">
+    <name>L03 5 Heather Creek</name>
+    <desc>band LOW | score 5.2/70 (src 0.0, tr 3.2) | 80 min drive + 0.9 km off-road | order 4 | nearest source: - nan km</desc>
+    <sym>Flag, Green</sym>
+  </wpt>
+  <wpt lat="48.152605" lon="-121.737134">
+    <name>L07 5 unnamed</name>
+    <desc>band LOW | score 4.9/70 (src 1.3, tr 1.6) | 86 min drive + 0.9 km off-road | order 3 | nearest source: - nan km</desc>
+    <sym>Flag, Green</sym>
+  </wpt>
+  <wpt lat="47.877477" lon="-121.461268">
+    <name>H01 67 North Fork Skykomish</name>
+    <desc>band HIGH | score 66.7/70 (src 36.7, tr 20.0) | 87 min drive + 0.2 km off-road | order 7 | nearest source: Bench Placer 3.4 km</desc>
     <sym>Flag, Red</sym>
-  </wpt>
-  <wpt lat="47.94618" lon="-121.436081">
-    <name>H05 61 Silver Creek</name>
-    <desc>band HIGH | score 60.9/70 (src 32.8, tr 18.2) | order 6 | nearest source: Mineral Center 2.3 km</desc>
-    <sym>Flag, Red</sym>
-  </wpt>
-  <wpt lat="47.813375" lon="-121.581008">
-    <name>H06 58 Skykomish River</name>
-    <desc>band HIGH | score 57.6/70 (src 31.2, tr 16.4) | order 8 | nearest source: Line a Little Placer 1.7 km</desc>
-    <sym>Flag, Red</sym>
-  </wpt>
-  <wpt lat="47.932672" lon="-121.438849">
-    <name>H07 56 Silver Creek</name>
-    <desc>band HIGH | score 55.8/70 (src 28.0, tr 17.8) | order 6 | nearest source: Bear 2.5 km</desc>
-    <sym>Flag, Red</sym>
-  </wpt>
-  <wpt lat="47.903908" lon="-121.437142">
-    <name>H08 56 Silver Creek</name>
-    <desc>band HIGH | score 55.5/70 (src 28.0, tr 17.5) | order 6 | nearest source: Blue Bird 1.0 km</desc>
-    <sym>Flag, Red</sym>
-  </wpt>
-  <wpt lat="47.921124" lon="-121.439036">
-    <name>H09 51 Silver Creek</name>
-    <desc>band HIGH | score 51.2/70 (src 28.0, tr 13.2) | order 6 | nearest source: M and H No. 2 0.6 km</desc>
-    <sym>Flag, Red</sym>
-  </wpt>
-  <wpt lat="47.808028" lon="-121.567247">
-    <name>H10 48 South Fork Skykomish</name>
-    <desc>band HIGH | score 48.0/70 (src 20.3, tr 17.7) | order 7 | nearest source: Alpha 2.6 km</desc>
-    <sym>Flag, Red</sym>
-  </wpt>
-  <wpt lat="47.798541" lon="-121.47261">
-    <name>M01 18 Barclay Creek</name>
-    <desc>band MID | score 18.4/70 (src 6.8, tr 9.6) | order 5 | nearest source: - nan km</desc>
-    <sym>Flag, Blue</sym>
-  </wpt>
-  <wpt lat="47.826813" lon="-121.518441">
-    <name>M02 19 unnamed</name>
-    <desc>band MID | score 19.4/70 (src 7.1, tr 10.3) | order 7 | nearest source: - nan km</desc>
-    <sym>Flag, Blue</sym>
-  </wpt>
-  <wpt lat="47.756797" lon="-121.313423">
-    <name>M03 16 Beckler River</name>
-    <desc>band MID | score 15.7/70 (src 7.7, tr 6.0) | order 6 | nearest source: - nan km</desc>
-    <sym>Flag, Blue</sym>
-  </wpt>
-  <wpt lat="47.757925" lon="-121.474145">
-    <name>M04 19 unnamed</name>
-    <desc>band MID | score 18.8/70 (src 7.3, tr 9.5) | order 3 | nearest source: - nan km</desc>
-    <sym>Flag, Blue</sym>
-  </wpt>
-  <wpt lat="47.888932" lon="-121.345313">
-    <name>M05 21 North Fork Skykomish</name>
-    <desc>band MID | score 21.1/70 (src 8.4, tr 10.7) | order 6 | nearest source: - nan km</desc>
-    <sym>Flag, Blue</sym>
   </wpt>
   <wpt lat="47.794247" lon="-121.460167">
-    <name>M06 14 Barclay Creek</name>
-    <desc>band MID | score 13.7/70 (src 6.9, tr 4.8) | order 5 | nearest source: - nan km</desc>
+    <name>M01 14 Barclay Creek</name>
+    <desc>band MID | score 13.7/70 (src 6.9, tr 4.8) | 92 min drive + 0.1 km off-road | order 5 | nearest source: - nan km</desc>
     <sym>Flag, Blue</sym>
   </wpt>
-  <wpt lat="47.784918" lon="-121.428363">
-    <name>M07 14 Barclay Creek</name>
-    <desc>band MID | score 13.7/70 (src 6.9, tr 4.8) | order 5 | nearest source: - nan km</desc>
+  <wpt lat="48.02632" lon="-121.439138">
+    <name>H05 66 South Fork Sauk Rive</name>
+    <desc>band HIGH | score 65.7/70 (src 36.4, tr 19.4) | 94 min drive + 0.2 km off-road | order 5 | nearest source: Northwest Consolidated 6.0 km</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="47.998761" lon="-121.422922">
+    <name>H08 65 South Fork Sauk Rive</name>
+    <desc>band HIGH | score 65.2/70 (src 36.4, tr 18.8) | 94 min drive + 3.4 km off-road | order 5 | nearest source: Keystone 3.9 km</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="48.015519" lon="-121.442168">
+    <name>H09 65 South Fork Sauk Rive</name>
+    <desc>band HIGH | score 65.1/70 (src 35.9, tr 19.1) | 94 min drive + 1.1 km off-road | order 5 | nearest source: Northwest Consolidated 4.7 km</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="47.992916" lon="-121.406574">
+    <name>H10 65 South Fork Sauk Rive</name>
+    <desc>band HIGH | score 65.0/70 (src 36.4, tr 18.6) | 94 min drive + 4.5 km off-road | order 5 | nearest source: Keystone 2.4 km</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="48.003839" lon="-121.441371">
+    <name>H14 64 South Fork Sauk Rive</name>
+    <desc>band HIGH | score 64.0/70 (src 35.2, tr 18.8) | 94 min drive + 2.4 km off-road | order 5 | nearest source: Northwest Consolidated 3.3 km</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="48.180321" lon="-121.487861">
+    <name>M09 13 Dutch Creek</name>
+    <desc>band MID | score 12.9/70 (src 5.1, tr 5.8) | 95 min drive + 0.1 km off-road | order 3 | nearest source: - nan km</desc>
     <sym>Flag, Blue</sym>
   </wpt>
-  <wpt lat="47.778809" lon="-121.478706">
-    <name>M08 14 unnamed</name>
-    <desc>band MID | score 13.5/70 (src 11.5, tr 0.0) | order 3 | nearest source: - nan km</desc>
+  <wpt lat="48.020566" lon="-121.67106">
+    <name>L10 8 unnamed</name>
+    <desc>band LOW | score 7.7/70 (src 1.4, tr 4.3) | 96 min drive + 1.5 km off-road | order 5 | nearest source: - nan km</desc>
+    <sym>Flag, Green</sym>
+  </wpt>
+  <wpt lat="48.049784" lon="-121.430997">
+    <name>H13 64 South Fork Sauk Rive</name>
+    <desc>band HIGH | score 64.2/70 (src 34.5, tr 19.7) | 98 min drive + 0.1 km off-road | order 5 | nearest source: Castle 3.2 km</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="48.079835" lon="-121.4545">
+    <name>M04 11 Perry Creek</name>
+    <desc>band MID | score 10.8/70 (src 2.6, tr 6.2) | 100 min drive + 3.3 km off-road | order 3 | nearest source: - nan km</desc>
     <sym>Flag, Blue</sym>
   </wpt>
-  <wpt lat="47.797262" lon="-121.51536">
-    <name>M09 17 unnamed</name>
-    <desc>band MID | score 16.8/70 (src 11.4, tr 1.8) | order 3 | nearest source: Uncle Sam Prospect 3.0 km</desc>
+  <wpt lat="48.184754" lon="-121.45415">
+    <name>L08 10 Black Oak Creek</name>
+    <desc>band LOW | score 10.0/70 (src 0.0, tr 8.0) | 103 min drive + 0.6 km off-road | order 3 | nearest source: - nan km</desc>
+    <sym>Flag, Green</sym>
+  </wpt>
+  <wpt lat="48.067807" lon="-121.409202">
+    <name>H07 65 South Fork Sauk Rive</name>
+    <desc>band HIGH | score 65.3/70 (src 35.3, tr 20.0) | 104 min drive + 0.1 km off-road | order 6 | nearest source: Washington 8.7 km</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="48.086111" lon="-121.440763">
+    <name>L04 6 unnamed</name>
+    <desc>band LOW | score 5.8/70 (src 3.8, tr 0.0) | 104 min drive + 3.2 km off-road | order 3 | nearest source: - nan km</desc>
+    <sym>Flag, Green</sym>
+  </wpt>
+  <wpt lat="48.076061" lon="-121.397273">
+    <name>H15 64 South Fork Sauk Rive</name>
+    <desc>band HIGH | score 63.8/70 (src 33.8, tr 20.0) | 106 min drive + 0.1 km off-road | order 6 | nearest source: Washington 10.0 km</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="48.3326" lon="-121.672087">
+    <name>M05 11 South Branch North F</name>
+    <desc>band MID | score 11.1/70 (src 0.0, tr 9.1) | 107 min drive + 0.5 km off-road | order 4 | nearest source: - nan km</desc>
     <sym>Flag, Blue</sym>
   </wpt>
-  <wpt lat="47.898" lon="-121.407717">
-    <name>M10 22 unnamed</name>
-    <desc>band MID | score 21.7/70 (src 18.0, tr 0.0) | order 3 | nearest source: Good Luck 0.5 km</desc>
+  <wpt lat="48.155478" lon="-121.505964">
+    <name>M06 14 Goodman Creek</name>
+    <desc>band MID | score 14.4/70 (src 7.6, tr 4.8) | 118 min drive + 1.2 km off-road | order 3 | nearest source: - nan km</desc>
     <sym>Flag, Blue</sym>
   </wpt>
-  <wpt lat="47.790002" lon="-121.641961">
-    <name>L01 8 Proctor Creek</name>
-    <desc>band LOW | score 8.3/70 (src 1.7, tr 4.7) | order 4 | nearest source: - nan km</desc>
+  <wpt lat="48.233599" lon="-121.764998">
+    <name>L02 8 French Creek</name>
+    <desc>band LOW | score 7.8/70 (src 0.0, tr 5.8) | 125 min drive + 0.0 km off-road | order 5 | nearest source: - nan km</desc>
     <sym>Flag, Green</sym>
   </wpt>
-  <wpt lat="47.792337" lon="-121.567263">
-    <name>L02 10 Bridal Veil Creek</name>
-    <desc>band LOW | score 10.2/70 (src 5.4, tr 2.8) | order 3 | nearest source: - nan km</desc>
+  <wpt lat="47.783491" lon="-121.634632">
+    <name>M03 12 Proctor Creek</name>
+    <desc>band MID | score 11.5/70 (src 0.8, tr 8.6) | 125 min drive + 1.8 km off-road | order 4 | nearest source: - nan km</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+  <wpt lat="48.155679" lon="-121.274443">
+    <name>M07 15 White Chuck River</name>
+    <desc>band MID | score 14.7/70 (src 0.0, tr 12.7) | 127 min drive + 7.9 km off-road | order 5 | nearest source: - nan km</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+  <wpt lat="48.335418" lon="-121.41127">
+    <name>L05 7 Tenas Creek</name>
+    <desc>band LOW | score 6.8/70 (src 0.0, tr 4.8) | 167 min drive + 3.0 km off-road | order 4 | nearest source: - nan km</desc>
     <sym>Flag, Green</sym>
   </wpt>
-  <wpt lat="47.920461" lon="-121.310962">
-    <name>L03 9 Goblin Creek</name>
-    <desc>band LOW | score 9.4/70 (src 2.6, tr 4.8) | order 4 | nearest source: - nan km</desc>
+  <wpt lat="48.105774" lon="-121.490857">
+    <name>M02 13 South Fork Falls Cre</name>
+    <desc>band MID | score 13.3/70 (src 8.4, tr 2.9) | 170 min drive + 2.2 km off-road | order 3 | nearest source: - nan km</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+  <wpt lat="48.136002" lon="-121.518187">
+    <name>L01 9 North Fork Falls Cre</name>
+    <desc>band LOW | score 9.4/70 (src 7.4, tr 0.0) | 176 min drive + 2.1 km off-road | order 3 | nearest source: - nan km</desc>
     <sym>Flag, Green</sym>
   </wpt>
-  <wpt lat="47.776765" lon="-121.481333">
-    <name>L04 13 unnamed</name>
-    <desc>band LOW | score 12.7/70 (src 10.7, tr 0.0) | order 3 | nearest source: - nan km</desc>
+  <wpt lat="48.187147" lon="-121.820707">
+    <name>L06 7 Meadow Creek</name>
+    <desc>band LOW | score 6.8/70 (src 0.0, tr 4.8) | 177 min drive + 2.8 km off-road | order 4 | nearest source: - nan km</desc>
     <sym>Flag, Green</sym>
   </wpt>
-  <wpt lat="47.948789" lon="-121.524372">
-    <name>L05 10 unnamed</name>
-    <desc>band LOW | score 9.5/70 (src 6.5, tr 1.0) | order 3 | nearest source: - nan km</desc>
-    <sym>Flag, Green</sym>
+  <wpt lat="48.182487" lon="-121.847642">
+    <name>M08 15 North Fork Canyon Cr</name>
+    <desc>band MID | score 14.8/70 (src 0.0, tr 12.8) | 177 min drive + 0.8 km off-road | order 4 | nearest source: - nan km</desc>
+    <sym>Flag, Blue</sym>
   </wpt>
-  <wpt lat="47.81114" lon="-121.579484">
-    <name>L06 10 unnamed</name>
-    <desc>band LOW | score 9.9/70 (src 8.0, tr 0.0) | order 3 | nearest source: - nan km</desc>
-    <sym>Flag, Green</sym>
-  </wpt>
-  <wpt lat="47.765214" lon="-121.543924">
-    <name>L07 9 unnamed</name>
-    <desc>band LOW | score 9.4/70 (src 2.6, tr 4.8) | order 4 | nearest source: - nan km</desc>
-    <sym>Flag, Green</sym>
-  </wpt>
-  <wpt lat="47.783352" lon="-121.571121">
-    <name>L08 10 Bridal Veil Creek</name>
-    <desc>band LOW | score 10.3/70 (src 6.3, tr 2.0) | order 3 | nearest source: - nan km</desc>
-    <sym>Flag, Green</sym>
-  </wpt>
-  <wpt lat="47.785044" lon="-121.427606">
-    <name>L09 11 unnamed</name>
-    <desc>band LOW | score 11.1/70 (src 7.1, tr 2.0) | order 3 | nearest source: - nan km</desc>
-    <sym>Flag, Green</sym>
-  </wpt>
-  <wpt lat="47.799917" lon="-121.482146">
-    <name>L10 10 unnamed</name>
-    <desc>band LOW | score 9.5/70 (src 2.7, tr 4.8) | order 5 | nearest source: - nan km</desc>
-    <sym>Flag, Green</sym>
+  <wpt lat="48.260675" lon="-121.455414">
+    <name>M10 12 All Creek</name>
+    <desc>band MID | score 11.8/70 (src 0.0, tr 9.8) | 192 min drive + 2.0 km off-road | order 3 | nearest source: - nan km</desc>
+    <sym>Flag, Blue</sym>
   </wpt>
 </gpx>

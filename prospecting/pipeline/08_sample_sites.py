@@ -10,10 +10,16 @@ Outputs: field/sample_sites.csv, field/sample_sites.gpx,
 The draw is seeded — rerunning reproduces the same list unless the score
 run or filters change. Sites are a PRE-COMMITTED protocol: sample them as
 drawn; record extra opportunistic sites separately in the log.
+
+Output rows are ordered by drive time from HOME (OSRM demo server, car
+profile). drive_min is to the nearest OSM-mapped road; road_snap_km says how
+far the site sits from that road (i.e., the hike/bushwhack remainder).
 """
 import argparse
+import json
 import sqlite3
 import sys
+import urllib.request
 from xml.sax.saxutils import escape
 
 import geopandas as gpd
@@ -26,6 +32,37 @@ FIELD = ROOT / "field"
 BANDS = {"HIGH": (0.90, 1.00, 15), "MID": (0.40, 0.70, 10), "LOW": (0.10, 0.40, 10)}
 MIN_SPACING_M = 1000
 SEED = 42
+
+# 3113 122nd Pl SW, Everett WA 98204 (Census geocoder, 2026-08-18)
+HOME = (-122.275171, 47.886925)  # lon, lat
+OSRM = "https://router.project-osrm.org/table/v1/driving"
+
+
+def drive_times(sites):
+    """Minutes of driving from HOME to each site + road snap distance (km)."""
+    mins = np.full(len(sites), np.nan)
+    snap_km = np.full(len(sites), np.nan)
+    chunk = 80  # demo server caps table requests at 100 coordinates
+    for i0 in range(0, len(sites), chunk):
+        part = sites.iloc[i0:i0 + chunk]
+        coords = ";".join([f"{HOME[0]:.6f},{HOME[1]:.6f}"]
+                          + [f"{s.lon},{s.lat}" for _, s in part.iterrows()])
+        url = f"{OSRM}/{coords}?sources=0&annotations=duration"
+        try:
+            with urllib.request.urlopen(url, timeout=60) as r:
+                d = json.load(r)
+            if d.get("code") != "Ok":
+                raise RuntimeError(d.get("code"))
+            durs = d["durations"][0][1:]
+            snaps = d["destinations"][1:]
+            for j, (dur, dest) in enumerate(zip(durs, snaps)):
+                if dur is not None:
+                    mins[i0 + j] = dur / 60
+                snap_km[i0 + j] = dest.get("distance", np.nan) / 1000
+        except Exception as e:
+            print(f"  WARNING: OSRM request failed ({e}) — drive times missing "
+                  f"for sites {i0}..{i0 + len(part) - 1}")
+    return mins.round(0), snap_km.round(1)
 
 LOG_COLUMNS = [
     "site_id", "date", "time", "lat", "lon", "gps_acc_m", "site_type",
@@ -98,14 +135,21 @@ def main() -> int:
     sites["lat"] = sites.geometry.y.round(6)
     sites["lon"] = sites.geometry.x.round(6)
 
+    print("fetching drive times from home (OSRM)...")
+    sites["drive_min"], sites["road_snap_km"] = drive_times(sites)
+    sites = sites.sort_values(["drive_min", "band", "site_id"],
+                              na_position="last").reset_index(drop=True)
+
     FIELD.mkdir(exist_ok=True)
     sites.drop(columns="geometry").to_csv(FIELD / "sample_sites.csv", index=False)
 
     wpts = []
     for _, s in sites.iterrows():
         name = f"{s['site_id']} {s['score']:.0f} {s['river'][:20]}"
+        drive = (f"{s['drive_min']:.0f} min drive + {s['road_snap_km']} km off-road"
+                 if pd.notna(s["drive_min"]) else "drive time n/a")
         desc = (f"band {s['band']} | score {s['score']}/70 (src {s['source_score']}, "
-                f"tr {s['transport_score']}) | order {s['order']} | "
+                f"tr {s['transport_score']}) | {drive} | order {s['order']} | "
                 f"nearest source: {s['nearest_gold_source'] or '-'} {s['dist_km'] or ''} km"
                 + (" | BELOW DAM" if s["below_dam"] else ""))
         wpts.append(
@@ -115,12 +159,16 @@ def main() -> int:
             f'    <sym>{"Flag, Red" if s["band"]=="HIGH" else "Flag, Blue" if s["band"]=="MID" else "Flag, Green"}</sym>\n'
             f'  </wpt>')
     gpx = ('<?xml version="1.0" encoding="UTF-8"?>\n'
-           '<gpx version="1.1" creator="prospecting-v01" xmlns="http://www.topografix.com/GPX/1/1">\n'
-           f'  <metadata><name>Skykomish sampling plan ({run_id})</name></metadata>\n'
+           '<gpx version="1.1" creator="prospecting-v02" xmlns="http://www.topografix.com/GPX/1/1">\n'
+           f'  <metadata><name>Sky-Stilly-Sauk sampling plan ({run_id})</name></metadata>\n'
            + "\n".join(wpts) + "\n</gpx>\n")
     (FIELD / "sample_sites.gpx").write_text(gpx)
 
-    pd.DataFrame(columns=LOG_COLUMNS).to_csv(FIELD / "field_samples_log.csv", index=False)
+    log = FIELD / "field_samples_log.csv"
+    if not log.exists() or len(pd.read_csv(log)) == 0:
+        pd.DataFrame(columns=LOG_COLUMNS).to_csv(log, index=False)
+    else:
+        print("field_samples_log.csv has entries — left untouched")
     print(f"wrote {len(sites)} sites -> field/sample_sites.csv, .gpx; empty log created")
     print(sites.groupby("band")[["score"]].agg(["min", "max", "count"]).to_string())
     print("\nrivers in plan:", sites["river"].value_counts().to_dict())
