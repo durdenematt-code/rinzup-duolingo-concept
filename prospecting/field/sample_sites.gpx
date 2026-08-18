@@ -2,178 +2,178 @@
 <gpx version="1.1" creator="prospecting-v02" xmlns="http://www.topografix.com/GPX/1/1">
   <metadata><name>Sky-Stilly-Sauk sampling plan (v02_20260818T173827)</name></metadata>
   <wpt lat="48.066455" lon="-121.62744">
-    <name>H06 66 South Fork Stillagua</name>
-    <desc>band HIGH | score 65.6/70 (src 35.6, tr 20.0) | 74 min drive + 0.0 km off-road | order 5 | nearest source: Copper Independent 6.2 km</desc>
+    <name>ST-H04 66 South Fork Stillagua</name>
+    <desc>band HIGH | score 65.6/70 (src 35.6, tr 20.0) | 74 min drive + 0.0 km off-road | order 5 | nearest source: Copper Independent 6.2 km | Silverton district</desc>
     <sym>Flag, Red</sym>
   </wpt>
   <wpt lat="48.064034" lon="-121.640617">
-    <name>H11 65 South Fork Stillagua</name>
-    <desc>band HIGH | score 64.9/70 (src 34.9, tr 20.0) | 74 min drive + 0.3 km off-road | order 5 | nearest source: Tri-Lux Claims 0.9 km</desc>
+    <name>ST-H05 65 South Fork Stillagua</name>
+    <desc>band HIGH | score 64.9/70 (src 34.9, tr 20.0) | 74 min drive + 0.3 km off-road | order 5 | nearest source: Tri-Lux Claims 0.9 km | Silverton district</desc>
     <sym>Flag, Red</sym>
   </wpt>
   <wpt lat="48.067889" lon="-121.608557">
-    <name>H03 66 South Fork Stillagua</name>
-    <desc>band HIGH | score 66.2/70 (src 36.2, tr 20.0) | 76 min drive + 0.3 km off-road | order 5 | nearest source: Copper Independent 4.6 km</desc>
+    <name>ST-H02 66 South Fork Stillagua</name>
+    <desc>band HIGH | score 66.2/70 (src 36.2, tr 20.0) | 76 min drive + 0.3 km off-road | order 5 | nearest source: Copper Independent 4.6 km | Silverton district</desc>
     <sym>Flag, Red</sym>
   </wpt>
   <wpt lat="47.786611" lon="-121.598156">
-    <name>L09 5 unnamed</name>
-    <desc>band LOW | score 5.2/70 (src 3.2, tr 0.0) | 76 min drive + 2.4 km off-road | order 3 | nearest source: - nan km</desc>
+    <name>SK-L01 5 unnamed</name>
+    <desc>band LOW | score 5.2/70 (src 3.2, tr 0.0) | 76 min drive + 2.4 km off-road | order 3 | nearest source: - nan km | Index district</desc>
     <sym>Flag, Green</sym>
   </wpt>
-  <wpt lat="48.073953" lon="-121.584657">
-    <name>H02 66 South Fork Stillagua</name>
-    <desc>band HIGH | score 66.4/70 (src 36.4, tr 20.0) | 78 min drive + 0.0 km off-road | order 5 | nearest source: Copper Independent 1.9 km</desc>
+  <wpt lat="47.840623" lon="-121.509026">
+    <name>SK-H02 65 North Fork Skykomish</name>
+    <desc>band HIGH | score 64.8/70 (src 34.9, tr 20.0) | 78 min drive + 0.2 km off-road | order 7 | nearest source: Raven 1.5 km | Index district</desc>
     <sym>Flag, Red</sym>
   </wpt>
-  <wpt lat="47.840623" lon="-121.509026">
-    <name>H12 65 North Fork Skykomish</name>
-    <desc>band HIGH | score 64.8/70 (src 34.9, tr 20.0) | 78 min drive + 0.2 km off-road | order 7 | nearest source: Raven 1.5 km</desc>
+  <wpt lat="48.073953" lon="-121.584657">
+    <name>ST-H01 66 South Fork Stillagua</name>
+    <desc>band HIGH | score 66.4/70 (src 36.4, tr 20.0) | 78 min drive + 0.0 km off-road | order 5 | nearest source: Copper Independent 1.9 km | Silverton district</desc>
     <sym>Flag, Red</sym>
   </wpt>
   <wpt lat="48.079021" lon="-121.57089">
-    <name>H04 66 South Fork Stillagua</name>
-    <desc>band HIGH | score 65.8/70 (src 35.9, tr 20.0) | 79 min drive + 0.0 km off-road | order 5 | nearest source: Eclipse 1.0 km</desc>
+    <name>ST-H03 66 South Fork Stillagua</name>
+    <desc>band HIGH | score 65.8/70 (src 35.9, tr 20.0) | 79 min drive + 0.0 km off-road | order 5 | nearest source: Eclipse 1.0 km | Silverton district</desc>
     <sym>Flag, Red</sym>
   </wpt>
   <wpt lat="48.07327" lon="-121.785567">
-    <name>L03 5 Heather Creek</name>
-    <desc>band LOW | score 5.2/70 (src 0.0, tr 3.2) | 80 min drive + 0.9 km off-road | order 4 | nearest source: - nan km</desc>
+    <name>ST-L04 5 Heather Creek</name>
+    <desc>band LOW | score 5.2/70 (src 0.0, tr 3.2) | 80 min drive + 0.9 km off-road | order 4 | nearest source: - nan km | Silverton district</desc>
     <sym>Flag, Green</sym>
   </wpt>
   <wpt lat="48.152605" lon="-121.737134">
-    <name>L07 5 unnamed</name>
-    <desc>band LOW | score 4.9/70 (src 1.3, tr 1.6) | 86 min drive + 0.9 km off-road | order 3 | nearest source: - nan km</desc>
+    <name>ST-L05 5 unnamed</name>
+    <desc>band LOW | score 4.9/70 (src 1.3, tr 1.6) | 86 min drive + 0.9 km off-road | order 3 | nearest source: - nan km | Darrington district</desc>
     <sym>Flag, Green</sym>
   </wpt>
   <wpt lat="47.877477" lon="-121.461268">
-    <name>H01 67 North Fork Skykomish</name>
-    <desc>band HIGH | score 66.7/70 (src 36.7, tr 20.0) | 87 min drive + 0.2 km off-road | order 7 | nearest source: Bench Placer 3.4 km</desc>
+    <name>SK-H01 67 North Fork Skykomish</name>
+    <desc>band HIGH | score 66.7/70 (src 36.7, tr 20.0) | 87 min drive + 0.2 km off-road | order 7 | nearest source: Bench Placer 3.4 km | Index district</desc>
     <sym>Flag, Red</sym>
   </wpt>
   <wpt lat="47.794247" lon="-121.460167">
-    <name>M01 14 Barclay Creek</name>
-    <desc>band MID | score 13.7/70 (src 6.9, tr 4.8) | 92 min drive + 0.1 km off-road | order 5 | nearest source: - nan km</desc>
+    <name>SK-M01 14 Barclay Creek</name>
+    <desc>band MID | score 13.7/70 (src 6.9, tr 4.8) | 92 min drive + 0.1 km off-road | order 5 | nearest source: - nan km | Index district</desc>
     <sym>Flag, Blue</sym>
   </wpt>
   <wpt lat="48.02632" lon="-121.439138">
-    <name>H05 66 South Fork Sauk Rive</name>
-    <desc>band HIGH | score 65.7/70 (src 36.4, tr 19.4) | 94 min drive + 0.2 km off-road | order 5 | nearest source: Northwest Consolidated 6.0 km</desc>
+    <name>SA-H01 66 South Fork Sauk Rive</name>
+    <desc>band HIGH | score 65.7/70 (src 36.4, tr 19.4) | 94 min drive + 0.2 km off-road | order 5 | nearest source: Northwest Consolidated 6.0 km | Monte Cristo district</desc>
     <sym>Flag, Red</sym>
   </wpt>
   <wpt lat="47.998761" lon="-121.422922">
-    <name>H08 65 South Fork Sauk Rive</name>
-    <desc>band HIGH | score 65.2/70 (src 36.4, tr 18.8) | 94 min drive + 3.4 km off-road | order 5 | nearest source: Keystone 3.9 km</desc>
+    <name>SA-H03 65 South Fork Sauk Rive</name>
+    <desc>band HIGH | score 65.2/70 (src 36.4, tr 18.8) | 94 min drive + 3.4 km off-road | order 5 | nearest source: Keystone 3.9 km | Monte Cristo district</desc>
     <sym>Flag, Red</sym>
   </wpt>
   <wpt lat="48.015519" lon="-121.442168">
-    <name>H09 65 South Fork Sauk Rive</name>
-    <desc>band HIGH | score 65.1/70 (src 35.9, tr 19.1) | 94 min drive + 1.1 km off-road | order 5 | nearest source: Northwest Consolidated 4.7 km</desc>
+    <name>SA-H04 65 South Fork Sauk Rive</name>
+    <desc>band HIGH | score 65.1/70 (src 35.9, tr 19.1) | 94 min drive + 1.1 km off-road | order 5 | nearest source: Northwest Consolidated 4.7 km | Monte Cristo district</desc>
     <sym>Flag, Red</sym>
   </wpt>
   <wpt lat="47.992916" lon="-121.406574">
-    <name>H10 65 South Fork Sauk Rive</name>
-    <desc>band HIGH | score 65.0/70 (src 36.4, tr 18.6) | 94 min drive + 4.5 km off-road | order 5 | nearest source: Keystone 2.4 km</desc>
+    <name>SA-H05 65 South Fork Sauk Rive</name>
+    <desc>band HIGH | score 65.0/70 (src 36.4, tr 18.6) | 94 min drive + 4.5 km off-road | order 5 | nearest source: Keystone 2.4 km | Monte Cristo district</desc>
     <sym>Flag, Red</sym>
   </wpt>
   <wpt lat="48.003839" lon="-121.441371">
-    <name>H14 64 South Fork Sauk Rive</name>
-    <desc>band HIGH | score 64.0/70 (src 35.2, tr 18.8) | 94 min drive + 2.4 km off-road | order 5 | nearest source: Northwest Consolidated 3.3 km</desc>
+    <name>SA-H07 64 South Fork Sauk Rive</name>
+    <desc>band HIGH | score 64.0/70 (src 35.2, tr 18.8) | 94 min drive + 2.4 km off-road | order 5 | nearest source: Northwest Consolidated 3.3 km | Monte Cristo district</desc>
     <sym>Flag, Red</sym>
   </wpt>
   <wpt lat="48.180321" lon="-121.487861">
-    <name>M09 13 Dutch Creek</name>
-    <desc>band MID | score 12.9/70 (src 5.1, tr 5.8) | 95 min drive + 0.1 km off-road | order 3 | nearest source: - nan km</desc>
+    <name>SA-M04 13 Dutch Creek</name>
+    <desc>band MID | score 12.9/70 (src 5.1, tr 5.8) | 95 min drive + 0.1 km off-road | order 3 | nearest source: - nan km | Darrington district</desc>
     <sym>Flag, Blue</sym>
   </wpt>
   <wpt lat="48.020566" lon="-121.67106">
-    <name>L10 8 unnamed</name>
-    <desc>band LOW | score 7.7/70 (src 1.4, tr 4.3) | 96 min drive + 1.5 km off-road | order 5 | nearest source: - nan km</desc>
+    <name>ST-L02 8 unnamed</name>
+    <desc>band LOW | score 7.7/70 (src 1.4, tr 4.3) | 96 min drive + 1.5 km off-road | order 5 | nearest source: - nan km | Sultan district</desc>
     <sym>Flag, Green</sym>
   </wpt>
   <wpt lat="48.049784" lon="-121.430997">
-    <name>H13 64 South Fork Sauk Rive</name>
-    <desc>band HIGH | score 64.2/70 (src 34.5, tr 19.7) | 98 min drive + 0.1 km off-road | order 5 | nearest source: Castle 3.2 km</desc>
+    <name>SA-H06 64 South Fork Sauk Rive</name>
+    <desc>band HIGH | score 64.2/70 (src 34.5, tr 19.7) | 98 min drive + 0.1 km off-road | order 5 | nearest source: Castle 3.2 km | Silverton district</desc>
     <sym>Flag, Red</sym>
   </wpt>
   <wpt lat="48.079835" lon="-121.4545">
-    <name>M04 11 Perry Creek</name>
-    <desc>band MID | score 10.8/70 (src 2.6, tr 6.2) | 100 min drive + 3.3 km off-road | order 3 | nearest source: - nan km</desc>
+    <name>ST-M03 11 Perry Creek</name>
+    <desc>band MID | score 10.8/70 (src 2.6, tr 6.2) | 100 min drive + 3.3 km off-road | order 3 | nearest source: - nan km | Silverton district</desc>
     <sym>Flag, Blue</sym>
   </wpt>
   <wpt lat="48.184754" lon="-121.45415">
-    <name>L08 10 Black Oak Creek</name>
-    <desc>band LOW | score 10.0/70 (src 0.0, tr 8.0) | 103 min drive + 0.6 km off-road | order 3 | nearest source: - nan km</desc>
+    <name>SA-L01 10 Black Oak Creek</name>
+    <desc>band LOW | score 10.0/70 (src 0.0, tr 8.0) | 103 min drive + 0.6 km off-road | order 3 | nearest source: - nan km | Darrington district</desc>
     <sym>Flag, Green</sym>
   </wpt>
   <wpt lat="48.067807" lon="-121.409202">
-    <name>H07 65 South Fork Sauk Rive</name>
-    <desc>band HIGH | score 65.3/70 (src 35.3, tr 20.0) | 104 min drive + 0.1 km off-road | order 6 | nearest source: Washington 8.7 km</desc>
+    <name>SA-H02 65 South Fork Sauk Rive</name>
+    <desc>band HIGH | score 65.3/70 (src 35.3, tr 20.0) | 104 min drive + 0.1 km off-road | order 6 | nearest source: Washington 8.7 km | Silverton district</desc>
     <sym>Flag, Red</sym>
   </wpt>
   <wpt lat="48.086111" lon="-121.440763">
-    <name>L04 6 unnamed</name>
-    <desc>band LOW | score 5.8/70 (src 3.8, tr 0.0) | 104 min drive + 3.2 km off-road | order 3 | nearest source: - nan km</desc>
+    <name>SA-L04 6 unnamed</name>
+    <desc>band LOW | score 5.8/70 (src 3.8, tr 0.0) | 104 min drive + 3.2 km off-road | order 3 | nearest source: - nan km | Silverton district</desc>
     <sym>Flag, Green</sym>
   </wpt>
   <wpt lat="48.076061" lon="-121.397273">
-    <name>H15 64 South Fork Sauk Rive</name>
-    <desc>band HIGH | score 63.8/70 (src 33.8, tr 20.0) | 106 min drive + 0.1 km off-road | order 6 | nearest source: Washington 10.0 km</desc>
+    <name>SA-H08 64 South Fork Sauk Rive</name>
+    <desc>band HIGH | score 63.8/70 (src 33.8, tr 20.0) | 106 min drive + 0.1 km off-road | order 6 | nearest source: Washington 10.0 km | Silverton district</desc>
     <sym>Flag, Red</sym>
   </wpt>
   <wpt lat="48.3326" lon="-121.672087">
-    <name>M05 11 South Branch North F</name>
-    <desc>band MID | score 11.1/70 (src 0.0, tr 9.1) | 107 min drive + 0.5 km off-road | order 4 | nearest source: - nan km</desc>
+    <name>ST-M02 11 South Branch North F</name>
+    <desc>band MID | score 11.1/70 (src 0.0, tr 9.1) | 107 min drive + 0.5 km off-road | order 4 | nearest source: - nan km | Cascade district</desc>
     <sym>Flag, Blue</sym>
   </wpt>
   <wpt lat="48.155478" lon="-121.505964">
-    <name>M06 14 Goodman Creek</name>
-    <desc>band MID | score 14.4/70 (src 7.6, tr 4.8) | 118 min drive + 1.2 km off-road | order 3 | nearest source: - nan km</desc>
+    <name>SA-M02 14 Goodman Creek</name>
+    <desc>band MID | score 14.4/70 (src 7.6, tr 4.8) | 118 min drive + 1.2 km off-road | order 3 | nearest source: - nan km | Darrington district</desc>
     <sym>Flag, Blue</sym>
   </wpt>
   <wpt lat="48.233599" lon="-121.764998">
-    <name>L02 8 French Creek</name>
-    <desc>band LOW | score 7.8/70 (src 0.0, tr 5.8) | 125 min drive + 0.0 km off-road | order 5 | nearest source: - nan km</desc>
+    <name>ST-L01 8 French Creek</name>
+    <desc>band LOW | score 7.8/70 (src 0.0, tr 5.8) | 125 min drive + 0.0 km off-road | order 5 | nearest source: - nan km | Darrington district</desc>
     <sym>Flag, Green</sym>
   </wpt>
   <wpt lat="47.783491" lon="-121.634632">
-    <name>M03 12 Proctor Creek</name>
-    <desc>band MID | score 11.5/70 (src 0.8, tr 8.6) | 125 min drive + 1.8 km off-road | order 4 | nearest source: - nan km</desc>
+    <name>SK-M02 12 Proctor Creek</name>
+    <desc>band MID | score 11.5/70 (src 0.8, tr 8.6) | 125 min drive + 1.8 km off-road | order 4 | nearest source: - nan km | Index district</desc>
     <sym>Flag, Blue</sym>
   </wpt>
   <wpt lat="48.155679" lon="-121.274443">
-    <name>M07 15 White Chuck River</name>
-    <desc>band MID | score 14.7/70 (src 0.0, tr 12.7) | 127 min drive + 7.9 km off-road | order 5 | nearest source: - nan km</desc>
+    <name>SA-M01 15 White Chuck River</name>
+    <desc>band MID | score 14.7/70 (src 0.0, tr 12.7) | 127 min drive + 7.9 km off-road | order 5 | nearest source: - nan km | Darrington district</desc>
     <sym>Flag, Blue</sym>
   </wpt>
   <wpt lat="48.335418" lon="-121.41127">
-    <name>L05 7 Tenas Creek</name>
-    <desc>band LOW | score 6.8/70 (src 0.0, tr 4.8) | 167 min drive + 3.0 km off-road | order 4 | nearest source: - nan km</desc>
+    <name>SA-L03 7 Tenas Creek</name>
+    <desc>band LOW | score 6.8/70 (src 0.0, tr 4.8) | 167 min drive + 3.0 km off-road | order 4 | nearest source: - nan km | Cascade district</desc>
     <sym>Flag, Green</sym>
   </wpt>
   <wpt lat="48.105774" lon="-121.490857">
-    <name>M02 13 South Fork Falls Cre</name>
-    <desc>band MID | score 13.3/70 (src 8.4, tr 2.9) | 170 min drive + 2.2 km off-road | order 3 | nearest source: - nan km</desc>
+    <name>SA-M03 13 South Fork Falls Cre</name>
+    <desc>band MID | score 13.3/70 (src 8.4, tr 2.9) | 170 min drive + 2.2 km off-road | order 3 | nearest source: - nan km | Silverton district</desc>
     <sym>Flag, Blue</sym>
   </wpt>
   <wpt lat="48.136002" lon="-121.518187">
-    <name>L01 9 North Fork Falls Cre</name>
-    <desc>band LOW | score 9.4/70 (src 7.4, tr 0.0) | 176 min drive + 2.1 km off-road | order 3 | nearest source: - nan km</desc>
+    <name>SA-L02 9 North Fork Falls Cre</name>
+    <desc>band LOW | score 9.4/70 (src 7.4, tr 0.0) | 176 min drive + 2.1 km off-road | order 3 | nearest source: - nan km | Silverton district</desc>
     <sym>Flag, Green</sym>
   </wpt>
   <wpt lat="48.187147" lon="-121.820707">
-    <name>L06 7 Meadow Creek</name>
-    <desc>band LOW | score 6.8/70 (src 0.0, tr 4.8) | 177 min drive + 2.8 km off-road | order 4 | nearest source: - nan km</desc>
+    <name>ST-L03 7 Meadow Creek</name>
+    <desc>band LOW | score 6.8/70 (src 0.0, tr 4.8) | 177 min drive + 2.8 km off-road | order 4 | nearest source: - nan km | Darrington district</desc>
     <sym>Flag, Green</sym>
   </wpt>
   <wpt lat="48.182487" lon="-121.847642">
-    <name>M08 15 North Fork Canyon Cr</name>
-    <desc>band MID | score 14.8/70 (src 0.0, tr 12.8) | 177 min drive + 0.8 km off-road | order 4 | nearest source: - nan km</desc>
+    <name>ST-M01 15 North Fork Canyon Cr</name>
+    <desc>band MID | score 14.8/70 (src 0.0, tr 12.8) | 177 min drive + 0.8 km off-road | order 4 | nearest source: - nan km | Granite Falls district</desc>
     <sym>Flag, Blue</sym>
   </wpt>
   <wpt lat="48.260675" lon="-121.455414">
-    <name>M10 12 All Creek</name>
-    <desc>band MID | score 11.8/70 (src 0.0, tr 9.8) | 192 min drive + 2.0 km off-road | order 3 | nearest source: - nan km</desc>
+    <name>SA-M05 12 All Creek</name>
+    <desc>band MID | score 11.8/70 (src 0.0, tr 9.8) | 192 min drive + 2.0 km off-road | order 3 | nearest source: - nan km | Darrington district</desc>
     <sym>Flag, Blue</sym>
   </wpt>
 </gpx>

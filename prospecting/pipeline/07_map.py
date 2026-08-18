@@ -168,6 +168,38 @@ def main() -> int:
         gj.add_to(fg_dist)
     fg_dist.add_to(m)
 
+    # ---- proposed sample sites (stage 08, if drawn) ----------------------
+    try:
+        ss = gpd.read_file(GPKG, layer="sample_sites").to_crs("EPSG:4326")
+    except Exception:
+        ss = None
+    if ss is not None:
+        band_fill = {"HIGH": "#d7191c", "MID": "#2c7bb6", "LOW": "#33a02c"}
+        fg_sites = folium.FeatureGroup(name=f"Proposed sample sites ({len(ss)})", show=True)
+        for _, s in ss.iterrows():
+            mk = folium.CircleMarker(
+                [s.geometry.y, s.geometry.x], radius=6,
+                color="#000000", weight=1.5, fill=True,
+                fill_color=band_fill[s["band"]], fill_opacity=0.95)
+            drive = (f"{s['drive_min']:.0f} min drive + {s['road_snap_km']} km off-road"
+                     if pd.notna(s["drive_min"]) else "drive time n/a")
+            mk.add_child(folium.Tooltip(s["site_id"], permanent=True,
+                                        direction="right", className="site-label"))
+            mk.add_child(folium.Popup(
+                f"<b>{s['site_id']}</b> — {s['band']} band<br>"
+                f"{s['river']} ({s['basin']} basin, HUC10 {s['huc10_name'] or '?'})<br>"
+                f"score {s['score']}/70 | {drive}<br>"
+                f"nearest source: {s['nearest_gold_source'] or '—'}"
+                f"{f' ({s.dist_km} km)' if pd.notna(s['dist_km']) else ''}<br>"
+                + (f"district: {s['district']}<br>" if s["district"] else "")
+                + f"{s['lat']}, {s['lon']}", max_width=300))
+            mk.add_to(fg_sites)
+        fg_sites.add_to(m)
+        m.get_root().html.add_child(folium.Element(
+            "<style>.site-label{font:10px/1.1 sans-serif;padding:1px 4px;"
+            "background:rgba(255,255,255,.88);border:1px solid #999;"
+            "box-shadow:none;}</style>"))
+
     folium.LayerControl(collapsed=False).add_to(m)
 
     def dash(color, pattern):
@@ -192,7 +224,10 @@ def main() -> int:
       no overlay = likely open (non-designated National Forest, casual use)<br>
       <span style="color:#cc0000">■</span> red section = active mining claim (section-level)
       &nbsp;·&nbsp; <span style="color:#e6a817">●</span> placer &nbsp;<span style="color:#7a4a12">●</span> lode
-      (large = past producer)
+      (large = past producer)<br>
+      Labeled dots = proposed sample sites (basin-band id, e.g. ST-H01):
+      <span style="color:#d7191c">●</span> HIGH &nbsp;<span style="color:#2c7bb6">●</span> MID
+      &nbsp;<span style="color:#33a02c">●</span> LOW
     </div>"""
     m.get_root().html.add_child(folium.Element(note))
 

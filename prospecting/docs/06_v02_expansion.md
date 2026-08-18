@@ -83,6 +83,14 @@ metamorphics rate 0.
   the SF Sauk / Monte Cristo cluster is ~94 min plus a 2–4.5 km walk up the
   gated Monte Cristo road. The empty-log guard means re-runs never overwrite
   a `field_samples_log.csv` that has entries.
+- **Site ids are basin-coded**: `<basin>-<band><nn>` (SK Skykomish, ST
+  Stillaguamish, SA Sauk, SN Snohomish-Pilchuck), numbered by score within
+  basin+band — `ST-H01` is the best HIGH site in the Stillaguamish. Historical
+  district (Silverton / Index / Monte Cristo / Darrington / …) and HUC10
+  drainage are attribute columns for sorting and pattern analysis, kept out of
+  the id because the WGS district polygons tile most of the corridor. Sites
+  are persisted to the GeoPackage (`sample_sites` layer) and drawn on the web
+  map as labeled dots (red/blue/green = HIGH/MID/LOW).
 - Reference PDFs downloaded alongside the data (DNR Bulletin 42 *Gold in
   Washington*, RI-6 Snohomish County mineral properties) back the new geology
   ratings; not machine-read by the pipeline.

@@ -33,6 +33,13 @@ BANDS = {"HIGH": (0.90, 1.00, 15), "MID": (0.40, 0.70, 10), "LOW": (0.10, 0.40, 
 MIN_SPACING_M = 1000
 SEED = 42
 
+# site_id = <basin>-<band letter><nn>, numbered by score (desc) within
+# basin+band, e.g. ST-H01 = best HIGH site in the Stillaguamish. District and
+# HUC10 drainage ride along as columns for sorting/pattern analysis — the WGS
+# district polygons tile most of the corridor, so they'd be noise inside the id.
+BASINS = {"17110006": ("SA", "Sauk"), "17110008": ("ST", "Stillaguamish"),
+          "17110009": ("SK", "Skykomish"), "17110011": ("SN", "Snohomish-Pilchuck")}
+
 # 3113 122nd Pl SW, Everett WA 98204 (Census geocoder, 2026-08-18)
 HOME = (-122.275171, 47.886925)  # lon, lat
 OSRM = "https://router.project-osrm.org/table/v1/driving"
@@ -121,6 +128,7 @@ def main() -> int:
             "site_id": sid,
             "band": band,
             "segment_id": r["segment_id"],
+            "ReachCode": str(r["ReachCode"]),
             "river": r["GNIS_Name"] if isinstance(r["GNIS_Name"], str) else "unnamed",
             "score": round(r["total_score"], 1),
             "source_score": round(r["source_score"], 1),
@@ -135,6 +143,25 @@ def main() -> int:
     sites["lat"] = sites.geometry.y.round(6)
     sites["lon"] = sites.geometry.x.round(6)
 
+    # ---- basin / district / drainage attribution + basin-coded ids -------
+    huc8 = sites["ReachCode"].str[:8]
+    sites["basin_code"] = huc8.map({k: v[0] for k, v in BASINS.items()})
+    sites["basin"] = huc8.map({k: v[1] for k, v in BASINS.items()})
+    pts = sites[["geometry"]].to_crs(seg.crs)
+    dist = gpd.read_file(GPKG, layer="mining_districts")
+    j = gpd.sjoin(pts, dist[["DistrictNm", "geometry"]], how="left", predicate="within")
+    sites["district"] = j.groupby(level=0)["DistrictNm"].first().fillna("")
+    h10 = gpd.read_file(GPKG, layer="wbdhu10")
+    j = gpd.sjoin(pts, h10[["HUC10", "Name", "geometry"]], how="left", predicate="within")
+    sites["huc10"] = j.groupby(level=0)["HUC10"].first().fillna("")
+    sites["huc10_name"] = j.groupby(level=0)["Name"].first().fillna("")
+    sites = sites.sort_values(["basin_code", "band", "score"],
+                              ascending=[True, True, False])
+    seq = sites.groupby(["basin_code", "band"]).cumcount() + 1
+    sites["site_id"] = (sites["basin_code"] + "-" + sites["band"].str[0]
+                        + seq.map("{:02d}".format))
+    sites = sites.drop(columns="ReachCode")
+
     print("fetching drive times from home (OSRM)...")
     sites["drive_min"], sites["road_snap_km"] = drive_times(sites)
     sites = sites.sort_values(["drive_min", "band", "site_id"],
@@ -142,6 +169,7 @@ def main() -> int:
 
     FIELD.mkdir(exist_ok=True)
     sites.drop(columns="geometry").to_csv(FIELD / "sample_sites.csv", index=False)
+    sites.to_file(GPKG, layer="sample_sites", driver="GPKG")  # for the map (07)
 
     wpts = []
     for _, s in sites.iterrows():
@@ -151,6 +179,7 @@ def main() -> int:
         desc = (f"band {s['band']} | score {s['score']}/70 (src {s['source_score']}, "
                 f"tr {s['transport_score']}) | {drive} | order {s['order']} | "
                 f"nearest source: {s['nearest_gold_source'] or '-'} {s['dist_km'] or ''} km"
+                + (f" | {s['district']} district" if s["district"] else "")
                 + (" | BELOW DAM" if s["below_dam"] else ""))
         wpts.append(
             f'  <wpt lat="{s.lat}" lon="{s.lon}">\n'
