@@ -10,3 +10,4 @@ __pycache__/
 data/raw/**/*.tif
 data/raw/lidar/
 data/raw/_pages/
+data/raw/*.gml

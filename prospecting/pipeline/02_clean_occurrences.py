@@ -54,10 +54,17 @@ def main() -> int:
     records = []
 
     # ---- WGS layers 12 + 13 (identical schema; dedup on SITE_ID) ---------
-    wgs = pd.concat([
-        gpd.read_file(RAW / "wgs_gold_silver.geojson"),
-        gpd.read_file(RAW / "wgs_metallic.geojson"),
-    ]).drop_duplicates(subset="SITE_ID").set_crs("EPSG:4326", allow_override=True)
+    wgs_files = ["wgs_gold_silver.geojson", "wgs_metallic.geojson",
+                 "king_wgs_gold_silver.geojson", "king_wgs_metallic.geojson"]
+    wgs = pd.concat([gpd.read_file(RAW / f) for f in wgs_files if (RAW / f).exists()]
+                    ).drop_duplicates(subset="SITE_ID").set_crs("EPSG:4326", allow_override=True)
+    # Drop mining-district CENTROIDS: these are polygon centres masquerading as
+    # point sites (LOCATION_ACCURACY "mining district centroid"). Left in, they
+    # inject a phantom high-strength source in the middle of a district.
+    n0 = len(wgs)
+    wgs = wgs[~wgs["LOCATION_ACCURACY"].fillna("").str.contains("centroid", case=False)]
+    if len(wgs) < n0:
+        print(f"dropped {n0 - len(wgs)} mining-district centroid pseudo-sites")
     for _, r in wgs.iterrows():
         commodities = f"{r.get('PRIMARY_COMMODITY') or ''};{r.get('COMMODITIES') or ''}"
         is_gold = "gold" in commodities.lower()
@@ -70,10 +77,13 @@ def main() -> int:
             source="wgs", source_id=str(r["SITE_ID"]), name=r.get("SITE_NAME") or "",
             is_gold=is_gold, gold_primary=gold_primary, placer=placer,
             producer=produced, commodities=commodities.strip(";"),
+            loc_acc=r.get("LOCATION_ACCURACY") or "",
             district=r.get("MINING_DISTRICT") or "", geometry=r.geometry))
 
     # ---- MRDS ------------------------------------------------------------
-    mrds = load_swapped("mrds.geojson")
+    mrds_parts = [load_swapped(f) for f in ("mrds.geojson", "king_mrds.geojson")
+                  if (RAW / f).exists()]
+    mrds = pd.concat(mrds_parts).drop_duplicates(subset="dep_id")
     for _, r in mrds.iterrows():
         codes = (r.get("code_list") or "").upper().split()
         is_gold = "AU" in codes
@@ -84,7 +94,7 @@ def main() -> int:
             source="mrds", source_id=str(r["dep_id"]), name=r.get("site_name") or "",
             is_gold=is_gold, gold_primary=gold_primary, placer=placer,
             producer=producer, commodities=" ".join(codes),
-            district="", geometry=r.geometry))
+            loc_acc="", district="", geometry=r.geometry))
 
     rec = gpd.GeoDataFrame(records, crs="EPSG:4326").to_crs(CRS)
     rec["nname"] = rec["name"].map(norm_name)
