@@ -71,3 +71,40 @@ Note the pattern: Silver Creek wins on **source** (lode 1 km up), Barclay and
 Williamson win on **traps** (steep, confined, big gradient breaks) but have
 little known source. Neither alone is the answer - which is the point of
 keeping the components separate and visible.
+
+## Name collisions — verify before assigning a legal window
+
+Three distinct "Deer Creek"s exist in the study area. Assigning the pamphlet
+window by GNIS name alone gets it wrong:
+
+| Deer Creek | Basin | Drains to | Pamphlet row |
+|---|---|---|---|
+| lat 48.084-48.116 (Silverton) | Stillaguamish | **South Fork** Stillaguamish | NOT listed -> county default |
+| lat 48.268-48.351 (Oso) | Stillaguamish | **North Fork** Stillaguamish | "Deer Creek (05 0173)" Aug 1-31 / Feb 28 |
+| lat 47.815-47.842 | Skykomish | Skykomish system | not listed |
+
+Only the Oso creek carries the Aug 1-31 / Feb 28 window. The high-scoring
+Silverton creek is an unlisted tributary and falls to the Snohomish County
+default row. Note the SF Stillaguamish reaches are themselves defined
+relative to this creek ("Mouth to Deer Creek"), which makes the collision
+easy to miss.
+
+RULE: match a creek to a pamphlet row by BASIN AND DOWNSTREAM CONNECTIVITY
+(walk DnHydroSeq to the named parent river), never by name string alone.
+
+## LiDAR coverage gaps, measured
+
+Valid-data fraction of the 2016 tiles actually drops to nothing over parts
+of the Darrington front:
+
+| Tile | valid | covers |
+|---|---|---|
+| x60y532 | 99% | Sultan Basin |
+| x60y533 | 17% | Deer Ck (Silverton) / Silver Gulch — **both in nodata** |
+| x60y534 | 5% | — |
+| x60y535 | 0% | Squire Ck / Darrington — **empty tile** |
+
+Deer Creek and Silver Gulch have ZERO trap coverage; Squire Creek has 12/82
+segments. Their scores are source+transport only — trap is unknown, not zero.
+Fixing this needs DNR Cascades North Wali 2023 from lidarportal.dnr.wa.gov
+(unreachable from the cloud sandbox; run from the desktop).
