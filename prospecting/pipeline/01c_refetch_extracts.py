@@ -30,33 +30,65 @@ LAYERS = {
         f"{BLM}/BLM_Natl_MLRS_Mining_Claims_Closed/FeatureServer/0",
 }
 
-PAGE = 1000
+PAGE = 250   # objectIds batch size; shrinks automatically on failure
+
+
+BASE = {
+    "geometry": ",".join(map(str, BBOX_4326)),
+    "geometryType": "esriGeometryEnvelope",
+    "inSR": 4326, "outSR": 4326,
+    "spatialRel": "esriSpatialRelIntersects",
+    "where": "1=1",
+}
+# gis.blm.gov 403s the default urllib User-Agent
+UA = {"User-Agent": "Mozilla/5.0 (prospecting-pipeline)"}
+
+
+def _get(url: str, params: dict):
+    req = urllib.request.Request(f"{url}/query?{urllib.parse.urlencode(params)}",
+                                 headers=UA)
+    with urllib.request.urlopen(req, timeout=180) as r:
+        return json.load(r)
 
 
 def fetch_layer(url: str) -> list:
-    feats, offset = [], 0
-    while True:
-        params = urllib.parse.urlencode({
-            "geometry": ",".join(map(str, BBOX_4326)),
-            "geometryType": "esriGeometryEnvelope",
-            "inSR": 4326, "outSR": 4326,
-            "spatialRel": "esriSpatialRelIntersects",
-            "outFields": "*", "f": "geojson",
-            "resultOffset": offset, "resultRecordCount": PAGE,
-        })
-        # gis.blm.gov 403s the default urllib User-Agent
-        req = urllib.request.Request(f"{url}/query?{params}",
-                                     headers={"User-Agent": "Mozilla/5.0 (prospecting-pipeline)"})
-        with urllib.request.urlopen(req, timeout=120) as r:
-            page = json.load(r)
-        if "features" not in page:
-            raise RuntimeError(f"bad response from {url}: {str(page)[:200]}")
-        feats.extend(page["features"])
-        if not page.get("properties", {}).get("exceededTransferLimit") \
-                and not page.get("exceededTransferLimit"):
-            break
-        offset += PAGE
-    return feats
+    """Fetch by explicit objectIds, reconciled against the server's own ID list.
+
+    resultOffset paging on these servers returns unstable ordering under the
+    byte cap: pages silently duplicate and skip features. Asking for an
+    authoritative ID list first and then fetching those IDs in batches makes
+    the result verifiable — we assert we got exactly the set the server named.
+    """
+    ids = _get(url, {**BASE, "returnIdsOnly": "true", "f": "json"}).get("objectIds") or []
+    field = _get(url, {**BASE, "returnIdsOnly": "true", "f": "json"}).get("objectIdFieldName", "OBJECTID")
+    print(f"          server names {len(ids)} features (id field {field})")
+    feats, batch = {}, PAGE
+    i = 0
+    while i < len(ids):
+        chunk = ids[i:i + batch]
+        try:
+            page = _get(url, {**BASE, "objectIds": ",".join(map(str, chunk)),
+                              "outFields": "*", "f": "geojson"})
+            got = page.get("features")
+            if got is None:
+                raise RuntimeError(str(page)[:200])
+        except Exception as e:
+            if batch > 1:
+                batch = max(1, batch // 4)      # shrink and retry this chunk
+                print(f"          batch -> {batch} after: {str(e)[:80]}")
+                continue
+            print(f"          SKIP id {chunk[0]}: {str(e)[:80]}")
+            i += 1
+            continue
+        for ft in got:
+            oid = (ft.get("id") if ft.get("id") is not None
+                   else ft.get("properties", {}).get(field))
+            feats[oid if oid is not None else len(feats)] = ft
+        i += len(chunk)
+    missing = len(ids) - len(feats)
+    if missing:
+        print(f"          WARNING: {missing} of {len(ids)} features missing")
+    return list(feats.values())
 
 
 def main() -> int:
