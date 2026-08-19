@@ -9,3 +9,4 @@ data/prospect.gpkg
 __pycache__/
 data/raw/**/*.tif
 data/raw/lidar/
+data/raw/_pages/
