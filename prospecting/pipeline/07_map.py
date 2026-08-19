@@ -70,20 +70,20 @@ def main() -> int:
     claims4326 = slim(claims)
     dist4326 = slim(dist)
 
-    m = folium.Map(location=[48.02, -121.78], zoom_start=10, tiles=None, prefer_canvas=True)
+    m = folium.Map(location=[47.90, -121.70], zoom_start=9, tiles=None, prefer_canvas=True)
     folium.TileLayer("OpenStreetMap", name="OpenStreetMap").add_to(m)
     folium.TileLayer(
         tiles="https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}",
         attr="USGS The National Map", name="USGS Topo").add_to(m)
 
     cmap = LinearColormap(["#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"],
-                          vmin=0, vmax=V02_MAX, caption=f"Prospectivity score (V0.2, max {int(V02_MAX)})")
+                          vmin=0, vmax=V02_MAX, caption=f"Prospectivity score (V0.3, max {int(V02_MAX)})")
     cmap.add_to(m)
 
     # ---- streams (single GeoJson layer; properties drive style + popup) --
     sj = seg4326.copy()
     sj["river"] = sj["GNIS_Name"].fillna("unnamed stream")
-    sj["score_txt"] = sj["total_score"].round(0).astype(int).astype(str) + f"/{int(V02_MAX)} (V0.2 — trap score pending)"
+    sj["score_txt"] = sj["total_score"].round(0).astype(int).astype(str) + f"/{int(V02_MAX)} (V0.3 — trap score where LiDAR exists)"
     sj["parts"] = ("source " + sj["source_score"].round(0).astype(int).astype(str) + "/40 · transport "
                    + sj["transport_score"].round(0).astype(int).astype(str) + "/20 · confidence "
                    + sj["confidence_score"].round(0).astype(int).astype(str) + "/10")
@@ -207,6 +207,29 @@ def main() -> int:
             "background:rgba(255,255,255,.88);border:1px solid #999;"
             "box-shadow:none;}</style>"))
 
+    # ---- logged field samples (real results) -----------------------------
+    fs_csv = ROOT / "field" / "field_samples_log.csv"
+    if fs_csv.exists():
+        fs = pd.read_csv(fs_csv)
+        fs = fs[fs["lat"].notna() & fs["lon"].notna()]
+        if len(fs):
+            fg_fs = folium.FeatureGroup(name=f"MY field samples ({len(fs)})", show=True)
+            for _, r in fs.iterrows():
+                gold = str(r.get("gold_character", "")).lower()
+                found = gold not in ("", "nan", "none")
+                folium.Marker(
+                    [r["lat"], r["lon"]],
+                    icon=folium.Icon(color="green" if found else "gray",
+                                     icon="star" if found else "remove"),
+                    tooltip=f"{r['site_id']}: {'GOLD' if found else 'no gold'}",
+                    popup=folium.Popup(
+                        f"<b>{r['site_id']}</b> — {r.get('date','')}<br>"
+                        f"result: <b>{r.get('gold_character') or 'none'}</b><br>"
+                        f"pans: {r.get('pans')} | colors: {r.get('colors')}<br>"
+                        f"{str(r.get('notes',''))[:200]}", max_width=320),
+                ).add_to(fg_fs)
+            fg_fs.add_to(m)
+
     folium.LayerControl(collapsed=False).add_to(m)
 
     def dash(color, pattern):
@@ -217,7 +240,7 @@ def main() -> int:
     <div style="position: fixed; bottom: 12px; left: 12px; z-index: 9999;
                 background: rgba(255,255,255,0.93); padding: 8px 12px; border-radius: 6px;
                 font: 12px/1.45 sans-serif; max-width: 400px; box-shadow: 0 1px 4px rgba(0,0,0,0.3);">
-      <b>Skykomish–Stillaguamish–Sauk gold prospectivity — V0.2</b> (run {run_id})<br>
+      <b>Skykomish–Stillaguamish–Sauk–Snoqualmie prospectivity — V0.3</b> (run {run_id})<br>
       Relative rank, <b>not</b> a probability of finding gold. Scores max at 70/100
       until terrain-trap scoring (Phase 2). Verify claims in BLM MLRS and current
       WDFW Gold &amp; Fish rules before digging. In-water work windows apply
