@@ -15,15 +15,17 @@ CRS = "EPSG:26910"
 # V0.2: expanded north/west from the original Sultan–Gold Bar–Index corridor to
 # take in the Monte Cristo district, the Mountain Loop Highway corridor
 # (Silverton), and the country around Granite Falls and Arlington.
-BBOX_4326 = (-122.30, 47.75, -121.25, 48.35)
+BBOX_4326 = (-122.30, 47.40, -121.25, 48.35)  # V0.3: south to King Co. east
 
 # HUC8s whose stream networks get scored (names from WBDHU8 in the NHDPlus GDB):
 #   17110009 Skykomish      — Sultan/Wallace/Skykomish (original V0.1 area)
 #   17110008 Stillaguamish  — SF Stilly (Granite Falls, Silverton), NF Stilly (Arlington–Oso)
 #   17110006 Sauk           — SF Sauk headwaters (Monte Cristo) down to Darrington
 #   17110011 Snohomish      — Pilchuck River side of Granite Falls
+#   17110010 Snoqualmie     — King Co. east: Tolt R., Miller River / Buena Vista /
+#                             Taylor River / Snoqualmie districts (V0.3)
 # Basins are clipped to BBOX_4326; navigation truncates at the bbox edge.
-SCORED_HUC8S = ("17110006", "17110008", "17110009", "17110011")
+SCORED_HUC8S = ("17110006", "17110008", "17110009", "17110010", "17110011")
 
 # Culmback Dam (Sultan RM 16.5, Spada Lake outlet). Downstream influence
 # crossing this point is attenuated by decay.dam_pass_factor.
