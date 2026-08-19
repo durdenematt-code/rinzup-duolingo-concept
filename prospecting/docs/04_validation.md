@@ -62,3 +62,46 @@ naive baseline by +0.10 matched AUC on average. n is tiny (3 clusters/seed);
 treat all numbers as ranges, not points. Wrong-fork snapping was directly
 observed (e.g. "Gold Bar Placer" snapped to an unnamed side channel), which
 is why hit scoring uses a 300 m buffered max.
+
+---
+
+## V0.3 results (2026-08-19, run v03) — 5 basins, 532 fused sites
+
+Study area expanded south to King County east (bbox to 47.40, Snoqualmie
+HUC8 17110010 added); occurrences merged to 532 fused sites (from 411);
+8 mining-district CENTROID pseudo-sites removed; plural "Placers" names now
+classify correctly. 68,620 segments. 27 placer clusters -> 8 held per seed
+(was 3), so this is the first run with real statistical power.
+
+| Metric | mean | range |
+|---|---|---|
+| Reach-scale AUC (order-matched background) | **0.703** | 0.547-0.799 |
+| River-scale AUC (unmatched background) | 0.839 | 0.686-0.925 |
+| Naive baseline (dist. to nearest visible record) | 0.579 | 0.454-0.685 |
+| Held-out clusters captured in top 10% | 47.5% | 25-75% |
+| **model - naive** | **+0.124** | |
+
+Matched AUC rose 0.60 (V0.1) -> 0.70, and p < 0.05 on most seeds (best
+p = 0.00013) where V0.1 never reached significance. The reach-scale
+discrimination V0.1 lacked is now real, though still short of the 0.75
+"genuinely useful" bar on average.
+
+Capture fell 60% -> 47.5%, which is NOT a regression: n per seed went 3 -> 8,
+so the earlier figure was 2-of-3 style noise.
+
+### King County is NOT comparable to the Snohomish basins
+
+| Basin | segs | mean | p95 | max | geology cov | ownership cov |
+|---|---|---|---|---|---|---|
+| Sauk | 1640 | 20.0 | 50.0 | 66.2 | 99% | 100% |
+| Skykomish | 3085 | 22.4 | 45.2 | 65.6 | 88% | 92% |
+| Stillaguamish | 2358 | 20.4 | 36.4 | 57.1 | 100% | 100% |
+| Snoh-Pilchuck | 786 | 18.6 | 25.7 | 32.7 | 100% | 100% |
+| **Snoqualmie (King)** | 2791 | 16.8 | 28.7 | 46.5 | **57%** | **38%** |
+
+King's lower scores are substantially an ARTEFACT: 43% of its segments have
+no geology polygon (geology is 30% of the source component) and 62% have no
+ownership polygon (so access defaults to "unknown"). Do not read King as less
+prospective than the Sauk from this table. Filter on `overlays_complete`
+before any cross-basin comparison, and refill the King overlays with
+`pipeline/01c_refetch_extracts.py` from a machine with .gov access.
