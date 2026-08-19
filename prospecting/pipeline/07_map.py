@@ -181,7 +181,8 @@ def main() -> int:
     except Exception:
         ss = None
     if ss is not None:
-        band_fill = {"HIGH": "#d7191c", "MID": "#2c7bb6", "LOW": "#33a02c"}
+        band_fill = {"HIGH": "#d7191c", "MID": "#2c7bb6", "LOW": "#33a02c",
+                     "EXPL": "#e6a817"}  # recon band (08 --explore)
         fg_sites = folium.FeatureGroup(name=f"Proposed sample sites ({len(ss)})", show=True)
         for _, s in ss.iterrows():
             mk = folium.CircleMarker(
