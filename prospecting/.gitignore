@@ -7,3 +7,5 @@ data/interim/
 data/prospect.gpkg
 .venv/
 __pycache__/
+data/raw/**/*.tif
+data/raw/lidar/
