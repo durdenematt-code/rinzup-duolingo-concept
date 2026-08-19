@@ -22,7 +22,7 @@ from shapely.geometry import Point
 
 from common import CRS, GPKG, RAW, load_weights
 
-PLACER_RE = re.compile(r"\b(placer|bar|bench|gravel|dredge)\b", re.I)
+PLACER_RE = re.compile(r"\b(placers?|bars?|bench(es)?|gravels?|dredge)\b", re.I)
 USMIN_MINING = {"Adit", "Mine Shaft", "Prospect Pit", "Open Pit Mine or Quarry"}
 
 
