@@ -104,12 +104,16 @@ def main() -> int:
     ap.add_argument("--run-label", default="default")
     ap.add_argument("--exclude-occs", default=None)
     ap.add_argument("--no-write", action="store_true", help="print summary only")
+    ap.add_argument("--weights", default=None,
+                    help="alternate weight profile (e.g. config/weights_coarse.yaml)")
+    ap.add_argument("--influence", default="influence.parquet",
+                    help="influence table under data/interim/ (must match the profile)")
     args = ap.parse_args()
 
-    W = load_weights()
+    W = load_weights(args.weights)
     seg = gpd.read_file(GPKG, layer="stream_segments")
     occ = gpd.read_file(GPKG, layer="occurrences")
-    infl = pd.read_parquet(INTERIM / "influence.parquet")
+    infl = pd.read_parquet(INTERIM / args.influence)
 
     if args.exclude_occs:
         hide = set(int(x) for x in open(args.exclude_occs).read().split())

@@ -6,6 +6,8 @@ one row per (segment, occurrence) pair carrying decayed source influence.
 """
 import sys
 
+import argparse
+
 import geopandas as gpd
 import numpy as np
 import pandas as pd
@@ -14,7 +16,13 @@ from common import CRS, GPKG, INTERIM, load_weights
 
 
 def main() -> int:
-    W = load_weights()
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--weights", default=None,
+                    help="alternate weight profile (e.g. config/weights_coarse.yaml)")
+    ap.add_argument("--out", default="influence.parquet",
+                    help="output filename under data/interim/")
+    args = ap.parse_args()
+    W = load_weights(args.weights)
     dec = W["decay"]
     snap_cfg = W["snap"]
 
@@ -93,7 +101,7 @@ def main() -> int:
             )
 
     infl = pd.DataFrame(rows, columns=["segment_id", "occ_id", "dist_km", "influence"])
-    infl.to_parquet(INTERIM / "influence.parquet")
+    infl.to_parquet(INTERIM / args.out)
     print(f"{len(infl)} (segment, occurrence) influence pairs "
           f"on {infl['segment_id'].nunique()} segments")
 

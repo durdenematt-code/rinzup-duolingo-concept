@@ -1,0 +1,63 @@
+# COARSE GOLD INDEX — alternate weight profile (Phase 3 preview).
+#
+# Purpose: rank small, near-source creeks where gold has had little transport,
+# instead of large-river fine/flour ground. Same pipeline, different weights.
+# Run:  05_score.py --weights config/weights_coarse.yaml --run-label coarse
+#
+# Rationale for every change vs weights.yaml is in the trailing comments.
+# NOTE: this profile has NO trap detection (Phase 2). In small creeks the gold
+# is in specific crevices, not spread along the reach — so this ranks WHICH
+# CREEK, never WHERE IN IT. Treat scores accordingly.
+
+study_area:
+  huc8: "17110009"
+
+decay:
+  lambda_downstream_km: 1.5   # was 5.0 — coarse gold drops within ~1-2 km of source
+  lambda_upstream_km: 0.4
+  upstream_max_km: 1.0
+  dam_pass_factor: 0.4
+
+source_strength:              # LODE sources promoted: they shed the nuggets.
+  placer_producer: 0.85       # was 1.00 — placer records mark worked (thinned) ground
+  placer_occurrence: 0.55     # was 0.65
+  lode_producer_au_primary: 1.00  # was 0.80 — a producing lode is the nugget factory
+  lode_mine_au_primary: 0.75      # was 0.50
+  au_secondary: 0.25
+
+snap:
+  max_snap_m: 1500
+  conf_floor: 0.3
+
+dedup:
+  cluster_dist_m: 250
+  name_similarity: 0.85
+
+components:
+  source:
+    max: 40
+    w_signal: 0.70
+    w_geology: 0.30
+    w_district: 0.00
+  transport:
+    max: 20
+    w_gradient: 0.35
+    w_drainage: 0.45          # was 0.30 — creek size is the main lever here
+    w_junction: 0.20          # was 0.30 — big-river confluence logic matters less
+    gradient_peak_pct: [1.5, 6.0]   # was [0.5, 2.0] — steeper creeks still deposit
+    gradient_zero_pct: 20.0         # was 8.0 — only true chutes excluded
+    gradient_min_pct: 0.3           # was 0.1 — flat = fines, not what we want
+    drainage_primary_km2: [2, 25]   # was [50, 500] — SMALL CREEKS are the target
+    drainage_secondary_km2: [25, 80]  # medium creeks as fallback band
+    junction_reach_m: 400
+  confidence:
+    max: 10
+  trap:
+    max: 30                   # still reserved — see note at top
+
+validation:
+  holdout_cluster_frac: 0.30
+  holdout_cluster_eps_km: 2.0
+  n_seeds: 10
+  hit_buffer_m: 300
+  background_match: strahler_order

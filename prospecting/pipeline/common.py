@@ -32,8 +32,11 @@ SCORED_HUC8S = ("17110006", "17110008", "17110009", "17110011")
 DAMS = [{"name": "Culmback Dam", "lon": -121.6864, "lat": 47.9822, "river": "Sultan River"}]
 
 
-def load_weights():
-    with open(CONFIG / "weights.yaml") as f:
+def load_weights(path=None):
+    """Load a weight profile. Default: config/weights.yaml (fine/general).
+    Pass a path for an alternate profile, e.g. config/weights_coarse.yaml."""
+    p = Path(path) if path else CONFIG / "weights.yaml"
+    with open(p) as f:
         return yaml.safe_load(f)
 
 
