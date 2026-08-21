@@ -1,0 +1,61 @@
+# V0.1 scoring weights — every tunable in one place.
+# Change values here and rerun pipeline/05_score.py; never hardcode weights in code.
+# See docs/03_scoring_v01.md for the rationale behind each default.
+
+study_area:
+  huc8: "17110009"
+  # corridor polygon lives in config/study_area.geojson
+
+decay:
+  lambda_downstream_km: 5.0   # e-folding distance for source influence moving downstream
+  lambda_upstream_km: 0.5     # short upstream bleed (position-error tolerance)
+  upstream_max_km: 1.0
+  dam_pass_factor: 0.4        # influence multiplier crossing Culmback Dam (relict deposits remain)
+
+source_strength:              # base strength per occurrence, by evidence class
+  placer_producer: 1.00
+  placer_occurrence: 0.65
+  lode_producer_au_primary: 0.80
+  lode_mine_au_primary: 0.50
+  au_secondary: 0.25
+
+snap:
+  max_snap_m: 1500            # occurrences farther from any stream are dropped (logged)
+  conf_floor: 0.3             # min position-confidence factor
+
+dedup:
+  cluster_dist_m: 250
+  name_similarity: 0.85       # normalized token-set ratio threshold
+
+components:
+  source:
+    max: 40
+    w_signal: 0.70            # decayed upstream-occurrence signal
+    w_geology: 0.30           # buffer fraction on gold_assoc >= 2 units
+    # district factor zeroed: WGS district polygons tile the whole corridor
+    # (administrative divisions, not mineralized zones) — no discrimination
+    w_district: 0.00
+  transport:
+    max: 20
+    w_gradient: 0.40
+    w_drainage: 0.30
+    w_junction: 0.30
+    gradient_peak_pct: [0.5, 2.0]   # deposition-favorable slope band
+    gradient_zero_pct: 8.0          # above this: transport chute, score 0
+    gradient_min_pct: 0.1           # below this: fines only
+    drainage_primary_km2: [50, 500] # mainstem-bar band
+    drainage_secondary_km2: [5, 50] # small-creek band
+    junction_reach_m: 500
+  confidence:
+    max: 10
+    # inputs: n independent records, cross-source agreement,
+    # positional quality, mapping scale, lidar availability
+  trap:
+    max: 30                   # RESERVED — Phase 2. V0.1 totals top out at 70.
+
+validation:
+  holdout_cluster_frac: 0.30
+  holdout_cluster_eps_km: 2.0
+  n_seeds: 10
+  hit_buffer_m: 300
+  background_match: strahler_order
