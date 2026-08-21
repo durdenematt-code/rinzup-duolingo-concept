@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><name>BLM active claims - full study area</name>
+  <Style id="lode"><LineStyle><color>ff0000cc</color><width>2</width></LineStyle>
+    <PolyStyle><color>3d0000cc</color></PolyStyle></Style>
+  <Style id="placer"><LineStyle><color>ff00a5ff</color><width>2</width></LineStyle>
+    <PolyStyle><color>3d00a5ff</color></PolyStyle></Style>
+  <Style id="mill"><LineStyle><color>ff808080</color><width>2</width></LineStyle>
+    <PolyStyle><color>3d808080</color></PolyStyle></Style>
+
+  <Placemark><name>Viscount (B)</name><styleUrl>#lode</styleUrl><description>Lode Claim — Filed
+MLRS serial: OR105817350
+record acres: 18.3
+21.3 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.419274,47.979380,0 -121.408499,47.979380,0 -121.408522,47.992888,0 -121.408523,47.993850,0 -121.410528,47.993850,0 -121.430080,47.993850,0 -121.430065,47.986615,0 -121.430050,47.979380,0 -121.419274,47.979380,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Miss Fortune</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR105818390
+record acres: 20.66
+13.1 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.435568,47.906122,0 -121.435562,47.909707,0 -121.435558,47.912833,0 -121.435557,47.913331,0 -121.435552,47.916955,0 -121.435552,47.916958,0 -121.435546,47.920579,0 -121.435594,47.920580,0 -121.438162,47.920598,0 -121.440928,47.920618,0 -121.446310,47.920656,0 -121.451693,47.920675,0 -121.452472,47.920677,0 -121.452836,47.920678,0 -121.454572,47.920683,0 -121.454762,47.920683,0 -121.455966,47.920687,0 -121.455966,47.920567,0 -121.455966,47.920090,0 -121.456065,47.917066,0 -121.456087,47.916361,0 -121.456113,47.915552,0 -121.456165,47.913960,0 -121.456173,47.913690,0 -121.456181,47.913445,0 -121.456206,47.912632,0 -121.456216,47.909424,0 -121.456216,47.909018,0 -121.456221,47.907532,0 -121.456229,47.905404,0 -121.451649,47.905756,0 -121.446308,47.906165,0 -121.441050,47.906125,0 -121.440938,47.906124,0 -121.440895,47.906124,0 -121.435576,47.906083,0 -121.435568,47.906083,0 -121.435568,47.906122,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Karen E</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR105818391
+record acres: 20.66
+13.1 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.451649,47.905756,0 -121.446308,47.906165,0 -121.441050,47.906125,0 -121.440938,47.906124,0 -121.440895,47.906124,0 -121.435576,47.906083,0 -121.435568,47.906083,0 -121.435568,47.906122,0 -121.435562,47.909707,0 -121.435558,47.912833,0 -121.435557,47.913331,0 -121.435552,47.916955,0 -121.435552,47.916958,0 -121.435546,47.920579,0 -121.435594,47.920580,0 -121.438162,47.920598,0 -121.440928,47.920618,0 -121.446310,47.920656,0 -121.451693,47.920675,0 -121.452472,47.920677,0 -121.452836,47.920678,0 -121.454572,47.920683,0 -121.454762,47.920683,0 -121.455966,47.920687,0 -121.455966,47.920567,0 -121.455966,47.920090,0 -121.456065,47.917066,0 -121.456087,47.916361,0 -121.456113,47.915552,0 -121.456165,47.913960,0 -121.456173,47.913690,0 -121.456181,47.913445,0 -121.456206,47.912632,0 -121.456216,47.909424,0 -121.456216,47.909018,0 -121.456221,47.907532,0 -121.456229,47.905404,0 -121.451649,47.905756,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Wanda L</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR105830319
+record acres: 20.66
+13.1 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.451649,47.905756,0 -121.446308,47.906165,0 -121.441050,47.906125,0 -121.440938,47.906124,0 -121.440895,47.906124,0 -121.435576,47.906083,0 -121.435568,47.906083,0 -121.435568,47.906122,0 -121.435562,47.909707,0 -121.435558,47.912833,0 -121.435557,47.913331,0 -121.435552,47.916955,0 -121.435552,47.916958,0 -121.435546,47.920579,0 -121.435594,47.920580,0 -121.438162,47.920598,0 -121.440928,47.920618,0 -121.446310,47.920656,0 -121.451693,47.920675,0 -121.452472,47.920677,0 -121.452836,47.920678,0 -121.454572,47.920683,0 -121.454762,47.920683,0 -121.455966,47.920687,0 -121.455966,47.920567,0 -121.455966,47.920090,0 -121.456065,47.917066,0 -121.456087,47.916361,0 -121.456113,47.915552,0 -121.456165,47.913960,0 -121.456173,47.913690,0 -121.456181,47.913445,0 -121.456206,47.912632,0 -121.456216,47.909424,0 -121.456216,47.909018,0 -121.456221,47.907532,0 -121.456229,47.905404,0 -121.451649,47.905756,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>HIGGINS COPPER #1</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101484120
+record acres: 20.66
+57.3 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.781254,48.312623,0 -121.781204,48.316298,0 -121.781153,48.319973,0 -121.786539,48.319954,0 -121.791924,48.319934,0 -121.797253,48.319964,0 -121.802581,48.319993,0 -121.802574,48.316330,0 -121.802566,48.312668,0 -121.802694,48.312669,0 -121.802683,48.308966,0 -121.802672,48.305266,0 -121.797301,48.305265,0 -121.791929,48.305263,0 -121.786579,48.305272,0 -121.781228,48.305281,0 -121.781241,48.308952,0 -121.781254,48.312623,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>HIGGINS COPPER #2</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101431377
+record acres: 20.66
+57.6 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.781254,48.312623,0 -121.781204,48.316298,0 -121.781153,48.319973,0 -121.786539,48.319954,0 -121.791924,48.319934,0 -121.791965,48.316275,0 -121.792005,48.312615,0 -121.786630,48.312619,0 -121.781254,48.312623,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>HIGGINS COPPER #3</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101481232
+record acres: 20.66
+57.5 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.781254,48.312623,0 -121.775878,48.312627,0 -121.770503,48.312630,0 -121.770443,48.316320,0 -121.770383,48.320010,0 -121.775768,48.319992,0 -121.781153,48.319973,0 -121.786539,48.319954,0 -121.791924,48.319934,0 -121.791965,48.316275,0 -121.792005,48.312615,0 -121.786630,48.312619,0 -121.781254,48.312623,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>HIGGINS COPPER #4</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101370324
+record acres: 20.66
+57.6 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.781254,48.312623,0 -121.781204,48.316298,0 -121.781153,48.319973,0 -121.786539,48.319954,0 -121.791924,48.319934,0 -121.791965,48.316275,0 -121.792005,48.312615,0 -121.786630,48.312619,0 -121.781254,48.312623,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>HIGGINS COPPER #5</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101431985
+record acres: 20.66
+57.4 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.781153,48.319973,0 -121.781204,48.316298,0 -121.781254,48.312623,0 -121.775878,48.312627,0 -121.770503,48.312630,0 -121.770443,48.316320,0 -121.770383,48.320010,0 -121.775768,48.319992,0 -121.781153,48.319973,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>HIGGINS COPPER #6</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101481144
+record acres: 20.66
+57.2 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.770533,48.305298,0 -121.770518,48.308964,0 -121.770503,48.312630,0 -121.770443,48.316320,0 -121.770383,48.320010,0 -121.775768,48.319992,0 -121.781153,48.319973,0 -121.781204,48.316298,0 -121.781254,48.312623,0 -121.781241,48.308952,0 -121.781228,48.305281,0 -121.775878,48.305290,0 -121.770533,48.305298,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>HIGGINS COPPER #7</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101433861
+record acres: 20.66
+57.2 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.791967,48.308939,0 -121.791929,48.305263,0 -121.786579,48.305272,0 -121.781228,48.305281,0 -121.775878,48.305290,0 -121.770533,48.305298,0 -121.770518,48.308964,0 -121.770503,48.312630,0 -121.770443,48.316320,0 -121.770383,48.320010,0 -121.775768,48.319992,0 -121.781153,48.319973,0 -121.781204,48.316298,0 -121.781254,48.312623,0 -121.786630,48.312619,0 -121.792005,48.312615,0 -121.791967,48.308939,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>HIGGINS COPPER #8</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101484066
+record acres: 20.66
+57.3 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.791967,48.308939,0 -121.791929,48.305263,0 -121.786579,48.305272,0 -121.781228,48.305281,0 -121.775878,48.305290,0 -121.770533,48.305298,0 -121.770518,48.308964,0 -121.770503,48.312630,0 -121.770443,48.316320,0 -121.770383,48.320010,0 -121.775768,48.319992,0 -121.781153,48.319973,0 -121.786539,48.319954,0 -121.791924,48.319934,0 -121.791965,48.316275,0 -121.792005,48.312615,0 -121.791967,48.308939,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>BLUE SKY MINING</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101545132
+record acres: 20.66
+54.6 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.723392,48.298069,0 -121.722451,48.298068,0 -121.718069,48.298065,0 -121.717100,48.298064,0 -121.717011,48.301740,0 -121.716922,48.305405,0 -121.722312,48.305407,0 -121.727683,48.305408,0 -121.727683,48.305379,0 -121.727743,48.301740,0 -121.727803,48.298072,0 -121.723392,48.298069,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>BFW MINING</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101745790
+record acres: 20.66
+54.4 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.693763,48.298328,0 -121.693121,48.298340,0 -121.692897,48.298344,0 -121.692836,48.298345,0 -121.688353,48.298429,0 -121.687409,48.298455,0 -121.687325,48.301841,0 -121.687318,48.302120,0 -121.687314,48.302293,0 -121.687229,48.305786,0 -121.692657,48.305676,0 -121.698085,48.305566,0 -121.698166,48.302244,0 -121.698178,48.301783,0 -121.698264,48.298224,0 -121.697976,48.298230,0 -121.697887,48.298231,0 -121.697845,48.298232,0 -121.696859,48.298269,0 -121.693763,48.298328,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>DEER CROSSING</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101864079
+record acres: 20.66
+53.9 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.717870,48.290588,0 -121.712476,48.290604,0 -121.707083,48.290620,0 -121.707084,48.290642,0 -121.707248,48.294224,0 -121.707253,48.294341,0 -121.707253,48.294349,0 -121.707423,48.298056,0 -121.711749,48.298059,0 -121.712746,48.298060,0 -121.717100,48.298064,0 -121.718069,48.298065,0 -121.722451,48.298068,0 -121.723392,48.298069,0 -121.727803,48.298072,0 -121.728715,48.298076,0 -121.728645,48.294329,0 -121.728645,48.294315,0 -121.728642,48.294144,0 -121.728576,48.290582,0 -121.728576,48.290554,0 -121.723265,48.290571,0 -121.717870,48.290588,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LUCKY'S DREAM</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101868679
+record acres: 20.66
+40.6 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.566502,48.183133,0 -121.561104,48.183118,0 -121.555706,48.183103,0 -121.555662,48.186831,0 -121.555618,48.190558,0 -121.561075,48.190571,0 -121.566532,48.190583,0 -121.566517,48.186858,0 -121.566502,48.183133,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>SUNRISE NORTH</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101487961
+record acres: 14.34
+21.1 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.510419,48.001148,0 -121.505037,48.001153,0 -121.505038,48.004772,0 -121.505038,48.004850,0 -121.505039,48.008391,0 -121.505039,48.008480,0 -121.505038,48.010200,0 -121.505038,48.012010,0 -121.505038,48.012113,0 -121.505038,48.015629,0 -121.510415,48.015629,0 -121.515453,48.015629,0 -121.515792,48.015629,0 -121.515793,48.012008,0 -121.515793,48.010198,0 -121.515793,48.008387,0 -121.515793,48.008338,0 -121.515797,48.004765,0 -121.515800,48.001143,0 -121.515543,48.001143,0 -121.510419,48.001148,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>SUNRISE SOUTH</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101487962
+record acres: 14.34
+20.7 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.510419,48.001148,0 -121.505037,48.001153,0 -121.505038,48.004772,0 -121.505038,48.004850,0 -121.505039,48.008391,0 -121.507727,48.008390,0 -121.510416,48.008389,0 -121.512608,48.008388,0 -121.512620,48.008388,0 -121.513105,48.008388,0 -121.515435,48.008387,0 -121.515793,48.008387,0 -121.515793,48.008338,0 -121.515797,48.004765,0 -121.515800,48.001143,0 -121.515543,48.001143,0 -121.510419,48.001148,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>MIDDLE BFW MINING</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101488951
+record acres: 20.66
+54.4 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.696684,48.305632,0 -121.706140,48.305478,0 -121.706397,48.298077,0 -121.698264,48.298239,0 -121.698264,48.298224,0 -121.697976,48.298230,0 -121.697887,48.298231,0 -121.697845,48.298232,0 -121.697002,48.298264,0 -121.696903,48.298266,0 -121.696902,48.298268,0 -121.696859,48.298269,0 -121.693763,48.298328,0 -121.693121,48.298340,0 -121.692897,48.298344,0 -121.692836,48.298345,0 -121.688353,48.298429,0 -121.687409,48.298455,0 -121.687325,48.301841,0 -121.687318,48.302120,0 -121.687314,48.302293,0 -121.687229,48.305786,0 -121.692657,48.305676,0 -121.696685,48.305594,0 -121.696684,48.305632,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>WEST BFW MINING</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101488952
+record acres: 20.66
+54.4 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.696684,48.305632,0 -121.706140,48.305478,0 -121.706397,48.298077,0 -121.698264,48.298239,0 -121.698264,48.298224,0 -121.697976,48.298230,0 -121.697887,48.298231,0 -121.697845,48.298232,0 -121.697002,48.298264,0 -121.696903,48.298266,0 -121.696902,48.298268,0 -121.696859,48.298269,0 -121.693763,48.298328,0 -121.693121,48.298340,0 -121.692897,48.298344,0 -121.692836,48.298345,0 -121.688353,48.298429,0 -121.687409,48.298455,0 -121.687325,48.301841,0 -121.687318,48.302120,0 -121.687314,48.302293,0 -121.687229,48.305786,0 -121.692657,48.305676,0 -121.696685,48.305594,0 -121.696684,48.305632,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>BIG CAT MINING</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101490094
+record acres: 20.66
+55.0 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.711749,48.298059,0 -121.707423,48.298056,0 -121.706628,48.298072,0 -121.706397,48.298077,0 -121.696903,48.298266,0 -121.696684,48.305632,0 -121.696466,48.312998,0 -121.705884,48.312880,0 -121.705889,48.312726,0 -121.711315,48.312731,0 -121.716744,48.312735,0 -121.716833,48.309070,0 -121.716922,48.305405,0 -121.717011,48.301740,0 -121.717100,48.298064,0 -121.712746,48.298060,0 -121.711749,48.298059,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>DIRTY MINING</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101490096
+record acres: 20.66
+54.8 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.711749,48.298059,0 -121.707423,48.298056,0 -121.706628,48.298072,0 -121.706397,48.298077,0 -121.696903,48.298266,0 -121.696684,48.305632,0 -121.706140,48.305478,0 -121.706143,48.305402,0 -121.711531,48.305404,0 -121.716922,48.305405,0 -121.717011,48.301740,0 -121.717100,48.298064,0 -121.712746,48.298060,0 -121.711749,48.298059,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>DOWN MINING</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101490097
+record acres: 20.66
+53.5 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.578430,48.298964,0 -121.578207,48.298967,0 -121.577512,48.298973,0 -121.577492,48.299176,0 -121.577296,48.301124,0 -121.577229,48.302704,0 -121.577227,48.302763,0 -121.577148,48.304654,0 -121.577082,48.306227,0 -121.582617,48.306175,0 -121.583040,48.306171,0 -121.588128,48.306123,0 -121.588547,48.306119,0 -121.588543,48.302548,0 -121.588540,48.298964,0 -121.588250,48.298969,0 -121.588219,48.298969,0 -121.583823,48.299045,0 -121.583056,48.299058,0 -121.582820,48.299062,0 -121.578430,48.298964,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.696903,48.298266,0 -121.696684,48.305632,0 -121.706140,48.305478,0 -121.706397,48.298077,0 -121.696903,48.298266,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+  <Placemark><name>UPPER DIRTY MINING</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101740405
+record acres: 20.66
+54.9 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.711749,48.298059,0 -121.707423,48.298056,0 -121.706628,48.298072,0 -121.706397,48.298077,0 -121.706269,48.301739,0 -121.706262,48.301920,0 -121.706248,48.302335,0 -121.706141,48.305402,0 -121.706136,48.305549,0 -121.706120,48.306000,0 -121.706013,48.309064,0 -121.706005,48.309300,0 -121.705992,48.309665,0 -121.705886,48.312726,0 -121.711315,48.312731,0 -121.716744,48.312735,0 -121.716833,48.309070,0 -121.716922,48.305405,0 -121.717011,48.301740,0 -121.717100,48.298064,0 -121.712746,48.298060,0 -121.711749,48.298059,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>SLEEPER MINING</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101740406
+record acres: 20.66
+55.5 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.716744,48.312735,0 -121.722173,48.312739,0 -121.727602,48.312744,0 -121.727643,48.309076,0 -121.727683,48.305408,0 -121.722312,48.305407,0 -121.716922,48.305405,0 -121.711531,48.305404,0 -121.706141,48.305402,0 -121.706136,48.305549,0 -121.706120,48.306000,0 -121.706013,48.309064,0 -121.706005,48.309300,0 -121.705992,48.309665,0 -121.705886,48.312726,0 -121.711315,48.312731,0 -121.716744,48.312735,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>UPPER CAT MINING</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101740407
+record acres: 20.66
+55.4 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.716744,48.312735,0 -121.716833,48.309070,0 -121.716922,48.305405,0 -121.711531,48.305404,0 -121.706141,48.305402,0 -121.706136,48.305549,0 -121.706120,48.306000,0 -121.706013,48.309064,0 -121.706005,48.309300,0 -121.705992,48.309665,0 -121.705886,48.312726,0 -121.711315,48.312731,0 -121.716744,48.312735,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>ED'S ACE MINING</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101849495
+record acres: 20.66
+55.9 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.705886,48.312726,0 -121.705884,48.312880,0 -121.705800,48.316451,0 -121.705796,48.316633,0 -121.705787,48.317024,0 -121.705713,48.320175,0 -121.711157,48.320165,0 -121.716602,48.320155,0 -121.722048,48.320145,0 -121.727493,48.320134,0 -121.727547,48.316439,0 -121.727602,48.312744,0 -121.722173,48.312739,0 -121.716744,48.312735,0 -121.716833,48.309070,0 -121.716922,48.305405,0 -121.711531,48.305404,0 -121.706141,48.305402,0 -121.706136,48.305549,0 -121.706120,48.306000,0 -121.706013,48.309064,0 -121.706005,48.309300,0 -121.705992,48.309665,0 -121.705886,48.312726,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>KNOB</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101848716
+record acres: 20.66
+40.6 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.555662,48.186831,0 -121.555706,48.183103,0 -121.555598,48.183104,0 -121.553449,48.183119,0 -121.550252,48.183142,0 -121.544798,48.183180,0 -121.544798,48.183247,0 -121.544790,48.186900,0 -121.544782,48.190621,0 -121.550200,48.190589,0 -121.555538,48.190559,0 -121.555618,48.190558,0 -121.555662,48.186831,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LOW MINING</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101389390
+record acres: 12.39
+54.5 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.696684,48.305632,0 -121.706140,48.305478,0 -121.706397,48.298077,0 -121.696903,48.298266,0 -121.696684,48.305632,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>CARROT STICK MINING</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101641694
+record acres: 20.66
+40.7 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.533842,48.183431,0 -121.533873,48.187056,0 -121.533904,48.190682,0 -121.539343,48.190651,0 -121.544782,48.190621,0 -121.544790,48.186900,0 -121.544798,48.183247,0 -121.544798,48.183180,0 -121.539320,48.183305,0 -121.536560,48.183368,0 -121.533842,48.183431,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LOWER BLUE SKY</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101641695
+record acres: 15.15
+54.6 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.723392,48.298069,0 -121.722451,48.298068,0 -121.718069,48.298065,0 -121.717100,48.298064,0 -121.717011,48.301740,0 -121.716922,48.305405,0 -121.722312,48.305407,0 -121.727683,48.305408,0 -121.727683,48.305379,0 -121.727743,48.301740,0 -121.727803,48.298072,0 -121.723392,48.298069,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>SUNRISE EAST</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101732661
+record acres: 18.32
+21.5 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.515793,48.012008,0 -121.515793,48.010198,0 -121.515793,48.008387,0 -121.515435,48.008387,0 -121.513105,48.008388,0 -121.512620,48.008388,0 -121.512608,48.008388,0 -121.510416,48.008389,0 -121.507727,48.008390,0 -121.505039,48.008391,0 -121.505039,48.008480,0 -121.505038,48.010200,0 -121.505038,48.012010,0 -121.505038,48.012113,0 -121.505038,48.015629,0 -121.510415,48.015629,0 -121.515453,48.015629,0 -121.515792,48.015629,0 -121.515793,48.012008,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>COUNT</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101740246
+record acres: 18.31
+20.9 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.394697,47.985803,0 -121.419287,47.985873,0 -121.419288,47.986615,0 -121.430065,47.986615,0 -121.430050,47.979380,0 -121.422978,47.979380,0 -121.422979,47.978646,0 -121.394718,47.978564,0 -121.394697,47.985803,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>KNOB 2</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101851412
+record acres: 20.66
+40.2 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.555713,48.178955,0 -121.555717,48.175865,0 -121.555645,48.175865,0 -121.550184,48.175925,0 -121.544651,48.175985,0 -121.544725,48.179583,0 -121.544798,48.183180,0 -121.544798,48.183247,0 -121.544790,48.186900,0 -121.544782,48.190621,0 -121.550200,48.190589,0 -121.555538,48.190559,0 -121.555618,48.190558,0 -121.555662,48.186831,0 -121.555706,48.183103,0 -121.555706,48.183087,0 -121.555712,48.179484,0 -121.555713,48.178955,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LD 2</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101550412
+record acres: 20.66
+41.3 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.566532,48.190583,0 -121.561075,48.190571,0 -121.555618,48.190558,0 -121.555592,48.194181,0 -121.555565,48.197783,0 -121.555565,48.197805,0 -121.558755,48.197799,0 -121.561063,48.197795,0 -121.566561,48.197785,0 -121.566547,48.194184,0 -121.566532,48.190583,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LD 3</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101550413
+record acres: 20.66
+41.3 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.566532,48.190583,0 -121.561075,48.190571,0 -121.555618,48.190558,0 -121.555592,48.194181,0 -121.555565,48.197783,0 -121.555565,48.197805,0 -121.558755,48.197799,0 -121.561063,48.197795,0 -121.566561,48.197785,0 -121.566547,48.194184,0 -121.566532,48.190583,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LD 4</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101550414
+record acres: 20.66
+40.9 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.566502,48.183133,0 -121.561104,48.183118,0 -121.555706,48.183103,0 -121.555662,48.186831,0 -121.555618,48.190558,0 -121.555592,48.194181,0 -121.555565,48.197783,0 -121.555565,48.197805,0 -121.558755,48.197799,0 -121.561063,48.197795,0 -121.566561,48.197785,0 -121.566547,48.194184,0 -121.566532,48.190583,0 -121.566517,48.186858,0 -121.566502,48.183133,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LD 5</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101550415
+record acres: 20.66
+40.9 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.566502,48.183133,0 -121.561104,48.183118,0 -121.555706,48.183103,0 -121.555662,48.186831,0 -121.555618,48.190558,0 -121.555592,48.194181,0 -121.555565,48.197783,0 -121.555565,48.197805,0 -121.558755,48.197799,0 -121.561063,48.197795,0 -121.566561,48.197785,0 -121.566547,48.194184,0 -121.566532,48.190583,0 -121.566517,48.186858,0 -121.566502,48.183133,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LD 6</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101550416
+record acres: 20.66
+40.9 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.566502,48.183133,0 -121.561104,48.183118,0 -121.555706,48.183103,0 -121.555598,48.183104,0 -121.553449,48.183119,0 -121.550252,48.183142,0 -121.544798,48.183180,0 -121.544798,48.183247,0 -121.544790,48.186900,0 -121.544782,48.190621,0 -121.550200,48.190589,0 -121.555538,48.190559,0 -121.555618,48.190558,0 -121.555592,48.194181,0 -121.555565,48.197783,0 -121.555565,48.197805,0 -121.558755,48.197799,0 -121.561063,48.197795,0 -121.566561,48.197785,0 -121.566547,48.194184,0 -121.566532,48.190583,0 -121.566517,48.186858,0 -121.566502,48.183133,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LD 7</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101550417
+record acres: 20.66
+40.9 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.555662,48.186831,0 -121.555706,48.183103,0 -121.555598,48.183104,0 -121.553449,48.183119,0 -121.550252,48.183142,0 -121.544798,48.183180,0 -121.544798,48.183247,0 -121.544790,48.186900,0 -121.544782,48.190621,0 -121.544774,48.194245,0 -121.544766,48.197828,0 -121.544766,48.197869,0 -121.550165,48.197837,0 -121.555480,48.197805,0 -121.555565,48.197805,0 -121.558755,48.197799,0 -121.561063,48.197795,0 -121.566561,48.197785,0 -121.566547,48.194184,0 -121.566532,48.190583,0 -121.561075,48.190571,0 -121.555618,48.190558,0 -121.555662,48.186831,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LD 8</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101550418
+record acres: 20.66
+40.6 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.566502,48.183133,0 -121.561104,48.183118,0 -121.555706,48.183103,0 -121.555662,48.186831,0 -121.555618,48.190558,0 -121.561075,48.190571,0 -121.566532,48.190583,0 -121.566517,48.186858,0 -121.566502,48.183133,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LD9</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101550419
+record acres: 20.66
+40.6 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.555662,48.186831,0 -121.555706,48.183103,0 -121.555598,48.183104,0 -121.553449,48.183119,0 -121.550252,48.183142,0 -121.544798,48.183180,0 -121.544798,48.183247,0 -121.544790,48.186900,0 -121.544782,48.190621,0 -121.550200,48.190589,0 -121.555538,48.190559,0 -121.555618,48.190558,0 -121.555662,48.186831,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LD 10</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101550420
+record acres: 20.66
+40.2 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.555713,48.178955,0 -121.555717,48.175865,0 -121.555645,48.175865,0 -121.550184,48.175925,0 -121.544651,48.175985,0 -121.544725,48.179583,0 -121.544798,48.183180,0 -121.544798,48.183247,0 -121.544790,48.186900,0 -121.544782,48.190621,0 -121.550200,48.190589,0 -121.555538,48.190559,0 -121.555618,48.190558,0 -121.561075,48.190571,0 -121.566532,48.190583,0 -121.566517,48.186858,0 -121.566502,48.183133,0 -121.561104,48.183118,0 -121.555706,48.183103,0 -121.555706,48.183087,0 -121.555712,48.179484,0 -121.555713,48.178955,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LD 11</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101550421
+record acres: 20.66
+40.2 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.555713,48.178955,0 -121.555717,48.175865,0 -121.555645,48.175865,0 -121.550184,48.175925,0 -121.544651,48.175985,0 -121.544725,48.179583,0 -121.544798,48.183180,0 -121.544798,48.183247,0 -121.544790,48.186900,0 -121.544782,48.190621,0 -121.550200,48.190589,0 -121.555538,48.190559,0 -121.555618,48.190558,0 -121.555662,48.186831,0 -121.555706,48.183103,0 -121.555706,48.183087,0 -121.555712,48.179484,0 -121.555713,48.178955,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LD 12</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101551601
+record acres: 20.66
+40.6 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.555662,48.186831,0 -121.555706,48.183103,0 -121.555598,48.183104,0 -121.553449,48.183119,0 -121.550252,48.183142,0 -121.544798,48.183180,0 -121.544798,48.183247,0 -121.544790,48.186900,0 -121.544782,48.190621,0 -121.550200,48.190589,0 -121.555538,48.190559,0 -121.555618,48.190558,0 -121.555662,48.186831,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LD 13</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101551602
+record acres: 20.66
+39.8 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.555713,48.178955,0 -121.555717,48.175865,0 -121.555645,48.175865,0 -121.550184,48.175925,0 -121.544651,48.175985,0 -121.544725,48.179583,0 -121.544798,48.183180,0 -121.550252,48.183142,0 -121.553449,48.183119,0 -121.555598,48.183104,0 -121.555706,48.183103,0 -121.555706,48.183087,0 -121.555712,48.179484,0 -121.555713,48.178955,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LD14</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101551603
+record acres: 20.66
+40.2 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.555713,48.178955,0 -121.555717,48.175865,0 -121.555645,48.175865,0 -121.550184,48.175925,0 -121.544651,48.175985,0 -121.544725,48.179583,0 -121.544798,48.183180,0 -121.544798,48.183247,0 -121.544790,48.186900,0 -121.544782,48.190621,0 -121.550200,48.190589,0 -121.555538,48.190559,0 -121.555618,48.190558,0 -121.555662,48.186831,0 -121.555706,48.183103,0 -121.555706,48.183087,0 -121.555712,48.179484,0 -121.555713,48.178955,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LD 15</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101550439
+record acres: 20.66
+41.5 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.566532,48.190583,0 -121.561075,48.190571,0 -121.555618,48.190558,0 -121.555538,48.190559,0 -121.550200,48.190589,0 -121.544782,48.190621,0 -121.544774,48.194245,0 -121.544766,48.197828,0 -121.544766,48.197869,0 -121.550165,48.197837,0 -121.555480,48.197805,0 -121.555565,48.197805,0 -121.558755,48.197799,0 -121.561063,48.197795,0 -121.566561,48.197785,0 -121.566547,48.194184,0 -121.566532,48.190583,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LD 16</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101550440
+record acres: 20.66
+41.5 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.566532,48.190583,0 -121.561075,48.190571,0 -121.555618,48.190558,0 -121.555538,48.190559,0 -121.550200,48.190589,0 -121.544782,48.190621,0 -121.544774,48.194245,0 -121.544766,48.197828,0 -121.544766,48.197869,0 -121.550165,48.197837,0 -121.555480,48.197805,0 -121.555565,48.197805,0 -121.558755,48.197799,0 -121.561063,48.197795,0 -121.566561,48.197785,0 -121.566547,48.194184,0 -121.566532,48.190583,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>COUNTESS</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101714275
+record acres: 20.66
+20.9 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.394697,47.985803,0 -121.419287,47.985873,0 -121.419288,47.986615,0 -121.430065,47.986615,0 -121.430050,47.979380,0 -121.422978,47.979380,0 -121.422979,47.978646,0 -121.394718,47.978564,0 -121.394697,47.985803,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>GROSS CROSS</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101883392
+record acres: 20.66
+54.4 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.711749,48.298059,0 -121.707423,48.298056,0 -121.706628,48.298072,0 -121.706397,48.298077,0 -121.706269,48.301739,0 -121.706262,48.301920,0 -121.706248,48.302335,0 -121.706141,48.305402,0 -121.711531,48.305404,0 -121.716922,48.305405,0 -121.717011,48.301740,0 -121.717100,48.298064,0 -121.712746,48.298060,0 -121.711749,48.298059,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>HARD CROSS</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101883393
+record acres: 20.66
+54.9 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.711749,48.298059,0 -121.707423,48.298056,0 -121.706628,48.298072,0 -121.706397,48.298077,0 -121.706269,48.301739,0 -121.706262,48.301920,0 -121.706248,48.302335,0 -121.706141,48.305402,0 -121.706136,48.305549,0 -121.706120,48.306000,0 -121.706013,48.309064,0 -121.706005,48.309300,0 -121.705992,48.309665,0 -121.705886,48.312726,0 -121.711315,48.312731,0 -121.716744,48.312735,0 -121.716833,48.309070,0 -121.716922,48.305405,0 -121.717011,48.301740,0 -121.717100,48.298064,0 -121.712746,48.298060,0 -121.711749,48.298059,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>ICY CROSS</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101883394
+record acres: 20.66
+54.4 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.711749,48.298059,0 -121.707423,48.298056,0 -121.706628,48.298072,0 -121.706397,48.298077,0 -121.706269,48.301739,0 -121.706262,48.301920,0 -121.706248,48.302335,0 -121.706141,48.305402,0 -121.711531,48.305404,0 -121.716922,48.305405,0 -121.717011,48.301740,0 -121.717100,48.298064,0 -121.712746,48.298060,0 -121.711749,48.298059,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>COPPER KING</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101834270
+record acres: 20.66
+7.5 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.467049,47.858426,0 -121.467094,47.859730,0 -121.467196,47.862709,0 -121.467198,47.862785,0 -121.472414,47.862860,0 -121.477630,47.862935,0 -121.477624,47.862786,0 -121.477488,47.859438,0 -121.477348,47.856000,0 -121.477345,47.855942,0 -121.477124,47.855958,0 -121.476252,47.856020,0 -121.472167,47.856309,0 -121.466989,47.856676,0 -121.467049,47.858426,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>COPPER QUEEN</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101834271
+record acres: 20.66
+7.5 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.467049,47.858426,0 -121.467094,47.859730,0 -121.467196,47.862709,0 -121.467198,47.862785,0 -121.472414,47.862860,0 -121.477630,47.862935,0 -121.477624,47.862786,0 -121.477488,47.859438,0 -121.477348,47.856000,0 -121.477345,47.855942,0 -121.477124,47.855958,0 -121.476252,47.856020,0 -121.472167,47.856309,0 -121.466989,47.856676,0 -121.467049,47.858426,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LITTLE COPPER KING</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101834272
+record acres: 20.66
+7.5 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.467049,47.858426,0 -121.467094,47.859730,0 -121.467196,47.862709,0 -121.467198,47.862785,0 -121.472414,47.862860,0 -121.477630,47.862935,0 -121.477624,47.862786,0 -121.477488,47.859438,0 -121.477348,47.856000,0 -121.477345,47.855942,0 -121.477124,47.855958,0 -121.476252,47.856020,0 -121.472167,47.856309,0 -121.466989,47.856676,0 -121.467049,47.858426,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>SUNSET</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101834273
+record acres: 20.66
+7.5 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.467049,47.858426,0 -121.467094,47.859730,0 -121.467196,47.862709,0 -121.467198,47.862785,0 -121.472414,47.862860,0 -121.477630,47.862935,0 -121.477624,47.862786,0 -121.477488,47.859438,0 -121.477348,47.856000,0 -121.477345,47.855942,0 -121.477124,47.855958,0 -121.476252,47.856020,0 -121.472167,47.856309,0 -121.466989,47.856676,0 -121.467049,47.858426,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>POOR BOY</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101954849
+record acres: 20.66
+56.5 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.738158,48.312736,0 -121.732880,48.312740,0 -121.727602,48.312744,0 -121.722173,48.312739,0 -121.716744,48.312735,0 -121.716673,48.316445,0 -121.716602,48.320155,0 -121.722048,48.320145,0 -121.727493,48.320134,0 -121.732791,48.320109,0 -121.738090,48.320083,0 -121.738124,48.316410,0 -121.738158,48.312736,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>HIGH LOW</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101553182
+record acres: 20.66
+54.5 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.696684,48.305632,0 -121.706140,48.305478,0 -121.706397,48.298077,0 -121.696903,48.298266,0 -121.696684,48.305632,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LITTLE CAT</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101553183
+record acres: 20.66
+54.5 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.696684,48.305632,0 -121.706140,48.305478,0 -121.706397,48.298077,0 -121.696903,48.298266,0 -121.696684,48.305632,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>CELERY STICK</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101868941
+record acres: 20.0
+40.3 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.533842,48.183431,0 -121.533873,48.187056,0 -121.533904,48.190682,0 -121.539343,48.190651,0 -121.544782,48.190621,0 -121.544790,48.186900,0 -121.544798,48.183247,0 -121.544798,48.183180,0 -121.544725,48.179583,0 -121.544651,48.175985,0 -121.539215,48.176044,0 -121.533778,48.176103,0 -121.533810,48.179767,0 -121.533842,48.183408,0 -121.533842,48.183431,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>HM5</name><styleUrl>#lode</styleUrl><description>Lode Claim — Filed
+MLRS serial: OR106331960
+record acres: 160.0
+39.7 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.539215,48.176044,0 -121.539267,48.179675,0 -121.544725,48.179583,0 -121.544651,48.175985,0 -121.539215,48.176044,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>HM6</name><styleUrl>#lode</styleUrl><description>Lode Claim — Filed
+MLRS serial: OR106331961
+record acres: 160.0
+39.7 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.539215,48.176044,0 -121.539267,48.179675,0 -121.544725,48.179583,0 -121.544651,48.175985,0 -121.539215,48.176044,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>HM7</name><styleUrl>#lode</styleUrl><description>Lode Claim — Filed
+MLRS serial: OR106331959
+record acres: 160.0
+39.7 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.539215,48.176044,0 -121.539267,48.179675,0 -121.544725,48.179583,0 -121.544651,48.175985,0 -121.539215,48.176044,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Yellow Moon</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR105262964
+record acres: 160.0
+20.0 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.700998,47.964928,0 -121.695761,47.964963,0 -121.690524,47.964997,0 -121.690321,47.968605,0 -121.690321,47.968611,0 -121.690118,47.972214,0 -121.690118,47.972219,0 -121.690117,47.972224,0 -121.690101,47.972449,0 -121.689865,47.975705,0 -121.689861,47.975764,0 -121.689858,47.975822,0 -121.689637,47.979430,0 -121.694839,47.979480,0 -121.700041,47.979530,0 -121.705242,47.979580,0 -121.705408,47.979581,0 -121.705720,47.979584,0 -121.710444,47.979629,0 -121.710459,47.979519,0 -121.710474,47.979410,0 -121.710714,47.975936,0 -121.710719,47.975873,0 -121.710723,47.975809,0 -121.710726,47.975772,0 -121.710970,47.972244,0 -121.710974,47.972184,0 -121.710978,47.972134,0 -121.710979,47.972124,0 -121.711209,47.968551,0 -121.711212,47.968507,0 -121.711212,47.968496,0 -121.711214,47.968462,0 -121.711472,47.964858,0 -121.706567,47.964891,0 -121.706304,47.964892,0 -121.706235,47.964893,0 -121.700998,47.964928,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Johnny</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR105262064
+record acres: 20.0
+19.1 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.297293,47.837794,0 -121.297293,47.837808,0 -121.302641,47.837828,0 -121.302641,47.837794,0 -121.302630,47.834150,0 -121.297282,47.834143,0 -121.297293,47.837794,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Zeke</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR105262200
+record acres: 20.0
+19.1 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.297282,47.834143,0 -121.302630,47.834150,0 -121.302619,47.830472,0 -121.297271,47.830478,0 -121.297282,47.834143,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>DJ PROSPECTORS COVE</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR101435086
+record acres: 18.0
+23.4 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.775074,47.975345,0 -121.775213,47.971751,0 -121.769818,47.971764,0 -121.767093,47.971770,0 -121.764505,47.971776,0 -121.764505,47.971784,0 -121.764446,47.975375,0 -121.764386,47.978984,0 -121.764451,47.978984,0 -121.769425,47.978992,0 -121.769457,47.978992,0 -121.769489,47.978992,0 -121.769660,47.978990,0 -121.774936,47.978939,0 -121.775073,47.975378,0 -121.775074,47.975345,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>BIG FOUR</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR101480758
+record acres: 44.55
+24.0 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.775213,47.971751,0 -121.775074,47.975345,0 -121.775073,47.975378,0 -121.774936,47.978939,0 -121.780375,47.978867,0 -121.785814,47.978795,0 -121.785849,47.976006,0 -121.785858,47.975273,0 -121.785859,47.975213,0 -121.785902,47.971680,0 -121.780516,47.971716,0 -121.775213,47.971751,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>WIND FALL</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR101484055
+record acres: 20.12
+23.7 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.775074,47.975345,0 -121.775213,47.971751,0 -121.769818,47.971764,0 -121.767093,47.971770,0 -121.764505,47.971776,0 -121.764505,47.971784,0 -121.764446,47.975375,0 -121.764386,47.978984,0 -121.764043,47.978985,0 -121.764053,47.982578,0 -121.764053,47.982584,0 -121.764062,47.986183,0 -121.769417,47.986170,0 -121.774679,47.986158,0 -121.774679,47.986140,0 -121.774679,47.986121,0 -121.774807,47.982548,0 -121.774936,47.978939,0 -121.775073,47.975378,0 -121.775074,47.975345,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>DOUBLE D'S</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR101482486
+record acres: 20.0
+24.0 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.796662,47.964425,0 -121.794017,47.964439,0 -121.791372,47.964453,0 -121.791328,47.964454,0 -121.785993,47.964533,0 -121.785948,47.968088,0 -121.785902,47.971680,0 -121.791289,47.971644,0 -121.796710,47.971608,0 -121.796710,47.971558,0 -121.796686,47.968016,0 -121.796662,47.964425,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>T&amp;R #1</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR101824440
+record acres: 20.0
+20.3 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.716870,47.964831,0 -121.711472,47.964858,0 -121.711214,47.968462,0 -121.711212,47.968496,0 -121.711212,47.968507,0 -121.711209,47.968551,0 -121.710979,47.972124,0 -121.710978,47.972134,0 -121.716470,47.972064,0 -121.721967,47.971994,0 -121.722117,47.968413,0 -121.722118,47.968399,0 -121.722268,47.964803,0 -121.716916,47.964831,0 -121.716870,47.964831,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>T&amp;R #2</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR101824441
+record acres: 20.0
+19.9 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.706567,47.964891,0 -121.706304,47.964892,0 -121.706235,47.964893,0 -121.700998,47.964928,0 -121.700759,47.968579,0 -121.700519,47.972229,0 -121.705739,47.972236,0 -121.706139,47.972237,0 -121.710970,47.972244,0 -121.710974,47.972184,0 -121.710978,47.972134,0 -121.710979,47.972124,0 -121.711209,47.968551,0 -121.711212,47.968507,0 -121.711212,47.968496,0 -121.711214,47.968462,0 -121.711472,47.964858,0 -121.706567,47.964891,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>T&amp;R #3</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR101824442
+record acres: 20.0
+19.9 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.706567,47.964891,0 -121.706304,47.964892,0 -121.706235,47.964893,0 -121.700998,47.964928,0 -121.700759,47.968579,0 -121.700519,47.972229,0 -121.705739,47.972236,0 -121.706139,47.972237,0 -121.710970,47.972244,0 -121.710974,47.972184,0 -121.710978,47.972134,0 -121.710979,47.972124,0 -121.711209,47.968551,0 -121.711212,47.968507,0 -121.711212,47.968496,0 -121.711214,47.968462,0 -121.711472,47.964858,0 -121.706567,47.964891,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>T&amp;R #4</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR101824443
+record acres: 20.0
+19.3 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.690524,47.964997,0 -121.690321,47.968605,0 -121.690321,47.968611,0 -121.690118,47.972214,0 -121.695300,47.972221,0 -121.700519,47.972229,0 -121.700759,47.968579,0 -121.700998,47.964928,0 -121.695761,47.964963,0 -121.690524,47.964997,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>T&amp;R #5</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR101825623
+record acres: 20.0
+20.3 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.716870,47.964831,0 -121.711472,47.964858,0 -121.711214,47.968462,0 -121.711212,47.968496,0 -121.711212,47.968507,0 -121.711209,47.968551,0 -121.710979,47.972124,0 -121.710978,47.972134,0 -121.716470,47.972064,0 -121.721967,47.971994,0 -121.722117,47.968413,0 -121.722118,47.968399,0 -121.722268,47.964803,0 -121.716916,47.964831,0 -121.716870,47.964831,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>T&amp;R #6</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR101825624
+record acres: 20.0
+19.9 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.706567,47.964891,0 -121.706304,47.964892,0 -121.706235,47.964893,0 -121.700998,47.964928,0 -121.700759,47.968579,0 -121.700519,47.972229,0 -121.705739,47.972236,0 -121.706139,47.972237,0 -121.710970,47.972244,0 -121.710974,47.972184,0 -121.710978,47.972134,0 -121.710979,47.972124,0 -121.711209,47.968551,0 -121.711212,47.968507,0 -121.711212,47.968496,0 -121.711214,47.968462,0 -121.711472,47.964858,0 -121.706567,47.964891,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>BLUE STARLIGHT</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR101472010
+record acres: 40.0
+20.3 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.716870,47.964831,0 -121.711472,47.964858,0 -121.711214,47.968462,0 -121.711212,47.968496,0 -121.711212,47.968507,0 -121.711209,47.968551,0 -121.710979,47.972124,0 -121.710978,47.972134,0 -121.716470,47.972064,0 -121.721967,47.971994,0 -121.722117,47.968413,0 -121.722118,47.968399,0 -121.722268,47.964803,0 -121.716916,47.964831,0 -121.716870,47.964831,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>BREN KATE 70</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR101367911
+record acres: 20.0
+24.0 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.796662,47.964425,0 -121.794017,47.964439,0 -121.791372,47.964453,0 -121.791328,47.964454,0 -121.785993,47.964533,0 -121.785948,47.968088,0 -121.785902,47.971680,0 -121.791289,47.971644,0 -121.796710,47.971608,0 -121.796710,47.971558,0 -121.796686,47.968016,0 -121.796662,47.964425,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>UNCLE BUDS</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR101518927
+record acres: 8.75
+11.9 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.440953,47.891772,0 -121.440758,47.891774,0 -121.439886,47.891757,0 -121.437771,47.891715,0 -121.436507,47.891692,0 -121.435555,47.891675,0 -121.435544,47.891675,0 -121.435544,47.891690,0 -121.435546,47.892850,0 -121.435548,47.893770,0 -121.435550,47.895277,0 -121.435552,47.896652,0 -121.435552,47.896722,0 -121.435553,47.897227,0 -121.435553,47.897251,0 -121.435555,47.898246,0 -121.435556,47.898826,0 -121.435556,47.898879,0 -121.435578,47.898879,0 -121.435675,47.898878,0 -121.436033,47.898874,0 -121.436451,47.898870,0 -121.436460,47.898870,0 -121.439143,47.898844,0 -121.439161,47.898844,0 -121.440946,47.898827,0 -121.446336,47.898774,0 -121.446348,47.895331,0 -121.446361,47.891889,0 -121.446262,47.891886,0 -121.442101,47.891789,0 -121.441814,47.891785,0 -121.440953,47.891772,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>WIND FALL EAST</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR101343914
+record acres: 49.5
+23.2 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.764386,47.978984,0 -121.764446,47.975375,0 -121.764505,47.971784,0 -121.764505,47.971776,0 -121.764219,47.971777,0 -121.759193,47.971788,0 -121.753885,47.971800,0 -121.753884,47.971840,0 -121.753864,47.975403,0 -121.753863,47.975456,0 -121.753863,47.975487,0 -121.753863,47.975519,0 -121.753835,47.979006,0 -121.753150,47.979028,0 -121.753250,47.982608,0 -121.753250,47.982618,0 -121.753250,47.982630,0 -121.753251,47.982652,0 -121.753350,47.986187,0 -121.753351,47.986207,0 -121.758707,47.986195,0 -121.764062,47.986183,0 -121.764053,47.982584,0 -121.764053,47.982578,0 -121.764043,47.978985,0 -121.764386,47.978984,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>PEGS DIGNS EAST</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR101346673
+record acres: 6.43
+23.4 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.775074,47.975345,0 -121.775213,47.971751,0 -121.769818,47.971764,0 -121.767093,47.971770,0 -121.764505,47.971776,0 -121.764505,47.971784,0 -121.764446,47.975375,0 -121.764386,47.978984,0 -121.764451,47.978984,0 -121.769425,47.978992,0 -121.769457,47.978992,0 -121.769489,47.978992,0 -121.769660,47.978990,0 -121.774936,47.978939,0 -121.775073,47.975378,0 -121.775074,47.975345,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>NORTH UNCLE BUDS</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR101350489
+record acres: 4.58
+11.9 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.440953,47.891772,0 -121.440758,47.891774,0 -121.439886,47.891757,0 -121.437771,47.891715,0 -121.436507,47.891692,0 -121.435555,47.891675,0 -121.435544,47.891675,0 -121.435544,47.891690,0 -121.435546,47.892850,0 -121.435548,47.893770,0 -121.435550,47.895277,0 -121.435552,47.896652,0 -121.435552,47.896722,0 -121.435553,47.897227,0 -121.435553,47.897251,0 -121.435555,47.898246,0 -121.435556,47.898826,0 -121.435556,47.898879,0 -121.435578,47.898879,0 -121.435675,47.898878,0 -121.436033,47.898874,0 -121.436451,47.898870,0 -121.436460,47.898870,0 -121.439143,47.898844,0 -121.439161,47.898844,0 -121.440946,47.898827,0 -121.446336,47.898774,0 -121.446348,47.895331,0 -121.446361,47.891889,0 -121.446262,47.891886,0 -121.442101,47.891789,0 -121.441814,47.891785,0 -121.440953,47.891772,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>SULTAN SEC 26</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR101835039
+record acres: 60.0
+22.4 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.743421,47.971827,0 -121.743384,47.975405,0 -121.743382,47.975555,0 -121.743347,47.978960,0 -121.743557,47.978960,0 -121.747640,47.978974,0 -121.747724,47.978975,0 -121.747807,47.978975,0 -121.748591,47.978983,0 -121.751251,47.979008,0 -121.753150,47.979028,0 -121.753835,47.979006,0 -121.753863,47.975519,0 -121.753863,47.975487,0 -121.753863,47.975456,0 -121.753864,47.975403,0 -121.753884,47.971840,0 -121.753885,47.971800,0 -121.748651,47.971813,0 -121.743939,47.971826,0 -121.743421,47.971827,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>SULTAN SEC 26 EAST</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR101835040
+record acres: 60.0
+21.5 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.743458,47.968249,0 -121.743495,47.964644,0 -121.738280,47.964696,0 -121.738190,47.964697,0 -121.733064,47.964748,0 -121.733006,47.968301,0 -121.733005,47.968361,0 -121.733005,47.968364,0 -121.733005,47.968367,0 -121.732953,47.971854,0 -121.732952,47.971871,0 -121.732899,47.975406,0 -121.732899,47.975458,0 -121.732898,47.975511,0 -121.732898,47.975528,0 -121.732897,47.975548,0 -121.732859,47.978959,0 -121.737123,47.978960,0 -121.737924,47.978960,0 -121.738103,47.978960,0 -121.742466,47.978960,0 -121.743347,47.978960,0 -121.743382,47.975555,0 -121.743384,47.975405,0 -121.743421,47.971827,0 -121.743457,47.968310,0 -121.743458,47.968249,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>TIRED ACE 50</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR101835041
+record acres: 50.0
+20.8 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.733006,47.968301,0 -121.733064,47.964748,0 -121.727666,47.964776,0 -121.722268,47.964803,0 -121.722118,47.968399,0 -121.722117,47.968413,0 -121.721967,47.971994,0 -121.727464,47.971924,0 -121.732953,47.971854,0 -121.733005,47.968367,0 -121.733005,47.968364,0 -121.733005,47.968361,0 -121.733006,47.968301,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>BREN-KATE 30</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR101843266
+record acres: 30.0
+24.0 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.796662,47.964425,0 -121.794017,47.964439,0 -121.791372,47.964453,0 -121.791328,47.964454,0 -121.785993,47.964533,0 -121.785948,47.968088,0 -121.785902,47.971680,0 -121.791289,47.971644,0 -121.796710,47.971608,0 -121.796710,47.971558,0 -121.796686,47.968016,0 -121.796662,47.964425,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>PEGS DIGNS #2</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR101430904
+record acres: 3.8
+23.4 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.775074,47.975345,0 -121.775213,47.971751,0 -121.769818,47.971764,0 -121.767093,47.971770,0 -121.764505,47.971776,0 -121.764505,47.971784,0 -121.764446,47.975375,0 -121.764386,47.978984,0 -121.764451,47.978984,0 -121.769425,47.978992,0 -121.769457,47.978992,0 -121.769489,47.978992,0 -121.769660,47.978990,0 -121.774936,47.978939,0 -121.775073,47.975378,0 -121.775074,47.975345,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Gold Eagle</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR106318719
+record acres: 152.85
+9.1 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.462108,47.876382,0 -121.465193,47.875278,0 -121.466666,47.874238,0 -121.466708,47.873338,0 -121.466859,47.870077,0 -121.461658,47.870047,0 -121.456457,47.870017,0 -121.456414,47.873650,0 -121.456373,47.877127,0 -121.456371,47.877283,0 -121.457558,47.877136,0 -121.461774,47.876614,0 -121.462038,47.876431,0 -121.462108,47.876382,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.466629,47.875031,0 -121.466114,47.875448,0 -121.462747,47.876611,0 -121.466556,47.876599,0 -121.466629,47.875031,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+  <Placemark><name>Double D Placer</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR106354546
+record acres: 20.0
+10.8 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.456220,47.885468,0 -121.456234,47.884546,0 -121.451621,47.884570,0 -121.451512,47.884570,0 -121.446323,47.884577,0 -121.446334,47.886550,0 -121.446341,47.888071,0 -121.446342,47.888207,0 -121.446342,47.888241,0 -121.446360,47.891707,0 -121.446361,47.891889,0 -121.451578,47.891846,0 -121.456099,47.891809,0 -121.456101,47.891684,0 -121.456171,47.888177,0 -121.456220,47.885468,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>The Blue #8</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR106383916
+record acres: 6.0
+19.0 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.315499,47.893556,0 -121.328124,47.891545,0 -121.328125,47.886343,0 -121.315513,47.887351,0 -121.315499,47.893556,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>South Uncle Buds</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR106708313
+record acres: 755.88
+10.8 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.441063,47.877292,0 -121.440900,47.877292,0 -121.435840,47.877294,0 -121.435821,47.880862,0 -121.435821,47.880952,0 -121.435803,47.884460,0 -121.435803,47.884503,0 -121.435803,47.884609,0 -121.435676,47.888075,0 -121.435674,47.888142,0 -121.435580,47.890695,0 -121.435568,47.891018,0 -121.435557,47.891312,0 -121.435544,47.891675,0 -121.435555,47.891675,0 -121.436507,47.891692,0 -121.437771,47.891715,0 -121.439886,47.891757,0 -121.440758,47.891774,0 -121.440953,47.891772,0 -121.441814,47.891785,0 -121.442101,47.891789,0 -121.446262,47.891886,0 -121.446361,47.891889,0 -121.451578,47.891846,0 -121.456099,47.891809,0 -121.456101,47.891684,0 -121.456171,47.888177,0 -121.456220,47.885468,0 -121.456234,47.884546,0 -121.456236,47.884428,0 -121.456243,47.883898,0 -121.456265,47.882714,0 -121.456299,47.880914,0 -121.456302,47.880738,0 -121.456371,47.877283,0 -121.456278,47.877283,0 -121.451668,47.877285,0 -121.451343,47.877286,0 -121.446286,47.877289,0 -121.441063,47.877292,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Blue Yonder #3</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR106384818
+record acres: 182.04
+13.5 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.424822,47.900007,0 -121.424822,47.898788,0 -121.424276,47.898783,0 -121.419441,47.898742,0 -121.414061,47.898696,0 -121.414069,47.902421,0 -121.414076,47.906107,0 -121.414076,47.906147,0 -121.419449,47.906131,0 -121.424806,47.906115,0 -121.424822,47.906115,0 -121.424822,47.902451,0 -121.424822,47.900007,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Aurum</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR106718789
+record acres: 739.82
+3.8 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.498323,47.836198,0 -121.498323,47.836274,0 -121.498333,47.838583,0 -121.498335,47.838965,0 -121.498336,47.839222,0 -121.498339,47.839907,0 -121.498339,47.839913,0 -121.498341,47.840389,0 -121.498349,47.842093,0 -121.498498,47.842923,0 -121.498543,47.843178,0 -121.498549,47.843244,0 -121.498601,47.843542,0 -121.498769,47.844506,0 -121.498930,47.845432,0 -121.499230,47.847150,0 -121.499478,47.848578,0 -121.499512,47.848770,0 -121.499554,47.848771,0 -121.504758,47.848862,0 -121.510004,47.848954,0 -121.510738,47.848975,0 -121.510702,47.848857,0 -121.510184,47.847148,0 -121.509895,47.846780,0 -121.508936,47.845560,0 -121.508702,47.845261,0 -121.508345,47.844450,0 -121.508189,47.843328,0 -121.508287,47.842324,0 -121.508227,47.842177,0 -121.508090,47.841843,0 -121.508145,47.841348,0 -121.507838,47.839538,0 -121.507858,47.839024,0 -121.507876,47.838863,0 -121.507935,47.838694,0 -121.508021,47.838448,0 -121.509428,47.837470,0 -121.509646,47.837318,0 -121.509798,47.837129,0 -121.510165,47.836510,0 -121.510373,47.836241,0 -121.510710,47.835862,0 -121.510984,47.835554,0 -121.511432,47.835230,0 -121.509315,47.835236,0 -121.509201,47.835234,0 -121.503855,47.835140,0 -121.503818,47.835139,0 -121.502192,47.835111,0 -121.498731,47.835078,0 -121.498501,47.835075,0 -121.498319,47.835074,0 -121.498323,47.836198,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.509174,47.842916,0 -121.509480,47.843503,0 -121.509749,47.843885,0 -121.509866,47.844050,0 -121.510281,47.844488,0 -121.510439,47.844830,0 -121.510885,47.845584,0 -121.511103,47.845954,0 -121.511912,47.847321,0 -121.512010,47.847779,0 -121.512380,47.848899,0 -121.512418,47.849016,0 -121.515257,47.849071,0 -121.520500,47.849127,0 -121.520518,47.849127,0 -121.520518,47.849107,0 -121.520578,47.845704,0 -121.520636,47.842425,0 -121.520639,47.842280,0 -121.520628,47.838798,0 -121.520618,47.835616,0 -121.520617,47.835317,0 -121.519755,47.835305,0 -121.514967,47.835238,0 -121.512280,47.835227,0 -121.512280,47.835389,0 -121.512017,47.835830,0 -121.511996,47.835865,0 -121.511558,47.836738,0 -121.511435,47.836877,0 -121.511412,47.837478,0 -121.511351,47.837885,0 -121.511592,47.838521,0 -121.511557,47.838728,0 -121.511553,47.838750,0 -121.511460,47.839305,0 -121.510984,47.840151,0 -121.509607,47.841046,0 -121.509101,47.841376,0 -121.508863,47.841530,0 -121.509122,47.842109,0 -121.509127,47.842184,0 -121.509174,47.842916,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+  <Placemark><name>Wild Sky 9</name><styleUrl>#placer</styleUrl><description>Placer Claim — Filed
+MLRS serial: OR106748414
+record acres: 19.9
+9.6 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.456850,47.880400,0 -121.461480,47.880400,0 -121.461480,47.878050,0 -121.459540,47.877300,0 -121.456850,47.880400,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>JST 9</name><styleUrl>#lode</styleUrl><description>Lode Claim — Filed
+MLRS serial: OR106747897
+record acres: 20.66
+23.3 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.351269,47.985678,0 -121.358507,47.985699,0 -121.358527,47.978460,0 -121.351289,47.978440,0 -121.351269,47.985678,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>JST 5</name><styleUrl>#lode</styleUrl><description>Lode Claim — Filed
+MLRS serial: OR106747895
+record acres: 20.66
+23.0 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.351248,47.978440,0 -121.351289,47.978440,0 -121.351269,47.985678,0 -121.358507,47.985699,0 -121.358527,47.978460,0 -121.358486,47.978460,0 -121.358507,47.971222,0 -121.351268,47.971202,0 -121.351248,47.978440,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>JST 6</name><styleUrl>#lode</styleUrl><description>Lode Claim — Filed
+MLRS serial: OR106747896
+record acres: 20.66
+23.0 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.351248,47.978440,0 -121.351289,47.978440,0 -121.351269,47.985678,0 -121.358507,47.985699,0 -121.358527,47.978460,0 -121.358486,47.978460,0 -121.358507,47.971222,0 -121.351268,47.971202,0 -121.351248,47.978440,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Vesper</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR106748284
+record acres: 20.66
+21.7 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.536747,48.008371,0 -121.531895,48.008375,0 -121.526528,48.008379,0 -121.525372,48.008380,0 -121.521161,48.008383,0 -121.520811,48.008383,0 -121.515793,48.008387,0 -121.515793,48.010198,0 -121.515793,48.012008,0 -121.515792,48.015629,0 -121.515791,48.019249,0 -121.515791,48.022852,0 -121.515791,48.022870,0 -121.517543,48.022867,0 -121.521156,48.022860,0 -121.526521,48.022849,0 -121.531885,48.022839,0 -121.536748,48.022829,0 -121.537250,48.022828,0 -121.537253,48.019214,0 -121.537256,48.015599,0 -121.537260,48.011985,0 -121.537263,48.008418,0 -121.537263,48.008370,0 -121.536747,48.008371,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Tree Frog</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR106750148
+record acres: 137.04
+38.4 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.528276,48.164399,0 -121.528275,48.164621,0 -121.528250,48.168828,0 -121.533657,48.168821,0 -121.533838,48.168821,0 -121.539081,48.168809,0 -121.539100,48.164423,0 -121.533840,48.164409,0 -121.533692,48.164408,0 -121.533720,48.160777,0 -121.528299,48.160752,0 -121.528286,48.160752,0 -121.528303,48.160950,0 -121.528276,48.164399,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>North Sky Gold #7</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR106753408
+record acres: 20.0
+18.0 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.338905,47.889727,0 -121.338900,47.887935,0 -121.336206,47.887943,0 -121.333512,47.887951,0 -121.333515,47.889742,0 -121.336210,47.889734,0 -121.338905,47.889727,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>North Sky Gold #8</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR106753409
+record acres: 20.0
+18.3 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.330817,47.887962,0 -121.328124,47.887983,0 -121.328124,47.889764,0 -121.330818,47.889739,0 -121.333512,47.889714,0 -121.333510,47.887941,0 -121.330817,47.887962,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>JST 5</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR106758200
+record acres: 20.66
+22.9 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.358507,47.985699,0 -121.365745,47.985719,0 -121.365765,47.978481,0 -121.358527,47.978460,0 -121.358507,47.985699,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Silver Eagle</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR106784610
+record acres: 20.0
+12.6 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.438146,47.904210,0 -121.438150,47.905998,0 -121.440733,47.905913,0 -121.440727,47.904138,0 -121.440720,47.902362,0 -121.438141,47.902421,0 -121.438146,47.904210,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>NORTH STAR</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR101370602
+record acres: 20.0
+19.0 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.302823,47.859484,0 -121.302851,47.863101,0 -121.302875,47.866356,0 -121.302879,47.866773,0 -121.308251,47.866770,0 -121.313624,47.866766,0 -121.313594,47.863091,0 -121.313565,47.859470,0 -121.308194,47.859477,0 -121.302916,47.859484,0 -121.302823,47.859484,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>NORTHERN STAR</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR101371244
+record acres: 20.0
+19.1 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.302903,47.873962,0 -121.315487,47.873955,0 -121.315447,47.866765,0 -121.302879,47.866773,0 -121.302903,47.873962,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Sky Gold #5</name><styleUrl>#placer</styleUrl><description>Placer Claim — Filed
+MLRS serial: OR106795739
+record acres: 19.99
+8.0 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.467029,47.866431,0 -121.466859,47.870077,0 -121.472082,47.870107,0 -121.472178,47.870061,0 -121.474553,47.868926,0 -121.476761,47.867252,0 -121.477554,47.867039,0 -121.477562,47.866534,0 -121.477630,47.862935,0 -121.472414,47.862860,0 -121.467198,47.862785,0 -121.467029,47.866431,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.476547,47.868756,0 -121.473596,47.870116,0 -121.477494,47.870138,0 -121.477541,47.867760,0 -121.476547,47.868756,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+  <Placemark><name>PK 1</name><styleUrl>#placer</styleUrl><description>Placer Claim — Filed
+MLRS serial: OR106822000
+record acres: 40.0
+23.7 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.796651,47.959014,0 -121.796655,47.960818,0 -121.799368,47.960803,0 -121.799368,47.958999,0 -121.799369,47.957194,0 -121.796647,47.957210,0 -121.796651,47.959014,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Porter</name><styleUrl>#placer</styleUrl><description>Placer Claim — Filed
+MLRS serial: OR106840131
+record acres: 20.0
+15.0 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.346477,47.841362,0 -121.346479,47.844985,0 -121.346481,47.848609,0 -121.346483,47.852210,0 -121.346483,47.852232,0 -121.346650,47.852233,0 -121.351868,47.852247,0 -121.357253,47.852263,0 -121.362638,47.852278,0 -121.368023,47.852293,0 -121.368023,47.852218,0 -121.368027,47.848670,0 -121.368032,47.845046,0 -121.368036,47.841423,0 -121.368040,47.837799,0 -121.362649,47.837784,0 -121.357257,47.837769,0 -121.351866,47.837754,0 -121.346579,47.837739,0 -121.346475,47.837739,0 -121.346477,47.841362,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Katie Belle Ridge</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR105226480
+record acres: 20.66
+36.7 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.338060,47.518870,0 -121.338040,47.526090,0 -121.348700,47.526070,0 -121.348720,47.518850,0 -121.338060,47.518870,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>P.L.</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR105761460
+record acres: 989.72
+37.1 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.369950,47.502720,0 -121.364640,47.502720,0 -121.359330,47.502720,0 -121.359340,47.506090,0 -121.359340,47.506750,0 -121.359340,47.509900,0 -121.359340,47.509930,0 -121.359340,47.510040,0 -121.359340,47.510140,0 -121.359340,47.510780,0 -121.359350,47.513500,0 -121.359350,47.513560,0 -121.359350,47.514800,0 -121.359350,47.516940,0 -121.359350,47.517100,0 -121.359350,47.517180,0 -121.359350,47.517200,0 -121.359350,47.517240,0 -121.359390,47.518830,0 -121.364690,47.518790,0 -121.369950,47.518760,0 -121.369980,47.518760,0 -121.375210,47.518720,0 -121.375280,47.518720,0 -121.376230,47.518710,0 -121.380580,47.518680,0 -121.380560,47.517020,0 -121.380560,47.516950,0 -121.380560,47.514690,0 -121.380560,47.514000,0 -121.380560,47.513520,0 -121.380560,47.513460,0 -121.380560,47.510700,0 -121.380560,47.509870,0 -121.380560,47.508770,0 -121.380560,47.506710,0 -121.380570,47.506080,0 -121.380570,47.502720,0 -121.375260,47.502720,0 -121.369950,47.502720,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Big Chief</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR105823728
+record acres: 20.66
+37.2 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.338030,47.509930,0 -121.338030,47.510800,0 -121.338030,47.512110,0 -121.338030,47.512690,0 -121.338030,47.513530,0 -121.338030,47.513610,0 -121.338030,47.514830,0 -121.338030,47.515490,0 -121.338030,47.516390,0 -121.338030,47.516920,0 -121.338030,47.517140,0 -121.338060,47.518870,0 -121.338040,47.526090,0 -121.348700,47.526070,0 -121.348720,47.518850,0 -121.343340,47.518860,0 -121.343390,47.518860,0 -121.345070,47.518770,0 -121.345560,47.517400,0 -121.345730,47.516930,0 -121.346480,47.514820,0 -121.346920,47.513590,0 -121.346810,47.513590,0 -121.343390,47.513600,0 -121.343380,47.510790,0 -121.343380,47.509930,0 -121.338030,47.509930,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>BELLE OF TENNESSEE</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101481330
+record acres: 20.66
+17.7 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.566350,47.657530,0 -121.555810,47.657550,0 -121.555840,47.664850,0 -121.566420,47.664830,0 -121.566420,47.664830,0 -121.576400,47.664830,0 -121.576340,47.657540,0 -121.566350,47.657530,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>BLACKHAWK #5</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101575981
+record acres: 20.66
+15.9 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.555860,47.672150,0 -121.545240,47.672180,0 -121.545260,47.681930,0 -121.555890,47.681910,0 -121.566520,47.681890,0 -121.566480,47.672130,0 -121.555860,47.672150,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>CHEROKEE</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101575982
+record acres: 20.66
+16.0 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.566480,47.672130,0 -121.566520,47.681890,0 -121.576500,47.681880,0 -121.576460,47.672120,0 -121.576400,47.664830,0 -121.566420,47.664830,0 -121.566480,47.672130,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>MONTE CARLO #5</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101577148
+record acres: 20.66
+14.9 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.534540,47.681940,0 -121.534570,47.691700,0 -121.545290,47.691680,0 -121.545260,47.681930,0 -121.545240,47.672180,0 -121.534510,47.672190,0 -121.534540,47.681940,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>SPOTTED OWL #2</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101577149
+record acres: 20.66
+16.0 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.566420,47.664830,0 -121.555840,47.664850,0 -121.555860,47.672160,0 -121.555860,47.672160,0 -121.555890,47.681910,0 -121.566520,47.681890,0 -121.576500,47.681880,0 -121.576460,47.672120,0 -121.576400,47.664830,0 -121.566420,47.664830,0 -121.566420,47.664830,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>SPOTTED OWL #3</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101577150
+record acres: 20.66
+16.0 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.566480,47.672130,0 -121.555860,47.672150,0 -121.555890,47.681910,0 -121.566520,47.681890,0 -121.576500,47.681880,0 -121.576460,47.672120,0 -121.566480,47.672130,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>SPOTTED OWL #4</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101577151
+record acres: 20.66
+16.0 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.566520,47.681890,0 -121.576500,47.681880,0 -121.576460,47.672120,0 -121.566480,47.672130,0 -121.566520,47.681890,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>CRYSTAL PARK 2</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101378041
+record acres: 20.66
+38.5 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.396700,47.488250,0 -121.391370,47.488260,0 -121.391350,47.488260,0 -121.391320,47.488260,0 -121.391290,47.488260,0 -121.386040,47.488270,0 -121.380720,47.488280,0 -121.380710,47.491890,0 -121.380710,47.495500,0 -121.385970,47.495490,0 -121.391290,47.495480,0 -121.396610,47.495470,0 -121.401930,47.495460,0 -121.401980,47.491850,0 -121.402030,47.488240,0 -121.401240,47.488240,0 -121.396700,47.488250,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>DAGGETT</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101470482
+record acres: 20.66
+14.9 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.534570,47.691700,0 -121.545290,47.691680,0 -121.545260,47.681930,0 -121.534540,47.681940,0 -121.534570,47.691700,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>MCCLAIN MYSTERY</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101470483
+record acres: 20.66
+14.9 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.545290,47.691680,0 -121.555920,47.691670,0 -121.555890,47.681910,0 -121.545260,47.681930,0 -121.545290,47.691680,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>MCCLAIN MYSTERY #2</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101470484
+record acres: 20.66
+14.9 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.555920,47.691670,0 -121.566550,47.691660,0 -121.566520,47.681890,0 -121.555890,47.681910,0 -121.555920,47.691670,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>MONTE CARLO #3</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101470485
+record acres: 20.66
+14.9 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.545260,47.681930,0 -121.534540,47.681940,0 -121.534570,47.691700,0 -121.545290,47.691680,0 -121.555920,47.691670,0 -121.555890,47.681910,0 -121.545260,47.681930,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>MONTE CARLO #10</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101470486
+record acres: 20.66
+16.0 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.545240,47.672180,0 -121.534510,47.672190,0 -121.534540,47.681940,0 -121.545260,47.681930,0 -121.555890,47.681910,0 -121.555860,47.672150,0 -121.545240,47.672180,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>HEMLOCK</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101342241
+record acres: 20.66
+39.2 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.359340,47.491510,0 -121.359340,47.491930,0 -121.359370,47.495520,0 -121.364650,47.495520,0 -121.369980,47.495510,0 -121.370000,47.491910,0 -121.370020,47.488320,0 -121.364670,47.488330,0 -121.359310,47.488330,0 -121.359340,47.490900,0 -121.359340,47.491510,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>CASCADE #6</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101747792
+record acres: 20.66
+39.4 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.386100,47.483160,0 -121.386110,47.482260,0 -121.386110,47.482210,0 -121.391230,47.483770,0 -121.391230,47.483780,0 -121.391200,47.483830,0 -121.390700,47.484640,0 -121.391420,47.484640,0 -121.391460,47.481020,0 -121.386120,47.481030,0 -121.380790,47.481040,0 -121.375430,47.481060,0 -121.370080,47.481070,0 -121.370050,47.484690,0 -121.370020,47.488320,0 -121.370000,47.491910,0 -121.369980,47.495510,0 -121.375310,47.495510,0 -121.380710,47.495500,0 -121.380710,47.491890,0 -121.380720,47.488280,0 -121.386040,47.488270,0 -121.386080,47.484650,0 -121.386100,47.483200,0 -121.386100,47.483160,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>CLIPPER VIEW</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101488129
+record acres: 11.48
+36.9 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.359350,47.516940,0 -121.359350,47.514800,0 -121.359350,47.513560,0 -121.356630,47.513570,0 -121.356200,47.514810,0 -121.356150,47.514960,0 -121.356140,47.514970,0 -121.356500,47.515030,0 -121.358390,47.515350,0 -121.357820,47.516940,0 -121.357170,47.518740,0 -121.359390,47.518830,0 -121.359350,47.517240,0 -121.359350,47.517200,0 -121.359350,47.517180,0 -121.359350,47.517100,0 -121.359350,47.516940,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>SHANGRI LA</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101844240
+record acres: 20.66
+38.9 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.380710,47.491890,0 -121.380720,47.488280,0 -121.375370,47.488310,0 -121.372290,47.488320,0 -121.370020,47.488320,0 -121.370000,47.491910,0 -121.369980,47.495510,0 -121.375310,47.495510,0 -121.380710,47.495500,0 -121.380710,47.491890,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>BLACKHAWK #3</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101431556
+record acres: 20.66
+16.0 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.555890,47.681910,0 -121.566520,47.681890,0 -121.566480,47.672130,0 -121.555860,47.672150,0 -121.555890,47.681910,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>PURPLE HOPE #2</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101434437
+record acres: 20.66
+32.6 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.434020,47.533150,0 -121.434050,47.540390,0 -121.444770,47.540390,0 -121.444770,47.540390,0 -121.458210,47.540400,0 -121.458170,47.533170,0 -121.444730,47.533160,0 -121.434020,47.533150,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>PURPLE HOPE #4</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101370352
+record acres: 20.66
+32.5 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.444770,47.540390,0 -121.458210,47.540400,0 -121.458170,47.533170,0 -121.444730,47.533160,0 -121.444770,47.540390,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>CASCADE #9</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101481538
+record acres: 20.66
+39.3 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.375430,47.481060,0 -121.370080,47.481070,0 -121.370050,47.484690,0 -121.370020,47.488320,0 -121.364670,47.488330,0 -121.359310,47.488330,0 -121.359340,47.490900,0 -121.359340,47.491510,0 -121.359340,47.491930,0 -121.359370,47.495520,0 -121.364650,47.495520,0 -121.369980,47.495510,0 -121.375310,47.495510,0 -121.380710,47.495500,0 -121.380710,47.491890,0 -121.380720,47.488280,0 -121.380720,47.486390,0 -121.380750,47.484660,0 -121.380750,47.484560,0 -121.380760,47.484450,0 -121.380790,47.482900,0 -121.380790,47.481060,0 -121.380790,47.481040,0 -121.375430,47.481060,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>NELLIE</name><styleUrl>#lode</styleUrl><description>Lode Claim — Active
+MLRS serial: OR101431170
+record acres: 20.66
+37.1 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.326710,47.518860,0 -121.326690,47.526090,0 -121.326670,47.533310,0 -121.338010,47.533310,0 -121.338040,47.526090,0 -121.338060,47.518870,0 -121.326710,47.518860,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Apex # 5 B</name><styleUrl>#lode</styleUrl><description>Lode Claim — Filed
+MLRS serial: OR106333435
+record acres: 160.0
+14.4 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.512120,47.691780,0 -121.512110,47.695390,0 -121.517480,47.695380,0 -121.517500,47.691760,0 -121.513040,47.691780,0 -121.512120,47.691780,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Apex # 6 B</name><styleUrl>#lode</styleUrl><description>Lode Claim — Filed
+MLRS serial: OR106333436
+record acres: 160.0
+14.3 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.512120,47.691780,0 -121.507670,47.691790,0 -121.506740,47.691800,0 -121.506740,47.695400,0 -121.506730,47.699020,0 -121.512090,47.699000,0 -121.517450,47.698990,0 -121.517450,47.698920,0 -121.517450,47.698850,0 -121.517480,47.695380,0 -121.517500,47.691760,0 -121.513040,47.691780,0 -121.512120,47.691780,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Apex #7</name><styleUrl>#lode</styleUrl><description>Lode Claim — Filed
+MLRS serial: OR106333437
+record acres: 160.0
+14.3 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.522890,47.691720,0 -121.518480,47.691750,0 -121.517500,47.691760,0 -121.517480,47.695380,0 -121.517450,47.698850,0 -121.517450,47.698920,0 -121.517450,47.698990,0 -121.522850,47.698980,0 -121.528250,47.698970,0 -121.528270,47.695350,0 -121.528280,47.691700,0 -121.523860,47.691720,0 -121.523280,47.691720,0 -121.522890,47.691720,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Puffball Millsite</name><styleUrl>#mill</styleUrl><description>Mill Site — Active
+MLRS serial: OR105261278
+record acres: 2.066
+38.7 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.375370,47.488310,0 -121.372290,47.488320,0 -121.370020,47.488320,0 -121.364670,47.488330,0 -121.359310,47.488330,0 -121.359340,47.490900,0 -121.359340,47.491510,0 -121.359340,47.491930,0 -121.359370,47.495520,0 -121.359390,47.499120,0 -121.359390,47.499850,0 -121.359330,47.502720,0 -121.364640,47.502720,0 -121.369950,47.502720,0 -121.375260,47.502720,0 -121.380570,47.502720,0 -121.380570,47.499850,0 -121.380640,47.499840,0 -121.380700,47.499840,0 -121.380700,47.499110,0 -121.380710,47.495500,0 -121.380710,47.491890,0 -121.380720,47.488280,0 -121.375370,47.488310,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Crystal Haven</name><styleUrl>#mill</styleUrl><description>Mill Site — Active
+MLRS serial: OR105761461
+record acres: 3.673
+38.6 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.401600,47.489070,0 -121.403240,47.489070,0 -121.403240,47.487980,0 -121.401630,47.487960,0 -121.401600,47.489070,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>PURPLE HOPE MILLSITE</name><styleUrl>#mill</styleUrl><description>Mill Site — Active
+MLRS serial: OR101565772
+record acres: 4.98
+33.4 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.471590,47.520630,0 -121.471620,47.527500,0 -121.482500,47.527820,0 -121.482470,47.520790,0 -121.471590,47.520630,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>MFLZ</name><styleUrl>#mill</styleUrl><description>Mill Site — Active
+MLRS serial: OR106301980
+record acres: 201.32
+37.7 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.364640,47.502720,0 -121.359330,47.502720,0 -121.359340,47.506090,0 -121.359340,47.506750,0 -121.359340,47.509900,0 -121.362760,47.509900,0 -121.363040,47.509900,0 -121.364710,47.509920,0 -121.369710,47.509890,0 -121.369720,47.509890,0 -121.369770,47.509890,0 -121.369960,47.509890,0 -121.369960,47.506730,0 -121.369960,47.506080,0 -121.369950,47.502720,0 -121.364640,47.502720,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Robot Parade #2</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR105816534
+record acres: 40.0
+37.1 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.412700,47.495470,0 -121.412660,47.499090,0 -121.412620,47.502710,0 -121.413310,47.502720,0 -121.418010,47.502720,0 -121.418510,47.502720,0 -121.423410,47.502720,0 -121.423400,47.499920,0 -121.423400,47.499860,0 -121.423440,47.499860,0 -121.423520,47.499860,0 -121.423520,47.499100,0 -121.423520,47.495480,0 -121.418080,47.495480,0 -121.412700,47.495470,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.412740,47.491860,0 -121.412780,47.488250,0 -121.407400,47.488240,0 -121.405670,47.488240,0 -121.402030,47.488240,0 -121.401980,47.491850,0 -121.401930,47.495460,0 -121.407320,47.495470,0 -121.412700,47.495470,0 -121.412740,47.491860,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+  <Placemark><name>MONEY</name><styleUrl>#placer</styleUrl><description>Placer Claim — Active
+MLRS serial: OR101650079
+record acres: 20.0
+15.5 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.409840,47.713450,0 -121.410240,47.720760,0 -121.421030,47.720840,0 -121.420880,47.713620,0 -121.409840,47.713450,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Spruce 14</name><styleUrl>#lode</styleUrl><description>Lode Claim — Filed
+MLRS serial: OR106392707
+record acres: 0.0
+37.7 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.363040,47.509900,0 -121.364710,47.509920,0 -121.369710,47.509890,0 -121.369720,47.509890,0 -121.369770,47.509890,0 -121.369960,47.509890,0 -121.369960,47.506730,0 -121.369960,47.506080,0 -121.369950,47.502720,0 -121.364640,47.502720,0 -121.359330,47.502720,0 -121.359340,47.506090,0 -121.359340,47.506750,0 -121.359340,47.509900,0 -121.362760,47.509900,0 -121.363040,47.509900,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Apex #9</name><styleUrl>#lode</styleUrl><description>Lode Claim — Filed
+MLRS serial: OR106801735
+record acres: 20.66
+14.3 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.513040,47.691780,0 -121.512120,47.691780,0 -121.507670,47.691790,0 -121.506740,47.691800,0 -121.506740,47.695400,0 -121.506730,47.699020,0 -121.512090,47.699000,0 -121.517450,47.698990,0 -121.517450,47.698920,0 -121.517450,47.698850,0 -121.517480,47.695380,0 -121.517500,47.691760,0 -121.513040,47.691780,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Apex #10</name><styleUrl>#lode</styleUrl><description>Lode Claim — Filed
+MLRS serial: OR106801736
+record acres: 20.66
+15.0 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.480920,47.691820,0 -121.479850,47.691820,0 -121.475570,47.691840,0 -121.474470,47.691840,0 -121.474500,47.695410,0 -121.474530,47.698970,0 -121.479900,47.698990,0 -121.485270,47.699010,0 -121.485250,47.695420,0 -121.485230,47.691820,0 -121.480920,47.691820,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>PK 2</name><styleUrl>#placer</styleUrl><description>Placer Claim — Filed
+MLRS serial: OR106822020
+record acres: 40.0
+14.9 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.463690,47.698950,0 -121.463660,47.702520,0 -121.469110,47.702530,0 -121.469110,47.698960,0 -121.463690,47.698950,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>PK 4</name><styleUrl>#placer</styleUrl><description>Placer Claim — Filed
+MLRS serial: OR106824994
+record acres: 40.0
+15.0 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.471820,47.698960,0 -121.474530,47.698970,0 -121.474520,47.697190,0 -121.471820,47.697180,0 -121.469110,47.697170,0 -121.469110,47.698960,0 -121.471820,47.698960,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>PK 3</name><styleUrl>#placer</styleUrl><description>Placer Claim — Filed
+MLRS serial: OR106824993
+record acres: 40.0
+14.8 km from Index
+
+WARNING: this outline is the PLSS section the claim was filed in, NOT the surveyed claim boundary. Verify the serial in BLM MLRS and get the claimant's permission before prospecting.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-121.471830,47.700750,0 -121.474550,47.700750,0 -121.474530,47.698970,0 -121.471820,47.698960,0 -121.469110,47.698960,0 -121.469110,47.700740,0 -121.471830,47.700750,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+</Document></kml>
