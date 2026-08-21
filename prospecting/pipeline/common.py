@@ -15,7 +15,9 @@ CRS = "EPSG:26910"
 # V0.2: expanded north/west from the original Sultan–Gold Bar–Index corridor to
 # take in the Monte Cristo district, the Mountain Loop Highway corridor
 # (Silverton), and the country around Granite Falls and Arlington.
-BBOX_4326 = (-122.30, 47.40, -121.25, 48.35)  # V0.3: south to King Co. east
+BBOX_4326 = (-122.30, 47.30, -121.25, 48.35)  # V0.3.1: south past the North
+# Bend front (McClellan Butte / Mt Washington) so the Snoqualmie batholith
+# margin isn't sitting on the coverage edge
 
 # HUC8s whose stream networks get scored (names from WBDHU8 in the NHDPlus GDB):
 #   17110009 Skykomish      — Sultan/Wallace/Skykomish (original V0.1 area)

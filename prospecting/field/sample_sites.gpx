@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="prospecting-v02" xmlns="http://www.topografix.com/GPX/1/1">
-  <metadata><name>Sky-Stilly-Sauk sampling plan (v02_20260818T173827)</name></metadata>
+  <metadata><name>Sky-Stilly-Sauk sampling plan (v03s_20260819T145646)</name></metadata>
   <wpt lat="48.066455" lon="-121.62744">
     <name>ST-H04 66 South Fork Stillagua</name>
     <desc>band HIGH | score 65.6/70 (src 35.6, tr 20.0) | 74 min drive + 0.0 km off-road | order 5 | nearest source: Copper Independent 6.2 km | Silverton district</desc>
@@ -18,7 +18,7 @@
   </wpt>
   <wpt lat="47.786611" lon="-121.598156">
     <name>SK-L01 5 unnamed</name>
-    <desc>band LOW | score 5.2/70 (src 3.2, tr 0.0) | 76 min drive + 2.4 km off-road | order 3 | nearest source: - nan km | Index district</desc>
+    <desc>band LOW | score 5.2/70 (src 3.2, tr 0.0) | 76 min drive + 2.4 km off-road | order 3 | nearest source: -  km | Index district</desc>
     <sym>Flag, Green</sym>
   </wpt>
   <wpt lat="47.840623" lon="-121.509026">
@@ -38,12 +38,12 @@
   </wpt>
   <wpt lat="48.07327" lon="-121.785567">
     <name>ST-L04 5 Heather Creek</name>
-    <desc>band LOW | score 5.2/70 (src 0.0, tr 3.2) | 80 min drive + 0.9 km off-road | order 4 | nearest source: - nan km | Silverton district</desc>
+    <desc>band LOW | score 5.2/70 (src 0.0, tr 3.2) | 80 min drive + 0.9 km off-road | order 4 | nearest source: -  km | Silverton district</desc>
     <sym>Flag, Green</sym>
   </wpt>
   <wpt lat="48.152605" lon="-121.737134">
     <name>ST-L05 5 unnamed</name>
-    <desc>band LOW | score 4.9/70 (src 1.3, tr 1.6) | 86 min drive + 0.9 km off-road | order 3 | nearest source: - nan km | Darrington district</desc>
+    <desc>band LOW | score 4.9/70 (src 1.3, tr 1.6) | 86 min drive + 0.9 km off-road | order 3 | nearest source: -  km | Darrington district</desc>
     <sym>Flag, Green</sym>
   </wpt>
   <wpt lat="47.877477" lon="-121.461268">
@@ -53,7 +53,7 @@
   </wpt>
   <wpt lat="47.794247" lon="-121.460167">
     <name>SK-M01 14 Barclay Creek</name>
-    <desc>band MID | score 13.7/70 (src 6.9, tr 4.8) | 92 min drive + 0.1 km off-road | order 5 | nearest source: - nan km | Index district</desc>
+    <desc>band MID | score 13.7/70 (src 6.9, tr 4.8) | 92 min drive + 0.1 km off-road | order 5 | nearest source: -  km | Index district</desc>
     <sym>Flag, Blue</sym>
   </wpt>
   <wpt lat="48.02632" lon="-121.439138">
@@ -83,12 +83,12 @@
   </wpt>
   <wpt lat="48.180321" lon="-121.487861">
     <name>SA-M04 13 Dutch Creek</name>
-    <desc>band MID | score 12.9/70 (src 5.1, tr 5.8) | 95 min drive + 0.1 km off-road | order 3 | nearest source: - nan km | Darrington district</desc>
+    <desc>band MID | score 12.9/70 (src 5.1, tr 5.8) | 95 min drive + 0.1 km off-road | order 3 | nearest source: -  km | Darrington district</desc>
     <sym>Flag, Blue</sym>
   </wpt>
   <wpt lat="48.020566" lon="-121.67106">
     <name>ST-L02 8 unnamed</name>
-    <desc>band LOW | score 7.7/70 (src 1.4, tr 4.3) | 96 min drive + 1.5 km off-road | order 5 | nearest source: - nan km | Sultan district</desc>
+    <desc>band LOW | score 7.7/70 (src 1.4, tr 4.3) | 96 min drive + 1.5 km off-road | order 5 | nearest source: -  km | Sultan district</desc>
     <sym>Flag, Green</sym>
   </wpt>
   <wpt lat="48.049784" lon="-121.430997">
@@ -98,12 +98,12 @@
   </wpt>
   <wpt lat="48.079835" lon="-121.4545">
     <name>ST-M03 11 Perry Creek</name>
-    <desc>band MID | score 10.8/70 (src 2.6, tr 6.2) | 100 min drive + 3.3 km off-road | order 3 | nearest source: - nan km | Silverton district</desc>
+    <desc>band MID | score 10.8/70 (src 2.6, tr 6.2) | 100 min drive + 3.3 km off-road | order 3 | nearest source: -  km | Silverton district</desc>
     <sym>Flag, Blue</sym>
   </wpt>
   <wpt lat="48.184754" lon="-121.45415">
     <name>SA-L01 10 Black Oak Creek</name>
-    <desc>band LOW | score 10.0/70 (src 0.0, tr 8.0) | 103 min drive + 0.6 km off-road | order 3 | nearest source: - nan km | Darrington district</desc>
+    <desc>band LOW | score 10.0/70 (src 0.0, tr 8.0) | 103 min drive + 0.6 km off-road | order 3 | nearest source: -  km | Darrington district</desc>
     <sym>Flag, Green</sym>
   </wpt>
   <wpt lat="48.067807" lon="-121.409202">
@@ -113,7 +113,7 @@
   </wpt>
   <wpt lat="48.086111" lon="-121.440763">
     <name>SA-L04 6 unnamed</name>
-    <desc>band LOW | score 5.8/70 (src 3.8, tr 0.0) | 104 min drive + 3.2 km off-road | order 3 | nearest source: - nan km | Silverton district</desc>
+    <desc>band LOW | score 5.8/70 (src 3.8, tr 0.0) | 104 min drive + 3.2 km off-road | order 3 | nearest source: -  km | Silverton district</desc>
     <sym>Flag, Green</sym>
   </wpt>
   <wpt lat="48.076061" lon="-121.397273">
@@ -123,57 +123,137 @@
   </wpt>
   <wpt lat="48.3326" lon="-121.672087">
     <name>ST-M02 11 South Branch North F</name>
-    <desc>band MID | score 11.1/70 (src 0.0, tr 9.1) | 107 min drive + 0.5 km off-road | order 4 | nearest source: - nan km | Cascade district</desc>
+    <desc>band MID | score 11.1/70 (src 0.0, tr 9.1) | 107 min drive + 0.5 km off-road | order 4 | nearest source: -  km | Cascade district</desc>
     <sym>Flag, Blue</sym>
   </wpt>
   <wpt lat="48.155478" lon="-121.505964">
     <name>SA-M02 14 Goodman Creek</name>
-    <desc>band MID | score 14.4/70 (src 7.6, tr 4.8) | 118 min drive + 1.2 km off-road | order 3 | nearest source: - nan km | Darrington district</desc>
+    <desc>band MID | score 14.4/70 (src 7.6, tr 4.8) | 118 min drive + 1.2 km off-road | order 3 | nearest source: -  km | Darrington district</desc>
     <sym>Flag, Blue</sym>
   </wpt>
   <wpt lat="48.233599" lon="-121.764998">
     <name>ST-L01 8 French Creek</name>
-    <desc>band LOW | score 7.8/70 (src 0.0, tr 5.8) | 125 min drive + 0.0 km off-road | order 5 | nearest source: - nan km | Darrington district</desc>
+    <desc>band LOW | score 7.8/70 (src 0.0, tr 5.8) | 125 min drive + 0.0 km off-road | order 5 | nearest source: -  km | Darrington district</desc>
     <sym>Flag, Green</sym>
   </wpt>
   <wpt lat="47.783491" lon="-121.634632">
     <name>SK-M02 12 Proctor Creek</name>
-    <desc>band MID | score 11.5/70 (src 0.8, tr 8.6) | 125 min drive + 1.8 km off-road | order 4 | nearest source: - nan km | Index district</desc>
+    <desc>band MID | score 11.5/70 (src 0.8, tr 8.6) | 125 min drive + 1.8 km off-road | order 4 | nearest source: -  km | Index district</desc>
     <sym>Flag, Blue</sym>
   </wpt>
   <wpt lat="48.155679" lon="-121.274443">
     <name>SA-M01 15 White Chuck River</name>
-    <desc>band MID | score 14.7/70 (src 0.0, tr 12.7) | 127 min drive + 7.9 km off-road | order 5 | nearest source: - nan km | Darrington district</desc>
+    <desc>band MID | score 14.7/70 (src 0.0, tr 12.7) | 127 min drive + 7.9 km off-road | order 5 | nearest source: -  km | Darrington district</desc>
     <sym>Flag, Blue</sym>
   </wpt>
   <wpt lat="48.335418" lon="-121.41127">
     <name>SA-L03 7 Tenas Creek</name>
-    <desc>band LOW | score 6.8/70 (src 0.0, tr 4.8) | 167 min drive + 3.0 km off-road | order 4 | nearest source: - nan km | Cascade district</desc>
+    <desc>band LOW | score 6.8/70 (src 0.0, tr 4.8) | 167 min drive + 3.0 km off-road | order 4 | nearest source: -  km | Cascade district</desc>
     <sym>Flag, Green</sym>
   </wpt>
   <wpt lat="48.105774" lon="-121.490857">
     <name>SA-M03 13 South Fork Falls Cre</name>
-    <desc>band MID | score 13.3/70 (src 8.4, tr 2.9) | 170 min drive + 2.2 km off-road | order 3 | nearest source: - nan km | Silverton district</desc>
+    <desc>band MID | score 13.3/70 (src 8.4, tr 2.9) | 170 min drive + 2.2 km off-road | order 3 | nearest source: -  km | Silverton district</desc>
     <sym>Flag, Blue</sym>
   </wpt>
   <wpt lat="48.136002" lon="-121.518187">
     <name>SA-L02 9 North Fork Falls Cre</name>
-    <desc>band LOW | score 9.4/70 (src 7.4, tr 0.0) | 176 min drive + 2.1 km off-road | order 3 | nearest source: - nan km | Silverton district</desc>
+    <desc>band LOW | score 9.4/70 (src 7.4, tr 0.0) | 176 min drive + 2.1 km off-road | order 3 | nearest source: -  km | Silverton district</desc>
     <sym>Flag, Green</sym>
   </wpt>
   <wpt lat="48.187147" lon="-121.820707">
     <name>ST-L03 7 Meadow Creek</name>
-    <desc>band LOW | score 6.8/70 (src 0.0, tr 4.8) | 177 min drive + 2.8 km off-road | order 4 | nearest source: - nan km | Darrington district</desc>
+    <desc>band LOW | score 6.8/70 (src 0.0, tr 4.8) | 177 min drive + 2.8 km off-road | order 4 | nearest source: -  km | Darrington district</desc>
     <sym>Flag, Green</sym>
   </wpt>
   <wpt lat="48.182487" lon="-121.847642">
     <name>ST-M01 15 North Fork Canyon Cr</name>
-    <desc>band MID | score 14.8/70 (src 0.0, tr 12.8) | 177 min drive + 0.8 km off-road | order 4 | nearest source: - nan km | Granite Falls district</desc>
+    <desc>band MID | score 14.8/70 (src 0.0, tr 12.8) | 177 min drive + 0.8 km off-road | order 4 | nearest source: -  km | Granite Falls district</desc>
     <sym>Flag, Blue</sym>
   </wpt>
   <wpt lat="48.260675" lon="-121.455414">
     <name>SA-M05 12 All Creek</name>
-    <desc>band MID | score 11.8/70 (src 0.0, tr 9.8) | 192 min drive + 2.0 km off-road | order 3 | nearest source: - nan km | Darrington district</desc>
+    <desc>band MID | score 11.8/70 (src 0.0, tr 9.8) | 192 min drive + 2.0 km off-road | order 3 | nearest source: -  km | Darrington district</desc>
     <sym>Flag, Blue</sym>
+  </wpt>
+  <wpt lat="47.978881" lon="-122.043907">
+    <name>SN-X08 24 Pilchuck River</name>
+    <desc>band EXPL | score 23.8/70 (src 7.8, tr 14.0) | 29 min drive + 0.2 km off-road | order 6 | nearest source:   km</desc>
+    <sym>Pin, Yellow</sym>
+  </wpt>
+  <wpt lat="47.988701" lon="-122.036948">
+    <name>SN-X02 24 Little Pilchuck Cree</name>
+    <desc>band EXPL | score 24.4/70 (src 8.4, tr 14.0) | 31 min drive + 0.1 km off-road | order 4 | nearest source:   km</desc>
+    <sym>Pin, Yellow</sym>
+  </wpt>
+  <wpt lat="48.002462" lon="-122.034363">
+    <name>SN-X07 24 Pilchuck River</name>
+    <desc>band EXPL | score 24.2/70 (src 8.2, tr 14.0) | 33 min drive + 0.1 km off-road | order 6 | nearest source:   km</desc>
+    <sym>Pin, Yellow</sym>
+  </wpt>
+  <wpt lat="48.023173" lon="-122.024073">
+    <name>SN-X05 24 unnamed</name>
+    <desc>band EXPL | score 24.3/70 (src 8.3, tr 14.0) | 36 min drive + 0.0 km off-road | order 6 | nearest source:   km</desc>
+    <sym>Pin, Yellow</sym>
+  </wpt>
+  <wpt lat="48.072225" lon="-122.007164">
+    <name>SN-X06 24 Pilchuck River</name>
+    <desc>band EXPL | score 24.2/70 (src 8.2, tr 14.0) | 36 min drive + 0.1 km off-road | order 6 | nearest source:   km | Granite Falls district</desc>
+    <sym>Pin, Yellow</sym>
+  </wpt>
+  <wpt lat="48.088566" lon="-121.962932">
+    <name>SN-X01 24 unnamed</name>
+    <desc>band EXPL | score 24.4/70 (src 12.9, tr 4.8) | 43 min drive + 0.0 km off-road | order 2 | nearest source: Blomquist 4.7 km | Granite Falls district</desc>
+    <sym>Pin, Yellow</sym>
+  </wpt>
+  <wpt lat="48.018034" lon="-121.914884">
+    <name>SN-X04 24 Pilchuck River</name>
+    <desc>band EXPL | score 24.4/70 (src 8.4, tr 13.9) | 49 min drive + 0.1 km off-road | order 6 | nearest source:   km | Sultan district</desc>
+    <sym>Pin, Yellow</sym>
+  </wpt>
+  <wpt lat="47.530061" lon="-121.753309">
+    <name>SQ-X08 52 North Fork Snoqualmi</name>
+    <desc>band EXPL | score 51.6/70 (src 21.6, tr 20.0) | 68 min drive + 0.1 km off-road | order 6 | nearest source: Leta 1.3 km</desc>
+    <sym>Pin, Yellow</sym>
+  </wpt>
+  <wpt lat="47.394387" lon="-121.474937">
+    <name>SQ-X05 53 South Fork Snoqualmi</name>
+    <desc>band EXPL | score 53.3/70 (src 24.1, tr 19.2) | 75 min drive + 0.0 km off-road | order 5 | nearest source: Carmack 2.1 km | Snoqualmie district</desc>
+    <sym>Pin, Yellow</sym>
+  </wpt>
+  <wpt lat="47.396886" lon="-121.461339">
+    <name>SQ-X02 55 South Fork Snoqualmi</name>
+    <desc>band EXPL | score 54.9/70 (src 26.0, tr 18.8) | 79 min drive + 0.2 km off-road | order 5 | nearest source: Carmack 0.9 km | Snoqualmie district</desc>
+    <sym>Pin, Yellow</sym>
+  </wpt>
+  <wpt lat="47.547171" lon="-121.539511">
+    <name>SQ-X06 53 Middle Fork Snoqualm</name>
+    <desc>band EXPL | score 53.1/70 (src 23.1, tr 20.0) | 91 min drive + 0.1 km off-road | order 6 | nearest source: Rainy 4.4 km | Miller River district</desc>
+    <sym>Pin, Yellow</sym>
+  </wpt>
+  <wpt lat="47.664259" lon="-121.586812">
+    <name>SQ-X01 63 North Fork Snoqualmi</name>
+    <desc>band EXPL | score 62.8/70 (src 32.8, tr 20.0) | 107 min drive + 0.3 km off-road | order 5 | nearest source: Lenox Mining and Development 2.1 km | Miller River district</desc>
+    <sym>Pin, Yellow</sym>
+  </wpt>
+  <wpt lat="47.666174" lon="-121.600868">
+    <name>SQ-X07 52 North Fork Snoqualmi</name>
+    <desc>band EXPL | score 51.9/70 (src 29.9, tr 12.0) | 107 min drive + 0.2 km off-road | order 5 | nearest source: Lenox Mining and Development 3.3 km | Miller River district</desc>
+    <sym>Pin, Yellow</sym>
+  </wpt>
+  <wpt lat="47.654922" lon="-121.572321">
+    <name>SQ-X04 54 unnamed</name>
+    <desc>band EXPL | score 54.2/70 (src 31.7, tr 15.5) | 110 min drive + 0.1 km off-road | order 5 | nearest source: Lenox Mining and Development 0.5 km | Miller River district</desc>
+    <sym>Pin, Yellow</sym>
+  </wpt>
+  <wpt lat="47.671758" lon="-121.508882">
+    <name>SQ-X03 55 North Fork Snoqualmi</name>
+    <desc>band EXPL | score 54.7/70 (src 26.5, tr 18.2) | 124 min drive + 0.3 km off-road | order 3 | nearest source: Rushing 1.0 km | Miller River district</desc>
+    <sym>Pin, Yellow</sym>
+  </wpt>
+  <wpt lat="48.030236" lon="-121.862865">
+    <name>SN-X03 24 Pilchuck River</name>
+    <desc>band EXPL | score 24.4/70 (src 8.4, tr 14.0) | 133 min drive + 0.2 km off-road | order 6 | nearest source:   km | Sultan district</desc>
+    <sym>Pin, Yellow</sym>
   </wpt>
 </gpx>

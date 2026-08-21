@@ -159,3 +159,16 @@ af,0,Artificial fill
 JTRam(t),0,Tonga Formation amphibolite
 Mix(b),1,Mount Buckindy pluton breccia
 MZPZigb,0,Undifferentiated metagabbro
+# --- V0.3.1 southern extension: Snoqualmie batholith suite + King Co units.
+# Ratings per B42 (North Bend/Miller River districts: Au-quartz veins at
+# batholith margins) mirroring the Grotto=2 / central-phase=1 convention.
+MOigd(s),2,Snoqualmie batholith granodiorite - N Bend/Miller R. district margins
+MOig(s),2,Snoqualmie batholith granite phase
+MOigb(s),2,Snoqualmie batholith gabbro phase - matches Grotto gabbro
+MOix(s),2,Snoqualmie batholith mixed/breccia rocks - margin vein host
+MOig(sh),2,Snoqualmie batholith satellite stock
+Migd(s),1,Snoqualmie batholith Miocene granodiorite - younger central phase
+Mig(s),1,Snoqualmie batholith Miocene granite - younger central phase
+Mit,1,Miocene tonalite - young central-phase intrusive
+Oigd(is),2,Index batholith satellite stock - conservative vs Oigd(i)=3
+Qs,1,Quaternary sediments undivided - mixed drift; like Qgd
