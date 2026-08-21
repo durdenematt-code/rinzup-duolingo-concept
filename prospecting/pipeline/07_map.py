@@ -32,6 +32,10 @@ def load_run(run_id=None):
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--run-id", default=None)
+    ap.add_argument("--near", default=None, metavar="LAT,LON,KM",
+                    help="clip to a radius around a point, e.g. 47.82,-121.55,20 "
+                         "- small fast file for one day's ground")
+    ap.add_argument("--out", default=None, help="output filename under map/")
     ap.add_argument("--lite", action="store_true",
                     help="smaller export for phone/artifact use (writes map/lite.html): "
                          "keeps only order>=4 or score>=15 segments, heavier simplification")
@@ -57,6 +61,16 @@ def main() -> int:
     else:
         seg = seg[(seg["StreamOrde"] >= 3) | (seg["total_score"] >= 8)].copy()
         seg["geometry"] = seg.geometry.simplify(15)
+    if args.near:
+        import shapely.geometry as _sg
+        la, lo, km = (float(v) for v in args.near.split(","))
+        clip = (gpd.GeoSeries([_sg.Point(lo, la)], crs="EPSG:4326")
+                .to_crs(seg.crs).buffer(km * 1000).iloc[0])
+        seg = seg[seg.geometry.intersects(clip)]
+        occ = occ[occ.geometry.intersects(clip)]
+        claims = claims[claims.geometry.intersects(clip)]
+        dist = dist[dist.geometry.intersects(clip)]
+        print(f"clipped to {km:.0f} km around {la},{lo}")
     print(f"{len(seg)} segments on map")
 
     import shapely
@@ -70,7 +84,10 @@ def main() -> int:
     claims4326 = slim(claims)
     dist4326 = slim(dist)
 
-    m = folium.Map(location=[47.90, -121.70], zoom_start=9, tiles=None, prefer_canvas=True)
+    ctr = ([float(args.near.split(",")[0]), float(args.near.split(",")[1])]
+           if args.near else [47.90, -121.70])
+    zoom = 12 if args.near else 9
+    m = folium.Map(location=ctr, zoom_start=zoom, tiles=None, prefer_canvas=True)
     folium.TileLayer("OpenStreetMap", name="OpenStreetMap").add_to(m)
     folium.TileLayer(
         tiles="https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}",
@@ -230,14 +247,37 @@ def main() -> int:
                 ).add_to(fg_fs)
             fg_fs.add_to(m)
 
-    folium.LayerControl(collapsed=False).add_to(m)
+    folium.LayerControl(collapsed=True).add_to(m)
 
     def dash(color, pattern):
         return (f'<svg width="26" height="6"><line x1="0" y1="3" x2="26" y2="3" '
                 f'stroke="{color}" stroke-width="2.5" stroke-dasharray="{pattern}"/></svg>')
 
     note = f"""
-    <div style="position: fixed; bottom: 12px; left: 12px; z-index: 9999;
+    <style>
+      #legend-toggle {{
+        position: fixed; bottom: 12px; left: 12px; z-index: 10000;
+        background: rgba(255,255,255,0.95); border: 1px solid #888;
+        border-radius: 6px; padding: 7px 11px; font: 600 13px sans-serif;
+        cursor: pointer; box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+      }}
+      #legend-box.hidden {{ display: none; }}
+      /* phones: legend starts hidden, layer panel and colour bar shrink */
+      @media (max-width: 760px) {{
+        #legend-box {{
+          bottom: 54px !important; left: 8px !important; right: 8px !important;
+          max-width: none !important; max-height: 45vh; overflow-y: auto;
+          font-size: 11px !important;
+        }}
+        .leaflet-control-layers {{ max-height: 55vh; overflow-y: auto; font-size: 12px; }}
+        .leaflet-control-colorbar, .legend.leaflet-control {{ transform: scale(0.7);
+          transform-origin: top right; }}
+      }}
+    </style>
+    <button id="legend-toggle" onclick="var b=document.getElementById('legend-box');
+      b.classList.toggle('hidden');
+      this.textContent = b.classList.contains('hidden') ? 'Legend \u25B2' : 'Legend \u25BC';">Legend &#9660;</button>
+    <div id="legend-box" style="position: fixed; bottom: 12px; left: 12px; z-index: 9999;
                 background: rgba(255,255,255,0.93); padding: 8px 12px; border-radius: 6px;
                 font: 12px/1.45 sans-serif; max-width: 400px; box-shadow: 0 1px 4px rgba(0,0,0,0.3);">
       <b>Skykomish–Stillaguamish–Sauk–Snoqualmie prospectivity — V0.3</b> (run {run_id})<br>
@@ -258,11 +298,18 @@ def main() -> int:
       Labeled dots = proposed sample sites (basin-band id, e.g. ST-H01):
       <span style="color:#d7191c">●</span> HIGH &nbsp;<span style="color:#2c7bb6">●</span> MID
       &nbsp;<span style="color:#33a02c">●</span> LOW
-    </div>"""
+    </div>
+    <script>
+      // start collapsed on phone-sized screens so the map is visible
+      if (window.matchMedia("(max-width: 760px)").matches) {{
+        document.getElementById("legend-box").classList.add("hidden");
+        document.getElementById("legend-toggle").textContent = "Legend \u25B2";
+      }}
+    </script>"""
     m.get_root().html.add_child(folium.Element(note))
 
     OUT.mkdir(exist_ok=True)
-    out = OUT / ("lite.html" if args.lite else "index.html")
+    out = OUT / (args.out or ("lite.html" if args.lite else "index.html"))
     m.save(str(out))
     from webassets import inline_assets
     inline_assets(out)
