@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="prospecting-v031" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>Index area - 30 km</name></metadata>
+  <wpt lat="47.840623" lon="-121.509026">
+    <name>SK-H02</name>
+    <desc>HIGH band | score 64.8/70 | North Fork Skykomish River | 4.1 km from Index | open to Aug 31 (above Deer Falls: Feb 28)</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="47.786611" lon="-121.598156">
+    <name>SK-L01</name>
+    <desc>LOW band | score 5.2/70 | unnamed | 5.0 km from Index | Aug 31 ('all other Snohomish tribs')</desc>
+    <sym>Flag, Green</sym>
+  </wpt>
+  <wpt lat="47.783491" lon="-121.634632">
+    <name>SK-M02</name>
+    <desc>MID band | score 11.5/70 | Proctor Creek | 7.2 km from Index | Aug 31 ('all other Snohomish tribs')</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+  <wpt lat="47.794247" lon="-121.460167">
+    <name>SK-M01</name>
+    <desc>MID band | score 13.7/70 | Barclay Creek | 7.7 km from Index | Aug 31 ('all other Snohomish tribs')</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+  <wpt lat="47.877477" lon="-121.461268">
+    <name>SK-H01</name>
+    <desc>HIGH band | score 66.7/70 | North Fork Skykomish River | 9.4 km from Index | open to Aug 31 (above Deer Falls: Feb 28)</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="47.671758" lon="-121.508882">
+    <name>SQ-X03</name>
+    <desc>EXPL band | score 54.7/70 | North Fork Snoqualmie River | 16.9 km from Index | Jul 16-Feb 28 (SF/MF/NF Snoqualmie listed reaches)</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+  <wpt lat="47.664259" lon="-121.586812">
+    <name>SQ-X01</name>
+    <desc>EXPL band | score 62.8/70 | North Fork Snoqualmie River | 17.5 km from Index | Jul 16-Feb 28 (SF/MF/NF Snoqualmie listed reaches)</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+  <wpt lat="47.666174" lon="-121.600868">
+    <name>SQ-X07</name>
+    <desc>EXPL band | score 51.9/70 | North Fork Snoqualmie River | 17.5 km from Index | Jul 16-Feb 28 (SF/MF/NF Snoqualmie listed reaches)</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+  <wpt lat="47.654922" lon="-121.572321">
+    <name>SQ-X04</name>
+    <desc>EXPL band | score 54.2/70 | unnamed | 18.4 km from Index | Jul 16-Sep 30 (King default, unlisted trib; Feb 28 if Lennox/Deep/Illinois)</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+  <wpt lat="48.003839" lon="-121.441371">
+    <name>SA-H07</name>
+    <desc>HIGH band | score 64.0/70 | South Fork Sauk River | 22.0 km from Index | CLOSED Aug 15</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="47.998761" lon="-121.422922">
+    <name>SA-H03</name>
+    <desc>HIGH band | score 65.2/70 | South Fork Sauk River | 22.1 km from Index | CLOSED Aug 15</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="47.992916" lon="-121.406574">
+    <name>SA-H05</name>
+    <desc>HIGH band | score 65.0/70 | South Fork Sauk River | 22.1 km from Index | CLOSED Aug 15</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="48.015519" lon="-121.442168">
+    <name>SA-H04</name>
+    <desc>HIGH band | score 65.1/70 | South Fork Sauk River | 23.2 km from Index | CLOSED Aug 15</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="48.020566" lon="-121.67106">
+    <name>ST-L02</name>
+    <desc>LOW band | score 7.7/70 | unnamed | 23.8 km from Index | Jul 16-Sep 15 (county default, unlisted trib)</desc>
+    <sym>Flag, Green</sym>
+  </wpt>
+  <wpt lat="48.02632" lon="-121.439138">
+    <name>SA-H01</name>
+    <desc>HIGH band | score 65.7/70 | South Fork Sauk River | 24.4 km from Index | CLOSED Aug 15</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="48.049784" lon="-121.430997">
+    <name>SA-H06</name>
+    <desc>HIGH band | score 64.2/70 | South Fork Sauk River | 27.0 km from Index | CLOSED Aug 15</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="48.064034" lon="-121.640617">
+    <name>ST-H05</name>
+    <desc>HIGH band | score 64.9/70 | South Fork Stillaguamish River | 27.7 km from Index | CLOSED Aug 15</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="48.067889" lon="-121.608557">
+    <name>ST-H02</name>
+    <desc>HIGH band | score 66.2/70 | South Fork Stillaguamish River | 27.7 km from Index | CLOSED Aug 15</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="48.066455" lon="-121.62744">
+    <name>ST-H04</name>
+    <desc>HIGH band | score 65.6/70 | South Fork Stillaguamish River | 27.8 km from Index | CLOSED Aug 15</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="48.073953" lon="-121.584657">
+    <name>ST-H01</name>
+    <desc>HIGH band | score 66.4/70 | South Fork Stillaguamish River | 28.2 km from Index | CLOSED Aug 15</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="48.079021" lon="-121.57089">
+    <name>ST-H03</name>
+    <desc>HIGH band | score 65.8/70 | South Fork Stillaguamish River | 28.7 km from Index | CLOSED Aug 15</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="48.067807" lon="-121.409202">
+    <name>SA-H02</name>
+    <desc>HIGH band | score 65.3/70 | South Fork Sauk River | 29.5 km from Index | CLOSED Aug 15</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="48.079835" lon="-121.4545">
+    <name>ST-M03</name>
+    <desc>MID band | score 10.8/70 | Perry Creek | 29.7 km from Index | Jul 16-Sep 15 (county default, unlisted trib)</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+  <wpt lat="47.8970575" lon="-121.4218711">
+    <name>FS-01 (FOUND GOLD)</name>
+    <desc>my find 2026-08-18 - flake+flour</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+  <wpt lat="47.8975916" lon="-121.4198634">
+    <name>FS-02 (FOUND GOLD)</name>
+    <desc>my find 2026-08-18 - flake+flour</desc>
+    <sym>Flag, Blue</sym>
+  </wpt>
+</gpx>
