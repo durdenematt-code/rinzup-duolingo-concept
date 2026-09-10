@@ -44,26 +44,37 @@ def main() -> int:
     buf["buf_area"] = buf.geometry.area
 
     # ---- geology ---------------------------------------------------------
-    geol = load_many("wgs_geology_100k.geojson")
+    # Optional: a region whose geology extract could not be retrieved scores 0
+    # on the geology factor. That is MISSING DATA, not barren ground — the
+    # has_geology flag below records which it is.
+    try:
+        geol = load_many("wgs_geology_100k.geojson")
+    except FileNotFoundError:
+        print("NOTE: no geology extract for this region — gold_frac = 0 everywhere; "
+              "the source score falls back to the occurrence signal alone")
+        pd.DataFrame({"gold_frac": 0.0}, index=seg["segment_id"]).to_parquet(
+            INTERIM / "segment_geology.parquet")
+        geol = None
     assoc = pd.read_csv(CONFIG / "geology_gold_assoc.csv", comment="#")
     rating = dict(zip(assoc["unit"], assoc["rating"]))
-    geol["rating"] = geol["MAP_UNIT_100K"].map(rating)
-    unknown = geol.loc[geol["rating"].isna(), "MAP_UNIT_100K"].unique()
-    if len(unknown):
-        print(f"WARNING: {len(unknown)} unrated map units (rated 0): {list(unknown)[:10]}")
-        geol["rating"] = geol["rating"].fillna(0)
-    # only ratings >= 2 count toward the geology factor (docs/03); rating-1
-    # background units (melange belts, till) cover too much area to discriminate
-    geol = geol[geol["rating"] >= 2][["MAP_UNIT_100K", "rating", "geometry"]]
+    if geol is not None:
+        geol["rating"] = geol["MAP_UNIT_100K"].map(rating)
+        unknown = geol.loc[geol["rating"].isna(), "MAP_UNIT_100K"].unique()
+        if len(unknown):
+            print(f"WARNING: {len(unknown)} unrated map units (rated 0): {list(unknown)[:10]}")
+            geol["rating"] = geol["rating"].fillna(0)
+        # only ratings >= 2 count toward the geology factor (docs/03); rating-1
+        # background units (melange belts, till) cover too much area to discriminate
+        geol = geol[geol["rating"] >= 2][["MAP_UNIT_100K", "rating", "geometry"]]
 
-    ix = gpd.overlay(buf, geol, how="intersection", keep_geom_type=True)
-    ix["w"] = ix.geometry.area * np.where(ix["rating"] >= 3, 1.0, 0.7)
-    frac = ix.groupby("segment_id")["w"].sum() / buf.set_index("segment_id")["buf_area"]
-    seg_geol = pd.DataFrame({"gold_frac": frac.clip(0, 1)}).reindex(
-        seg["segment_id"]).fillna(0)
-    seg_geol.to_parquet(INTERIM / "segment_geology.parquet")
-    print(f"geology: {len(ix)} intersections; mean gold_frac "
-          f"{seg_geol['gold_frac'].mean():.3f}, >0 on {(seg_geol['gold_frac']>0).sum()} segments")
+        ix = gpd.overlay(buf, geol, how="intersection", keep_geom_type=True)
+        ix["w"] = ix.geometry.area * np.where(ix["rating"] >= 3, 1.0, 0.7)
+        frac = ix.groupby("segment_id")["w"].sum() / buf.set_index("segment_id")["buf_area"]
+        seg_geol = pd.DataFrame({"gold_frac": frac.clip(0, 1)}).reindex(
+            seg["segment_id"]).fillna(0)
+        seg_geol.to_parquet(INTERIM / "segment_geology.parquet")
+        print(f"geology: {len(ix)} intersections; mean gold_frac "
+              f"{seg_geol['gold_frac'].mean():.3f}, >0 on {(seg_geol['gold_frac']>0).sum()} segments")
 
     # ---- districts -------------------------------------------------------
     try:
@@ -131,9 +142,10 @@ def main() -> int:
     # the geology factor and 'unknown' on access for lack of DATA, not because
     # the ground is barren or private. Flag it so scores are never compared
     # across the coverage boundary without knowing.
-    geol_hull = geol.geometry.union_all().convex_hull
+    geol_hull = geol.geometry.union_all().convex_hull if geol is not None else None
     own_hull = ndmpl.geometry.union_all().convex_hull
-    acc["has_geology"] = seg.set_index("segment_id").geometry.intersects(geol_hull).reindex(acc.index).fillna(False)
+    acc["has_geology"] = (seg.set_index("segment_id").geometry.intersects(geol_hull)
+                          .reindex(acc.index).fillna(False) if geol_hull is not None else False)
     acc["has_ownership"] = seg.set_index("segment_id").geometry.intersects(own_hull).reindex(acc.index).fillna(False)
     acc["overlays_complete"] = acc["has_geology"] & acc["has_ownership"]
     print(f"overlay coverage: geology {int(acc.has_geology.sum())}/{len(acc)}, "
