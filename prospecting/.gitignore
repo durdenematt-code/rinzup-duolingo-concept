@@ -11,3 +11,6 @@ data/raw/**/*.tif
 data/raw/lidar/
 data/raw/_pages/
 data/raw/*.gml
+data/*.gpkg
+data/raw/*.jpg
+data/raw/*.xml
