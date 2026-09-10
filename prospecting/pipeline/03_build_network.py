@@ -1,23 +1,30 @@
 """Stage 03 — build the scored stream network from NHDPlus HR.
 
-Reads flowlines + VAAs straight out of the downloaded GDB zip (no unzip),
-keeps reaches of the scored HUC8 basins (common.SCORED_HUC8S) inside the
-study bbox, joins
-navigation/slope/drainage attributes, marks segments below Culmback Dam,
-and writes `stream_segments` + `watersheds` layers.
+Reads flowlines + VAAs from the region's unzipped HU4 geodatabase(s), keeps
+reaches of the scored HUC8 basins (common.SCORED_HUC8S) inside the study
+bbox, joins navigation/slope/drainage attributes, marks segments below any
+configured dam, and writes `stream_segments` + watershed layers.
+
+A region may span several HU4s (Blewett = Yakima 1703 + Wenatchee 1702);
+each is read separately and concatenated. NHDPlus keys (NHDPlusID, HydroSeq)
+are globally unique across HU4s, so downstream navigation still works — but
+note navigation TRUNCATES at both the bbox edge and the HU4 boundary.
 """
 import sys
+from pathlib import Path
 
 import geopandas as gpd
 import pandas as pd
 import pyogrio
 from shapely.geometry import Point
 
-from common import BBOX_4326, CRS, DAMS, GPKG, INTERIM, RAW, SCORED_HUC8S, ensure_dirs
+from common import (BBOX_4326, CRS, DAMS, GPKG, INTERIM, NHD_GDBS, RAW,
+                    REGION_LABEL, SCORED_HUC8S, ensure_dirs)
 
 # unzipped once by stage 01 — /vsizip random access on the 482 MB archive is
 # unusably slow for filtered reads
-GDB = str(RAW / "NHDPLUS_H_1711_HU4_GDB.gdb")
+# region may span several HU4 geodatabases (Blewett = Yakima + Wenatchee)
+GDBS = NHD_GDBS
 
 # FTypes to keep: 460 StreamRiver, 558 ArtificialPath (thalweg through
 # waterbodies). Dropped: 336 canal/ditch, 428 pipeline, 334 connector, 566 coast.
@@ -26,25 +33,39 @@ KEEP_FTYPE = {460, 558}
 
 def main() -> int:
     ensure_dirs()
-    print("Reading flowlines (HUC8 filter)...")
+    print(f"Region: {REGION_LABEL} — {len(GDBS)} geodatabase(s)")
     huc_clause = " OR ".join(f"ReachCode LIKE '{h}%'" for h in SCORED_HUC8S)
-    fl = pyogrio.read_dataframe(
-        GDB, layer="NHDFlowline", bbox=BBOX_4326,
-        where=huc_clause,
-        columns=["NHDPlusID", "GNIS_Name", "ReachCode", "FType", "FCode", "LengthKM"],
-        force_2d=True,
-    )
-    print(f"  {len(fl)} flowlines in bbox/HUC8")
-    fl = fl[fl["FType"].isin(KEEP_FTYPE)].copy()
-    print(f"  {len(fl)} after FType filter")
-
-    print("Reading VAA table...")
-    vaa = pyogrio.read_dataframe(
-        GDB, layer="NHDPlusFlowlineVAA", read_geometry=False,
-        columns=["NHDPlusID", "StreamOrde", "Slope", "TotDASqKm",
-                 "HydroSeq", "DnHydroSeq", "UpHydroSeq", "LevelPathI"],
-    )
-    fl = fl.merge(vaa, on="NHDPlusID", how="left", validate="1:1")
+    parts = []
+    for gdb in GDBS:
+        if not Path(gdb).exists():
+            print(f"  SKIP (missing): {Path(gdb).name}")
+            continue
+        try:  # a truncated download leaves a directory that is not a valid GDB
+            pyogrio.list_layers(gdb)
+        except Exception as e:
+            raise SystemExit(
+                f"{Path(gdb).name} exists but is not a readable geodatabase "
+                f"({e}). Delete it and re-download before rerunning.")
+        f = pyogrio.read_dataframe(
+            gdb, layer="NHDFlowline", bbox=BBOX_4326, where=huc_clause,
+            columns=["NHDPlusID", "GNIS_Name", "ReachCode", "FType", "FCode", "LengthKM"],
+            force_2d=True,
+        )
+        f = f[f["FType"].isin(KEEP_FTYPE)]
+        v = pyogrio.read_dataframe(
+            gdb, layer="NHDPlusFlowlineVAA", read_geometry=False,
+            columns=["NHDPlusID", "StreamOrde", "Slope", "TotDASqKm",
+                     "HydroSeq", "DnHydroSeq", "UpHydroSeq", "LevelPathI"],
+        )
+        f = f.merge(v, on="NHDPlusID", how="left", validate="1:1")
+        print(f"  {Path(gdb).name}: {len(f)} flowlines")
+        parts.append(f)
+    if not parts:
+        raise SystemExit("no geodatabases found for this region — download them first")
+    fl = pd.concat(parts, ignore_index=True) if len(parts) > 1 else parts[0]
+    fl = gpd.GeoDataFrame(fl, geometry="geometry", crs=parts[0].crs)
+    fl = fl.drop_duplicates(subset="NHDPlusID")
+    print(f"  {len(fl)} flowlines total (deduped)")
     n_novaa = fl["HydroSeq"].isna().sum()
     if n_novaa:
         print(f"  WARNING: {n_novaa} flowlines lack VAA rows; dropped")
@@ -99,9 +120,18 @@ def main() -> int:
 
     print("Reading watershed boundaries...")
     for lvl in ["WBDHU10", "WBDHU12"]:
-        wb = pyogrio.read_dataframe(GDB, layer=lvl, bbox=BBOX_4326, force_2d=True)
         code_col = "HUC10" if lvl == "WBDHU10" else "HUC12"
-        wb = wb[[code_col, "Name", "AreaSqKm", "geometry"]].to_crs(CRS)
+        wbs = []
+        for gdb in GDBS:
+            if not Path(gdb).exists():
+                continue
+            w = pyogrio.read_dataframe(gdb, layer=lvl, bbox=BBOX_4326, force_2d=True)
+            wbs.append(w[[code_col, "Name", "AreaSqKm", "geometry"]])
+        if not wbs:
+            continue
+        wb = gpd.GeoDataFrame(pd.concat(wbs, ignore_index=True),
+                              geometry="geometry", crs=wbs[0].crs)
+        wb = wb.drop_duplicates(subset=code_col).to_crs(CRS)
         wb.to_file(GPKG, layer=lvl.lower(), driver="GPKG")
         print(f"  {len(wb)} {lvl} polygons -> {GPKG}:{lvl.lower()}")
     return 0

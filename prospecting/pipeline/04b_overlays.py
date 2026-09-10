@@ -16,16 +16,16 @@ import geopandas as gpd
 import numpy as np
 import pandas as pd
 
-from common import CONFIG, CRS, GPKG, INTERIM, RAW
+from common import CONFIG, CRS, GPKG, INTERIM, RAW, raw_all
 
 BUFFER_M = 300
 
 
-def load_many(*names):
-    """Concat any of these extracts that exist (base + king_* strip)."""
-    parts = [load_4326(n) for n in names if (RAW / n).exists()]
+def load_many(basename):
+    """Concat every extract for this basename in the current region."""
+    parts = [load_4326(f.name) for f in raw_all(basename)]
     if not parts:
-        raise FileNotFoundError(names[0])
+        raise FileNotFoundError(basename)
     out = pd.concat(parts, ignore_index=True)
     return gpd.GeoDataFrame(out, geometry="geometry", crs=parts[0].crs)
 
@@ -44,7 +44,7 @@ def main() -> int:
     buf["buf_area"] = buf.geometry.area
 
     # ---- geology ---------------------------------------------------------
-    geol = load_many("wgs_geology_100k.geojson", "king_wgs_geology_100k.geojson")
+    geol = load_many("wgs_geology_100k.geojson")
     assoc = pd.read_csv(CONFIG / "geology_gold_assoc.csv", comment="#")
     rating = dict(zip(assoc["unit"], assoc["rating"]))
     geol["rating"] = geol["MAP_UNIT_100K"].map(rating)
@@ -67,7 +67,7 @@ def main() -> int:
 
     # ---- districts -------------------------------------------------------
     try:
-        dist = load_many("wgs_mining_districts.geojson", "king_wgs_mining_districts.geojson")
+        dist = load_many("wgs_mining_districts.geojson")
         hit = gpd.sjoin(seg[["segment_id", "geometry"]], dist[["geometry"]],
                         how="inner", predicate="intersects")["segment_id"].unique()
         sd = pd.DataFrame({"in_district": 0.0}, index=seg["segment_id"])
@@ -79,7 +79,7 @@ def main() -> int:
         print(f"districts skipped: {e}")
 
     # ---- claims ----------------------------------------------------------
-    claims = load_many("blm_claims_active.geojson", "king_blm_claims_active.geojson")
+    claims = load_many("blm_claims_active.geojson")
     claims["claim_kind"] = claims["BLM_PROD"].str.title()
     claims.to_file(GPKG, layer="claims_active", driver="GPKG")
     cc = gpd.sjoin(seg[["segment_id", "geometry"]], claims[["geometry"]],
@@ -87,8 +87,8 @@ def main() -> int:
     print(f"claims: {len(claims)} active; {len(cc)} segments intersect a claim section")
 
     # ---- ownership / access ---------------------------------------------
-    ndmpl = load_many("ndmpl_ownership.geojson", "king_ndmpl_ownership.geojson")
-    dnr = load_many("dnr_managed_lands.geojson", "king_dnr_managed_lands.geojson")
+    ndmpl = load_many("ndmpl_ownership.geojson")
+    dnr = load_many("dnr_managed_lands.geojson")
     ndmpl.to_file(GPKG, layer="ownership_public", driver="GPKG")
     dnr.to_file(GPKG, layer="dnr_managed_lands", driver="GPKG")
 

@@ -20,7 +20,7 @@ import numpy as np
 import pandas as pd
 from shapely.geometry import Point
 
-from common import CRS, GPKG, RAW, load_weights
+from common import CRS, GPKG, RAW, load_weights, raw_all
 
 PLACER_RE = re.compile(r"\b(placers?|bars?|bench(es)?|gravels?|dredge)\b", re.I)
 USMIN_MINING = {"Adit", "Mine Shaft", "Prospect Pit", "Open Pit Mine or Quarry"}
@@ -54,9 +54,11 @@ def main() -> int:
     records = []
 
     # ---- WGS layers 12 + 13 (identical schema; dedup on SITE_ID) ---------
-    wgs_files = ["wgs_gold_silver.geojson", "wgs_metallic.geojson",
-                 "king_wgs_gold_silver.geojson", "king_wgs_metallic.geojson"]
-    wgs = pd.concat([gpd.read_file(RAW / f) for f in wgs_files if (RAW / f).exists()]
+    wgs_files = [f for b in ("wgs_gold_silver.geojson", "wgs_metallic.geojson")
+                 for f in raw_all(b)]
+    if not wgs_files:
+        raise SystemExit("no WGS extracts for this region — run the fetch first")
+    wgs = pd.concat([gpd.read_file(f) for f in wgs_files]
                     ).drop_duplicates(subset="SITE_ID").set_crs("EPSG:4326", allow_override=True)
     # Drop mining-district CENTROIDS: these are polygon centres masquerading as
     # point sites (LOCATION_ACCURACY "mining district centroid"). Left in, they
@@ -81,9 +83,10 @@ def main() -> int:
             district=r.get("MINING_DISTRICT") or "", geometry=r.geometry))
 
     # ---- MRDS ------------------------------------------------------------
-    mrds_parts = [load_swapped(f) for f in ("mrds.geojson", "king_mrds.geojson")
-                  if (RAW / f).exists()]
-    mrds = pd.concat(mrds_parts).drop_duplicates(subset="dep_id")
+    mrds_parts = [load_swapped(f.name) for f in raw_all("mrds.geojson")]
+    mrds = (pd.concat(mrds_parts).drop_duplicates(subset="dep_id")
+            if mrds_parts else pd.DataFrame(columns=["dep_id", "site_name", "code_list",
+                                                     "dev_stat", "geometry"]))
     for _, r in mrds.iterrows():
         codes = (r.get("code_list") or "").upper().split()
         is_gold = "AU" in codes
@@ -126,9 +129,14 @@ def main() -> int:
     print(f"{len(gold)} gold records -> {n_clusters} deduplicated sites")
 
     # ---- USMIN physical workings ----------------------------------------
-    usmin = load_swapped("usmin_points.geojson").to_crs(CRS)
-    usmin.to_file(GPKG, layer="usmin_features", driver="GPKG")
-    workings = usmin[usmin["ftr_type"].isin(USMIN_MINING)]
+    usmin_files = raw_all("usmin_points.geojson")
+    if usmin_files:
+        usmin = load_swapped(usmin_files[0].name).to_crs(CRS)
+        usmin.to_file(GPKG, layer="usmin_features", driver="GPKG")
+        workings = usmin[usmin["ftr_type"].isin(USMIN_MINING)]
+    else:
+        print("NOTE: no USMIN extract for this region — n_workings_300m will be 0")
+        workings = gpd.GeoDataFrame({"geometry": []}, geometry="geometry", crs=CRS)
     wtree = cKDTree(np.c_[workings.geometry.x, workings.geometry.y]) if len(workings) else None
 
     # ---- fuse clusters ---------------------------------------------------
