@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="prospecting-blewett" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>Liberty/Swauk - open + unclaimed</name></metadata>
+  <wpt lat="47.239739" lon="-120.684902">
+    <name>LIB-01</name>
+    <desc>score 52/70 | unnamed | OPEN to Sep 30 | src Burcham Placer | 1.3 km from Liberty | UNCLAIMED as of this data</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="47.480782" lon="-120.987691">
+    <name>LIB-02</name>
+    <desc>score 50/70 | Fortune Creek | OPEN to Sep 30 | src Silver Bow | 35.5 km from Liberty | UNCLAIMED as of this data</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="47.310786" lon="-120.662965">
+    <name>LIB-03</name>
+    <desc>score 46/70 | Hurley Creek | OPEN to Sep 30 | src Golden Fleece | 7.3 km from Liberty | UNCLAIMED as of this data</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="47.333017" lon="-120.619919">
+    <name>LIB-04</name>
+    <desc>score 42/70 | Swauk Creek | OPEN to Sep 30 | src Zerwekh | 10.5 km from Liberty | UNCLAIMED as of this data</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="47.317207" lon="-120.669306">
+    <name>LIB-05</name>
+    <desc>score 41/70 | Hurley Creek | OPEN to Sep 30 | src Dot-En-El Prospect | 8.0 km from Liberty | UNCLAIMED as of this data</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="47.470814" lon="-120.993527">
+    <name>LIB-06</name>
+    <desc>score 40/70 | South Fork Fortune Creek | OPEN to Sep 30 | src Grandview | 35.0 km from Liberty | UNCLAIMED as of this data</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="47.294301" lon="-120.649898">
+    <name>LIB-07</name>
+    <desc>score 39/70 | unnamed | OPEN to Sep 30 | src Liberty | 5.7 km from Liberty | UNCLAIMED as of this data</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="47.329123" lon="-120.650097">
+    <name>LIB-08</name>
+    <desc>score 37/70 | Swauk Creek | OPEN to Sep 30 | src Gold Reef | 9.5 km from Liberty | UNCLAIMED as of this data</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="47.273646" lon="-120.5389">
+    <name>LIB-09</name>
+    <desc>score 37/70 | Naneum Creek | OPEN to Sep 30 | src Naneum Creek Placer | 10.3 km from Liberty | UNCLAIMED as of this data</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+  <wpt lat="47.434245" lon="-120.97911">
+    <name>LIB-10</name>
+    <desc>score 36/70 | DeRoux Creek | OPEN to Sep 30 | src Keystone | 31.4 km from Liberty | UNCLAIMED as of this data</desc>
+    <sym>Flag, Red</sym>
+  </wpt>
+</gpx>

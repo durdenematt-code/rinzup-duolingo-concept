@@ -14,7 +14,7 @@ import numpy as np
 import pandas as pd
 from branca.colormap import LinearColormap
 
-from common import GPKG, ROOT
+from common import BBOX_4326, GPKG, REGION, REGION_LABEL, ROOT
 
 OUT = ROOT / "map"
 V02_MAX = 70.0  # trap score (30 pts) reserved for Phase 2
@@ -230,6 +230,9 @@ def main() -> int:
     if fs_csv.exists():
         fs = pd.read_csv(fs_csv)
         fs = fs[fs["lat"].notna() & fs["lon"].notna()]
+        # only this region's finds — the log spans every region
+        w, s0, e, n0 = BBOX_4326
+        fs = fs[fs.lat.between(s0, n0) & fs.lon.between(w, e)]
         if len(fs):
             fg_fs = folium.FeatureGroup(name=f"MY field samples ({len(fs)})", show=True)
             for _, r in fs.iterrows():

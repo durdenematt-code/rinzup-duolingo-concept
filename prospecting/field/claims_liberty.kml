@@ -1,0 +1,1591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><name>BLM active claims - Blewett/Liberty</name>
+  <Style id="lode"><LineStyle><color>ff0000cc</color><width>2</width></LineStyle><PolyStyle><color>3d0000cc</color></PolyStyle></Style>
+  <Style id="placer"><LineStyle><color>ff00a5ff</color><width>2</width></LineStyle><PolyStyle><color>3d00a5ff</color></PolyStyle></Style>
+  <Style id="mill"><LineStyle><color>ff808080</color><width>2</width></LineStyle><PolyStyle><color>3d808080</color></PolyStyle></Style>
+  <Placemark><name>Gold Reserve</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR105245829
+acres 20.66
+PLSS WA 33 0200N 0180E 018 A NWNW|WA 33 0200N 0180E 018 A ALL
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.618800,47.233610,0 -120.629470,47.233620,0 -120.634790,47.233630,0 -120.638560,47.233640,0 -120.638560,47.233650,0 -120.645150,47.233670,0 -120.645160,47.233010,0 -120.645170,47.230030,0 -120.645170,47.229400,0 -120.645180,47.226400,0 -120.645180,47.225790,0 -120.645180,47.225770,0 -120.645190,47.222780,0 -120.645200,47.222180,0 -120.645210,47.219140,0 -120.640040,47.219150,0 -120.634720,47.219160,0 -120.629460,47.219170,0 -120.618820,47.219200,0 -120.618810,47.226410,0 -120.618800,47.233610,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Dragonfly</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR105261294
+acres 20.66
+PLSS WA 33 0210N 0180E 031 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.630810,47.274660,0 -120.641200,47.274680,0 -120.641240,47.267450,0 -120.630790,47.267440,0 -120.630810,47.274660,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Liberty Peak #2</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR105261295
+acres 20.66
+PLSS WA 33 0200N 0170E 002 A SWNE|WA 33 0200N 0170E 002 A SENE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.671710,47.254750,0 -120.669600,47.254760,0 -120.669410,47.254840,0 -120.669380,47.254770,0 -120.666400,47.254790,0 -120.666400,47.254790,0 -120.666440,47.256800,0 -120.666440,47.256950,0 -120.666460,47.258290,0 -120.666460,47.258300,0 -120.671740,47.258290,0 -120.677030,47.258280,0 -120.677020,47.256940,0 -120.677020,47.254700,0 -120.671710,47.254750,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Eastern Star</name><styleUrl>#lode</styleUrl><description>Lode Claim - Under Review
+serial OR105296027
+acres 20.66115702
+PLSS WA 33 0220N 0170E 002 A ALL
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.665480,47.423080,0 -120.669480,47.425250,0 -120.670050,47.423490,0 -120.665500,47.421350,0 -120.665480,47.423080,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Bobtail</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR105773186
+acres 13.08539945
+PLSS WA 33 0220N 0170E 002 A ALL
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.662280,47.438350,0 -120.667600,47.438360,0 -120.671520,47.438360,0 -120.672940,47.438360,0 -120.678280,47.438350,0 -120.683630,47.438340,0 -120.683600,47.435060,0 -120.683550,47.433270,0 -120.683510,47.431460,0 -120.683480,47.429680,0 -120.683430,47.427420,0 -120.683420,47.426350,0 -120.683420,47.426100,0 -120.683410,47.425630,0 -120.683410,47.424910,0 -120.683430,47.423590,0 -120.683440,47.422480,0 -120.683470,47.418840,0 -120.662450,47.418830,0 -120.662420,47.420610,0 -120.662400,47.422460,0 -120.662370,47.426090,0 -120.662360,47.426200,0 -120.662360,47.426300,0 -120.662350,47.427920,0 -120.662340,47.428690,0 -120.662330,47.429710,0 -120.662320,47.430390,0 -120.662310,47.431500,0 -120.662300,47.433340,0 -120.662300,47.433400,0 -120.662300,47.433460,0 -120.662290,47.435110,0 -120.662280,47.438350,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Keynote</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR105773188
+acres 20.66115702
+PLSS WA 33 0220N 0170E 001 A ALL|WA 33 0220N 0170E 002 A ALL
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.659890,47.424870,0 -120.664570,47.425500,0 -120.665450,47.422800,0 -120.659750,47.422780,0 -120.659890,47.424870,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Blackjack</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR105773187
+acres 13.77410468
+PLSS WA 33 0220N 0170E 001 A ALL|WA 33 0220N 0170E 002 A ALL
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.650030,47.438310,0 -120.651520,47.438320,0 -120.656920,47.438340,0 -120.662280,47.438350,0 -120.667600,47.438360,0 -120.671520,47.438360,0 -120.672940,47.438360,0 -120.678280,47.438350,0 -120.683630,47.438340,0 -120.683600,47.435060,0 -120.683550,47.433270,0 -120.683510,47.431460,0 -120.683480,47.429680,0 -120.683430,47.427420,0 -120.683420,47.426350,0 -120.683420,47.426100,0 -120.683410,47.425630,0 -120.683410,47.424910,0 -120.683430,47.423590,0 -120.683440,47.422480,0 -120.683470,47.418840,0 -120.662450,47.418830,0 -120.659660,47.418830,0 -120.657000,47.418820,0 -120.651570,47.418810,0 -120.646140,47.418820,0 -120.640750,47.418820,0 -120.640760,47.419560,0 -120.640750,47.423130,0 -120.640740,47.426780,0 -120.640730,47.429660,0 -120.640730,47.430380,0 -120.640720,47.433280,0 -120.640720,47.433940,0 -120.640710,47.437850,0 -120.643630,47.437870,0 -120.646120,47.437890,0 -120.650020,47.437920,0 -120.650030,47.438310,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Hummingbird Lode</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR105775621
+acres 0.0
+PLSS WA 33 0220N 0170E 002 | WA 33 0220N 0170E 002 MS312
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.662280,47.438350,0 -120.667600,47.438360,0 -120.671520,47.438360,0 -120.672940,47.438360,0 -120.678280,47.438350,0 -120.683630,47.438340,0 -120.683600,47.435060,0 -120.683550,47.433270,0 -120.683510,47.431460,0 -120.683480,47.429680,0 -120.683430,47.427420,0 -120.683420,47.426350,0 -120.683420,47.426100,0 -120.683410,47.425630,0 -120.683410,47.424910,0 -120.683430,47.423590,0 -120.683440,47.422480,0 -120.683470,47.418840,0 -120.662450,47.418830,0 -120.662420,47.420610,0 -120.662400,47.422460,0 -120.662370,47.426090,0 -120.662360,47.426200,0 -120.662360,47.426300,0 -120.662350,47.427920,0 -120.662340,47.428690,0 -120.662330,47.429710,0 -120.662320,47.430390,0 -120.662310,47.431500,0 -120.662300,47.433340,0 -120.662300,47.433400,0 -120.662300,47.433460,0 -120.662290,47.435110,0 -120.662280,47.438350,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Gold Reserve</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR105785438
+acres 20.66
+PLSS WA 33 0200N 0170E 012 A NE|WA 33 0200N 0170E 012 A SWNE|WA 33 0200N 0170E 012 A NWNE|WA 33 0200N 0170E 012 A NENE|WA 33 0200N 0170E 012 A SENE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.650420,47.240240,0 -120.645100,47.240250,0 -120.645100,47.240270,0 -120.645090,47.240320,0 -120.645090,47.240360,0 -120.645090,47.240820,0 -120.645070,47.243880,0 -120.645070,47.244400,0 -120.645050,47.247500,0 -120.650380,47.247480,0 -120.655680,47.247460,0 -120.655710,47.243850,0 -120.655740,47.240230,0 -120.650420,47.240240,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Phoenix Lode</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR105788585
+acres 20.66
+PLSS WA 33 0200N 0170E 002 A NW|WA 33 0200N 0170E 002 A SWNW|WA 33 0200N 0170E 002 A Government Lot 4|WA 33 0200N 0170E 002 A Government Lot 3|WA 33 0200N 0170E 002 A SENW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.666370,47.251040,0 -120.666370,47.251470,0 -120.666380,47.252060,0 -120.666380,47.252740,0 -120.666400,47.254590,0 -120.666400,47.254790,0 -120.666440,47.256800,0 -120.666440,47.256950,0 -120.666460,47.258290,0 -120.666460,47.258300,0 -120.666480,47.260130,0 -120.667820,47.260130,0 -120.667830,47.260130,0 -120.670480,47.260130,0 -120.671760,47.260130,0 -120.671780,47.260130,0 -120.673140,47.260130,0 -120.677040,47.260130,0 -120.678440,47.260130,0 -120.682310,47.260130,0 -120.683770,47.260120,0 -120.687590,47.260100,0 -120.687600,47.258250,0 -120.687600,47.258220,0 -120.687610,47.256930,0 -120.687630,47.254620,0 -120.687630,47.254580,0 -120.687630,47.253760,0 -120.687650,47.251050,0 -120.687650,47.250590,0 -120.687670,47.247420,0 -120.685040,47.247420,0 -120.682330,47.247420,0 -120.676990,47.247420,0 -120.671670,47.247410,0 -120.671660,47.247410,0 -120.666320,47.247430,0 -120.666340,47.249190,0 -120.666360,47.250600,0 -120.666370,47.251040,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Last Chance</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR105794255
+acres 20.66
+PLSS WA 33 0220N 0170E 002 A ALL
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.671090,47.425690,0 -120.672480,47.425850,0 -120.675800,47.425800,0 -120.671440,47.425050,0 -120.671090,47.425690,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Mineral Fraction</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR105794256
+acres 4.5
+PLSS WA 33 0220N 0170E 002 A ALL
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.676950,47.425950,0 -120.678600,47.426150,0 -120.679030,47.424440,0 -120.676060,47.424250,0 -120.676950,47.425950,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>North Star</name><styleUrl>#lode</styleUrl><description>Lode Claim - Under Review
+serial OR105794257
+acres 0.0
+PLSS WA 33 0220N 0170E 002
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.662280,47.438350,0 -120.667600,47.438360,0 -120.671520,47.438360,0 -120.672940,47.438360,0 -120.678280,47.438350,0 -120.683630,47.438340,0 -120.683600,47.435060,0 -120.683550,47.433270,0 -120.683510,47.431460,0 -120.683480,47.429680,0 -120.683430,47.427420,0 -120.683420,47.426350,0 -120.683420,47.426100,0 -120.683410,47.425630,0 -120.683410,47.424910,0 -120.683430,47.423590,0 -120.683440,47.422480,0 -120.683470,47.418840,0 -120.662450,47.418830,0 -120.662420,47.420610,0 -120.662400,47.422460,0 -120.662370,47.426090,0 -120.662360,47.426200,0 -120.662360,47.426300,0 -120.662350,47.427920,0 -120.662340,47.428690,0 -120.662330,47.429710,0 -120.662320,47.430390,0 -120.662310,47.431500,0 -120.662300,47.433340,0 -120.662300,47.433400,0 -120.662300,47.433460,0 -120.662290,47.435110,0 -120.662280,47.438350,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Peshastin</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR105794258
+acres 20.66
+PLSS WA 33 0220N 0170E 002 A ALL|WA 33 0220N 0170E 001 A ALL
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.661630,47.423940,0 -120.666360,47.426450,0 -120.667380,47.424910,0 -120.662950,47.422730,0 -120.661630,47.423940,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Liberty II</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR105822241
+acres 20.66
+PLSS WA 33 0200N 0180E 020 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.597760,47.211890,0 -120.597780,47.219150,0 -120.608300,47.219180,0 -120.608310,47.211920,0 -120.597760,47.211890,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Mayda Claim</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR105830530
+acres 20.0
+PLSS WA 33 0210N 0170E 015 A NW|WA 33 0210N 0170E 015 A NENW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.694200,47.310810,0 -120.694190,47.314420,0 -120.694180,47.318030,0 -120.704860,47.318030,0 -120.704860,47.310820,0 -120.694200,47.310810,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>T&amp;T Hercules</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR105838296
+acres 20.66
+PLSS WA 33 0200N 0180E 019 A ALL|WA 33 0200N 0180E 019 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.618850,47.211940,0 -120.618820,47.219200,0 -120.629460,47.219170,0 -120.634720,47.219160,0 -120.640040,47.219150,0 -120.645210,47.219140,0 -120.645210,47.218570,0 -120.645240,47.215520,0 -120.645240,47.215000,0 -120.645270,47.211900,0 -120.645270,47.211440,0 -120.645300,47.208320,0 -120.645300,47.208020,0 -120.645300,47.207870,0 -120.645330,47.204710,0 -120.640340,47.204710,0 -120.634960,47.204710,0 -120.632100,47.204710,0 -120.632100,47.204700,0 -120.618880,47.204690,0 -120.618850,47.211940,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>T&amp;T Blue Sky</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR105838295
+acres 20.66
+PLSS WA 33 0200N 0180E 019 A ALL|WA 33 0200N 0180E 019 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.618850,47.211940,0 -120.618820,47.219200,0 -120.629460,47.219170,0 -120.634720,47.219160,0 -120.640040,47.219150,0 -120.645210,47.219140,0 -120.645210,47.218570,0 -120.645240,47.215520,0 -120.645240,47.215000,0 -120.645270,47.211900,0 -120.645270,47.211440,0 -120.645300,47.208320,0 -120.645300,47.208020,0 -120.645300,47.207870,0 -120.645330,47.204710,0 -120.640340,47.204710,0 -120.634960,47.204710,0 -120.632100,47.204710,0 -120.632100,47.204700,0 -120.618880,47.204690,0 -120.618850,47.211940,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>T&amp;T</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR105838294
+acres 9.64
+PLSS WA 33 0200N 0180E 020 A NW|WA 33 0200N 0180E 020 A ALL
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.597780,47.219150,0 -120.608300,47.219180,0 -120.618820,47.219200,0 -120.618880,47.204690,0 -120.597740,47.204640,0 -120.597780,47.219150,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Gold Claims Northwest</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR105838497
+acres 20.0
+PLSS WA 33 0210N 0170E 015 A SE|WA      
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.683610,47.303570,0 -120.683550,47.310810,0 -120.694200,47.310810,0 -120.694230,47.303590,0 -120.683610,47.303570,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>pegasus</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR105838550
+acres 20.0
+PLSS WA 33 0210N 0170E 015 A SE|WA 33 0210N 0170E 015 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.683610,47.303570,0 -120.683550,47.310810,0 -120.694200,47.310810,0 -120.694230,47.303590,0 -120.683610,47.303570,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Constellation</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR105836032
+acres 20.66
+PLSS WA 33 0200N 0180E 019 A ALL|WA 33 0200N 0180E 019 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.618880,47.204690,0 -120.618850,47.211940,0 -120.618820,47.219200,0 -120.632020,47.219170,0 -120.632020,47.219170,0 -120.634720,47.219160,0 -120.640040,47.219150,0 -120.645210,47.219140,0 -120.645210,47.218570,0 -120.645240,47.215520,0 -120.645240,47.215000,0 -120.645270,47.211900,0 -120.645270,47.211440,0 -120.645300,47.208320,0 -120.645300,47.208020,0 -120.645300,47.207870,0 -120.645330,47.204710,0 -120.640340,47.204710,0 -120.634960,47.204710,0 -120.629580,47.204700,0 -120.618880,47.204690,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>SAM</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101378254
+acres 20.66
+PLSS WA 33 0210N 0180E 031 A SE|WA 33 0210N 0180E 032 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.620250,47.260200,0 -120.609640,47.260240,0 -120.609720,47.267450,0 -120.620340,47.267420,0 -120.630790,47.267440,0 -120.630770,47.260210,0 -120.620250,47.260200,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LITTLE JEWEL NO. 1</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101481621
+acres 20.66
+PLSS WA 33 0210N 0170E 022 A NW|WA 33 0210N 0170E 022 A NE|WA 33 0210N 0170E 022 A SW|WA 33 0210N 0170E 022 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.683690,47.289110,0 -120.683650,47.296340,0 -120.683610,47.303570,0 -120.694240,47.303590,0 -120.704870,47.303620,0 -120.704920,47.296370,0 -120.704960,47.289120,0 -120.694320,47.289110,0 -120.683690,47.289110,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LITTLE JEWEL NO. 2</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101484429
+acres 20.66
+PLSS WA 33 0210N 0170E 022 A SE|WA 33 0210N 0170E 022 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.683690,47.289110,0 -120.683650,47.296340,0 -120.694280,47.296350,0 -120.704920,47.296370,0 -120.704960,47.289120,0 -120.694320,47.289110,0 -120.683690,47.289110,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LITTLE JEWEL NO. 3</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101432858
+acres 20.66
+PLSS WA 33 0210N 0170E 022 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.683650,47.296340,0 -120.683610,47.303570,0 -120.694240,47.303590,0 -120.694280,47.296350,0 -120.683650,47.296340,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LITTLE JEWEL NO. 4</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101482743
+acres 20.66
+PLSS WA 33 0210N 0170E 022 A NE|WA 33 0210N 0170E 022 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.683690,47.289110,0 -120.683650,47.296340,0 -120.683610,47.303570,0 -120.694240,47.303590,0 -120.694280,47.296350,0 -120.694320,47.289110,0 -120.683690,47.289110,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>MMM</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101433606
+acres 17.35
+PLSS WA 33 0210N 0170E 033 A SE|WA 33 0210N 0170E 034 A NW|WA 33 0210N 0170E 034 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.705020,47.260070,0 -120.694390,47.260100,0 -120.694360,47.267370,0 -120.694330,47.274640,0 -120.704910,47.274630,0 -120.704960,47.267350,0 -120.715620,47.267330,0 -120.715680,47.260050,0 -120.705020,47.260070,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>SOUTHERN STAR</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101481921
+acres 20.66
+PLSS WA 33 0210N 0170E 013 A SE|WA 33 0210N 0170E 024 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.641100,47.296370,0 -120.641020,47.303610,0 -120.641020,47.310820,0 -120.651660,47.310810,0 -120.651680,47.303590,0 -120.651740,47.296360,0 -120.641100,47.296370,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>MERRY WIDOW</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101431938
+acres 20.66
+PLSS WA 33 0210N 0170E 034 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.694360,47.267370,0 -120.694330,47.274640,0 -120.704910,47.274630,0 -120.704960,47.267350,0 -120.694360,47.267370,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>MERRY WIDOW NUMBER 2</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101481873
+acres 20.66
+PLSS WA 33 0210N 0170E 034 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.694360,47.267370,0 -120.694330,47.274640,0 -120.704910,47.274630,0 -120.704960,47.267350,0 -120.694360,47.267370,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>KING GOLD</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101370276
+acres 20.66
+PLSS WA 33 0200N 0170E 001 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.645140,47.255280,0 -120.645160,47.257000,0 -120.645180,47.258290,0 -120.645180,47.258320,0 -120.645200,47.260170,0 -120.650480,47.260170,0 -120.650520,47.260170,0 -120.650950,47.260170,0 -120.650960,47.260170,0 -120.651020,47.258510,0 -120.651720,47.258500,0 -120.651720,47.258280,0 -120.651720,47.256990,0 -120.651720,47.256380,0 -120.653690,47.256360,0 -120.653730,47.254690,0 -120.650450,47.254680,0 -120.645130,47.254670,0 -120.645130,47.254700,0 -120.645140,47.255280,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.655800,47.260160,0 -120.655840,47.260160,0 -120.655820,47.258400,0 -120.655220,47.258380,0 -120.655180,47.260160,0 -120.655320,47.260160,0 -120.655800,47.260160,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+  <Placemark><name>MOUNTAIN DAISY</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101434369
+acres 20.66
+PLSS WA 33 0200N 0170E 001 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.645140,47.255280,0 -120.645160,47.257000,0 -120.645180,47.258290,0 -120.645180,47.258320,0 -120.645200,47.260170,0 -120.650480,47.260170,0 -120.650520,47.260170,0 -120.650950,47.260170,0 -120.650960,47.260170,0 -120.651020,47.258510,0 -120.651720,47.258500,0 -120.651720,47.258280,0 -120.651720,47.256990,0 -120.651720,47.256380,0 -120.653690,47.256360,0 -120.653730,47.254690,0 -120.650450,47.254680,0 -120.645130,47.254670,0 -120.645130,47.254700,0 -120.645140,47.255280,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.655800,47.260160,0 -120.655840,47.260160,0 -120.655820,47.258400,0 -120.655220,47.258380,0 -120.655180,47.260160,0 -120.655320,47.260160,0 -120.655800,47.260160,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+  <Placemark><name>RED JACKET</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101482426
+acres 20.66
+PLSS WA 33 0200N 0170E 001 A NE|WA 33 0200N 0180E 006 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.632120,47.254100,0 -120.632150,47.260170,0 -120.645200,47.260170,0 -120.650480,47.260170,0 -120.650520,47.260170,0 -120.650950,47.260170,0 -120.650960,47.260170,0 -120.651020,47.258510,0 -120.651720,47.258500,0 -120.651720,47.258280,0 -120.651720,47.256990,0 -120.651720,47.256380,0 -120.653690,47.256360,0 -120.653730,47.254690,0 -120.650450,47.254680,0 -120.645130,47.254670,0 -120.645130,47.254080,0 -120.632120,47.254100,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.655320,47.260160,0 -120.655800,47.260160,0 -120.655840,47.260160,0 -120.655820,47.258400,0 -120.655220,47.258380,0 -120.655180,47.260160,0 -120.655320,47.260160,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+  <Placemark><name>SUNSET</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101330802
+acres 19.5
+PLSS WA 33 0210N 0170E 036 A SE|WA 33 0200N 0170E 001 A NE|WA 33 0200N 0180E 006 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.632120,47.254100,0 -120.632150,47.260170,0 -120.645200,47.260170,0 -120.650480,47.260170,0 -120.650520,47.260170,0 -120.650950,47.260170,0 -120.650960,47.260170,0 -120.651020,47.258510,0 -120.651720,47.258500,0 -120.651720,47.258280,0 -120.651720,47.256990,0 -120.651720,47.256380,0 -120.653690,47.256360,0 -120.653730,47.254690,0 -120.650450,47.254680,0 -120.645130,47.254670,0 -120.645130,47.254080,0 -120.632120,47.254100,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.655180,47.260160,0 -120.655320,47.260160,0 -120.655800,47.260160,0 -120.655840,47.260160,0 -120.655820,47.258400,0 -120.655220,47.258380,0 -120.655180,47.260160,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.651870,47.267440,0 -120.651910,47.260190,0 -120.641290,47.260230,0 -120.641240,47.267470,0 -120.651870,47.267440,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+  <Placemark><name>AMOS #1</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101824757
+acres 20.66
+PLSS WA 33 0210N 0180E 030 A NW|WA 33 0210N 0180E 030 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.630870,47.281880,0 -120.620540,47.281880,0 -120.620650,47.289120,0 -120.630920,47.289110,0 -120.641190,47.289100,0 -120.641190,47.281890,0 -120.630870,47.281880,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>AMOS #2</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101824758
+acres 20.66
+PLSS WA 33 0210N 0180E 030 A NW|WA 33 0210N 0180E 030 A NE|WA 33 0210N 0180E 030 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.620540,47.281880,0 -120.620650,47.289120,0 -120.630920,47.289110,0 -120.641190,47.289100,0 -120.641190,47.281890,0 -120.630870,47.281880,0 -120.630810,47.274660,0 -120.620430,47.274640,0 -120.620540,47.281880,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>AMOS #3</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101826003
+acres 20.66
+PLSS WA 33 0210N 0180E 030 A NW|WA 33 0210N 0180E 030 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.630870,47.281880,0 -120.620540,47.281880,0 -120.620650,47.289120,0 -120.630920,47.289110,0 -120.641190,47.289100,0 -120.641190,47.281890,0 -120.630870,47.281880,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>AMOS #4</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101826004
+acres 20.66
+PLSS WA 33 0210N 0180E 030 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.620650,47.289120,0 -120.630920,47.289110,0 -120.630870,47.281880,0 -120.620540,47.281880,0 -120.620650,47.289120,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>BILLY BELLE</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101470821
+acres 20.66
+PLSS WA 33 0210N 0180E 030 A SW|WA 33 0210N 0180E 031 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.630810,47.274660,0 -120.630870,47.281880,0 -120.641190,47.281890,0 -120.641200,47.274680,0 -120.641240,47.267450,0 -120.630790,47.267440,0 -120.630810,47.274660,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>BUMBLE BEE</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101472005
+acres 20.66
+PLSS WA 33 0210N 0180E 030 A SW|WA 33 0210N 0180E 030 A SE|WA 33 0210N 0180E 031 A NW|WA 33 0210N 0180E 031 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.620430,47.274640,0 -120.620540,47.281880,0 -120.630870,47.281880,0 -120.641190,47.281890,0 -120.641200,47.274680,0 -120.641240,47.267450,0 -120.630790,47.267440,0 -120.620340,47.267420,0 -120.620430,47.274640,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>HARD ROCK</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101472006
+acres 20.66
+PLSS WA 33 0210N 0180E 030 A SW|WA 33 0210N 0180E 031 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.630810,47.274660,0 -120.630870,47.281880,0 -120.641190,47.281890,0 -120.641200,47.274680,0 -120.641240,47.267450,0 -120.630790,47.267440,0 -120.630810,47.274660,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LAURA</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101474031
+acres 16.12
+PLSS WA 33 0200N 0170E 001 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.653740,47.254140,0 -120.655770,47.254130,0 -120.655760,47.253810,0 -120.655760,47.253680,0 -120.654860,47.253680,0 -120.654790,47.252810,0 -120.653380,47.252800,0 -120.653390,47.251920,0 -120.651430,47.251900,0 -120.651390,47.251200,0 -120.650410,47.251210,0 -120.649300,47.251220,0 -120.647980,47.251240,0 -120.647930,47.250660,0 -120.647870,47.250090,0 -120.645070,47.250080,0 -120.645080,47.250230,0 -120.645080,47.250670,0 -120.645090,47.251600,0 -120.645110,47.252920,0 -120.645120,47.253840,0 -120.645130,47.254670,0 -120.650450,47.254680,0 -120.653730,47.254690,0 -120.653740,47.254140,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.650390,47.249260,0 -120.650380,47.247480,0 -120.645050,47.247500,0 -120.645050,47.247990,0 -120.645050,47.248580,0 -120.645050,47.248700,0 -120.649220,47.248710,0 -120.649290,47.249250,0 -120.650390,47.249260,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+  <Placemark><name>V-LODE</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101474032
+acres 16.12
+PLSS WA 33 0200N 0170E 001 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.653740,47.254140,0 -120.655770,47.254130,0 -120.655760,47.253810,0 -120.655760,47.253680,0 -120.654860,47.253680,0 -120.654790,47.252810,0 -120.653380,47.252800,0 -120.653390,47.251920,0 -120.651430,47.251900,0 -120.651390,47.251200,0 -120.650410,47.251210,0 -120.649300,47.251220,0 -120.647980,47.251240,0 -120.647930,47.250660,0 -120.647870,47.250090,0 -120.645070,47.250080,0 -120.645080,47.250230,0 -120.645080,47.250670,0 -120.645090,47.251600,0 -120.645110,47.252920,0 -120.645120,47.253840,0 -120.645130,47.254670,0 -120.650450,47.254680,0 -120.653730,47.254690,0 -120.653740,47.254140,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.650390,47.249260,0 -120.650380,47.247480,0 -120.645050,47.247500,0 -120.645050,47.247990,0 -120.645050,47.248580,0 -120.645050,47.248700,0 -120.649220,47.248710,0 -120.649290,47.249250,0 -120.650390,47.249260,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+  <Placemark><name>LUCKY DAY #4</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101366093
+acres 20.66
+PLSS WA 33 0200N 0180E 006 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.632120,47.254100,0 -120.645130,47.254080,0 -120.645050,47.247990,0 -120.632090,47.248030,0 -120.632120,47.254100,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>KEYSTONE</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101625016
+acres 20.66
+PLSS WA 33 0200N 0170E 003 A NE|WA 33 0200N 0170E 002 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.698260,47.258220,0 -120.698260,47.256920,0 -120.698270,47.254610,0 -120.692950,47.254620,0 -120.687630,47.254620,0 -120.682320,47.254660,0 -120.677020,47.254700,0 -120.677020,47.256940,0 -120.677030,47.258280,0 -120.677040,47.260130,0 -120.678440,47.260130,0 -120.682310,47.260130,0 -120.683770,47.260120,0 -120.687590,47.260100,0 -120.689050,47.260100,0 -120.692900,47.260090,0 -120.692920,47.260090,0 -120.694360,47.260090,0 -120.694630,47.260090,0 -120.696390,47.260090,0 -120.698220,47.260080,0 -120.698250,47.260080,0 -120.698260,47.258220,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>ANTHONY J T</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101524204
+acres 20.0
+PLSS WA 33 0210N 0170E 034 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.694390,47.260100,0 -120.694360,47.267370,0 -120.704960,47.267350,0 -120.705020,47.260070,0 -120.694390,47.260100,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>VIDA</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101525141
+acres 20.66
+PLSS WA 33 0210N 0170E 034 A NW|WA 33 0210N 0170E 034 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.694390,47.260100,0 -120.694360,47.267370,0 -120.694330,47.274640,0 -120.704910,47.274630,0 -120.704960,47.267350,0 -120.705020,47.260070,0 -120.694390,47.260100,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>MISSING LINK #1</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101512954
+acres 20.66
+PLSS WA 33 0210N 0170E 033 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.705020,47.260070,0 -120.704960,47.267350,0 -120.715620,47.267330,0 -120.715680,47.260050,0 -120.705020,47.260070,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>HARD TIMES</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101310960
+acres 20.66
+PLSS WA 33 0210N 0170E 033 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.705020,47.260070,0 -120.704960,47.267350,0 -120.715620,47.267330,0 -120.715680,47.260050,0 -120.705020,47.260070,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LOST TIMMY</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101734556
+acres 20.66
+PLSS WA 33 0210N 0180E 032 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.609720,47.267450,0 -120.609810,47.274660,0 -120.620430,47.274640,0 -120.620340,47.267420,0 -120.609720,47.267450,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>GOLD LEAF</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101734557
+acres 20.66
+PLSS WA 33 0210N 0180E 030 A SW|WA 33 0210N 0180E 030 A SE|WA 33 0210N 0180E 031 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.630810,47.274660,0 -120.620430,47.274640,0 -120.620540,47.281880,0 -120.630870,47.281880,0 -120.641190,47.281890,0 -120.641200,47.274680,0 -120.641240,47.267450,0 -120.630790,47.267440,0 -120.630810,47.274660,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>GOLDEN EAGLE</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101487603
+acres 20.66
+PLSS WA 33 0210N 0180E 019 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.620600,47.296330,0 -120.630850,47.296340,0 -120.630920,47.289110,0 -120.620650,47.289120,0 -120.620600,47.296330,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>PHOENIX</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101487604
+acres 20.66
+PLSS WA 33 0210N 0180E 019 A SE|WA 33 0210N 0180E 030 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.620650,47.289120,0 -120.620600,47.296330,0 -120.630850,47.296340,0 -120.630920,47.289110,0 -120.630870,47.281880,0 -120.620540,47.281880,0 -120.620650,47.289120,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>BULL NELSON #1</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101623494
+acres 20.66
+PLSS WA 33 0210N 0180E 029 A SW|WA 33 0210N 0180E 030 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.609810,47.274660,0 -120.609900,47.281870,0 -120.620540,47.281880,0 -120.630870,47.281880,0 -120.630810,47.274660,0 -120.620430,47.274640,0 -120.609810,47.274660,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>BULL NELSON #2</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101623495
+acres 20.66
+PLSS WA 33 0210N 0180E 030 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.620540,47.281880,0 -120.630870,47.281880,0 -120.630810,47.274660,0 -120.620430,47.274640,0 -120.620540,47.281880,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>BULL NELSON #3</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101623496
+acres 20.66
+PLSS WA 33 0210N 0180E 030 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.620540,47.281880,0 -120.630870,47.281880,0 -120.630810,47.274660,0 -120.620430,47.274640,0 -120.620540,47.281880,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>STARKEN</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101561723
+acres 20.66
+PLSS WA 33 0210N 0180E 031 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.620340,47.267420,0 -120.630790,47.267440,0 -120.630770,47.260210,0 -120.620250,47.260200,0 -120.620340,47.267420,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>BANDITS 3 #13</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101888782
+acres 20.66
+PLSS WA 33 0210N 0180E 029 A SE|WA 33 0210N 0180E 032 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.599100,47.267470,0 -120.599180,47.274670,0 -120.599260,47.281860,0 -120.609900,47.281870,0 -120.609810,47.274660,0 -120.609720,47.267450,0 -120.599100,47.267470,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>AMOS 1</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101429939
+acres 20.66
+PLSS WA 33 0210N 0180E 030 A NE|WA 33 0210N 0180E 030 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.620540,47.281880,0 -120.620650,47.289120,0 -120.630920,47.289110,0 -120.630870,47.281880,0 -120.630810,47.274660,0 -120.620430,47.274640,0 -120.620540,47.281880,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LIBERTY PEAK #1</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101546444
+acres 20.66
+PLSS WA 33 0200N 0170E 002 A SE|WA 33 0200N 0170E 002 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.677010,47.253770,0 -120.677010,47.251050,0 -120.677000,47.250600,0 -120.677000,47.250070,0 -120.677000,47.248290,0 -120.676990,47.247420,0 -120.671670,47.247410,0 -120.671660,47.247410,0 -120.666320,47.247430,0 -120.666340,47.249190,0 -120.666360,47.250600,0 -120.666370,47.251040,0 -120.666370,47.251470,0 -120.667930,47.251300,0 -120.668680,47.251050,0 -120.670060,47.250600,0 -120.671680,47.250070,0 -120.673350,47.249530,0 -120.673450,47.249750,0 -120.673690,47.250600,0 -120.673730,47.250730,0 -120.673730,47.251050,0 -120.673730,47.251150,0 -120.672370,47.251590,0 -120.671800,47.251770,0 -120.668580,47.252830,0 -120.668230,47.252940,0 -120.667730,47.253090,0 -120.667190,47.253180,0 -120.667550,47.253530,0 -120.667310,47.253780,0 -120.666530,47.254560,0 -120.666400,47.254590,0 -120.666400,47.254790,0 -120.666440,47.256800,0 -120.666440,47.256950,0 -120.666460,47.258290,0 -120.666460,47.258300,0 -120.666480,47.260130,0 -120.667820,47.260130,0 -120.667830,47.260130,0 -120.670480,47.260130,0 -120.671760,47.260130,0 -120.671780,47.260130,0 -120.673140,47.260130,0 -120.677040,47.260130,0 -120.677030,47.258280,0 -120.677020,47.256940,0 -120.677020,47.254700,0 -120.677010,47.253770,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>WES 1</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101749667
+acres 20.66
+PLSS WA 33 0210N 0170E 034 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.683770,47.260120,0 -120.683760,47.267390,0 -120.694360,47.267370,0 -120.694390,47.260100,0 -120.683770,47.260120,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>W J 2</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101332946
+acres 20.59
+PLSS WA 33 0200N 0170E 001 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.655760,47.253810,0 -120.655760,47.253680,0 -120.654860,47.253680,0 -120.654790,47.252810,0 -120.653380,47.252800,0 -120.653390,47.251920,0 -120.651430,47.251900,0 -120.651390,47.251200,0 -120.650410,47.251210,0 -120.649300,47.251220,0 -120.647980,47.251240,0 -120.647930,47.250660,0 -120.647870,47.250090,0 -120.645070,47.250080,0 -120.645080,47.250230,0 -120.645080,47.250670,0 -120.645090,47.251600,0 -120.645110,47.252920,0 -120.645120,47.253840,0 -120.645130,47.254670,0 -120.650450,47.254680,0 -120.653730,47.254690,0 -120.653740,47.254140,0 -120.655770,47.254130,0 -120.655760,47.253810,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.650380,47.247480,0 -120.645050,47.247500,0 -120.645050,47.247990,0 -120.645050,47.248580,0 -120.645050,47.248700,0 -120.649220,47.248710,0 -120.649290,47.249250,0 -120.650390,47.249260,0 -120.650380,47.247480,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+  <Placemark><name>W J 4</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101332948
+acres 20.66
+PLSS WA 33 0200N 0170E 001 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.655760,47.253810,0 -120.655760,47.253680,0 -120.654860,47.253680,0 -120.654790,47.252810,0 -120.653380,47.252800,0 -120.653390,47.251920,0 -120.651430,47.251900,0 -120.651390,47.251200,0 -120.650410,47.251210,0 -120.649300,47.251220,0 -120.647980,47.251240,0 -120.647930,47.250660,0 -120.647870,47.250090,0 -120.645070,47.250080,0 -120.645080,47.250230,0 -120.645080,47.250670,0 -120.645090,47.251600,0 -120.645110,47.252920,0 -120.645120,47.253840,0 -120.645130,47.254670,0 -120.650450,47.254680,0 -120.653730,47.254690,0 -120.653740,47.254140,0 -120.655770,47.254130,0 -120.655760,47.253810,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.650380,47.247480,0 -120.645050,47.247500,0 -120.645050,47.247990,0 -120.645050,47.248580,0 -120.645050,47.248700,0 -120.649220,47.248710,0 -120.649290,47.249250,0 -120.650390,47.249260,0 -120.650380,47.247480,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+  <Placemark><name>GAYLORD</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101864033
+acres 20.66
+PLSS WA 33 0200N 0170E 004 A NE|WA 33 0210N 0170E 033 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.715680,47.260050,0 -120.705020,47.260070,0 -120.704960,47.267350,0 -120.715620,47.267330,0 -120.715680,47.260050,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.719580,47.254680,0 -120.719200,47.254680,0 -120.714250,47.254670,0 -120.713910,47.254670,0 -120.708920,47.254660,0 -120.708920,47.256900,0 -120.708920,47.258190,0 -120.708920,47.258280,0 -120.708920,47.260060,0 -120.710340,47.260050,0 -120.710350,47.260050,0 -120.713680,47.260050,0 -120.714190,47.260040,0 -120.714270,47.260040,0 -120.715640,47.260040,0 -120.715660,47.260040,0 -120.718970,47.260040,0 -120.719520,47.260030,0 -120.719630,47.260030,0 -120.719620,47.258160,0 -120.719580,47.254680,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+  <Placemark><name>GAYLORD 2ND</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101864034
+acres 12.81
+PLSS WA 33 0210N 0170E 034 A SW|WA 33 0210N 0170E 033 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.705020,47.260070,0 -120.694390,47.260100,0 -120.694360,47.267370,0 -120.704960,47.267350,0 -120.715620,47.267330,0 -120.715680,47.260050,0 -120.705020,47.260070,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>OK</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101864035
+acres 20.66
+PLSS WA 33 0200N 0170E 004 A NE|WA 33 0200N 0170E 004 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.708920,47.250590,0 -120.708920,47.251050,0 -120.708920,47.253740,0 -120.708920,47.254610,0 -120.708920,47.254660,0 -120.708920,47.256900,0 -120.708920,47.258190,0 -120.708920,47.258280,0 -120.708920,47.260060,0 -120.710340,47.260050,0 -120.710350,47.260050,0 -120.713680,47.260050,0 -120.714190,47.260040,0 -120.714270,47.260040,0 -120.715640,47.260040,0 -120.715660,47.260040,0 -120.718970,47.260040,0 -120.719520,47.260030,0 -120.719630,47.260030,0 -120.719620,47.258160,0 -120.719580,47.254680,0 -120.719550,47.251070,0 -120.719510,47.247450,0 -120.714220,47.247440,0 -120.708920,47.247430,0 -120.708920,47.250590,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>OK #1</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101864036
+acres 20.66
+PLSS WA 33 0200N 0170E 004 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.719200,47.254680,0 -120.714250,47.254670,0 -120.713910,47.254670,0 -120.708920,47.254660,0 -120.708920,47.256900,0 -120.708920,47.258190,0 -120.708920,47.258280,0 -120.708920,47.260060,0 -120.710340,47.260050,0 -120.710350,47.260050,0 -120.713680,47.260050,0 -120.714190,47.260040,0 -120.714270,47.260040,0 -120.715640,47.260040,0 -120.715660,47.260040,0 -120.718970,47.260040,0 -120.719520,47.260030,0 -120.719630,47.260030,0 -120.719620,47.258160,0 -120.719580,47.254680,0 -120.719200,47.254680,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>OK #2</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101864037
+acres 20.66
+PLSS WA 33 0200N 0170E 004 A NE|WA 33 0200N 0170E 004 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.708920,47.250590,0 -120.708920,47.251050,0 -120.708920,47.253740,0 -120.708920,47.254610,0 -120.708920,47.254660,0 -120.708920,47.256900,0 -120.708920,47.258190,0 -120.708920,47.258280,0 -120.708920,47.260060,0 -120.710340,47.260050,0 -120.710350,47.260050,0 -120.713680,47.260050,0 -120.714190,47.260040,0 -120.714270,47.260040,0 -120.715640,47.260040,0 -120.715660,47.260040,0 -120.718970,47.260040,0 -120.719520,47.260030,0 -120.719630,47.260030,0 -120.719620,47.258160,0 -120.719580,47.254680,0 -120.719550,47.251070,0 -120.719510,47.247450,0 -120.714220,47.247440,0 -120.708920,47.247430,0 -120.708920,47.250590,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>RICH HILL #1</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101864602
+acres 20.66
+PLSS WA 33 0200N 0170E 003 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.708920,47.254660,0 -120.708920,47.254610,0 -120.703600,47.254610,0 -120.698270,47.254610,0 -120.698260,47.256920,0 -120.698260,47.258220,0 -120.698250,47.260080,0 -120.699720,47.260080,0 -120.703590,47.260080,0 -120.703600,47.260080,0 -120.705020,47.260070,0 -120.708920,47.260060,0 -120.708920,47.258280,0 -120.708920,47.258190,0 -120.708920,47.256900,0 -120.708920,47.254660,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>BEAR CAT MINE</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101488972
+acres 20.66
+PLSS WA 33 0220N 0170E 024 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.651580,47.382640,0 -120.651570,47.389860,0 -120.662270,47.389870,0 -120.662300,47.382680,0 -120.651580,47.382640,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>SAM 2</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101898860
+acres 20.66
+PLSS WA 33 0210N 0180E 032 A NW|WA 33 0210N 0180E 032 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.609640,47.260240,0 -120.609720,47.267450,0 -120.609810,47.274660,0 -120.620430,47.274640,0 -120.620340,47.267420,0 -120.620250,47.260200,0 -120.609640,47.260240,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>STARKEN MEADOWS</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101898861
+acres 20.66
+PLSS WA 33 0210N 0180E 032 A NW|WA 33 0210N 0180E 032 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.609720,47.267450,0 -120.599100,47.267470,0 -120.599180,47.274670,0 -120.609810,47.274660,0 -120.620430,47.274640,0 -120.620340,47.267420,0 -120.609720,47.267450,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>DOUBLE U</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101844439
+acres 20.66
+PLSS WA 33 0210N 0170E 025 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.641200,47.274680,0 -120.641190,47.281890,0 -120.651810,47.281900,0 -120.651830,47.274680,0 -120.641200,47.274680,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>MAVERICK #3</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101844440
+acres 20.66
+PLSS WA 33 0210N 0170E 025 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.641200,47.274680,0 -120.641190,47.281890,0 -120.651810,47.281900,0 -120.651830,47.274680,0 -120.641200,47.274680,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>HARD ROCK</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101741468
+acres 20.66
+PLSS WA 33 0200N 0180E 019 A NW|WA 33 0200N 0180E 019 A NE|WA 33 0200N 0180E 019 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.632060,47.211930,0 -120.618850,47.211940,0 -120.618820,47.219200,0 -120.632020,47.219170,0 -120.645210,47.219140,0 -120.645270,47.211920,0 -120.645330,47.204710,0 -120.632100,47.204700,0 -120.632060,47.211930,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>HARD ROCK II</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101741469
+acres 20.66
+PLSS WA 33 0200N 0180E 019 A NW|WA 33 0200N 0180E 019 A NE|WA 33 0200N 0180E 019 A SW|WA 33 0200N 0180E 019 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.618850,47.211940,0 -120.618820,47.219200,0 -120.632020,47.219170,0 -120.645210,47.219140,0 -120.645270,47.211920,0 -120.645330,47.204710,0 -120.632100,47.204700,0 -120.618880,47.204690,0 -120.618850,47.211940,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>HARD ROCK III</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101741470
+acres 20.66
+PLSS WA 33 0200N 0180E 019 A NE|WA 33 0200N 0180E 019 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.618850,47.211940,0 -120.618820,47.219200,0 -120.632020,47.219170,0 -120.632060,47.211930,0 -120.632100,47.204700,0 -120.618880,47.204690,0 -120.618850,47.211940,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>HARD ROCK IV</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101847626
+acres 20.66
+PLSS WA 33 0200N 0180E 019 A NE|WA 33 0200N 0180E 020 A NW|WA 33 0200N 0180E 020 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.608310,47.204660,0 -120.608310,47.211920,0 -120.608300,47.219180,0 -120.618820,47.219200,0 -120.632020,47.219170,0 -120.632060,47.211930,0 -120.618850,47.211940,0 -120.618880,47.204690,0 -120.608310,47.204660,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>HARD ROCK V</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101847627
+acres 20.66
+PLSS WA 33 0200N 0180E 020 A NW|WA 33 0200N 0180E 019 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.608310,47.211920,0 -120.608300,47.219180,0 -120.618820,47.219200,0 -120.632020,47.219170,0 -120.632060,47.211930,0 -120.618850,47.211940,0 -120.608310,47.211920,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>HARD ROCK VI</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101847628
+acres 20.66
+PLSS WA 33 0200N 0180E 020 A NW|WA 33 0200N 0180E 017 A SW|WA 33 0200N 0180E 019 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.608310,47.211920,0 -120.608300,47.219180,0 -120.608290,47.226390,0 -120.618810,47.226410,0 -120.618820,47.219200,0 -120.632020,47.219170,0 -120.632060,47.211930,0 -120.618850,47.211940,0 -120.608310,47.211920,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>BEAR CAT CAMP MINE</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101848072
+acres 20.66
+PLSS WA 33 0220N 0170E 024 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.651580,47.382640,0 -120.651570,47.389860,0 -120.662270,47.389870,0 -120.662300,47.382680,0 -120.651580,47.382640,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>ELK HORN</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101472891
+acres 20.66
+PLSS WA 33 0210N 0170E 036 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.641290,47.260230,0 -120.641240,47.267470,0 -120.651870,47.267440,0 -120.651910,47.260190,0 -120.641290,47.260230,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>HONEY SUCKLE</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101472892
+acres 20.66
+PLSS WA 33 0210N 0170E 036 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.641290,47.260230,0 -120.641240,47.267470,0 -120.651870,47.267440,0 -120.651910,47.260190,0 -120.641290,47.260230,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>VIOLET</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101474078
+acres 20.66
+PLSS WA 33 0210N 0170E 036 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.641290,47.260230,0 -120.641240,47.267470,0 -120.651870,47.267440,0 -120.651910,47.260190,0 -120.641290,47.260230,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>EUREKA</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101490358
+acres 20.66
+PLSS WA 33 0200N 0170E 012 A NE|WA 33 0200N 0170E 001 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.655680,47.247460,0 -120.655710,47.243850,0 -120.655740,47.240230,0 -120.650420,47.240240,0 -120.645100,47.240250,0 -120.645100,47.240270,0 -120.645090,47.240320,0 -120.645090,47.240360,0 -120.645090,47.240820,0 -120.645070,47.243880,0 -120.645070,47.244400,0 -120.645050,47.247500,0 -120.645050,47.247990,0 -120.645050,47.248580,0 -120.645050,47.248700,0 -120.649220,47.248710,0 -120.649290,47.249250,0 -120.650390,47.249260,0 -120.650380,47.247480,0 -120.655680,47.247460,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.653730,47.254690,0 -120.653740,47.254140,0 -120.655770,47.254130,0 -120.655760,47.253810,0 -120.655760,47.253680,0 -120.654860,47.253680,0 -120.654790,47.252810,0 -120.653380,47.252800,0 -120.653390,47.251920,0 -120.651430,47.251900,0 -120.651390,47.251200,0 -120.650410,47.251210,0 -120.649300,47.251220,0 -120.647980,47.251240,0 -120.647930,47.250660,0 -120.647870,47.250090,0 -120.645070,47.250080,0 -120.645080,47.250230,0 -120.645080,47.250670,0 -120.645090,47.251600,0 -120.645110,47.252920,0 -120.645120,47.253840,0 -120.645130,47.254670,0 -120.650450,47.254680,0 -120.653730,47.254690,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+  <Placemark><name>WINDFALL</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101482178
+acres 20.66
+PLSS WA 33 0200N 0170E 012 A NE|WA 33 0200N 0170E 001 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.655680,47.247460,0 -120.655710,47.243850,0 -120.655740,47.240230,0 -120.650420,47.240240,0 -120.645100,47.240250,0 -120.645100,47.240270,0 -120.645090,47.240320,0 -120.645090,47.240360,0 -120.645090,47.240820,0 -120.645070,47.243880,0 -120.645070,47.244400,0 -120.645050,47.247500,0 -120.645050,47.247990,0 -120.645050,47.248580,0 -120.645050,47.248700,0 -120.649220,47.248710,0 -120.649290,47.249250,0 -120.650390,47.249260,0 -120.650380,47.247480,0 -120.655680,47.247460,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.653730,47.254690,0 -120.653740,47.254140,0 -120.655770,47.254130,0 -120.655760,47.253810,0 -120.655760,47.253680,0 -120.654860,47.253680,0 -120.654790,47.252810,0 -120.653380,47.252800,0 -120.653390,47.251920,0 -120.651430,47.251900,0 -120.651390,47.251200,0 -120.650410,47.251210,0 -120.649300,47.251220,0 -120.647980,47.251240,0 -120.647930,47.250660,0 -120.647870,47.250090,0 -120.645070,47.250080,0 -120.645080,47.250230,0 -120.645080,47.250670,0 -120.645090,47.251600,0 -120.645110,47.252920,0 -120.645120,47.253840,0 -120.645130,47.254670,0 -120.650450,47.254680,0 -120.653730,47.254690,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+  <Placemark><name>WINDFALL FRAC</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101433609
+acres 10.5
+PLSS WA 33 0200N 0170E 001 A SE|WA 33 0200N 0170E 012 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.655680,47.247460,0 -120.655710,47.243850,0 -120.655740,47.240230,0 -120.650420,47.240240,0 -120.645100,47.240250,0 -120.645100,47.240270,0 -120.645090,47.240320,0 -120.645090,47.240360,0 -120.645090,47.240820,0 -120.645070,47.243880,0 -120.645070,47.244400,0 -120.645050,47.247500,0 -120.645050,47.247990,0 -120.645050,47.248580,0 -120.645050,47.248700,0 -120.649220,47.248710,0 -120.649290,47.249250,0 -120.650390,47.249260,0 -120.650380,47.247480,0 -120.655680,47.247460,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.653730,47.254690,0 -120.653740,47.254140,0 -120.655770,47.254130,0 -120.655760,47.253810,0 -120.655760,47.253680,0 -120.654860,47.253680,0 -120.654790,47.252810,0 -120.653380,47.252800,0 -120.653390,47.251920,0 -120.651430,47.251900,0 -120.651390,47.251200,0 -120.650410,47.251210,0 -120.649300,47.251220,0 -120.647980,47.251240,0 -120.647930,47.250660,0 -120.647870,47.250090,0 -120.645070,47.250080,0 -120.645080,47.250230,0 -120.645080,47.250670,0 -120.645090,47.251600,0 -120.645110,47.252920,0 -120.645120,47.253840,0 -120.645130,47.254670,0 -120.650450,47.254680,0 -120.653730,47.254690,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+  <Placemark><name>HEAVENLY TWINS</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101484562
+acres 20.66
+PLSS WA 33 0200N 0170E 001 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.666340,47.249190,0 -120.666320,47.247430,0 -120.661010,47.247440,0 -120.655730,47.247460,0 -120.655680,47.247460,0 -120.655720,47.250640,0 -120.655730,47.251130,0 -120.655750,47.252430,0 -120.658010,47.252430,0 -120.658040,47.253210,0 -120.658610,47.253020,0 -120.659720,47.253330,0 -120.659980,47.253240,0 -120.661070,47.252910,0 -120.665500,47.251570,0 -120.666370,47.251470,0 -120.666370,47.251040,0 -120.666360,47.250600,0 -120.666340,47.249190,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>MERRI MAKER</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101434763
+acres 20.66
+PLSS WA 33 0200N 0170E 001 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.666340,47.249190,0 -120.666320,47.247430,0 -120.661010,47.247440,0 -120.655730,47.247460,0 -120.655680,47.247460,0 -120.655720,47.250640,0 -120.655730,47.251130,0 -120.655750,47.252430,0 -120.658010,47.252430,0 -120.658040,47.253210,0 -120.658610,47.253020,0 -120.659720,47.253330,0 -120.659980,47.253240,0 -120.661070,47.252910,0 -120.665500,47.251570,0 -120.666370,47.251470,0 -120.666370,47.251040,0 -120.666360,47.250600,0 -120.666340,47.249190,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>BLUE JAY</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101431116
+acres 20.66
+PLSS WA 33 0200N 0170E 001 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.666340,47.249190,0 -120.666320,47.247430,0 -120.661010,47.247440,0 -120.655730,47.247460,0 -120.655680,47.247460,0 -120.655720,47.250640,0 -120.655730,47.251130,0 -120.655750,47.252430,0 -120.658010,47.252430,0 -120.658040,47.253210,0 -120.658610,47.253020,0 -120.659720,47.253330,0 -120.659980,47.253240,0 -120.661070,47.252910,0 -120.665500,47.251570,0 -120.666370,47.251470,0 -120.666370,47.251040,0 -120.666360,47.250600,0 -120.666340,47.249190,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LONE PINE FRACTION</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101484065
+acres 18.18
+PLSS WA 33 0200N 0170E 001 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.666340,47.249190,0 -120.666320,47.247430,0 -120.661010,47.247440,0 -120.655730,47.247460,0 -120.655680,47.247460,0 -120.655720,47.250640,0 -120.655730,47.251130,0 -120.655750,47.252430,0 -120.658010,47.252430,0 -120.658040,47.253210,0 -120.658610,47.253020,0 -120.659720,47.253330,0 -120.659980,47.253240,0 -120.661070,47.252910,0 -120.665500,47.251570,0 -120.666370,47.251470,0 -120.666370,47.251040,0 -120.666360,47.250600,0 -120.666340,47.249190,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>GOLDEN EAGLE</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101717245
+acres 20.66
+PLSS WA 33 0220N 0170E 002 A NW|WA 33 0220N 0170E 002 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.672960,47.428590,0 -120.662360,47.428590,0 -120.662280,47.438350,0 -120.672960,47.438350,0 -120.683630,47.438340,0 -120.683550,47.428590,0 -120.672960,47.428590,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>POLEPICK #2</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101717246
+acres 20.66
+PLSS WA 33 0220N 0170E 002 A SW|WA 33 0220N 0170E 003 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.672960,47.428590,0 -120.683550,47.428590,0 -120.694240,47.428600,0 -120.694220,47.418860,0 -120.683470,47.418840,0 -120.672960,47.418830,0 -120.672960,47.428590,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>RED DOE</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101717247
+acres 20.66
+PLSS WA 33 0220N 0170E 002 A SE|WA 33 0220N 0170E 001 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.651540,47.428460,0 -120.662360,47.428590,0 -120.672960,47.428590,0 -120.672960,47.418830,0 -120.662450,47.418830,0 -120.651600,47.418830,0 -120.651540,47.428460,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>GOLDEN LODE</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101712866
+acres 20.66
+PLSS WA 33 0210N 0170E 013 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.651680,47.303590,0 -120.651660,47.310810,0 -120.662320,47.310790,0 -120.662350,47.303570,0 -120.651680,47.303590,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>ACE OF DIAMONDS</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101552629
+acres 20.66
+PLSS WA 33 0200N 0180E 006 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.619090,47.260180,0 -120.632150,47.260170,0 -120.632120,47.254100,0 -120.619110,47.254130,0 -120.619090,47.260180,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>BLACK TUESDAY</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR102128489
+acres 20.66
+PLSS WA 33 0220N 0190E 010 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.432660,47.413610,0 -120.432810,47.421000,0 -120.444000,47.420920,0 -120.443830,47.413530,0 -120.432660,47.413610,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LUCKY DAY #1</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101330839
+acres 20.66
+PLSS WA 33 0200N 0170E 001 A SE|WA 33 0200N 0180E 006 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.632120,47.254100,0 -120.645120,47.254080,0 -120.645130,47.254670,0 -120.650450,47.254680,0 -120.653730,47.254690,0 -120.653740,47.254140,0 -120.655770,47.254130,0 -120.655760,47.253810,0 -120.655760,47.253680,0 -120.654860,47.253680,0 -120.654790,47.252810,0 -120.653380,47.252800,0 -120.653390,47.251920,0 -120.651430,47.251900,0 -120.651390,47.251200,0 -120.650410,47.251210,0 -120.649300,47.251220,0 -120.647980,47.251240,0 -120.647930,47.250660,0 -120.647870,47.250090,0 -120.645080,47.250080,0 -120.645060,47.248700,0 -120.649220,47.248710,0 -120.649290,47.249250,0 -120.650390,47.249260,0 -120.650380,47.247480,0 -120.645050,47.247500,0 -120.645050,47.247990,0 -120.632090,47.248030,0 -120.632120,47.254100,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LUCKY DAY #2</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101480680
+acres 20.66
+PLSS WA 33 0200N 0170E 001 A SE|WA 33 0200N 0180E 006 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.632120,47.254100,0 -120.645120,47.254080,0 -120.645130,47.254670,0 -120.650450,47.254680,0 -120.653730,47.254690,0 -120.653740,47.254140,0 -120.655770,47.254130,0 -120.655760,47.253810,0 -120.655760,47.253680,0 -120.654860,47.253680,0 -120.654790,47.252810,0 -120.653380,47.252800,0 -120.653390,47.251920,0 -120.651430,47.251900,0 -120.651390,47.251200,0 -120.650410,47.251210,0 -120.649300,47.251220,0 -120.647980,47.251240,0 -120.647930,47.250660,0 -120.647870,47.250090,0 -120.645080,47.250080,0 -120.645060,47.248700,0 -120.649220,47.248710,0 -120.649290,47.249250,0 -120.650390,47.249260,0 -120.650380,47.247480,0 -120.645050,47.247500,0 -120.645050,47.247990,0 -120.632090,47.248030,0 -120.632120,47.254100,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LUCKY DAY #3</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101432572
+acres 20.66
+PLSS WA 33 0200N 0180E 006 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.632120,47.254100,0 -120.645130,47.254080,0 -120.645050,47.247990,0 -120.632090,47.248030,0 -120.632120,47.254100,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>BULL FROG</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101433654
+acres 20.66
+PLSS WA 33 0210N 0180E 031 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.630810,47.274660,0 -120.641200,47.274680,0 -120.641240,47.267450,0 -120.630790,47.267440,0 -120.630810,47.274660,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>GOLD ROCK</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101434109
+acres 20.66
+PLSS WA 33 0200N 0170E 003 A NE|WA 33 0210N 0170E 034 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.694390,47.260100,0 -120.683770,47.260120,0 -120.683760,47.267390,0 -120.694360,47.267370,0 -120.694390,47.260100,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.698250,47.260080,0 -120.698260,47.258220,0 -120.698260,47.256920,0 -120.698270,47.254610,0 -120.692950,47.254620,0 -120.687630,47.254620,0 -120.687610,47.256930,0 -120.687600,47.258220,0 -120.687600,47.258250,0 -120.687590,47.260100,0 -120.689050,47.260100,0 -120.692900,47.260090,0 -120.692920,47.260090,0 -120.694360,47.260090,0 -120.694630,47.260090,0 -120.696390,47.260090,0 -120.698220,47.260080,0 -120.698250,47.260080,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+  <Placemark><name>GOLD ARM</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101430707
+acres 20.66
+PLSS WA 33 0200N 0170E 003 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.698260,47.258220,0 -120.698260,47.256920,0 -120.698270,47.254610,0 -120.692950,47.254620,0 -120.687630,47.254620,0 -120.687610,47.256930,0 -120.687600,47.258220,0 -120.687600,47.258250,0 -120.687590,47.260100,0 -120.689050,47.260100,0 -120.692900,47.260090,0 -120.692920,47.260090,0 -120.694360,47.260090,0 -120.694630,47.260090,0 -120.696390,47.260090,0 -120.698220,47.260080,0 -120.698250,47.260080,0 -120.698260,47.258220,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LUCKY DAY FRAC #1</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101482420
+acres 15.15
+PLSS WA 33 0200N 0170E 001 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.653740,47.254140,0 -120.655770,47.254130,0 -120.655760,47.253810,0 -120.655760,47.253680,0 -120.654860,47.253680,0 -120.654790,47.252810,0 -120.653380,47.252800,0 -120.653390,47.251920,0 -120.651430,47.251900,0 -120.651390,47.251200,0 -120.650410,47.251210,0 -120.649300,47.251220,0 -120.647980,47.251240,0 -120.647930,47.250660,0 -120.647870,47.250090,0 -120.645070,47.250080,0 -120.645080,47.250230,0 -120.645080,47.250670,0 -120.645090,47.251600,0 -120.645110,47.252920,0 -120.645120,47.253840,0 -120.645130,47.254670,0 -120.650450,47.254680,0 -120.653730,47.254690,0 -120.653740,47.254140,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.650390,47.249260,0 -120.650380,47.247480,0 -120.645050,47.247500,0 -120.645050,47.247990,0 -120.645050,47.248580,0 -120.645050,47.248700,0 -120.649220,47.248710,0 -120.649290,47.249250,0 -120.650390,47.249260,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+  <Placemark><name>LUCKY DAY FRAC #2</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101431871
+acres 9.91
+PLSS WA 33 0200N 0170E 001 A NE|WA 33 0200N 0170E 001 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.653690,47.256360,0 -120.653730,47.254690,0 -120.653740,47.254140,0 -120.655770,47.254130,0 -120.655760,47.253810,0 -120.655760,47.253680,0 -120.654860,47.253680,0 -120.654790,47.252810,0 -120.653380,47.252800,0 -120.653390,47.251920,0 -120.651430,47.251900,0 -120.651390,47.251200,0 -120.650410,47.251210,0 -120.649300,47.251220,0 -120.647980,47.251240,0 -120.647930,47.250660,0 -120.647870,47.250090,0 -120.645070,47.250080,0 -120.645080,47.250230,0 -120.645080,47.250670,0 -120.645090,47.251600,0 -120.645110,47.252920,0 -120.645120,47.253840,0 -120.645130,47.254670,0 -120.645130,47.254700,0 -120.645140,47.255280,0 -120.645160,47.257000,0 -120.645180,47.258290,0 -120.645180,47.258320,0 -120.645200,47.260170,0 -120.650480,47.260170,0 -120.650520,47.260170,0 -120.650950,47.260170,0 -120.650960,47.260170,0 -120.651020,47.258510,0 -120.651720,47.258500,0 -120.651720,47.258280,0 -120.651720,47.256990,0 -120.651720,47.256380,0 -120.653690,47.256360,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.649290,47.249250,0 -120.650390,47.249260,0 -120.650380,47.247480,0 -120.645050,47.247500,0 -120.645050,47.247990,0 -120.645050,47.248580,0 -120.645050,47.248700,0 -120.649220,47.248710,0 -120.649290,47.249250,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.655180,47.260160,0 -120.655320,47.260160,0 -120.655800,47.260160,0 -120.655840,47.260160,0 -120.655820,47.258400,0 -120.655220,47.258380,0 -120.655180,47.260160,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+  <Placemark><name>VALINTINE</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101434477
+acres 20.66
+PLSS WA 33 0200N 0170E 003 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.698260,47.258220,0 -120.698260,47.256920,0 -120.698270,47.254610,0 -120.692950,47.254620,0 -120.687630,47.254620,0 -120.687610,47.256930,0 -120.687600,47.258220,0 -120.687600,47.258250,0 -120.687590,47.260100,0 -120.689050,47.260100,0 -120.692900,47.260090,0 -120.692920,47.260090,0 -120.694360,47.260090,0 -120.694630,47.260090,0 -120.696390,47.260090,0 -120.698220,47.260080,0 -120.698250,47.260080,0 -120.698260,47.258220,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Liberty</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR106310645
+acres 0.0
+PLSS WA 33 0200N 0180E 017 | WA 33 0200N 0180E 017 A SW | WA 33 0200N 0180E 020 | WA 33 0200N 0180E 020 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.608310,47.211920,0 -120.608300,47.219180,0 -120.618820,47.219200,0 -120.618850,47.211940,0 -120.608310,47.211920,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Tipping Rock Lode</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR106318672
+acres 0.0
+PLSS WA 33 0220N 0180E 033 | WA 33 0220N 0180E 033 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.588450,47.347180,0 -120.588430,47.354430,0 -120.599090,47.354380,0 -120.599080,47.347140,0 -120.588450,47.347180,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Mineral No. 5</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR106319482
+acres 20.66
+PLSS WA 33 0220N 0170E 002 A SE | WA 33 0220N 0170E 001 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.651540,47.428460,0 -120.662360,47.428590,0 -120.672960,47.428590,0 -120.672960,47.418830,0 -120.662450,47.418830,0 -120.651600,47.418830,0 -120.651540,47.428460,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Lone Pine</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR106334793
+acres 0.0
+PLSS WA 33 0220N 0170E 002 | WA 33 0220N 0170E 002 A SW | WA 33 0220N 0170E 003
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.683630,47.438340,0 -120.688960,47.438340,0 -120.692500,47.438350,0 -120.694230,47.438350,0 -120.699570,47.438350,0 -120.704890,47.438340,0 -120.704920,47.435120,0 -120.704930,47.433300,0 -120.704940,47.429720,0 -120.704940,47.429330,0 -120.704960,47.426100,0 -120.704960,47.424290,0 -120.704960,47.422490,0 -120.704970,47.420650,0 -120.704980,47.418890,0 -120.683470,47.418840,0 -120.683440,47.422480,0 -120.683430,47.423590,0 -120.683410,47.424910,0 -120.683410,47.425630,0 -120.683420,47.426100,0 -120.683420,47.426350,0 -120.683430,47.427420,0 -120.683480,47.429680,0 -120.683510,47.431460,0 -120.683550,47.433270,0 -120.683600,47.435060,0 -120.683630,47.438340,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>True To The Blue</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR106371086
+acres 20.66
+PLSS WA 33 0200N 0180E 018 | WA 33 0200N 0180E 018 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.618810,47.226410,0 -120.632000,47.226400,0 -120.632020,47.219170,0 -120.618820,47.219200,0 -120.618810,47.226410,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>MILL SITE</name><styleUrl>#mill</styleUrl><description>Mill Site - Active
+serial OR101432641
+acres 5.0
+PLSS WA 33 0200N 0170E 011 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.677030,47.240190,0 -120.677010,47.243800,0 -120.676990,47.247420,0 -120.682330,47.247420,0 -120.685040,47.247420,0 -120.687670,47.247420,0 -120.687670,47.245980,0 -120.687680,47.243800,0 -120.687680,47.243800,0 -120.687700,47.240170,0 -120.682370,47.240180,0 -120.677030,47.240190,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>SUNSHINE</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR105222728
+acres 20.0
+PLSS WA 33 0220N 0170E 033 A SW|WA 33 0220N 0170E 012 A NW|      |      |      
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.662320,47.411590,0 -120.651570,47.411580,0 -120.651600,47.418830,0 -120.662450,47.418830,0 -120.662320,47.411590,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.726040,47.346430,0 -120.715360,47.346420,0 -120.715390,47.353660,0 -120.726040,47.353660,0 -120.726040,47.346430,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+  <Placemark><name>Sylivia Nadine</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR105230771
+acres 40.0
+PLSS WA 33 0230N 0170E 036 A NE|WA 33 0230N 0170E 036 A ALL
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.654180,47.452760,0 -120.671350,47.452800,0 -120.671520,47.438360,0 -120.667600,47.438360,0 -120.662280,47.438350,0 -120.656920,47.438340,0 -120.651520,47.438320,0 -120.650030,47.438310,0 -120.649960,47.441560,0 -120.649870,47.445190,0 -120.649790,47.448830,0 -120.649700,47.452470,0 -120.649700,47.452750,0 -120.654180,47.452760,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Gold Fault</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR105254723
+acres 20.0
+PLSS WA 33 0200N 0170E 002 A S1/2 of the NE1/4 of the NE1/4 of Section 2|WA 33 0200N 0170E 002 A  Township 20 North|WA 33 0200N 0170E 002 A  Range 17 East|WA 33 0200N 0170E 002 A  Willamette Meridian
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.666370,47.251040,0 -120.666370,47.251470,0 -120.666380,47.252060,0 -120.666380,47.252740,0 -120.666400,47.254590,0 -120.666400,47.254790,0 -120.666440,47.256800,0 -120.666440,47.256950,0 -120.666460,47.258290,0 -120.666460,47.258300,0 -120.666480,47.260130,0 -120.667820,47.260130,0 -120.667830,47.260130,0 -120.670480,47.260130,0 -120.671760,47.260130,0 -120.671780,47.260130,0 -120.673140,47.260130,0 -120.677040,47.260130,0 -120.678440,47.260130,0 -120.682310,47.260130,0 -120.683770,47.260120,0 -120.687590,47.260100,0 -120.687600,47.258250,0 -120.687600,47.258220,0 -120.687610,47.256930,0 -120.687630,47.254620,0 -120.687630,47.254580,0 -120.687630,47.253760,0 -120.687650,47.251050,0 -120.687650,47.250590,0 -120.687670,47.247420,0 -120.685040,47.247420,0 -120.682330,47.247420,0 -120.676990,47.247420,0 -120.671670,47.247410,0 -120.671660,47.247410,0 -120.666320,47.247430,0 -120.666340,47.249190,0 -120.666360,47.250600,0 -120.666370,47.251040,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Crazy Cat</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR105261293
+acres 20.0
+PLSS WA 33 0210N 0170E 025 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.641200,47.274680,0 -120.641190,47.281890,0 -120.651810,47.281900,0 -120.651830,47.274680,0 -120.641200,47.274680,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Caterwaul</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR105261292
+acres 15.31
+PLSS WA 33 0210N 0170E 036 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.641290,47.260230,0 -120.641240,47.267470,0 -120.651870,47.267440,0 -120.651910,47.260190,0 -120.641290,47.260230,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Cougar Madness</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR105261291
+acres 17.1
+PLSS WA 33 0210N 0170E 036 A SE|WA 33 0210N 0170E 036 A ALL
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.641270,47.263900,0 -120.641260,47.264790,0 -120.641240,47.265630,0 -120.641240,47.267470,0 -120.641230,47.269920,0 -120.641220,47.271290,0 -120.641200,47.274680,0 -120.651830,47.274680,0 -120.662480,47.274680,0 -120.662500,47.267420,0 -120.662500,47.267410,0 -120.662520,47.260140,0 -120.661160,47.260150,0 -120.661130,47.260150,0 -120.655840,47.260160,0 -120.655800,47.260160,0 -120.655320,47.260160,0 -120.655180,47.260160,0 -120.652370,47.260170,0 -120.650960,47.260170,0 -120.650950,47.260170,0 -120.650520,47.260170,0 -120.650480,47.260170,0 -120.645200,47.260170,0 -120.641290,47.260230,0 -120.641270,47.263900,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Liberty Bell</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR105261289
+acres 20.0
+PLSS WA 33 0200N 0170E 002 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.677010,47.253770,0 -120.677010,47.251050,0 -120.677000,47.250600,0 -120.677000,47.250070,0 -120.677000,47.248290,0 -120.676990,47.247420,0 -120.671670,47.247410,0 -120.671660,47.247410,0 -120.666320,47.247430,0 -120.666340,47.249190,0 -120.666360,47.250600,0 -120.666370,47.251040,0 -120.666370,47.251470,0 -120.667930,47.251300,0 -120.668680,47.251050,0 -120.670060,47.250600,0 -120.671680,47.250070,0 -120.673350,47.249530,0 -120.673450,47.249750,0 -120.673690,47.250600,0 -120.673730,47.250730,0 -120.673730,47.251050,0 -120.673730,47.251150,0 -120.672370,47.251590,0 -120.671800,47.251770,0 -120.668580,47.252830,0 -120.668230,47.252940,0 -120.667730,47.253090,0 -120.667190,47.253180,0 -120.667550,47.253530,0 -120.667310,47.253780,0 -120.666530,47.254560,0 -120.666400,47.254590,0 -120.666400,47.254790,0 -120.666400,47.254790,0 -120.669380,47.254770,0 -120.669600,47.254760,0 -120.671710,47.254750,0 -120.677020,47.254700,0 -120.677010,47.253770,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Cougar Gold</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR105261288
+acres 20.0
+PLSS WA 33 0210N 0170E 036 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.641240,47.267470,0 -120.641200,47.274680,0 -120.651830,47.274680,0 -120.651870,47.267440,0 -120.641240,47.267470,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Kitty Paradise</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR105261287
+acres 20.0
+PLSS WA 33 0210N 0170E 036 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.641240,47.267470,0 -120.641200,47.274680,0 -120.651830,47.274680,0 -120.651870,47.267440,0 -120.641240,47.267470,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Bigfoot Bench</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR105276081
+acres 20.0
+PLSS WA 33 0210N 0170E 034 A ALL|WA 33 0210N 0170E 034 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.683740,47.274650,0 -120.694290,47.274640,0 -120.697520,47.274640,0 -120.699060,47.274630,0 -120.699610,47.274630,0 -120.704910,47.274630,0 -120.704940,47.271040,0 -120.704940,47.271020,0 -120.704940,47.271010,0 -120.704960,47.267430,0 -120.704960,47.267420,0 -120.704960,47.267350,0 -120.704990,47.263860,0 -120.704990,47.263810,0 -120.704990,47.263710,0 -120.705020,47.260070,0 -120.703600,47.260080,0 -120.703590,47.260080,0 -120.699720,47.260080,0 -120.698250,47.260080,0 -120.698220,47.260080,0 -120.696390,47.260090,0 -120.694630,47.260090,0 -120.694360,47.260090,0 -120.692920,47.260090,0 -120.692900,47.260090,0 -120.689050,47.260100,0 -120.687590,47.260100,0 -120.683770,47.260120,0 -120.683760,47.263780,0 -120.683760,47.267390,0 -120.683750,47.271000,0 -120.683740,47.274650,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Lucky Strikes 2</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR105293008
+acres 19.22
+PLSS WA 33 0210N 0170E 036 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.646080,47.271230,0 -120.651740,47.271400,0 -120.651740,47.269700,0 -120.646080,47.269600,0 -120.646080,47.271230,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Lucky Strikes 4</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR105293010
+acres 19.98
+PLSS WA 33 0210N 0170E 036 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.651870,47.267440,0 -120.651830,47.274680,0 -120.662480,47.274680,0 -120.662500,47.267410,0 -120.651870,47.267440,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Lion Gulch #2</name><styleUrl>#placer</styleUrl><description>Placer Claim - Filed
+serial OR105295470
+acres 19.93
+PLSS WA 33 0210N 0170E 035 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.667770,47.270000,0 -120.667770,47.271570,0 -120.673000,47.271570,0 -120.673000,47.270000,0 -120.667770,47.270000,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Lion Gulch Gold #3</name><styleUrl>#placer</styleUrl><description>Placer Claim - Filed
+serial OR105295471
+acres 19.66
+PLSS WA 33 0210N 0170E 035 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.664750,47.271570,0 -120.664750,47.273710,0 -120.669850,47.273710,0 -120.669850,47.271570,0 -120.664750,47.271570,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Lion Gulch Gold #4</name><styleUrl>#placer</styleUrl><description>Placer Claim - Filed
+serial OR105295472
+acres 19.66
+PLSS WA 33 0210N 0170E 035 A NE|WA 33 0210N 0170E 026 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.664750,47.273710,0 -120.663990,47.275640,0 -120.669410,47.275640,0 -120.669850,47.273710,0 -120.664750,47.273710,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Lion Gulch Gold #5</name><styleUrl>#placer</styleUrl><description>Placer Claim - Filed
+serial OR105295473
+acres 19.98
+PLSS WA 33 0210N 0170E 026 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.667740,47.275640,0 -120.667740,47.277520,0 -120.673430,47.277620,0 -120.673430,47.275640,0 -120.667740,47.275640,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Dip-Z-Doodle</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR105297413
+acres 0.0
+PLSS WA 33 0210N 0170E 027 A NW | WA 33 0210N 0170E 027 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.694330,47.274640,0 -120.694330,47.281870,0 -120.694320,47.289110,0 -120.704960,47.289120,0 -120.704940,47.281870,0 -120.704910,47.274630,0 -120.694330,47.274640,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Mikki-Mouse</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR105297414
+acres 0.0
+PLSS WA 33 0210N 0170E 027 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.694330,47.274640,0 -120.694330,47.281870,0 -120.704940,47.281870,0 -120.704910,47.274630,0 -120.694330,47.274640,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Peshastin</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR105297415
+acres 8.3
+PLSS WA 33 0220N 0170E 013 NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.651560,47.397090,0 -120.651550,47.404330,0 -120.662180,47.404350,0 -120.662230,47.397110,0 -120.651560,47.397090,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>P&amp;T #1</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR105297416
+acres 0.0
+PLSS WA 33 0230N 0170E 036 E SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.654180,47.452760,0 -120.671350,47.452800,0 -120.671520,47.438360,0 -120.667600,47.438360,0 -120.662280,47.438350,0 -120.656920,47.438340,0 -120.651520,47.438320,0 -120.650030,47.438310,0 -120.649960,47.441560,0 -120.649870,47.445190,0 -120.649790,47.448830,0 -120.649700,47.452470,0 -120.649700,47.452750,0 -120.654180,47.452760,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>P&amp;T Placer #2</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR105297417
+acres 16.1
+PLSS WA 33 0230N 0170E 036 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.660780,47.438340,0 -120.660650,47.445560,0 -120.671430,47.445580,0 -120.671520,47.438360,0 -120.660780,47.438340,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Try Again</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR105297418
+acres 0.0
+PLSS WA 33 0230N 0170E 036 E SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.654180,47.452760,0 -120.671350,47.452800,0 -120.671520,47.438360,0 -120.667600,47.438360,0 -120.662280,47.438350,0 -120.656920,47.438340,0 -120.651520,47.438320,0 -120.650030,47.438310,0 -120.649960,47.441560,0 -120.649870,47.445190,0 -120.649790,47.448830,0 -120.649700,47.452470,0 -120.649700,47.452750,0 -120.654180,47.452760,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Windfall #11</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR105297419
+acres 0.0
+PLSS WA 33 0230N 0170E 036 E NW,NW,SW,SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.654180,47.452760,0 -120.671350,47.452800,0 -120.671520,47.438360,0 -120.667600,47.438360,0 -120.662280,47.438350,0 -120.656920,47.438340,0 -120.651520,47.438320,0 -120.650030,47.438310,0 -120.649960,47.441560,0 -120.649870,47.445190,0 -120.649790,47.448830,0 -120.649700,47.452470,0 -120.649700,47.452750,0 -120.654180,47.452760,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>CULVER PLACER 1</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR105761457
+acres 20.0
+PLSS WA 33 0220N 0170E 002 A N2NESE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.667660,47.428590,0 -120.667670,47.426150,0 -120.665030,47.426150,0 -120.662380,47.426150,0 -120.662360,47.428590,0 -120.665010,47.428590,0 -120.667660,47.428590,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Culver Placer 2</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR105761456
+acres 20.0
+PLSS WA 33 0220N 0170E 002 A S1/2SE1/4
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.662280,47.438350,0 -120.667600,47.438360,0 -120.671520,47.438360,0 -120.672940,47.438360,0 -120.678280,47.438350,0 -120.683630,47.438340,0 -120.683600,47.435060,0 -120.683550,47.433270,0 -120.683510,47.431460,0 -120.683480,47.429680,0 -120.683430,47.427420,0 -120.683420,47.426350,0 -120.683420,47.426100,0 -120.683410,47.425630,0 -120.683410,47.424910,0 -120.683430,47.423590,0 -120.683440,47.422480,0 -120.683470,47.418840,0 -120.662450,47.418830,0 -120.662420,47.420610,0 -120.662400,47.422460,0 -120.662370,47.426090,0 -120.662360,47.426200,0 -120.662360,47.426300,0 -120.662350,47.427920,0 -120.662340,47.428690,0 -120.662330,47.429710,0 -120.662320,47.430390,0 -120.662310,47.431500,0 -120.662300,47.433340,0 -120.662300,47.433400,0 -120.662300,47.433460,0 -120.662290,47.435110,0 -120.662280,47.438350,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Culver Placer 3</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR105761458
+acres 20.0
+PLSS WA 33 0220N 0170E 002 A ALL
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.662280,47.438350,0 -120.667600,47.438360,0 -120.671520,47.438360,0 -120.672940,47.438360,0 -120.678280,47.438350,0 -120.683630,47.438340,0 -120.683600,47.435060,0 -120.683550,47.433270,0 -120.683510,47.431460,0 -120.683480,47.429680,0 -120.683430,47.427420,0 -120.683420,47.426350,0 -120.683420,47.426100,0 -120.683410,47.425630,0 -120.683410,47.424910,0 -120.683430,47.423590,0 -120.683440,47.422480,0 -120.683470,47.418840,0 -120.662450,47.418830,0 -120.662420,47.420610,0 -120.662400,47.422460,0 -120.662370,47.426090,0 -120.662360,47.426200,0 -120.662360,47.426300,0 -120.662350,47.427920,0 -120.662340,47.428690,0 -120.662330,47.429710,0 -120.662320,47.430390,0 -120.662310,47.431500,0 -120.662300,47.433340,0 -120.662300,47.433400,0 -120.662300,47.433460,0 -120.662290,47.435110,0 -120.662280,47.438350,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Culver Placer 4</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR105761459
+acres 20.0
+PLSS WA 33 0220N 0170E 002 L 11
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.662280,47.438350,0 -120.667600,47.438360,0 -120.671520,47.438360,0 -120.672940,47.438360,0 -120.678280,47.438350,0 -120.683630,47.438340,0 -120.683600,47.435060,0 -120.683550,47.433270,0 -120.683510,47.431460,0 -120.683480,47.429680,0 -120.683430,47.427420,0 -120.683420,47.426350,0 -120.683420,47.426100,0 -120.683410,47.425630,0 -120.683410,47.424910,0 -120.683430,47.423590,0 -120.683440,47.422480,0 -120.683470,47.418840,0 -120.662450,47.418830,0 -120.662420,47.420610,0 -120.662400,47.422460,0 -120.662370,47.426090,0 -120.662360,47.426200,0 -120.662360,47.426300,0 -120.662350,47.427920,0 -120.662340,47.428690,0 -120.662330,47.429710,0 -120.662320,47.430390,0 -120.662310,47.431500,0 -120.662300,47.433340,0 -120.662300,47.433400,0 -120.662300,47.433460,0 -120.662290,47.435110,0 -120.662280,47.438350,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Edna G2 Fraction</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR105768766
+acres 20.0
+PLSS WA 33 0200N 0170E 003 A SWNE|WA 33 0200N 0170E 003 A SENE|WA 33 0200N 0170E 003 A Government Lot 1|WA 33 0200N 0170E 003 A Government Lot 2|WA 33 0200N 0170E 003 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.687670,47.247420,0 -120.687650,47.250590,0 -120.687650,47.251050,0 -120.687630,47.253760,0 -120.687630,47.254580,0 -120.687630,47.254620,0 -120.687610,47.256930,0 -120.687600,47.258220,0 -120.687600,47.258250,0 -120.687590,47.260100,0 -120.689050,47.260100,0 -120.692900,47.260090,0 -120.692920,47.260090,0 -120.694360,47.260090,0 -120.694630,47.260090,0 -120.696390,47.260090,0 -120.698220,47.260080,0 -120.698250,47.260080,0 -120.699720,47.260080,0 -120.703590,47.260080,0 -120.703600,47.260080,0 -120.705020,47.260070,0 -120.708920,47.260060,0 -120.708920,47.258280,0 -120.708920,47.258190,0 -120.708920,47.256900,0 -120.708920,47.254660,0 -120.708920,47.254610,0 -120.708920,47.253740,0 -120.708920,47.251050,0 -120.708920,47.250590,0 -120.708920,47.247430,0 -120.703610,47.247480,0 -120.698290,47.247520,0 -120.698250,47.247520,0 -120.695980,47.247500,0 -120.694070,47.247480,0 -120.693490,47.247470,0 -120.692980,47.247470,0 -120.692900,47.247460,0 -120.687670,47.247420,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>CULVER PLACER 7</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR105770838
+acres 20.0
+PLSS WA 33 0220N 0170E 001 | WA 33 0220N 0170E 001 NWSW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.662360,47.428590,0 -120.662400,47.423710,0 -120.656990,47.423680,0 -120.656950,47.428530,0 -120.662360,47.428590,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Abbie Ann</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR105779022
+acres 37.1
+PLSS WA 33 0220N 0170E 012 A NW|WA 33 0270N 0170E 012 A ALL|WA 33 0220N 0170E 012 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.649780,47.857410,0 -120.649750,47.860750,0 -120.655680,47.860800,0 -120.661000,47.860850,0 -120.666420,47.860900,0 -120.671820,47.860940,0 -120.671890,47.850100,0 -120.671920,47.846470,0 -120.666540,47.846440,0 -120.661140,47.846410,0 -120.655740,47.846370,0 -120.649900,47.846330,0 -120.649890,47.846590,0 -120.649860,47.849920,0 -120.649850,47.850220,0 -120.649820,47.853520,0 -120.649820,47.853840,0 -120.649790,47.857150,0 -120.649780,47.857410,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.662180,47.404350,0 -120.651550,47.404330,0 -120.651570,47.411580,0 -120.651600,47.418830,0 -120.662450,47.418830,0 -120.662320,47.411590,0 -120.662180,47.404350,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+  <Placemark><name>Lefty's Dream</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR105786566
+acres 20.0
+PLSS WA 33 0210N 0170E 010 A ALL|WA 33 0210N 0170E 010 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.683500,47.318040,0 -120.683480,47.322070,0 -120.683480,47.322660,0 -120.683460,47.326210,0 -120.683460,47.327120,0 -120.683450,47.328920,0 -120.683430,47.332540,0 -120.704720,47.332490,0 -120.704860,47.318030,0 -120.694180,47.318030,0 -120.693660,47.318030,0 -120.693510,47.318030,0 -120.693440,47.318030,0 -120.693370,47.318030,0 -120.692180,47.318030,0 -120.691740,47.318030,0 -120.691630,47.318040,0 -120.691590,47.318040,0 -120.683500,47.318040,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Lefty's Escape</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR105786565
+acres 20.0
+PLSS WA 33 0210N 0170E 010 A SW|WA 33 0210N 0170E 010 A ALL
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.694180,47.318030,0 -120.693660,47.318030,0 -120.693510,47.318030,0 -120.693440,47.318030,0 -120.693370,47.318030,0 -120.692180,47.318030,0 -120.691740,47.318030,0 -120.691630,47.318040,0 -120.691510,47.318040,0 -120.688840,47.318040,0 -120.683500,47.318040,0 -120.683490,47.320770,0 -120.683500,47.321430,0 -120.683490,47.321540,0 -120.683480,47.321650,0 -120.683480,47.322660,0 -120.683460,47.326210,0 -120.683460,47.327120,0 -120.683450,47.328920,0 -120.683430,47.332540,0 -120.704720,47.332490,0 -120.704790,47.325260,0 -120.704860,47.318030,0 -120.694180,47.318030,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Brazos Placer #1</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR105788550
+acres 20.0
+PLSS WA 33 0220N 0170E 002 A NW|WA 33 0220N 0170E 002 A ALL
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.662280,47.438350,0 -120.667600,47.438360,0 -120.671520,47.438360,0 -120.672940,47.438360,0 -120.678280,47.438350,0 -120.683630,47.438340,0 -120.683550,47.428590,0 -120.683450,47.428590,0 -120.683430,47.427420,0 -120.683420,47.426350,0 -120.683420,47.426100,0 -120.683410,47.425630,0 -120.683410,47.424910,0 -120.683430,47.423590,0 -120.683440,47.422480,0 -120.683470,47.418840,0 -120.662450,47.418830,0 -120.662420,47.420610,0 -120.662400,47.422460,0 -120.662370,47.426090,0 -120.662360,47.426200,0 -120.662360,47.426300,0 -120.662350,47.427920,0 -120.662340,47.428690,0 -120.662330,47.429710,0 -120.662320,47.430390,0 -120.662310,47.431500,0 -120.662300,47.433340,0 -120.662300,47.433400,0 -120.662300,47.433460,0 -120.662290,47.435110,0 -120.662280,47.438350,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Brazos Placer #2</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR105788551
+acres 20.0
+PLSS WA 33 0220N 0170E 002 A ALL|WA 33 0220N 0170E 002 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.662280,47.438350,0 -120.667600,47.438360,0 -120.671520,47.438360,0 -120.672940,47.438360,0 -120.678280,47.438350,0 -120.683630,47.438340,0 -120.683550,47.428590,0 -120.683450,47.428590,0 -120.683430,47.427420,0 -120.683420,47.426350,0 -120.683420,47.426100,0 -120.683410,47.425630,0 -120.683410,47.424910,0 -120.683430,47.423590,0 -120.683440,47.422480,0 -120.683470,47.418840,0 -120.662450,47.418830,0 -120.662420,47.420610,0 -120.662400,47.422460,0 -120.662370,47.426090,0 -120.662360,47.426200,0 -120.662360,47.426300,0 -120.662350,47.427920,0 -120.662340,47.428690,0 -120.662330,47.429710,0 -120.662320,47.430390,0 -120.662310,47.431500,0 -120.662300,47.433340,0 -120.662300,47.433400,0 -120.662300,47.433460,0 -120.662290,47.435110,0 -120.662280,47.438350,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Brazos Placer #3</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR105788552
+acres 20.0
+PLSS WA 33 0220N 0170E 002 A ALL|WA 33 0220N 0170E 002 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.662280,47.438350,0 -120.667600,47.438360,0 -120.671520,47.438360,0 -120.672940,47.438360,0 -120.678280,47.438350,0 -120.683630,47.438340,0 -120.683600,47.435060,0 -120.683550,47.433270,0 -120.683510,47.431460,0 -120.683480,47.429680,0 -120.683430,47.427420,0 -120.683420,47.426350,0 -120.683420,47.426100,0 -120.683410,47.425630,0 -120.683410,47.424910,0 -120.683430,47.423590,0 -120.683440,47.422480,0 -120.683470,47.418840,0 -120.662450,47.418830,0 -120.662420,47.420610,0 -120.662400,47.422460,0 -120.662370,47.426090,0 -120.662360,47.426200,0 -120.662360,47.426300,0 -120.662350,47.427920,0 -120.662340,47.428690,0 -120.662330,47.429710,0 -120.662320,47.430390,0 -120.662310,47.431500,0 -120.662300,47.433340,0 -120.662300,47.433400,0 -120.662300,47.433460,0 -120.662290,47.435110,0 -120.662280,47.438350,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Sawpit Gulch</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR105788554
+acres 40.0
+PLSS WA 33 0200N 0170E 002 A SWNW|WA 33 0200N 0170E 002 A Government Lot 4|WA 33 0200N 0170E 002 A Government Lot 3|WA 33 0200N 0170E 002 A SENW|WA 33 0200N 0170E 002 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.666370,47.251040,0 -120.666370,47.251470,0 -120.666380,47.252060,0 -120.666380,47.252740,0 -120.666400,47.254590,0 -120.666400,47.254790,0 -120.666440,47.256800,0 -120.666440,47.256950,0 -120.666460,47.258290,0 -120.666460,47.258300,0 -120.666480,47.260130,0 -120.667820,47.260130,0 -120.667830,47.260130,0 -120.670480,47.260130,0 -120.671760,47.260130,0 -120.671780,47.260130,0 -120.673140,47.260130,0 -120.677040,47.260130,0 -120.678440,47.260130,0 -120.682310,47.260130,0 -120.683770,47.260120,0 -120.687590,47.260100,0 -120.687600,47.258250,0 -120.687600,47.258220,0 -120.687610,47.256930,0 -120.687630,47.254620,0 -120.687630,47.254580,0 -120.687630,47.253760,0 -120.687650,47.251050,0 -120.687650,47.250590,0 -120.687670,47.247420,0 -120.685040,47.247420,0 -120.682330,47.247420,0 -120.676990,47.247420,0 -120.671670,47.247410,0 -120.671660,47.247410,0 -120.666320,47.247430,0 -120.666340,47.249190,0 -120.666360,47.250600,0 -120.666370,47.251040,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Mylas Cranky Nuggets</name><styleUrl>#placer</styleUrl><description>Placer Claim - Filed
+serial OR105829448
+acres 20.0
+PLSS WA 33 0200N 0170E 011 A SE|WA 33 0200N 0170E 011 A NESE|WA 33 0200N 0170E 011 A NWSE|WA 33 0200N 0170E 011 A SESE|WA 33 0200N 0170E 011 A SWSE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.671740,47.232970,0 -120.666420,47.232980,0 -120.666400,47.236590,0 -120.666380,47.240210,0 -120.671700,47.240190,0 -120.677030,47.240190,0 -120.677050,47.236570,0 -120.677070,47.232950,0 -120.671740,47.232970,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Lucky Baby Jonah Placer</name><styleUrl>#placer</styleUrl><description>Placer Claim - Filed
+serial OR105829447
+acres 20.0
+PLSS WA 33 0200N 0170E 011 A NESE|WA 33 0200N 0170E 011 A NWSE|WA 33 0200N 0170E 011 A SESE|WA 33 0200N 0170E 011 A SWSE|WA 33 0200N 0170E 011 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.671740,47.232970,0 -120.666420,47.232980,0 -120.666400,47.236590,0 -120.666380,47.240210,0 -120.671700,47.240190,0 -120.677030,47.240190,0 -120.677050,47.236570,0 -120.677070,47.232950,0 -120.671740,47.232970,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>WA PROSPECTORS #1</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101480590
+acres 20.0
+PLSS WA 33 0220N 0170E 014 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.662270,47.389870,0 -120.662230,47.397120,0 -120.672890,47.397110,0 -120.672940,47.389880,0 -120.662270,47.389870,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>KIMBERLY ANN</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101482449
+acres 20.0
+PLSS WA 33 0220N 0170E 001 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.651490,47.438100,0 -120.662280,47.438350,0 -120.662360,47.428590,0 -120.651540,47.428460,0 -120.651490,47.438100,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>J &amp; M</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101434898
+acres 20.0
+PLSS WA 33 0220N 0170E 001 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.651490,47.438100,0 -120.662280,47.438350,0 -120.662360,47.428590,0 -120.651540,47.428460,0 -120.651490,47.438100,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>MEGAN MARIE</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101484901
+acres 22.34
+PLSS WA 33 0220N 0170E 001 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.651540,47.428460,0 -120.662360,47.428590,0 -120.662450,47.418830,0 -120.651600,47.418830,0 -120.651540,47.428460,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>NWGGP #1</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101430572
+acres 20.0
+PLSS WA 33 0220N 0180E 030 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.630690,47.376080,0 -120.640830,47.376080,0 -120.640850,47.368860,0 -120.630670,47.368860,0 -120.630690,47.376080,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>HEAVYMETAL</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101433656
+acres 5.0
+PLSS WA 33 0220N 0170E 001 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.651490,47.438100,0 -120.662280,47.438350,0 -120.662360,47.428590,0 -120.651540,47.428460,0 -120.651490,47.438100,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>DANCING MINER</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101575932
+acres 12.18
+PLSS WA 33 0220N 0170E 013 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.651560,47.397090,0 -120.651550,47.404330,0 -120.662180,47.404350,0 -120.662230,47.397110,0 -120.651560,47.397090,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>FOUNTIAN HEAD</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101829758
+acres 12.0
+PLSS WA 33 0210N 0170E 034 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.694390,47.260100,0 -120.694360,47.267370,0 -120.704960,47.267350,0 -120.705020,47.260070,0 -120.694390,47.260100,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>HILLSIDE</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101829759
+acres 0.0
+PLSS WA 33 0210N 0170E 034 | WA 33 0210N 0170E 034 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.694390,47.260100,0 -120.694360,47.267370,0 -120.704960,47.267350,0 -120.705020,47.260070,0 -120.694390,47.260100,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>OROFINO</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101829760
+acres 12.9
+PLSS WA 33 0200N 0170E 003 A NE|WA 33 0210N 0170E 034 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.705020,47.260070,0 -120.694390,47.260100,0 -120.694360,47.267370,0 -120.704960,47.267350,0 -120.705020,47.260070,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.698250,47.260080,0 -120.698260,47.258220,0 -120.698260,47.256920,0 -120.698270,47.254610,0 -120.692950,47.254620,0 -120.687630,47.254620,0 -120.687610,47.256930,0 -120.687600,47.258220,0 -120.687600,47.258250,0 -120.687590,47.260100,0 -120.689050,47.260100,0 -120.692900,47.260090,0 -120.692920,47.260090,0 -120.694360,47.260090,0 -120.694630,47.260090,0 -120.696390,47.260090,0 -120.698220,47.260080,0 -120.698250,47.260080,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+  <Placemark><name>M&amp;M</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101827284
+acres 13.63
+PLSS WA 33 0200N 0170E 010 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.693070,47.232950,0 -120.693020,47.232950,0 -120.687730,47.232920,0 -120.687710,47.236550,0 -120.687700,47.238450,0 -120.687700,47.240090,0 -120.687700,47.240170,0 -120.692330,47.240180,0 -120.693000,47.240180,0 -120.695250,47.240180,0 -120.697050,47.240190,0 -120.698310,47.240190,0 -120.698310,47.236570,0 -120.698320,47.234770,0 -120.698320,47.232970,0 -120.695760,47.232970,0 -120.695330,47.232970,0 -120.694980,47.232960,0 -120.693070,47.232950,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>EAGLES BEAK FRACTION</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101476057
+acres 2.6
+PLSS WA 33 0200N 0170E 003 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.695980,47.247500,0 -120.694070,47.247480,0 -120.693490,47.247470,0 -120.692980,47.247470,0 -120.692900,47.247460,0 -120.687670,47.247420,0 -120.687650,47.250590,0 -120.687650,47.251050,0 -120.687630,47.253760,0 -120.687630,47.254580,0 -120.687630,47.254620,0 -120.692950,47.254620,0 -120.698270,47.254610,0 -120.698270,47.253750,0 -120.698280,47.251050,0 -120.698280,47.250590,0 -120.698290,47.247540,0 -120.698290,47.247520,0 -120.698250,47.247520,0 -120.695980,47.247500,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>MARY CHRISTINE</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101364636
+acres 18.86
+PLSS WA 33 0230N 0170E 013 A NE|WA 33 0230N 0170E 013 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.648980,47.481570,0 -120.649450,47.488810,0 -120.649910,47.496040,0 -120.660540,47.496070,0 -120.660270,47.488850,0 -120.659990,47.481620,0 -120.648980,47.481570,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>HEAVY METAL II</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101518156
+acres 15.0
+PLSS WA 33 0220N 0170E 001 A NW|WA 33 0220N 0170E 001 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.651540,47.428460,0 -120.651490,47.438100,0 -120.662280,47.438350,0 -120.662360,47.428590,0 -120.662450,47.418830,0 -120.651600,47.418830,0 -120.651540,47.428460,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>MGN MINE</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101881647
+acres 17.0
+PLSS WA 33 0200N 0170E 003 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.698260,47.256920,0 -120.698270,47.254610,0 -120.692950,47.254620,0 -120.687630,47.254620,0 -120.687610,47.256930,0 -120.687600,47.258220,0 -120.687600,47.258250,0 -120.687590,47.260100,0 -120.689050,47.260100,0 -120.692900,47.260090,0 -120.692920,47.260090,0 -120.694360,47.260090,0 -120.694630,47.260090,0 -120.696390,47.260090,0 -120.698220,47.260080,0 -120.698250,47.260080,0 -120.698260,47.258220,0 -120.698260,47.256920,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>POT LUCK #2</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101628291
+acres 16.45
+PLSS WA 33 0220N 0180E 030 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.630690,47.376080,0 -120.640830,47.376080,0 -120.640850,47.368860,0 -120.630670,47.368860,0 -120.630690,47.376080,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>A MAN</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101515268
+acres 40.0
+PLSS WA 33 0220N 0170E 014 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.672940,47.389880,0 -120.672890,47.397110,0 -120.683560,47.397100,0 -120.683610,47.389880,0 -120.672940,47.389880,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>T AND T MINING</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101312902
+acres 20.0
+PLSS WA 33 0200N 0170E 011 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.677030,47.240190,0 -120.677010,47.243800,0 -120.676990,47.247420,0 -120.682330,47.247420,0 -120.685040,47.247420,0 -120.687670,47.247420,0 -120.687670,47.245980,0 -120.687680,47.243800,0 -120.687680,47.243800,0 -120.687700,47.240170,0 -120.682370,47.240180,0 -120.677030,47.240190,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>YELLOWSTONE</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101512155
+acres 20.0
+PLSS WA 33 0210N 0170E 034 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.694390,47.260100,0 -120.694360,47.267370,0 -120.704960,47.267350,0 -120.705020,47.260070,0 -120.694390,47.260100,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>BANJO</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101851606
+acres 22.5
+PLSS WA 33 0220N 0170E 012 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.651550,47.404330,0 -120.651570,47.411580,0 -120.662320,47.411590,0 -120.662180,47.404350,0 -120.651550,47.404330,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>MTN KING</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101357449
+acres 30.0
+PLSS WA 33 0210N 0170E 033 A SE|WA 33 0210N 0170E 034 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.705020,47.260070,0 -120.694390,47.260100,0 -120.694360,47.267370,0 -120.704960,47.267350,0 -120.715620,47.267330,0 -120.715680,47.260050,0 -120.705020,47.260070,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>NCWP #1</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101373694
+acres 10.0
+PLSS WA 33 0220N 0170E 012 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.651570,47.411580,0 -120.651600,47.418830,0 -120.662450,47.418830,0 -120.662320,47.411590,0 -120.651570,47.411580,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>NCWP #2</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101373695
+acres 20.0
+PLSS WA 33 0230N 0170E 036 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.649870,47.445530,0 -120.649700,47.452750,0 -120.660520,47.452780,0 -120.660650,47.445560,0 -120.649870,47.445530,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>NCWP #1W</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101374332
+acres 20.0
+PLSS WA 33 0220N 0170E 012 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.651570,47.411580,0 -120.651600,47.418830,0 -120.662450,47.418830,0 -120.662320,47.411590,0 -120.651570,47.411580,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>NCWP #2W</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101374333
+acres 18.0
+PLSS WA 33 0230N 0170E 036 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.649870,47.445530,0 -120.649700,47.452750,0 -120.660520,47.452780,0 -120.660650,47.445560,0 -120.649870,47.445530,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>POT LUCK I</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101517726
+acres 20.0
+PLSS WA 33 0220N 0170E 024 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.651580,47.382640,0 -120.651570,47.389860,0 -120.662270,47.389870,0 -120.662300,47.382680,0 -120.651580,47.382640,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>DEER GULCH</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101748895
+acres 8.5
+PLSS WA 33 0200N 0170E 002 A SW|WA 33 0200N 0170E 011 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.677030,47.240190,0 -120.677010,47.243800,0 -120.676990,47.247420,0 -120.677000,47.248290,0 -120.677000,47.250070,0 -120.677000,47.250600,0 -120.677010,47.251050,0 -120.677010,47.253770,0 -120.677020,47.254700,0 -120.682320,47.254660,0 -120.687630,47.254620,0 -120.687630,47.254580,0 -120.687630,47.253760,0 -120.687650,47.251050,0 -120.687650,47.250590,0 -120.687670,47.247420,0 -120.687670,47.245980,0 -120.687680,47.243800,0 -120.687680,47.243800,0 -120.687700,47.240170,0 -120.682370,47.240180,0 -120.677030,47.240190,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LUCKY BLEWETT</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101563331
+acres 18.2
+PLSS WA 33 0220N 0180E 018 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.630640,47.397760,0 -120.640860,47.397750,0 -120.640840,47.390490,0 -120.630650,47.390520,0 -120.630640,47.397760,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>BOBCAT</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101472778
+acres 15.91
+PLSS WA 33 0200N 0170E 010 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.694980,47.232960,0 -120.693070,47.232950,0 -120.693020,47.232950,0 -120.687730,47.232920,0 -120.687710,47.236550,0 -120.687700,47.238450,0 -120.687700,47.240090,0 -120.687700,47.240170,0 -120.692330,47.240180,0 -120.693000,47.240180,0 -120.695250,47.240180,0 -120.697050,47.240190,0 -120.698310,47.240190,0 -120.698310,47.236570,0 -120.698320,47.234770,0 -120.698320,47.232970,0 -120.695760,47.232970,0 -120.695330,47.232970,0 -120.694980,47.232960,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>BIG FOOT #1</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101678524
+acres 10.6
+PLSS WA 33 0200N 0170E 010 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.698310,47.240190,0 -120.697050,47.240190,0 -120.695250,47.240180,0 -120.693000,47.240180,0 -120.692330,47.240180,0 -120.687700,47.240170,0 -120.687680,47.243800,0 -120.687680,47.243800,0 -120.687670,47.245980,0 -120.687670,47.247420,0 -120.692900,47.247460,0 -120.692980,47.247470,0 -120.693490,47.247470,0 -120.694070,47.247480,0 -120.695980,47.247500,0 -120.698250,47.247520,0 -120.698290,47.247520,0 -120.698300,47.243810,0 -120.698300,47.241990,0 -120.698310,47.240190,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>ROUND TABLE 2</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101430384
+acres 20.0
+PLSS WA 33 0220N 0180E 032 A SW|WA 33 0220N 0180E 032 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.599080,47.347140,0 -120.599090,47.354380,0 -120.609770,47.354400,0 -120.620450,47.354410,0 -120.620470,47.347190,0 -120.609770,47.347170,0 -120.599080,47.347140,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>ROUND TABLE 3</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101430385
+acres 20.0
+PLSS WA 33 0220N 0180E 032 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.609770,47.354400,0 -120.609760,47.361630,0 -120.620420,47.361640,0 -120.620450,47.354410,0 -120.609770,47.354400,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>PIPE STEM</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101504078
+acres 10.0
+PLSS WA 33 0200N 0170E 002 A SE|WA 33 0200N 0170E 011 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.682370,47.240180,0 -120.677030,47.240190,0 -120.677010,47.243800,0 -120.676990,47.247420,0 -120.682330,47.247420,0 -120.685040,47.247420,0 -120.687670,47.247420,0 -120.687670,47.245980,0 -120.687680,47.243800,0 -120.687680,47.243800,0 -120.687700,47.240170,0 -120.682370,47.240180,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.677010,47.253770,0 -120.677010,47.251050,0 -120.677000,47.250600,0 -120.677000,47.250070,0 -120.677000,47.248290,0 -120.676990,47.247420,0 -120.671670,47.247410,0 -120.671660,47.247410,0 -120.666320,47.247430,0 -120.666340,47.249190,0 -120.666360,47.250600,0 -120.666370,47.251040,0 -120.666370,47.251470,0 -120.667930,47.251300,0 -120.668680,47.251050,0 -120.670060,47.250600,0 -120.671680,47.250070,0 -120.673350,47.249530,0 -120.673450,47.249750,0 -120.673690,47.250600,0 -120.673730,47.250730,0 -120.673730,47.251050,0 -120.673730,47.251150,0 -120.672370,47.251590,0 -120.671800,47.251770,0 -120.668580,47.252830,0 -120.668230,47.252940,0 -120.667730,47.253090,0 -120.667190,47.253180,0 -120.667550,47.253530,0 -120.667310,47.253780,0 -120.666530,47.254560,0 -120.666400,47.254590,0 -120.666400,47.254790,0 -120.666400,47.254790,0 -120.669380,47.254770,0 -120.669600,47.254760,0 -120.671710,47.254750,0 -120.677020,47.254700,0 -120.677010,47.253770,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+  <Placemark><name>ORO FINO</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101753086
+acres 41.1
+PLSS WA 33 0220N 0170E 024 A SW|WA 33 0220N 0170E 024 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.640840,47.375360,0 -120.640850,47.382600,0 -120.651580,47.382640,0 -120.662300,47.382680,0 -120.662330,47.375500,0 -120.651580,47.375430,0 -120.640840,47.375360,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>TE DE 1</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101742249
+acres 0.0
+PLSS WA 33 0220N 0170E 013 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.651570,47.389860,0 -120.651560,47.397090,0 -120.662230,47.397110,0 -120.662270,47.389870,0 -120.651570,47.389860,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>W J</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101332945
+acres 20.0
+PLSS WA 33 0200N 0170E 001 A SE|WA 33 0200N 0180E 006 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.632120,47.254100,0 -120.645120,47.254080,0 -120.645130,47.254670,0 -120.650450,47.254680,0 -120.653730,47.254690,0 -120.653740,47.254140,0 -120.655770,47.254130,0 -120.655760,47.253810,0 -120.655760,47.253680,0 -120.654860,47.253680,0 -120.654790,47.252810,0 -120.653380,47.252800,0 -120.653390,47.251920,0 -120.651430,47.251900,0 -120.651390,47.251200,0 -120.650410,47.251210,0 -120.649300,47.251220,0 -120.647980,47.251240,0 -120.647930,47.250660,0 -120.647870,47.250090,0 -120.645080,47.250080,0 -120.645060,47.248700,0 -120.649220,47.248710,0 -120.649290,47.249250,0 -120.650390,47.249260,0 -120.650380,47.247480,0 -120.645050,47.247500,0 -120.645050,47.247990,0 -120.632090,47.248030,0 -120.632120,47.254100,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>W J 3</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101332947
+acres 20.0
+PLSS WA 33 0200N 0170E 001 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.655760,47.253810,0 -120.655760,47.253680,0 -120.654860,47.253680,0 -120.654790,47.252810,0 -120.653380,47.252800,0 -120.653390,47.251920,0 -120.651430,47.251900,0 -120.651390,47.251200,0 -120.650410,47.251210,0 -120.649300,47.251220,0 -120.647980,47.251240,0 -120.647930,47.250660,0 -120.647870,47.250090,0 -120.645070,47.250080,0 -120.645080,47.250230,0 -120.645080,47.250670,0 -120.645090,47.251600,0 -120.645110,47.252920,0 -120.645120,47.253840,0 -120.645130,47.254670,0 -120.650450,47.254680,0 -120.653730,47.254690,0 -120.653740,47.254140,0 -120.655770,47.254130,0 -120.655760,47.253810,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.650380,47.247480,0 -120.645050,47.247500,0 -120.645050,47.247990,0 -120.645050,47.248580,0 -120.645050,47.248700,0 -120.649220,47.248710,0 -120.649290,47.249250,0 -120.650390,47.249260,0 -120.650380,47.247480,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+  <Placemark><name>LITTLE FRACTION</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101489202
+acres 5.5
+PLSS WA 33 0200N 0170E 002 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.687670,47.247420,0 -120.685040,47.247420,0 -120.682330,47.247420,0 -120.676990,47.247420,0 -120.677000,47.248290,0 -120.677000,47.250070,0 -120.677000,47.250600,0 -120.677010,47.251050,0 -120.677010,47.253770,0 -120.677020,47.254700,0 -120.682320,47.254660,0 -120.687630,47.254620,0 -120.687630,47.254580,0 -120.687630,47.253760,0 -120.687650,47.251050,0 -120.687650,47.250590,0 -120.687670,47.247420,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>CHIC PLACER #1</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101867321
+acres 19.96
+PLSS WA 33 0200N 0170E 010 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.698310,47.240190,0 -120.697050,47.240190,0 -120.695250,47.240180,0 -120.693000,47.240180,0 -120.692330,47.240180,0 -120.687700,47.240170,0 -120.687680,47.243800,0 -120.687680,47.243800,0 -120.687670,47.245980,0 -120.687670,47.247420,0 -120.692900,47.247460,0 -120.692980,47.247470,0 -120.693490,47.247470,0 -120.694070,47.247480,0 -120.695980,47.247500,0 -120.698250,47.247520,0 -120.698290,47.247520,0 -120.698300,47.243810,0 -120.698300,47.241990,0 -120.698310,47.240190,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>CHIC PLACER #2</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101867667
+acres 19.96
+PLSS WA 33 0200N 0170E 010 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.698310,47.240190,0 -120.697050,47.240190,0 -120.695250,47.240180,0 -120.693000,47.240180,0 -120.692330,47.240180,0 -120.687700,47.240170,0 -120.687680,47.243800,0 -120.687680,47.243800,0 -120.687670,47.245980,0 -120.687670,47.247420,0 -120.692900,47.247460,0 -120.692980,47.247470,0 -120.693490,47.247470,0 -120.694070,47.247480,0 -120.695980,47.247500,0 -120.698250,47.247520,0 -120.698290,47.247520,0 -120.698300,47.243810,0 -120.698300,47.241990,0 -120.698310,47.240190,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>CHIC PLACER #3</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101867668
+acres 5.7
+PLSS WA 33 0200N 0170E 010 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.698310,47.240190,0 -120.697050,47.240190,0 -120.695250,47.240180,0 -120.693000,47.240180,0 -120.692330,47.240180,0 -120.687700,47.240170,0 -120.687680,47.243800,0 -120.687680,47.243800,0 -120.687670,47.245980,0 -120.687670,47.247420,0 -120.692900,47.247460,0 -120.692980,47.247470,0 -120.693490,47.247470,0 -120.694070,47.247480,0 -120.695980,47.247500,0 -120.698250,47.247520,0 -120.698290,47.247520,0 -120.698300,47.243810,0 -120.698300,47.241990,0 -120.698310,47.240190,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>HAPPY MINER</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101863587
+acres 16.66
+PLSS WA 33 0220N 0180E 030 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.630670,47.368860,0 -120.640850,47.368860,0 -120.640880,47.361640,0 -120.630650,47.361640,0 -120.630670,47.368860,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>MT POCKETS</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101867541
+acres 17.0
+PLSS WA 33 0220N 0170E 014 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.662270,47.389870,0 -120.662230,47.397120,0 -120.672890,47.397110,0 -120.672940,47.389880,0 -120.662270,47.389870,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>POTLUCK</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101867542
+acres 23.63
+PLSS WA 33 0220N 0170E 024 A NW|WA 33 0220N 0170E 024 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.651580,47.375430,0 -120.651580,47.382640,0 -120.651570,47.389860,0 -120.662270,47.389870,0 -120.662300,47.382680,0 -120.662330,47.375500,0 -120.651580,47.375430,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LIBERTY ONE</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101843145
+acres 20.0
+PLSS WA 33 0210N 0170E 023 A SE|WA 33 0210N 0170E 024 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.651800,47.289120,0 -120.651740,47.296360,0 -120.662370,47.296360,0 -120.662370,47.296370,0 -120.673010,47.296350,0 -120.673040,47.289120,0 -120.662400,47.289140,0 -120.651800,47.289120,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>HUGHES</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101740677
+acres 20.0
+PLSS WA 33 0220N 0180E 032 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.609770,47.354400,0 -120.609760,47.361630,0 -120.620420,47.361640,0 -120.620450,47.354410,0 -120.609770,47.354400,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LION GULCH 6</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101472888
+acres 19.88
+PLSS WA 33 0210N 0170E 035 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.662520,47.260140,0 -120.662500,47.267420,0 -120.673130,47.267410,0 -120.673140,47.260130,0 -120.662520,47.260140,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LION GULCH 7</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101472889
+acres 19.86
+PLSS WA 33 0210N 0170E 035 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.662520,47.260140,0 -120.662500,47.267420,0 -120.673130,47.267410,0 -120.673140,47.260130,0 -120.662520,47.260140,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>NORTH STAR</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101476774
+acres 40.0
+PLSS WA 33 0210N 0180E 012 A SW|WA 33 0210N 0180E 012 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.525850,47.318320,0 -120.516290,47.318360,0 -120.516700,47.325560,0 -120.526040,47.325520,0 -120.535370,47.325490,0 -120.535400,47.318270,0 -120.525850,47.318320,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>NORTH STAR 2</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101644533
+acres 20.0
+PLSS WA 33 0210N 0180E 013 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.525850,47.318320,0 -120.535400,47.318270,0 -120.535450,47.310930,0 -120.525640,47.311020,0 -120.525850,47.318320,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>BEDROCK</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101894601
+acres 30.3
+PLSS WA 33 0220N 0170E 024 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.651580,47.382640,0 -120.651570,47.389860,0 -120.662270,47.389870,0 -120.662300,47.382680,0 -120.651580,47.382640,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>GOLD BAR 1</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101735107
+acres 20.0
+PLSS WA 33 0200N 0180E 006 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.619110,47.254130,0 -120.632120,47.254100,0 -120.632090,47.248030,0 -120.619130,47.248070,0 -120.619110,47.254130,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>GOLD BAR 4</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101735108
+acres 20.0
+PLSS WA 33 0200N 0180E 006 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.619110,47.254130,0 -120.632120,47.254100,0 -120.632090,47.248030,0 -120.619130,47.248070,0 -120.619110,47.254130,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>ELK HORN GULCH</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101490357
+acres 20.0
+PLSS WA 33 0200N 0180E 006 A NW|WA 33 0210N 0180E 031 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.632120,47.254100,0 -120.632150,47.260170,0 -120.645200,47.260170,0 -120.645130,47.254080,0 -120.632120,47.254100,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.630770,47.260210,0 -120.630790,47.267440,0 -120.641240,47.267450,0 -120.641290,47.260230,0 -120.630770,47.260210,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+  <Placemark><name>VILLAGE</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101838939
+acres 10.0
+PLSS WA 33 0200N 0170E 001 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.666340,47.249190,0 -120.666320,47.247430,0 -120.661010,47.247440,0 -120.655730,47.247460,0 -120.655680,47.247460,0 -120.655720,47.250640,0 -120.655730,47.251130,0 -120.655750,47.252430,0 -120.658010,47.252430,0 -120.658040,47.253210,0 -120.658610,47.253020,0 -120.659720,47.253330,0 -120.659980,47.253240,0 -120.661070,47.252910,0 -120.665500,47.251570,0 -120.666370,47.251470,0 -120.666370,47.251040,0 -120.666360,47.250600,0 -120.666340,47.249190,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>HIGH HOPES</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101835683
+acres 20.0
+PLSS WA 33 0210N 0170E 034 A SW|WA 33 0210N 0170E 034 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.694390,47.260100,0 -120.683770,47.260120,0 -120.683760,47.267390,0 -120.694360,47.267370,0 -120.704960,47.267350,0 -120.705020,47.260070,0 -120.694390,47.260100,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>THOMAS JEFFREY</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101830672
+acres 20.0
+PLSS WA 33 0210N 0170E 033 A NE|WA 33 0210N 0170E 033 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.705020,47.260070,0 -120.704960,47.267350,0 -120.704910,47.274630,0 -120.715560,47.274620,0 -120.715620,47.267330,0 -120.715680,47.260050,0 -120.705020,47.260070,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>AMY LYNN</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101764943
+acres 20.0
+PLSS WA 33 0220N 0180E 033 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.588450,47.347180,0 -120.588430,47.354430,0 -120.599090,47.354380,0 -120.599080,47.347140,0 -120.588450,47.347180,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>GWEN ELLEN 1</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101764944
+acres 20.0
+PLSS WA 33 0220N 0180E 033 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.588450,47.347180,0 -120.588430,47.354430,0 -120.599090,47.354380,0 -120.599080,47.347140,0 -120.588450,47.347180,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>GWEN ELLEN 2</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101764945
+acres 20.0
+PLSS WA 33 0220N 0180E 033 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.588450,47.347180,0 -120.588430,47.354430,0 -120.599090,47.354380,0 -120.599080,47.347140,0 -120.588450,47.347180,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>RAMONA MAY</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101764946
+acres 20.0
+PLSS WA 33 0220N 0180E 033 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.588450,47.347180,0 -120.588430,47.354430,0 -120.599090,47.354380,0 -120.599080,47.347140,0 -120.588450,47.347180,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>RACQUEL W</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101765089
+acres 121.13
+PLSS WA 33 0200N 0170E 003 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.687630,47.254620,0 -120.687610,47.256930,0 -120.687600,47.258220,0 -120.687600,47.258250,0 -120.687590,47.260100,0 -120.689050,47.260100,0 -120.692900,47.260090,0 -120.692920,47.260090,0 -120.694360,47.260090,0 -120.694630,47.260090,0 -120.696390,47.260090,0 -120.698220,47.260080,0 -120.698250,47.260080,0 -120.698260,47.258220,0 -120.698260,47.256920,0 -120.698270,47.254610,0 -120.692950,47.254620,0 -120.687630,47.254620,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>SHOOTZ</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101769133
+acres 11.0
+PLSS WA 33 0230N 0170E 036 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.660780,47.438340,0 -120.660650,47.445560,0 -120.671430,47.445580,0 -120.671520,47.438360,0 -120.660780,47.438340,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>GOLD BAR 5</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101924218
+acres 20.0
+PLSS WA 33 0200N 0180E 006 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.619110,47.254130,0 -120.632120,47.254100,0 -120.632090,47.248030,0 -120.619130,47.248070,0 -120.619110,47.254130,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>PIPE STEM FRACTION</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101746316
+acres 40.0
+PLSS WA 33 0200N 0170E 011 A NENW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.676990,47.247420,0 -120.682330,47.247420,0 -120.682350,47.243800,0 -120.682330,47.243800,0 -120.677010,47.243800,0 -120.676990,47.247420,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>CARBONITE</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR102155206
+acres 7.0
+PLSS WA 33 0220N 0170E 024 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.640840,47.375360,0 -120.640850,47.382600,0 -120.651580,47.382640,0 -120.651580,47.375430,0 -120.640840,47.375360,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>GOLDEN PROMISE</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101484871
+acres 20.0
+PLSS WA 33 0210N 0170E 034 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.694390,47.260100,0 -120.694360,47.267370,0 -120.704960,47.267350,0 -120.705020,47.260070,0 -120.694390,47.260100,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>SNYDER</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101432450
+acres 13.0
+PLSS WA 33 0200N 0170E 001 A NW|WA 33 0200N 0170E 002 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.677020,47.256940,0 -120.677020,47.254700,0 -120.671710,47.254750,0 -120.669600,47.254760,0 -120.669410,47.254840,0 -120.669380,47.254770,0 -120.666400,47.254790,0 -120.666400,47.254790,0 -120.666440,47.256800,0 -120.666440,47.256950,0 -120.666460,47.258290,0 -120.666460,47.258300,0 -120.661140,47.258320,0 -120.661120,47.256970,0 -120.661100,47.255350,0 -120.657970,47.256090,0 -120.657260,47.255500,0 -120.657260,47.256350,0 -120.656720,47.256340,0 -120.656700,47.256980,0 -120.656670,47.258330,0 -120.656670,47.258430,0 -120.655820,47.258400,0 -120.655840,47.260160,0 -120.661130,47.260150,0 -120.661160,47.260150,0 -120.662520,47.260140,0 -120.666480,47.260130,0 -120.667820,47.260130,0 -120.667830,47.260130,0 -120.670480,47.260130,0 -120.671760,47.260130,0 -120.671780,47.260130,0 -120.673140,47.260130,0 -120.677040,47.260130,0 -120.677030,47.258280,0 -120.677020,47.256940,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LIL GREEN FROG FRAC</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101481888
+acres 9.0
+PLSS WA 33 0200N 0170E 001 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.666340,47.249190,0 -120.666320,47.247430,0 -120.661010,47.247440,0 -120.655730,47.247460,0 -120.655680,47.247460,0 -120.655720,47.250640,0 -120.655730,47.251130,0 -120.655750,47.252430,0 -120.658010,47.252430,0 -120.658040,47.253210,0 -120.658610,47.253020,0 -120.659720,47.253330,0 -120.659980,47.253240,0 -120.661070,47.252910,0 -120.665500,47.251570,0 -120.666370,47.251470,0 -120.666370,47.251040,0 -120.666360,47.250600,0 -120.666340,47.249190,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>GOLD NUGGET</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101481420
+acres 20.0
+PLSS WA 33 0200N 0170E 003 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.698260,47.258220,0 -120.698260,47.256920,0 -120.698270,47.254610,0 -120.692950,47.254620,0 -120.687630,47.254620,0 -120.687610,47.256930,0 -120.687600,47.258220,0 -120.687600,47.258250,0 -120.687590,47.260100,0 -120.689050,47.260100,0 -120.692900,47.260090,0 -120.692920,47.260090,0 -120.694360,47.260090,0 -120.694630,47.260090,0 -120.696390,47.260090,0 -120.698220,47.260080,0 -120.698250,47.260080,0 -120.698260,47.258220,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>GRAY WOLF</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR101432911
+acres 20.0
+PLSS WA 33 0220N 0170E 001 A NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.651490,47.438100,0 -120.662280,47.438350,0 -120.662360,47.428590,0 -120.651540,47.428460,0 -120.651490,47.438100,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Maverick #5</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR106319340
+acres 0.0
+PLSS WA 33 0210N 0170E 025 | WA 33 0210N 0170E 025 A NE | WA 33 0210N 0170E 025 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.641200,47.274680,0 -120.641190,47.281890,0 -120.651810,47.281900,0 -120.651830,47.274680,0 -120.641200,47.274680,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>kynl's nuggets</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR106334758
+acres 0.0
+PLSS WA 33 0210N 0170E 015 | WA 33 0210N 0170E 015 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.683550,47.310810,0 -120.683500,47.318040,0 -120.694180,47.318030,0 -120.694200,47.310810,0 -120.683550,47.310810,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Tronsen Creek Gold #1</name><styleUrl>#placer</styleUrl><description>Placer Claim - Filed
+serial OR106372371
+acres 39.98
+PLSS OR 33 0220N 0180E 028 A SE | WA 33 0220N 0180E 028 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.588410,47.361670,0 -120.588380,47.368860,0 -120.599090,47.368830,0 -120.599100,47.361610,0 -120.588410,47.361670,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Edna G1</name><styleUrl>#placer</styleUrl><description>Placer Claim - Filed
+serial OR106376763
+acres 121.13
+PLSS WA 33 0200N 0170E 003 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.687630,47.254620,0 -120.687610,47.256930,0 -120.687600,47.258220,0 -120.687600,47.258250,0 -120.687590,47.260100,0 -120.689050,47.260100,0 -120.692900,47.260090,0 -120.692920,47.260090,0 -120.694360,47.260090,0 -120.694630,47.260090,0 -120.696390,47.260090,0 -120.698220,47.260080,0 -120.698250,47.260080,0 -120.698260,47.258220,0 -120.698260,47.256920,0 -120.698270,47.254610,0 -120.692950,47.254620,0 -120.687630,47.254620,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LM #1</name><styleUrl>#placer</styleUrl><description>Placer Claim - Filed
+serial OR106386585
+acres 19.99
+PLSS WA 33 0210N 0170E 035 A NE | WA 33 0210N 0170E 035 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.662500,47.267420,0 -120.662480,47.274680,0 -120.673120,47.274660,0 -120.673130,47.267410,0 -120.662500,47.267420,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LM #2</name><styleUrl>#placer</styleUrl><description>Placer Claim - Filed
+serial OR106388958
+acres 20.0
+PLSS WA 33 0210N 0170E 026 A SE | WA 33 0210N 0170E 026 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.662480,47.274680,0 -120.662440,47.281920,0 -120.673080,47.281900,0 -120.673120,47.274660,0 -120.662480,47.274680,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Iron Gold #1</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR106388962
+acres 0.0
+PLSS WA 33 0210N 0170E 010 A NENW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.699400,47.332500,0 -120.699430,47.328890,0 -120.694100,47.328900,0 -120.694080,47.332520,0 -120.699400,47.332500,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Liberty One</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR106387768
+acres 0.0
+PLSS WA 33 0210N 0170E 024 A SWSWSW | WA 33 0210N 0170E 023 A SESESE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.662390,47.290940,0 -120.662390,47.290940,0 -120.665050,47.290940,0 -120.665060,47.289130,0 -120.662400,47.289140,0 -120.659750,47.289130,0 -120.659740,47.290940,0 -120.662390,47.290940,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Yellow Stone Placer South</name><styleUrl>#placer</styleUrl><description>Placer Claim - Filed
+serial OR106695807
+acres 283.25
+PLSS WA 33 0200N 0170E 010 NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.695980,47.247500,0 -120.698250,47.247520,0 -120.698290,47.247520,0 -120.698300,47.243810,0 -120.698300,47.241990,0 -120.698310,47.240190,0 -120.697050,47.240190,0 -120.695250,47.240180,0 -120.693000,47.240180,0 -120.692330,47.240180,0 -120.687700,47.240170,0 -120.687680,47.243800,0 -120.687680,47.243800,0 -120.687670,47.245980,0 -120.687670,47.247420,0 -120.692900,47.247460,0 -120.692980,47.247470,0 -120.693490,47.247470,0 -120.694070,47.247480,0 -120.695980,47.247500,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Yellow Stone Fraction</name><styleUrl>#placer</styleUrl><description>Placer Claim - Filed
+serial OR106695808
+acres 283.25
+PLSS WA 33 0200N 0170E 010 NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.695980,47.247500,0 -120.698250,47.247520,0 -120.698290,47.247520,0 -120.698300,47.243810,0 -120.698300,47.241990,0 -120.698310,47.240190,0 -120.697050,47.240190,0 -120.695250,47.240180,0 -120.693000,47.240180,0 -120.692330,47.240180,0 -120.687700,47.240170,0 -120.687680,47.243800,0 -120.687680,47.243800,0 -120.687670,47.245980,0 -120.687670,47.247420,0 -120.692900,47.247460,0 -120.692980,47.247470,0 -120.693490,47.247470,0 -120.694070,47.247480,0 -120.695980,47.247500,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Dusty Road</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR106698533
+acres 0.0
+PLSS WA 33 0200N 0180E 006 SWNE | WA 33 0200N 0180E 006 SENW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.638650,47.257130,0 -120.638620,47.254090,0 -120.632120,47.254100,0 -120.625620,47.254120,0 -120.625620,47.257150,0 -120.632130,47.257140,0 -120.638650,47.257130,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Palisades</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR106725940
+acres 20.66115702
+PLSS WA 33 0210N 0170E 035 None
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.662500,47.267420,0 -120.662480,47.274680,0 -120.673120,47.274660,0 -120.673130,47.267410,0 -120.662500,47.267420,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Turkey Feather #1</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR106734144
+acres 640.0
+PLSS WA 33 0200N 0170E 014 E SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.682540,47.218480,0 -120.677200,47.218490,0 -120.671860,47.218510,0 -120.666520,47.218520,0 -120.666490,47.222130,0 -120.666470,47.225750,0 -120.666440,47.229360,0 -120.666420,47.232980,0 -120.671740,47.232970,0 -120.677070,47.232950,0 -120.682400,47.232940,0 -120.687730,47.232920,0 -120.687770,47.229310,0 -120.687810,47.225700,0 -120.687850,47.222080,0 -120.687880,47.218470,0 -120.682540,47.218480,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Rose</name><styleUrl>#lode</styleUrl><description>Lode Claim - Filed
+serial OR106736729
+acres 20.66
+PLSS WA 33 0200N 0180E 019 E SESE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.618880,47.204690,0 -120.618820,47.219200,0 -120.629460,47.219170,0 -120.634720,47.219160,0 -120.640040,47.219150,0 -120.645210,47.219140,0 -120.645210,47.218570,0 -120.645240,47.215520,0 -120.645240,47.215000,0 -120.645270,47.211900,0 -120.645270,47.211440,0 -120.645300,47.208320,0 -120.645300,47.208020,0 -120.645300,47.207870,0 -120.645330,47.204710,0 -120.640340,47.204710,0 -120.634960,47.204710,0 -120.629580,47.204700,0 -120.618880,47.204690,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>NCWP Gulch</name><styleUrl>#placer</styleUrl><description>Placer Claim - Filed
+serial OR106739599
+acres 20.0
+PLSS WA 33 0230N 0170E 036
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.649700,47.452750,0 -120.660520,47.452780,0 -120.660650,47.445560,0 -120.649870,47.445530,0 -120.649700,47.452750,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>West Coast Dreams 2</name><styleUrl>#placer</styleUrl><description>Placer Claim - Filed
+serial OR106739600
+acres 40.0
+PLSS WA 33 0210N 0180E 026
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.535520,47.281990,0 -120.535580,47.289170,0 -120.546240,47.289140,0 -120.546190,47.281940,0 -120.535520,47.281990,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Wire Gold Bench</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR106735714
+acres 19.6
+PLSS WA 33 0200N 0170E 002 A SWNW | WA 33 0200N 0170E 002 A SENW | WA 33 0200N 0170E 003 A SWNE | WA 33 0200N 0170E 003 A SENE | WA 33 0200N 0170E 002 L 3 | WA 33 0200N 0170E 002 L 4 | WA 33 0200N 0170E 003 L 2 | WA 33 0200N 0170E 003 L 1
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.677040,47.260130,0 -120.678440,47.260130,0 -120.682310,47.260130,0 -120.683770,47.260120,0 -120.687590,47.260100,0 -120.689050,47.260100,0 -120.692900,47.260090,0 -120.692920,47.260090,0 -120.694360,47.260090,0 -120.694630,47.260090,0 -120.696390,47.260090,0 -120.698220,47.260080,0 -120.698250,47.260080,0 -120.698260,47.258220,0 -120.698260,47.256920,0 -120.698270,47.254610,0 -120.692950,47.254620,0 -120.687630,47.254620,0 -120.682320,47.254660,0 -120.677020,47.254700,0 -120.677020,47.256940,0 -120.677030,47.258280,0 -120.677040,47.260130,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Star Lode Virden Double Tunnels</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR106758199
+acres 20.66
+PLSS WA 33 0210N 0180E 032 A NESW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.615030,47.267430,0 -120.614990,47.263830,0 -120.609680,47.263840,0 -120.609720,47.267450,0 -120.615030,47.267430,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>JACK'S POT</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101431557
+acres 20.66
+PLSS WA 33 0200N 0170E 002 A SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.687670,47.247420,0 -120.685040,47.247420,0 -120.682330,47.247420,0 -120.676990,47.247420,0 -120.677000,47.248290,0 -120.677000,47.250070,0 -120.677000,47.250600,0 -120.677010,47.251050,0 -120.677010,47.253770,0 -120.677020,47.254700,0 -120.682320,47.254660,0 -120.687630,47.254620,0 -120.687630,47.254580,0 -120.687630,47.253760,0 -120.687650,47.251050,0 -120.687650,47.250590,0 -120.687670,47.247420,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>LADY SLIPPER FRAC</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101649418
+acres 8.61
+PLSS WA 33 0200N 0180E 006 A NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.619090,47.260180,0 -120.632150,47.260170,0 -120.632120,47.254100,0 -120.619110,47.254130,0 -120.619090,47.260180,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>SHAPPARD LODE</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101472011
+acres 20.66
+PLSS WA 33 0200N 0170E 002 A NW|WA 33 0200N 0170E 002 A NE|WA 33 0200N 0170E 002 A SW|WA 33 0200N 0170E 002 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.687650,47.250590,0 -120.687670,47.247420,0 -120.685040,47.247420,0 -120.682330,47.247420,0 -120.676990,47.247420,0 -120.671670,47.247410,0 -120.671660,47.247410,0 -120.666320,47.247430,0 -120.666340,47.249190,0 -120.666360,47.250600,0 -120.666370,47.251040,0 -120.666370,47.251470,0 -120.667930,47.251300,0 -120.668680,47.251050,0 -120.670060,47.250600,0 -120.671680,47.250070,0 -120.673350,47.249530,0 -120.673450,47.249750,0 -120.673690,47.250600,0 -120.673730,47.250730,0 -120.673730,47.251050,0 -120.673730,47.251150,0 -120.672370,47.251590,0 -120.671800,47.251770,0 -120.668580,47.252830,0 -120.668230,47.252940,0 -120.667730,47.253090,0 -120.667190,47.253180,0 -120.667550,47.253530,0 -120.667310,47.253780,0 -120.666530,47.254560,0 -120.666400,47.254590,0 -120.666400,47.254790,0 -120.666440,47.256800,0 -120.666440,47.256950,0 -120.666460,47.258290,0 -120.666460,47.258300,0 -120.666480,47.260130,0 -120.667820,47.260130,0 -120.667830,47.260130,0 -120.670480,47.260130,0 -120.671760,47.260130,0 -120.671780,47.260130,0 -120.673140,47.260130,0 -120.677040,47.260130,0 -120.678440,47.260130,0 -120.682310,47.260130,0 -120.683770,47.260120,0 -120.687590,47.260100,0 -120.687600,47.258250,0 -120.687600,47.258220,0 -120.687610,47.256930,0 -120.687630,47.254620,0 -120.687630,47.254580,0 -120.687630,47.253760,0 -120.687650,47.251050,0 -120.687650,47.250590,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>WILLIAMS CREEK</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR101866282
+acres 20.66
+PLSS WA 33 0200N 0170E 002 A SE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.677010,47.251050,0 -120.677000,47.250600,0 -120.677000,47.250070,0 -120.677000,47.248290,0 -120.676990,47.247420,0 -120.671670,47.247410,0 -120.671660,47.247410,0 -120.666320,47.247430,0 -120.666340,47.249190,0 -120.666360,47.250600,0 -120.666370,47.251040,0 -120.666370,47.251470,0 -120.667930,47.251300,0 -120.668680,47.251050,0 -120.670060,47.250600,0 -120.671680,47.250070,0 -120.673350,47.249530,0 -120.673450,47.249750,0 -120.673690,47.250600,0 -120.673730,47.250730,0 -120.673730,47.251050,0 -120.673730,47.251150,0 -120.672370,47.251590,0 -120.671800,47.251770,0 -120.668580,47.252830,0 -120.668230,47.252940,0 -120.667730,47.253090,0 -120.667190,47.253180,0 -120.667550,47.253530,0 -120.667310,47.253780,0 -120.666530,47.254560,0 -120.666400,47.254590,0 -120.666400,47.254790,0 -120.666400,47.254790,0 -120.669380,47.254770,0 -120.669600,47.254760,0 -120.671710,47.254750,0 -120.677020,47.254700,0 -120.677010,47.253770,0 -120.677010,47.251050,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Two Bit #10</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR106767071
+acres 20.66
+PLSS WA 33 0210N 0170E 025 | WA 33 0210N 0170E 026
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.651800,47.289120,0 -120.662400,47.289140,0 -120.673040,47.289120,0 -120.673080,47.281900,0 -120.662440,47.281920,0 -120.651810,47.281900,0 -120.651800,47.289120,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Two Bit #12</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR106767073
+acres 20.66
+PLSS WA 33 0210N 0170E 025 | WA 33 0210N 0170E 026
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.651800,47.289120,0 -120.662400,47.289140,0 -120.673040,47.289120,0 -120.673080,47.281900,0 -120.662440,47.281920,0 -120.651810,47.281900,0 -120.651800,47.289120,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Two Bit #11</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR106767072
+acres 20.66
+PLSS WA 33 0210N 0170E 025
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.641190,47.289100,0 -120.651800,47.289120,0 -120.651810,47.281900,0 -120.641190,47.281890,0 -120.641190,47.289100,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>OR106736867</name><styleUrl>#placer</styleUrl><description>Placer Claim - Under Review
+serial OR106788628
+acres 20.0
+PLSS WA 33 0220N 0170E 003
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.694260,47.438340,0 -120.704890,47.438340,0 -120.704930,47.428610,0 -120.694240,47.428600,0 -120.694260,47.438340,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>OR106736865</name><styleUrl>#placer</styleUrl><description>Placer Claim - Under Review
+serial OR106788626
+acres 20.0
+PLSS WA 33 0220N 0170E 003 | WA 33 0220N 0170E 002
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.672960,47.428590,0 -120.672960,47.438350,0 -120.683630,47.438340,0 -120.683550,47.428590,0 -120.672960,47.428590,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>OR106736866</name><styleUrl>#placer</styleUrl><description>Placer Claim - Under Review
+serial OR106788627
+acres 20.0
+PLSS WA 33 0220N 0170E 003 | WA 33 0220N 0170E 002
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.672960,47.428590,0 -120.672960,47.438350,0 -120.683630,47.438340,0 -120.683550,47.428590,0 -120.672960,47.428590,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>2 Elum</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR106791869
+acres 20.0
+PLSS WA 33 0210N 0170E 015 A W2SWNE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.691530,47.312620,0 -120.691520,47.314420,0 -120.694190,47.314420,0 -120.694200,47.312620,0 -120.694200,47.310810,0 -120.691540,47.310810,0 -120.691530,47.312620,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Skookum</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR106792678
+acres 20.66
+PLSS WA 33 0200N 0170E 003 E E2SWSE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.687670,47.247420,0 -120.687650,47.250590,0 -120.687650,47.251050,0 -120.687630,47.253760,0 -120.687630,47.254580,0 -120.687630,47.254620,0 -120.687610,47.256930,0 -120.687600,47.258220,0 -120.687600,47.258250,0 -120.687590,47.260100,0 -120.689050,47.260100,0 -120.692900,47.260090,0 -120.692920,47.260090,0 -120.694360,47.260090,0 -120.694630,47.260090,0 -120.696390,47.260090,0 -120.698220,47.260080,0 -120.698250,47.260080,0 -120.699720,47.260080,0 -120.703590,47.260080,0 -120.703600,47.260080,0 -120.705020,47.260070,0 -120.708920,47.260060,0 -120.708920,47.258280,0 -120.708920,47.258190,0 -120.708920,47.256900,0 -120.708920,47.254660,0 -120.708920,47.254610,0 -120.708920,47.253740,0 -120.708920,47.251050,0 -120.708920,47.250590,0 -120.708920,47.247430,0 -120.703610,47.247480,0 -120.698290,47.247520,0 -120.698250,47.247520,0 -120.695980,47.247500,0 -120.694070,47.247480,0 -120.693490,47.247470,0 -120.692980,47.247470,0 -120.692900,47.247460,0 -120.687670,47.247420,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Brazos #3</name><styleUrl>#placer</styleUrl><description>Placer Claim - Filed
+serial OR106802952
+acres 20.0
+PLSS WA 33 0220N 0170E 003 NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.683630,47.438340,0 -120.694260,47.438340,0 -120.694240,47.428600,0 -120.683550,47.428590,0 -120.683630,47.438340,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Brazos #2</name><styleUrl>#placer</styleUrl><description>Placer Claim - Filed
+serial OR106802951
+acres 20.0
+PLSS WA 33 0220N 0170E 002 NW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.672960,47.428590,0 -120.672960,47.438350,0 -120.683630,47.438340,0 -120.683550,47.428590,0 -120.672960,47.428590,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>JoeKerr 2</name><styleUrl>#placer</styleUrl><description>Placer Claim - Active
+serial OR106750152
+acres 20.0
+PLSS WA 33 0210N 0170E 011 A S2SWSE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.670230,47.319840,0 -120.672880,47.319840,0 -120.672890,47.318030,0 -120.670240,47.318020,0 -120.667590,47.318020,0 -120.667580,47.319830,0 -120.670230,47.319840,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Aurora Gold</name><styleUrl>#placer</styleUrl><description>Placer Claim - Filed
+serial OR106804590
+acres 20.0
+PLSS WA 33 0210N 0170E 015 E2NWNE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.688850,47.316230,0 -120.688840,47.318040,0 -120.691510,47.318040,0 -120.691520,47.316230,0 -120.691520,47.314420,0 -120.688860,47.314420,0 -120.688850,47.316230,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Two Bit #1</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR106803466
+acres 20.66
+PLSS WA 33 0210N 0170E 025 SW | WA 33 0210N 0170E 026 NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.662480,47.274680,0 -120.651830,47.274680,0 -120.651810,47.281900,0 -120.662440,47.281920,0 -120.662480,47.274680,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.662440,47.281920,0 -120.662400,47.289140,0 -120.673040,47.289120,0 -120.673080,47.281900,0 -120.662440,47.281920,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+  <Placemark><name>Two Bit #2</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR106803467
+acres 20.66
+PLSS WA 33 0210N 0170E 025 SW
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.651830,47.274680,0 -120.651810,47.281900,0 -120.662440,47.281920,0 -120.662480,47.274680,0 -120.651830,47.274680,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>4 Bit</name><styleUrl>#lode</styleUrl><description>Lode Claim - Active
+serial OR106803468
+acres 20.66
+PLSS WA 33 0210N 0170E 025 NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.641190,47.289100,0 -120.651800,47.289120,0 -120.651810,47.281900,0 -120.641190,47.281890,0 -120.641190,47.289100,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Aurora Gold NW 2</name><styleUrl>#placer</styleUrl><description>Placer Claim - Filed
+serial OR106808417
+acres 20.0
+PLSS WA 33 0210N 0170E 015 E2SWNE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.688870,47.312620,0 -120.688860,47.314420,0 -120.691520,47.314420,0 -120.691530,47.312620,0 -120.691540,47.310810,0 -120.688880,47.310810,0 -120.688870,47.312620,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Sixty Forty</name><styleUrl>#placer</styleUrl><description>Placer Claim - Filed
+serial OR106809320
+acres 8.8
+PLSS WA 33 0200N 0170E 010 NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.687680,47.243800,0 -120.687680,47.243800,0 -120.687670,47.245980,0 -120.687670,47.247420,0 -120.692900,47.247460,0 -120.692980,47.247470,0 -120.693490,47.247470,0 -120.694070,47.247480,0 -120.695980,47.247500,0 -120.698250,47.247520,0 -120.698290,47.247520,0 -120.698300,47.243810,0 -120.698300,47.241990,0 -120.698310,47.240190,0 -120.697050,47.240190,0 -120.695250,47.240180,0 -120.693000,47.240180,0 -120.692330,47.240180,0 -120.687700,47.240170,0 -120.687680,47.243800,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Madame Orrs</name><styleUrl>#placer</styleUrl><description>Placer Claim - Filed
+serial OR106809321
+acres 10.65
+PLSS WA 33 0200N 0170E 010 NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.687680,47.243800,0 -120.687680,47.243800,0 -120.687670,47.245980,0 -120.687670,47.247420,0 -120.692900,47.247460,0 -120.692980,47.247470,0 -120.693490,47.247470,0 -120.694070,47.247480,0 -120.695980,47.247500,0 -120.698250,47.247520,0 -120.698290,47.247520,0 -120.698300,47.243810,0 -120.698300,47.241990,0 -120.698310,47.240190,0 -120.697050,47.240190,0 -120.695250,47.240180,0 -120.693000,47.240180,0 -120.692330,47.240180,0 -120.687700,47.240170,0 -120.687680,47.243800,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Orr Holder</name><styleUrl>#placer</styleUrl><description>Placer Claim - Filed
+serial OR106809322
+acres 12.87
+PLSS WA 33 0200N 0170E 010 NE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.687680,47.243800,0 -120.687680,47.243800,0 -120.687670,47.245980,0 -120.687670,47.247420,0 -120.692900,47.247460,0 -120.692980,47.247470,0 -120.693490,47.247470,0 -120.694070,47.247480,0 -120.695980,47.247500,0 -120.698250,47.247520,0 -120.698290,47.247520,0 -120.698300,47.243810,0 -120.698300,47.241990,0 -120.698310,47.240190,0 -120.697050,47.240190,0 -120.695250,47.240180,0 -120.693000,47.240180,0 -120.692330,47.240180,0 -120.687700,47.240170,0 -120.687680,47.243800,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>24 Legs</name><styleUrl>#placer</styleUrl><description>Placer Claim - Filed
+serial OR106832815
+acres 0.0
+PLSS WA 33 0210N 0170E 015 W2NWNE
+
+WARNING: outline is the PLSS SECTION filed in, NOT the surveyed claim boundary.</description><Polygon><outerBoundaryIs><LinearRing><coordinates>-120.691520,47.316230,0 -120.691510,47.318040,0 -120.694180,47.318030,0 -120.694180,47.316230,0 -120.694190,47.314420,0 -120.691520,47.314420,0 -120.691520,47.316230,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+</Document></kml>
